@@ -1371,6 +1371,28 @@ In combat, each handler adds its attacks to those of the monster. If the monster
         <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, if they are not engaged in combat, this character may nominate a single fleeing friendly unit that is within their Command range. The nominated unit immediately makes a Rally test. If this test is failed, the unit may attempt to rally again as normal during the Rally sub-phase.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Master Tactician" hidden="false" id="master-tactician" typeId="c-master-tactician" typeName="Special Rule" page="420" publicationId="768b-3da1-a182-a1d8">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this character may attenot ti irder a strategy upon those around them by making a Leadership test (using their own leadership). If the test is passed, until your next Start of Turn sub-phase a friendly imperail unit within command range (including their mounts adn characters, but excluding yourself) gain one of the following modifiers (to a maximum of 10).
+
+Onward March!: This unit may march as if it was in column formation.
+
+Take Aim!: This unit ignores the shooting at long range penalty.
+
+Hold!: This unit gains +1 to their CR.
+        </characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tools of Judgement" hidden="false" id="tools-of-judgement" typeId="c-tools-of-judgement" typeName="Special Rule" page="420" publicationId="768b-3da1-a182-a1d8">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">When attacking what you hate in close combat, a witch hunter has the magical attacks special rule and re-rolls failed rolls to wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blessed Weapons" hidden="false" id="blessed-weapons" typeId="c-blessed-weapons" typeName="Special Rule" page="420" publicationId="768b-3da1-a182-a1d8">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Any unit they join counts as having magical attacks.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Quick Shot" hidden="false" id="f733-b74b-6cb1-c69" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="175" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">A weapon with this special rule does not suffer the usual -1 To Hit modifier for Moving and Shooting. In addition, a unit equipped with weapons with this special rule can use them to make a Stand &amp; Shoot charge reaction regardless of how close the charging unit is.</characteristic>
@@ -7218,7 +7240,7 @@ Related: Lance Formation</characteristic>
     </profile>
     <profile name="Clouds of Soot &amp; Smoke" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="5132-9edd-da80-e9ad">
       <characteristics>
-        <characteristic name="Description" id="e071-425c-11da-eebc" hidden="false" typeId="9f84-4221-785a-db50">This model is considered to be behind  full cover  whilst it is within 3&quot; of a friendly unit whose troop type is  war machine .</characteristic>
+        <characteristic name="Description" id="e071-425c-11da-eebc" hidden="false" typeId="9f84-4221-785a-db50">This model is considered part of the rew of a war machine and follows the rule of a cahracter in a unit.</characteristic>
       </characteristics>
       <comment>imported</comment>
     </profile>
