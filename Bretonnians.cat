@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f8cb-e518-1881-292" name="Kingdom of Bretonnia" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="1" revision="140" authorUrl="www.newrecruit.eu" authorContact="newrecruit.eu@gmail.com" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f8cb-e518-1881-292" name="Kingdom of Bretonnia" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="1" revision="142" authorUrl="www.newrecruit.eu" authorContact="newrecruit.eu@gmail.com" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
   <sharedProfiles>
     <profile typeId="b070-143a-73f-2772" id="cd5f-980c-2da9-31b" name="Grail Knight" hidden="false" publicationId="3a81ff07--pubd1e638" typeName="Model">
       <characteristics>
@@ -429,7 +429,10 @@ Many models in the Kingdom of Bretonnia army list have one of the following Chiv
     </profile>
     <profile name="The Knight&apos;s Vow" hidden="false" id="8ce9-c356-89db-b011" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A model with this Vow does not have to make a Panic test when a friendly unit with the Peasantry special rule is destroyed whilst within 6&quot; of it, or when it is fled through by a friendly unit with a Peasantry special rule.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A model with this Vow does not have to make a Panic test when a friendly unit with the Peasantry special rule is destroyed whilst within 6&quot; of it, or when it is fled through by a friendly unit with a Peasantry special rule.
+
+
+A unit with this Chivalrous Vow cannot be joined by a character that has the Peasantry special rule. A character with this Chivalrous Vow cannot join a unit with the Peasantry special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Lore of the Lady" hidden="false" id="5c21-d1d5-9884-bce9" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
@@ -1349,7 +1352,30 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="d957-4598-4632-5cd6" targetId="a11b-447e-9444-ca54" sortIndex="5"/>
           </entryLinks>
           <infoLinks>
-            <infoLink name="Duke" hidden="false" type="profile" id="dfea-9b3a-baa4-f904" targetId="91bb-f98c-bfe-2295"/>
+            <infoLink name="Duke" hidden="false" type="profile" id="dfea-9b3a-baa4-f904" targetId="91bb-f98c-bfe-2295">
+              <modifiers>
+                <modifier type="increment" value="1" field="b007-7d58-4f14-1e01">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="73b1-abe5-72f8-41e2">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c435-6b14-f77e-3c72">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="dddc-9fbd-b0fd-a480">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="5cc2-75ce-32b6-8736" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
@@ -1493,7 +1519,30 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="5cc-dd47-5dbf-2ddb" targetId="a11b-447e-9444-ca54" sortIndex="6"/>
           </entryLinks>
           <infoLinks>
-            <infoLink name="Baron" hidden="false" type="profile" id="a03-7de4-ca89-77f0" targetId="8b64-ad06-abf-4c37"/>
+            <infoLink name="Baron" hidden="false" type="profile" id="a03-7de4-ca89-77f0" targetId="8b64-ad06-abf-4c37">
+              <modifiers>
+                <modifier type="increment" value="1" field="b007-7d58-4f14-1e01">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="73b1-abe5-72f8-41e2">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c435-6b14-f77e-3c72">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="dddc-9fbd-b0fd-a480">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="8631-3592-ca86-9212" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
@@ -1732,7 +1781,30 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="d565-e7e2-bf9-7e4e" targetId="a11b-447e-9444-ca54" sortIndex="6"/>
           </entryLinks>
           <infoLinks>
-            <infoLink name="Paladin" hidden="false" type="profile" id="6470-478-725d-3d3" targetId="3fd6-eb62-6acb-3903"/>
+            <infoLink name="Paladin" hidden="false" type="profile" id="6470-478-725d-3d3" targetId="3fd6-eb62-6acb-3903">
+              <modifiers>
+                <modifier type="increment" value="1" field="b007-7d58-4f14-1e01">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="73b1-abe5-72f8-41e2">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c435-6b14-f77e-3c72">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="dddc-9fbd-b0fd-a480">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="15d2-fc85-cff6-31c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="8d17-264f-a0ea-6070" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
@@ -2019,6 +2091,9 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   <costs>
                     <cost name="pts" typeId="points" value="12"/>
                   </costs>
+                  <categoryLinks>
+                    <categoryLink targetId="600c-7d08-5be1-fe0c" id="7d81-04f5-2512-e85c" primary="false" name="Light Cavalry"/>
+                  </categoryLinks>
                 </entryLink>
                 <entryLink import="true" name="Royal Pegasus" hidden="false" type="selectionEntry" id="c4bd-f265-8be4-d821" targetId="b064-314f-cf89-2e19" sortIndex="4"/>
                 <entryLink import="true" name="Unicorn" hidden="false" type="selectionEntry" id="21ba-4390-37e8-b7e4" targetId="2b85-6a7c-66c0-3497" sortIndex="3"/>
@@ -3371,8 +3446,8 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
     </selectionEntry>
     <selectionEntry id="7fe1-69ab-7c6b-20d0" name="Mounted Knights of the Realm" type="unit" collective="false" hidden="false" page="0">
       <categoryLinks>
-        <categoryLink targetId="36e4-45e0-c904-55d1" id="ffd6-39e8-d930-d2e" primary="false" name="Cavalry"/>
         <categoryLink name="Faction: Kingdom of Bretonnia" hidden="false" id="bb65-95ad-c653-ad36" primary="false" targetId="31d7-4049-b1ba-f056"/>
+        <categoryLink targetId="5165-d052-cfc2-5887" id="18d7-e313-64ea-8e55" primary="false" name="Heavy Cavalry"/>
       </categoryLinks>
       <costs>
         <cost typeId="points" name="pts" value="0"/>
@@ -4067,19 +4142,6 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <categoryLink name="MAY_HAVE_ARMOUR" hidden="false" id="9d03-a621-db30-5b81" targetId="may-have-armour"/>
             <categoryLink name="MAY_HAVE_SHIELD" hidden="false" id="2094-abd7-f5ea-d49" targetId="may-have-shield"/>
           </categoryLinks>
-          <modifiers>
-            <modifier type="remove" value="600c-7d08-5be1-fe0c" field="category" id="6537-a90a-102f-7a1d">
-              <comment>if mounted</comment>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="c96a-608-5de4-b943" includeChildSelections="true" shared="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="self" childId="mount" includeChildSelections="true" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5347,6 +5409,14 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
       <categoryLinks>
         <categoryLink name="Faction: Kingdom of Bretonnia" hidden="false" id="34b1-7bc8-4733-f5ca" primary="false" targetId="31d7-4049-b1ba-f056"/>
       </categoryLinks>
+      <profiles>
+        <profile name="Border Princes Bombard" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="a66a-62ea-b0ac-c0b2">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Machine</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bombard" hidden="false" id="4392-a342-e3c2-d680">
       <infoLinks>
