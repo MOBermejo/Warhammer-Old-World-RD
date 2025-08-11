@@ -5027,20 +5027,7 @@ Note that any special rules granted by these upgrades do not apply to the models
         <infoGroup name="Special Rules" hidden="false" id="bebf-33b7-fe0b-bc85">
           <infoLinks>
             <infoLink name="Close Order" hidden="false" type="profile" id="cc71-47d6-76b9-5a6f" targetId="883e-e1b1-4fe9-5912"/>
-            <infoLink name="Divine Protection (5+ Ward)" type="profile" targetId="KEEP-OR-NEW-ID2"/>
-            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Divine Protection (5+ Ward)" id="KEEP-OR-NEW-ID2">
-              <characteristics>
-                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">This model has a 5+ Ward save.</characteristic>
-              </characteristics>
-            </profile>
-            <infoLink name="Holy Fervour (revised)" type="profile" targetId="KEEP-OR-NEW-ID"/>
-            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Holy Fervour (revised)" id="KEEP-OR-NEW-ID">
-              <characteristics>
-                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
-                  Unless this unit is fleeing, friendly units within its command range re-roll Fear, Terror and Panic tests. Friendly Imperial units (except Followers of Ulric) within command range gain Hatred (All). Flagellants instead gain Eternal Hatred (All).
-                </characteristic>
-              </characteristics>
-            </profile>
+            <infoLink name="Holy Fervour" hidden="false" type="profile" id="7b69-c572-1c89-54df" targetId="b1af-d24d-3cdc-e7d0"/>
             <infoLink name="First Charge" hidden="false" type="profile" id="5db5-8a50-780a-9896" targetId="785a-2886-af42-dce9"/>
             <infoLink name="Impact Hits" hidden="false" type="profile" id="7e0a-108-185-f02c" targetId="5c2-e9dd-2715-a0c0">
               <modifiers>
@@ -5054,22 +5041,9 @@ Note that any special rules granted by these upgrades do not apply to the models
               </modifiers>
             </infoLink>
             <infoLink name="Stubborn" hidden="false" type="profile" id="58b5-b2e6-f6df-e893" targetId="e351-bbd6-f470-b604"/>
+            <infoLink name="Symbol of Might" hidden="false" type="profile" id="d01c-5241-771c-ccff" targetId="5b74-eb4c-8bb7-3e7d"/>
             <infoLink name="Terror" hidden="false" type="profile" id="553d-fe7d-e290-b600" targetId="c7a2-35bf-4313-f4f0"/>
             <infoLink name="Witch Bane" hidden="false" type="profile" id="284d-535f-1d16-909b" targetId="2285-171-265b-d62a"/>
-            <infoLink name="Power Shrine (revised)" type="profile" targetId="KEEP-OR-NEW-ID3"/>
-            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Power Shrine (revised)" id="KEEP-OR-NEW-ID3">
-              <characteristics>
-                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
-                  Battle Prayers of Sigmar cast by a model mounted on the War Altar also target all friendly Imperial units (or enemy units) within its command range.
-                </characteristic>
-              </characteristics>
-            </profile>
-            <infoLink name="+1 Ld (rider)" type="profile" targetId="KEEP-OR-NEW-ID4"/>
-            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="+1 Ld (rider)" id="KEEP-OR-NEW-ID4">
-              <characteristics>
-                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Increase the Leadership of the character using it as a mount by 1.</characteristic>
-              </characteristics>
-            </profile>
             <infoLink name="Armour Value" hidden="false" type="profile" id="b855-7e2d-b52f-673f" targetId="e099-1ebb-9e85-34c8">
               <modifiers>
                 <modifier type="append" value=": 4+" field="name"/>
