@@ -250,8 +250,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
     </profile>
     <profile name="Holy Fervour" hidden="false" id="b1af-d24d-3cdc-e7d0" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="67" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
-        <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
-          Unless this unit is fleeing, friendly units within its command range re-roll Fear, Terror and Panic tests. Friendly Imperial units (except Followers of Ulric) within command range gain Hatred (All). Flagellants instead gain Eternal Hatred (All).</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless this unit is fleeing, friendly units within 6&quot; of it automatically pass any Fear tests they are required to make and can re-roll any failed Panic tests.</characteristic>
       </characteristics>
     </profile>
     <profile name="Helstorm Rocket Battery" hidden="false" id="4f4b-796c-5654-e56d" typeId="a378-c633-912d-11ce" typeName="Weapon" page="73" publicationId="8b8d-8fc4-559e-87b1">
@@ -4995,7 +4994,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     </selectionEntry>
     <selectionEntry type="model" import="true" name="War Altar of Sigmar" hidden="false" id="4f41-e802-c019-63b4" subType="mount">
       <costs>
-        <cost name="pts" typeId="points" value="180"/>
+        <cost name="pts" typeId="points" value="135"/>
       </costs>
       <infoLinks>
         <infoLink name="War Altar" hidden="false" type="profile" id="526b-3d70-8689-a69d" targetId="85d2-475f-be07-2e0c">
@@ -5847,7 +5846,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5c-5ca5-6e03-631f"/>
                   </constraints>
                   <costs>
-                    <cost name="pts" typeId="points" value="40"/>
+                    <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6019,7 +6018,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Pegasus" hidden="false" type="selectionEntry" id="6832-4036-b030-7186" targetId="5e69-6cef-6581-56a4" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="40"/>
+                    <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Demigryph" hidden="false" type="selectionEntry" id="1a5-c180-12c-dae1" targetId="69e5-6361-86e7-a713" sortIndex="3">
