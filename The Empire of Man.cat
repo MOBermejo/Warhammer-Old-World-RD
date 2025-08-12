@@ -5107,7 +5107,32 @@ Note that any special rules granted by these upgrades do not apply to the models
           <entryLinks>
             <entryLink import="true" name="Steam Gun" hidden="false" type="selectionEntry" id="9ccb-aaf2-ee89-86f6" targetId="583f-1b4f-b164-df99" sortIndex="3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac5d-86c9-9061-5dcf-min"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac5d-86c9-9061-5dcf-min">
+                  <modifiers>
+                    <modifier type="set" field="value" value="0">
+                      <conditions>
+                        <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-swivel-2c81" value="1"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="value" value="0">
+                      <conditions>
+                        <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-implacable-1a22" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <modifiers>
+                  <modifier type="set" field="hidden" value="true">
+                    <conditions>
+                      <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-swivel-2c81" value="1"/>
+                    </conditions>
+                  </modifier>
+                  <modifier type="set" field="hidden" value="true">
+                    <conditions>
+                      <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-implacable-1a22" value="1"/>
+                    </conditions>
+                  </modifier>
+                </modifiers>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac5d-86c9-9061-5dcf-max"/>
               </constraints>
             </entryLink>
@@ -5123,8 +5148,114 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (60x100)" hidden="false" type="profile" id="2b94-ce14-4789-1a01" targetId="5125-89a4-916a-eabd"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="265"/>
+            <cost name="pts" typeId="points" value="305"/>
           </costs>
+          <profiles>
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steel Behemoth" id="st-behemoth-2f7d">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Its crew can always shoot missile weapons with the Move or Fire rule, even if it moved in the Movement phase.
+                  If an enemy unit flees from the Steam Tank in the first round after it charged, the Steam Tank MUST pursue using its Random Movement from that same turn.
+                  If the Steam Tank was charged or an enemy unit flees combat during the second (or subsequent) round, the Steam Tank may not pursue (but may reform as normal).
+                  Treat Low Linear Obstacles as open terrain (not Impassable) for the Steam Tank.
+                  The Steam Tank may only take the wheel manoeuvre (2.5&quot; per 45° turn, 5&quot; for a 90° turn).
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steam Powered" id="st-powered-91a3">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  At the start of your turn, declare how many Steam Points (0–5) the Steam Tank will generate. Then roll an artillery die.
+                  If the result is greater than the Steam Tank’s current Wounds, or a Misfire is rolled, roll a D3; then add +1 per Steam Point currently held and consult the Steam Boiler Mishap chart.
+                  You can expend up to 3 Steam Points in each of the following categories this turn — any unspent points are lost at end of turn:
+                  Steam Engine, Steam Gun, Steam Cannon.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steam Engine" id="st-engine-3b6e">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Declare Steam Points spent in the Movement phase. If you spend 0, the Steam Tank’s Movement is 0&quot; that turn and it cannot move at all.
+                  For each Steam Point spent, Random Movement increases by D6&quot; (e.g., 2 points → 2D6&quot; Random Movement).
+                  If the Steam Tank charges, it inflicts an additional D3 Impact Hits for each Steam Point spent in the Steam Engine that turn (e.g., 3 points → D6+3D3 Impact Hits).
+                  If starting the Movement phase in base contact, the Steam Tank cannot move, but may grind: select one enemy unit in base contact; it suffers D3 hits at Strength 6, AP-2 per Steam Point spent this way (distributed as from shooting).
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steam Gun" id="st-gun-7c15">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Declare Steam Points for the Steam Gun at the start of your Shooting or Combat phase. If you spend 0, it cannot fire this turn.
+                  With 1 Steam Point it is a Strength 2, AP-1 Breath Weapon that uses the Engineer Commander’s Initiative.
+                  For each additional Steam Point spent, increase both Strength and AP by 1 (e.g., 3 points → S4, AP-3).
+                  The Steam Gun has a 360° arc of fire and can be fired while in combat.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steam Cannon" id="st-cannon-4f2d">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Fired by pressurised steam. If you spend 0 points (or are in base contact), it cannot fire this turn.
+                  With 1 Steam Point the maximum range is 12&quot;; add +12&quot; max range for each additional Steam Point.
+                  Can only fire directly ahead, but may fire while in combat (cannot pivot).
+                  Profile: 12&quot;/24&quot;/36&quot; range, S8, AP-2, Armour Bane (2), Cannon Fire, Cumbersome, Multiple Wounds (D3).
+                  If the first artillery die is a Misfire, the shot is lost and the Steam Tank immediately suffers D3 Wounds. The Steam Cannon cannot fire grapeshot.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steam Boiler Mishap" id="st-mishap-6ad9">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  1–4 Valve Locked: Roll a D6. On 1–2 you cannot expend Steam Points in the Steam Engine this turn. On 3–4 you cannot expend Steam Points in the Steam Gun this turn. On 5–6 you cannot expend Steam Points in the Steam Cannon this turn.
+                  5 Minor Leak: Immediately lose D3 Steam Points.
+                  6 Emergency Vent: Immediately lose D6 Steam Points and 1 Wound. Each unit in base contact suffers 2D6 S2 hits, distributed as from shooting (roll for each unit).
+                  7 Dangerous Overpressure: Roll a D6; immediately gain that many Steam Points (may exceed 5) and then lose that many Wounds.
+                  8 Kaboom!: All units within 6&quot; suffer 2D6 S4, AP-1 hits (distributed as from shooting). Then remove the Steam Tank as a casualty.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Implacable (upgrade)" id="st-upg-implacable-prof">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Replaces Steam Cannon and Steam Gun with a Mortar.
+                  Mortar profile: 36&quot; range; S4/5/6, AP-1/2/3 depending on Steam Points; Armour Bane (1), Bombardment, Cumbersome, Multiple Wounds (D3).
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Old Reliable (upgrade)" id="st-upg-oldrel-prof">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Replaces Steam Cannon with a Helblaster Volley Gun.
+                  24&quot; range, S5, AP-2, Armour Bane (2), Helblaster (1/2/3 artillery dice), Cumbersome.
+                  If the first artillery die is a Misfire, the Helblaster does not fire and the Steam Tank immediately loses D3 Wounds; subsequent misfires impose −1 to hit.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Sigmar's Hammer (upgrade)" id="st-upg-hammer-prof">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  The Steam Tank has no Steam Cannon. When charging or using its grinding attack, inflicts D6 hits per Steam Point spent (instead of D3). May re-roll 1s when taking armour saves.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Swivel Gun (upgrade)" id="st-upg-swivel-prof">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Replaces the Steam Gun with a Swivel Gun: 30&quot; range, S5, AP-2, Multiple Shots (1/2/3D3), Armour Bane (1). Can be shot in melee.
+                </characteristic>
+              </characteristics>
+            </profile>
+
+          </profiles>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Engineer Commander" hidden="false" id="ac25-3ab2-ba71-8c07" sortIndex="1" subType="crew">
               <infoLinks>
@@ -5159,25 +5290,38 @@ Note that any special rules granted by these upgrades do not apply to the models
           <categoryLinks>
             <categoryLink name="Heavy Chariot" hidden="false" id="f6f1-1017-ca-a73b" targetId="d768-7cf0-de0a-c249" primary="false"/>
           </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Steam Tank Upgrade" hidden="false" id="st-upg-group-9d12">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-upg-max-64fe"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" name="Implacable (Free)" hidden="false" id="st-upg-implacable-1a22">
+                  <infoLinks><infoLink name="Implacable (upgrade)" type="profile" id="il-upg-impl-90c0" targetId="st-upg-implacable-prof"/></infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" name="Old Reliable (Free)" hidden="false" id="st-upg-oldrel-6c5b">
+                  <infoLinks><infoLink name="Old Reliable (upgrade)" type="profile" id="il-upg-old-04a6" targetId="st-upg-oldrel-prof"/></infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" name="Sigmar's Hammer (Free)" hidden="false" id="st-upg-hammer-5b77">
+                  <infoLinks><infoLink name="Sigmar's Hammer (upgrade)" type="profile" id="il-upg-ham-7a34" targetId="st-upg-hammer-prof"/></infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" name="Swivel Gun (Free)" hidden="false" id="st-upg-swivel-2c81">
+                  <infoLinks><infoLink name="Swivel Gun (upgrade)" type="profile" id="il-upg-swiv-5f9a" targetId="st-upg-swivel-prof"/></infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <infoGroups>
             <infoGroup name="Special Rules" id="ec80-4be2-378e-8ab" hidden="false">
               <infoLinks>
                 <infoLink name="Close Order" id="660c-e554-2956-5b5e" hidden="false" type="profile" targetId="883e-e1b1-4fe9-5912"/>
-                <infoLink name="Grinding Wheels" id="959a-1448-1e14-1f50" hidden="false" type="profile" targetId="77c2-c713-163c-883b"/>
                 <infoLink name="Immune To Psychology" id="eeca-3627-c411-c2ff" hidden="false" type="profile" targetId="93d9-c75b-f655-30ac"/>
                 <infoLink name="Impact Hits" id="b7ff-1deb-d7ec-e054" hidden="false" type="profile" targetId="5c2-e9dd-2715-a0c0">
                   <modifiers>
-                    <modifier type="append" value="(D6+1)" field="name"/>
+                    <modifier type="append" value="(D6+variable)" field="name"/>
                   </modifiers>
                 </infoLink>
                 <infoLink name="Large Target" id="c866-6f1b-d9fa-cc5f" hidden="false" type="profile" targetId="c822-7ad0-f24a-e4af"/>
-                <infoLink name="Temperamental" id="a927-34de-fc16-f738" hidden="false" type="profile" targetId="1cb7-aebd-815f-6439"/>
-                <infoLink name="Steam Power" id="8481-64ab-7416-ac5b" hidden="false" type="profile" targetId="1a22-9799-5f09-36ac"/>
-                <infoLink name="Stomp Attacks" id="302-96bd-6838-ebdb" hidden="false" type="profile" targetId="72db-24bb-7493-d753">
-                  <modifiers>
-                    <modifier type="append" value="(D3+1)" field="name"/>
-                  </modifiers>
-                </infoLink>
                 <infoLink name="Terror" id="4dc-660a-d627-e82" hidden="false" type="profile" targetId="c7a2-35bf-4313-f4f0"/>
                 <infoLink name="Unbreakable" id="1c23-97e9-7648-22d3" hidden="false" type="profile" targetId="d3eb-1fa0-bb19-f390"/>
                 <infoLink name="Armour Value" id="e562-f142-21f8-34b7" hidden="false" type="profile" targetId="e099-1ebb-9e85-34c8">
@@ -5186,6 +5330,12 @@ Note that any special rules granted by these upgrades do not apply to the models
                   </modifiers>
                 </infoLink>
                 <infoLink name="Iron Shell" id="d1f4-1000-420-1000" hidden="false" type="profile" targetId="d1f4-5e82-420-1000"/>
+                <infoLink name="Steel Behemoth" type="profile" id="il-behemoth-0caa" targetId="st-behemoth-2f7d"/>
+                <infoLink name="Steam Powered" type="profile" id="il-powered-43de" targetId="st-powered-91a3"/>
+                <infoLink name="Steam Engine" type="profile" id="il-engine-718f" targetId="st-engine-3b6e"/>
+                <infoLink name="Steam Gun" type="profile" id="il-gun-0b4f" targetId="st-gun-7c15"/>
+                <infoLink name="Steam Cannon" type="profile" id="il-cannon-7eb3" targetId="st-cannon-4f2d"/>
+                <infoLink name="Steam Boiler Mishap" type="profile" id="il-mishap-3b19" targetId="st-mishap-6ad9"/>
               </infoLinks>
             </infoGroup>
           </infoGroups>
