@@ -685,7 +685,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
           Choose one enemy unit within 24" of the model and roll a D6:
           1: Bird Brain - Center a small (3") blast template over the model; each unit touched suffers a S4 hit (AP -1).
           2: Fly Home - No effect.
-          3-5: Dud - The target unit suffers a single S5 hit (AP -2).
+          3-4: Dud - The target unit suffers a single S5 hit (AP -2).
           6: Perfect Delivery - Place a small (3") blast template so the hole is over any model in the target unit; models touched suffer a S4 hit (AP -1).
         </characteristic>
       </characteristics>
@@ -1803,7 +1803,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="5f85-7bbe-fdd9-a705" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55"/>
+            <cost name="pts" typeId="points" value="40"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Melee Weapons" hidden="false" id="b250-15b8-a8fa-7f5" sortIndex="5">
@@ -2549,7 +2549,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="a874-2654-dd01-1956" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="45"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon" hidden="false" id="3851-e699-7dc1-c3e1" sortIndex="7">
@@ -3361,7 +3361,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="f1fd-b0b8-6587-7b84" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6"/>
+            <cost name="pts" typeId="points" value="4"/>
           </costs>
           <modifiers>
             <modifier type="set" value="5" field="b379-5e42-ead6-c377">
@@ -3463,7 +3463,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="10dd-a121-bb31-decd" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="7"/>
+            <cost name="pts" typeId="points" value="5"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" hidden="false" id="21c0-14ea-1161-74a2" collective="true" sortIndex="3">
@@ -4219,7 +4219,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="7e9d-9dec-d053-e9dd" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="22"/>
+            <cost name="pts" typeId="points" value="21"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Equipment" id="f239-5060-bd62-f86d" hidden="false" sortIndex="4">
@@ -4994,7 +4994,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     </selectionEntry>
     <selectionEntry type="model" import="true" name="War Altar of Sigmar" hidden="false" id="4f41-e802-c019-63b4" subType="mount">
       <costs>
-        <cost name="pts" typeId="points" value="135"/>
+        <cost name="pts" typeId="points" value="180"/>
       </costs>
       <infoLinks>
         <infoLink name="War Altar" hidden="false" type="profile" id="526b-3d70-8689-a69d" targetId="85d2-475f-be07-2e0c">
@@ -5026,13 +5026,42 @@ Note that any special rules granted by these upgrades do not apply to the models
         <infoGroup name="Special Rules" hidden="false" id="bebf-33b7-fe0b-bc85">
           <infoLinks>
             <infoLink name="Close Order" hidden="false" type="profile" id="cc71-47d6-76b9-5a6f" targetId="883e-e1b1-4fe9-5912"/>
-            <infoLink name="Holy Fervour" hidden="false" type="profile" id="7b69-c572-1c89-54df" targetId="b1af-d24d-3cdc-e7d0"/>
             <infoLink name="First Charge" hidden="false" type="profile" id="5db5-8a50-780a-9896" targetId="785a-2886-af42-dce9"/>
             <infoLink name="Impact Hits" hidden="false" type="profile" id="7e0a-108-185-f02c" targetId="5c2-e9dd-2715-a0c0">
               <modifiers>
                 <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Holy Fervour" type="profile" targetId="KEEP-OR-NEW-ID"/>
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Holy Fervour" id="KEEP-OR-NEW-ID">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Unless this unit is fleeing, friendly units within its command range re-roll Fear, Terror and Panic tests. 
+                  Friendly Imperial units (except Followers of Ulric) within command range gain Hatred (All). 
+                  Flagellants instead gain Eternal Hatred (All).
+                </characteristic>
+              </characteristics>
+            </profile>
+            <infoLink name="Divine Protection (5+ Ward)" type="profile" targetId="KEEP-OR-NEW-ID2"/>
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Divine Protection (5+ Ward)" id="KEEP-OR-NEW-ID2">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">This model has a 5+ Ward save.</characteristic>
+              </characteristics>
+            </profile>
+            <infoLink name="Power Shrine" type="profile" targetId="KEEP-OR-NEW-ID3"/>
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Power Shrine" id="KEEP-OR-NEW-ID3">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
+                  Battle Prayers of Sigmar cast by a model mounted on the War Altar also target all friendly Imperial units (or enemy units) within its command range.
+                </characteristic>
+              </characteristics>
+            </profile>
+            <infoLink name="+1 Ld (rider)" type="profile" targetId="KEEP-OR-NEW-ID4"/>
+            <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="+1 Ld (rider)" id="KEEP-OR-NEW-ID4">
+              <characteristics>
+                <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Increase the Leadership of the character using it as a mount by 1.</characteristic>
+              </characteristics>
+            </profile>
             <infoLink name="Large Target" hidden="false" type="profile" id="e51e-ca64-4827-863e" targetId="c822-7ad0-f24a-e4af"/>
             <infoLink name="Magic Resistance" hidden="false" type="profile" id="42c-6b62-4d4d-cdbf" targetId="90ed-c9be-a611-79cc">
               <modifiers>
@@ -5040,7 +5069,6 @@ Note that any special rules granted by these upgrades do not apply to the models
               </modifiers>
             </infoLink>
             <infoLink name="Stubborn" hidden="false" type="profile" id="58b5-b2e6-f6df-e893" targetId="e351-bbd6-f470-b604"/>
-            <infoLink name="Symbol of Might" hidden="false" type="profile" id="d01c-5241-771c-ccff" targetId="5b74-eb4c-8bb7-3e7d"/>
             <infoLink name="Terror" hidden="false" type="profile" id="553d-fe7d-e290-b600" targetId="c7a2-35bf-4313-f4f0"/>
             <infoLink name="Witch Bane" hidden="false" type="profile" id="284d-535f-1d16-909b" targetId="2285-171-265b-d62a"/>
             <infoLink name="Armour Value" hidden="false" type="profile" id="b855-7e2d-b52f-673f" targetId="e099-1ebb-9e85-34c8">
@@ -6728,7 +6756,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <categoryLink targetId="f3f7-ca43-674e-115f" id="aec3-5468-419f-4501" primary="false" name="Regular Infantry"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b97c-9948-707c-3c54-min"/>
