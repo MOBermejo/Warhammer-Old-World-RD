@@ -5105,44 +5105,119 @@ Note that any special rules granted by these upgrades do not apply to the models
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b47-780e-7750-1923"/>
           </constraints>
           <entryLinks>
+            <!-- Base weapons (present by default) -->
             <entryLink import="true" name="Steam Gun" hidden="false" type="selectionEntry" id="9ccb-aaf2-ee89-86f6" targetId="583f-1b4f-b164-df99" sortIndex="3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac5d-86c9-9061-5dcf-min">
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-steamgun-min">
                   <modifiers>
+                    <!-- Off if Swivel chosen or Implacable chosen -->
                     <modifier type="set" field="value" value="0">
-                      <conditions>
-                        <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-swivel-2c81" value="1"/>
-                      </conditions>
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
                     </modifier>
                     <modifier type="set" field="value" value="0">
-                      <conditions>
-                        <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-implacable-1a22" value="1"/>
-                      </conditions>
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
                     </modifier>
                   </modifiers>
                 </constraint>
-                <modifiers>
-                  <modifier type="set" field="hidden" value="true">
-                    <conditions>
-                      <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-swivel-2c81" value="1"/>
-                    </conditions>
-                  </modifier>
-                  <modifier type="set" field="hidden" value="true">
-                    <conditions>
-                      <condition type="instanceOf" field="selections" scope="ancestor" childId="st-upg-implacable-1a22" value="1"/>
-                    </conditions>
-                  </modifier>
-                </modifiers>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac5d-86c9-9061-5dcf-max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-steamgun-max"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
+
             <entryLink import="true" name="Steam Cannon" hidden="false" type="selectionEntry" id="5e2c-59a-67ed-6d2a" targetId="a5ed-573e-b9e6-8d0d" sortIndex="2">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fee6-f34b-a9b5-140d-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fee6-f34b-a9b5-140d-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-steamcannon-min">
+                  <modifiers>
+                    <!-- Off if Old Reliable, Sigmar's Hammer, or Implacable -->
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
+                    </modifier>
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-hammer-14a8" value="1"/></conditions>
+                    </modifier>
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-steamcannon-max"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-hammer-14a8" value="1"/></conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+
+            <!-- New weapon links (start hidden; shown by options below) -->
+            <entryLink name="Mortar (Steam Tank)" type="selectionEntry" hidden="true" id="st-link-mortar-6a10" targetId="st-wep-mortar-9b61">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="st-min-mortar-71e4">
+                  <modifiers>
+                    <modifier type="set" field="value" value="1">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-max-mortar-71e4"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+
+            <entryLink name="Helblaster (Steam Tank)" type="selectionEntry" hidden="true" id="st-link-helblaster-2f59" targetId="st-wep-helblaster-1c33">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="st-min-helblaster-9f61">
+                  <modifiers>
+                    <modifier type="set" field="value" value="1">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-max-helblaster-9f61"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+
+            <entryLink name="Swivel Gun (Steam Tank)" type="selectionEntry" hidden="true" id="st-link-swivel-3d84" targetId="st-wep-swivel-7f20">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="st-min-swivel-34c1">
+                  <modifiers>
+                    <modifier type="set" field="value" value="1">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-max-swivel-34c1"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
+
           <infoLinks>
             <infoLink name="Steam Tank" hidden="false" type="profile" id="261b-4f0f-80a6-60be" targetId="9da8-adf2-d00e-b164"/>
             <infoLink name="Base (60x100)" hidden="false" type="profile" id="2b94-ce14-4789-1a01" targetId="5125-89a4-916a-eabd"/>
@@ -5211,7 +5286,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steam Boiler Mishap" id="st-mishap-6ad9">
               <characteristics>
                 <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
-                  1–4 Valve Locked: Roll a D6. On 1–2 you cannot expend Steam Points in the Steam Engine this turn. On 3–4 you cannot expend Steam Points in the Steam Gun this turn. On 5–6 you cannot expend Steam Points in the Steam Cannon this turn.
+                  1–4 Valve Locked: Roll a D6. On 1–2, you cannot expend Steam Points in the Steam Engine this turn. On 3–4, you cannot expend Steam Points in the Steam Gun this turn. On 5–6, you cannot expend Steam Points in the Steam Cannon this turn.
                   5 Minor Leak: Immediately lose D3 Steam Points.
                   6 Emergency Vent: Immediately lose D6 Steam Points and 1 Wound. Each unit in base contact suffers 2D6 S2 hits, distributed as from shooting (roll for each unit).
                   7 Dangerous Overpressure: Roll a D6; immediately gain that many Steam Points (may exceed 5) and then lose that many Wounds.
@@ -5257,6 +5332,51 @@ Note that any special rules granted by these upgrades do not apply to the models
 
           </profiles>
           <selectionEntries>
+            <!-- Mortar (Steam Tank) -->
+            <selectionEntry type="upgrade" name="Mortar (Steam Tank)" hidden="true" id="st-wep-mortar-9b61">
+              <profiles>
+                <profile typeId="a378-c633-912d-11ce" typeName="Weapon" name="Steam Tank Mortar" id="st-prof-mortar-2a04">
+                  <characteristics>
+                    <characteristic name="R" typeId="2360-c777-5e07-ed58">36"</characteristic>
+                    <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4/5/6</characteristic>
+                    <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1/-2/-3</characteristic>
+                    <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Bombardment, Cumbersome, Multiple Wounds (D3)</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Strength/AP depend on Steam Points spent.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+
+            <!-- Helblaster (Steam Tank) -->
+            <selectionEntry type="upgrade" name="Helblaster Volley Gun (Steam Tank)" hidden="true" id="st-wep-helblaster-1c33">
+              <profiles>
+                <profile typeId="a378-c633-912d-11ce" typeName="Weapon" name="Helblaster Volley Gun" id="st-prof-helblaster-93b0">
+                  <characteristics>
+                    <characteristic name="R" typeId="2360-c777-5e07-ed58">24"</characteristic>
+                    <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5</characteristic>
+                    <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+                    <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Helblaster (1/2/3 artillery dice), Cumbersome</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">On first Misfire: no shots; Steam Tank suffers D3 Wounds. Subsequent misfires: −1 to hit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+
+            <!-- Swivel Gun (Steam Tank) -->
+            <selectionEntry type="upgrade" name="Swivel Gun (Steam Tank)" hidden="true" id="st-wep-swivel-7f20">
+              <profiles>
+                <profile typeId="a378-c633-912d-11ce" typeName="Weapon" name="Swivel Gun" id="st-prof-swivel-5c42">
+                  <characteristics>
+                    <characteristic name="R" typeId="2360-c777-5e07-ed58">30"</characteristic>
+                    <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5</characteristic>
+                    <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+                    <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Multiple Shots (1/2/3D3), Armour Bane (1)</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">May be shot in melee.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+
             <selectionEntry type="model" import="true" name="Engineer Commander" hidden="false" id="ac25-3ab2-ba71-8c07" sortIndex="1" subType="crew">
               <infoLinks>
                 <infoLink name="Engineer Commander" hidden="false" type="profile" id="8160-4d97-f169-d4a3" targetId="901f-b97c-228a-a3de"/>
@@ -5291,25 +5411,67 @@ Note that any special rules granted by these upgrades do not apply to the models
             <categoryLink name="Heavy Chariot" hidden="false" id="f6f1-1017-ca-a73b" targetId="d768-7cf0-de0a-c249" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Steam Tank Upgrade" hidden="false" id="st-upg-group-9d12">
+            <selectionEntryGroup name="Implacable Configuration" hidden="false" id="st-grp-implacable-6d0b">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-upg-max-64fe"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-grp-implacable-max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" name="Implacable (Free)" hidden="false" id="st-upg-implacable-1a22">
-                  <infoLinks><infoLink name="Implacable (upgrade)" type="profile" id="il-upg-impl-90c0" targetId="st-upg-implacable-prof"/></infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" name="Old Reliable (Free)" hidden="false" id="st-upg-oldrel-6c5b">
-                  <infoLinks><infoLink name="Old Reliable (upgrade)" type="profile" id="il-upg-old-04a6" targetId="st-upg-oldrel-prof"/></infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" name="Sigmar's Hammer (Free)" hidden="false" id="st-upg-hammer-5b77">
-                  <infoLinks><infoLink name="Sigmar's Hammer (upgrade)" type="profile" id="il-upg-ham-7a34" targetId="st-upg-hammer-prof"/></infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" name="Swivel Gun (Free)" hidden="false" id="st-upg-swivel-2c81">
-                  <infoLinks><infoLink name="Swivel Gun (upgrade)" type="profile" id="il-upg-swiv-5f9a" targetId="st-upg-swivel-prof"/></infoLinks>
-                </selectionEntry>
+                <selectionEntry type="upgrade" name="Implacable (Free)" hidden="false" id="st-opt-implacable-116c"/>
               </selectionEntries>
             </selectionEntryGroup>
+
+            <!-- Group B: Cannon Option (exactly one) -->
+            <selectionEntryGroup name="Cannon Option" hidden="false" id="st-grp-cannon-731a">
+              <constraints>
+                <!-- Disabled if Implacable chosen -->
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-grp-cannon-min">
+                  <modifiers>
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-grp-cannon-max">
+                  <modifiers>
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" name="Keep Steam Cannon" hidden="false" id="st-opt-cannon-keep-9a09"/>
+                <selectionEntry type="upgrade" name="Old Reliable (Free)" hidden="false" id="st-opt-oldrel-4b21"/>
+                <selectionEntry type="upgrade" name="Sigmar's Hammer (Free)" hidden="false" id="st-opt-hammer-14a8"/>
+              </selectionEntries>
+            </selectionEntryGroup>
+
+            <!-- Group C: Gun Option (exactly one) -->
+            <selectionEntryGroup name="Gun Option" hidden="false" id="st-grp-gun-4fe8">
+              <constraints>
+                <!-- Disabled if Implacable chosen -->
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-grp-gun-min">
+                  <modifiers>
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-grp-gun-max">
+                  <modifiers>
+                    <modifier type="set" field="value" value="0">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </constraint>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" name="Steam Gun" hidden="false" id="st-opt-gun-keep-1b02"/>
+                <selectionEntry type="upgrade" name="Swivel Gun (Free)" hidden="false" id="st-opt-swivel-9a55"/>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+
           </selectionEntryGroups>
           <infoGroups>
             <infoGroup name="Special Rules" id="ec80-4be2-378e-8ab" hidden="false">
@@ -5333,8 +5495,6 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <infoLink name="Steel Behemoth" type="profile" id="il-behemoth-0caa" targetId="st-behemoth-2f7d"/>
                 <infoLink name="Steam Powered" type="profile" id="il-powered-43de" targetId="st-powered-91a3"/>
                 <infoLink name="Steam Engine" type="profile" id="il-engine-718f" targetId="st-engine-3b6e"/>
-                <infoLink name="Steam Gun" type="profile" id="il-gun-0b4f" targetId="st-gun-7c15"/>
-                <infoLink name="Steam Cannon" type="profile" id="il-cannon-7eb3" targetId="st-cannon-4f2d"/>
                 <infoLink name="Steam Boiler Mishap" type="profile" id="il-mishap-3b19" targetId="st-mishap-6ad9"/>
               </infoLinks>
             </infoGroup>
