@@ -5104,120 +5104,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a25f-dfa4-1446-5e99"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b47-780e-7750-1923"/>
           </constraints>
-          <entryLinks>
-            <!-- Base weapons (present by default) -->
-            <entryLink import="true" name="Steam Gun" hidden="false" type="selectionEntry" id="9ccb-aaf2-ee89-86f6" targetId="583f-1b4f-b164-df99" sortIndex="3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-steamgun-min">
-                  <modifiers>
-                    <!-- Off if Swivel chosen or Implacable chosen -->
-                    <modifier type="set" field="value" value="0">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
-                    </modifier>
-                    <modifier type="set" field="value" value="0">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
-                    </modifier>
-                  </modifiers>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-steamgun-max"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
-                </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-
-            <entryLink import="true" name="Steam Cannon" hidden="false" type="selectionEntry" id="5e2c-59a-67ed-6d2a" targetId="a5ed-573e-b9e6-8d0d" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-steamcannon-min">
-                  <modifiers>
-                    <!-- Off if Old Reliable, Sigmar's Hammer, or Implacable -->
-                    <modifier type="set" field="value" value="0">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
-                    </modifier>
-                    <modifier type="set" field="value" value="0">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-hammer-14a8" value="1"/></conditions>
-                    </modifier>
-                    <modifier type="set" field="value" value="0">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
-                    </modifier>
-                  </modifiers>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-steamcannon-max"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
-                </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-hammer-14a8" value="1"/></conditions>
-                </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-
-            <!-- New weapon links (start hidden; shown by options below) -->
-            <entryLink name="Mortar (Steam Tank)" type="selectionEntry" hidden="true" id="st-link-mortar-6a10" targetId="st-wep-mortar-9b61">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="st-min-mortar-71e4">
-                  <modifiers>
-                    <modifier type="set" field="value" value="1">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
-                    </modifier>
-                  </modifiers>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-max-mortar-71e4"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-
-            <entryLink name="Helblaster (Steam Tank)" type="selectionEntry" hidden="true" id="st-link-helblaster-2f59" targetId="st-wep-helblaster-1c33">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="st-min-helblaster-9f61">
-                  <modifiers>
-                    <modifier type="set" field="value" value="1">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
-                    </modifier>
-                  </modifiers>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-max-helblaster-9f61"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-oldrel-4b21" value="1"/></conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-
-            <entryLink name="Swivel Gun (Steam Tank)" type="selectionEntry" hidden="true" id="st-link-swivel-3d84" targetId="st-wep-swivel-7f20">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="st-min-swivel-34c1">
-                  <modifiers>
-                    <modifier type="set" field="value" value="1">
-                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
-                    </modifier>
-                  </modifiers>
-                </constraint>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-max-swivel-34c1"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-swivel-9a55" value="1"/></conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-
+          <entryLinks/>
           <infoLinks>
             <infoLink name="Steam Tank" hidden="false" type="profile" id="261b-4f0f-80a6-60be" targetId="9da8-adf2-d00e-b164"/>
             <infoLink name="Base (60x100)" hidden="false" type="profile" id="2b94-ce14-4789-1a01" targetId="5125-89a4-916a-eabd"/>
@@ -5411,12 +5298,27 @@ Note that any special rules granted by these upgrades do not apply to the models
             <categoryLink name="Heavy Chariot" hidden="false" id="f6f1-1017-ca-a73b" targetId="d768-7cf0-de0a-c249" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
+            <!-- Group A: Implacable (replaces both weapons with Mortar) -->
             <selectionEntryGroup name="Implacable Configuration" hidden="false" id="st-grp-implacable-6d0b">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-grp-implacable-max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" name="Implacable (Free)" hidden="false" id="st-opt-implacable-116c"/>
+                <selectionEntry type="upgrade" name="Implacable (Free)" hidden="false" id="st-opt-implacable-116c">
+                  <!-- Eye text for the option -->
+                  <infoLinks>
+                    <infoLink name="Implacable (upgrade)" type="profile" id="il-upg-impl-90c0" targetId="st-upg-implacable-prof"/>
+                  </infoLinks>
+                  <!-- Selecting Implacable auto-adds the Mortar weapon -->
+                  <entryLinks>
+                    <entryLink name="Mortar (Steam Tank)" type="selectionEntry" hidden="false" id="st-optlink-mortar-1d11" targetId="st-wep-mortar-9b61">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-optlink-mortar-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-optlink-mortar-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
 
@@ -5440,9 +5342,55 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </constraint>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" name="Keep Steam Cannon" hidden="false" id="st-opt-cannon-keep-9a09"/>
-                <selectionEntry type="upgrade" name="Old Reliable (Free)" hidden="false" id="st-opt-oldrel-4b21"/>
-                <selectionEntry type="upgrade" name="Sigmar's Hammer (Free)" hidden="false" id="st-opt-hammer-14a8"/>
+                <!-- Keep Steam Cannon -->
+                <selectionEntry type="upgrade" name="Keep Steam Cannon" hidden="false" id="st-opt-cannon-keep-9a09">
+                  <entryLinks>
+                    <entryLink name="Steam Cannon" type="selectionEntry" hidden="false" id="st-optlink-cannon-keep-2b1e" targetId="a5ed-573e-b9e6-8d0d">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-optlink-cannon-keep-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-optlink-cannon-keep-max"/>
+                      </constraints>
+                      <!-- Hide this whole option when Implacable is chosen -->
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+
+                <!-- Old Reliable (Helblaster) -->
+                <selectionEntry type="upgrade" name="Old Reliable (Free)" hidden="false" id="st-opt-oldrel-4b21">
+                  <infoLinks>
+                    <infoLink name="Old Reliable (upgrade)" type="profile" id="il-upg-old-04a6" targetId="st-upg-oldrel-prof"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink name="Helblaster (Steam Tank)" type="selectionEntry" hidden="false" id="st-optlink-helblaster-222f" targetId="st-wep-helblaster-1c33">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-optlink-helblaster-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-optlink-helblaster-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+
+                <!-- Sigmar's Hammer (no cannon weapon) -->
+                <selectionEntry type="upgrade" name="Sigmar's Hammer (Free)" hidden="false" id="st-opt-hammer-14a8">
+                  <infoLinks>
+                    <infoLink name="Sigmar's Hammer (upgrade)" type="profile" id="il-upg-ham-7a34" targetId="st-upg-hammer-prof"/>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
 
@@ -5466,11 +5414,46 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </constraint>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" name="Steam Gun" hidden="false" id="st-opt-gun-keep-1b02"/>
-                <selectionEntry type="upgrade" name="Swivel Gun (Free)" hidden="false" id="st-opt-swivel-9a55"/>
+                <!-- Keep Steam Gun -->
+                <selectionEntry type="upgrade" name="Steam Gun" hidden="false" id="st-opt-gun-keep-1b02">
+                  <entryLinks>
+                    <entryLink name="Steam Gun" type="selectionEntry" hidden="false" id="st-optlink-steamgun-5ac0" targetId="583f-1b4f-b164-df99">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-optlink-steamgun-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-optlink-steamgun-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+
+                <!-- Swivel Gun -->
+                <selectionEntry type="upgrade" name="Swivel Gun (Free)" hidden="false" id="st-opt-swivel-9a55">
+                  <infoLinks>
+                    <infoLink name="Swivel Gun (upgrade)" type="profile" id="il-upg-swiv-5f9a" targetId="st-upg-swivel-prof"/>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink name="Swivel Gun (Steam Tank)" type="selectionEntry" hidden="false" id="st-optlink-swivel-8e71" targetId="st-wep-swivel-7f20">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="st-optlink-swivel-min"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="st-optlink-swivel-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions><condition type="instanceOf" field="selections" scope="ancestor" childId="st-opt-implacable-116c" value="1"/></conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+
           <infoGroups>
             <infoGroup name="Special Rules" id="ec80-4be2-378e-8ab" hidden="false">
               <infoLinks>
