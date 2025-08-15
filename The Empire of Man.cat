@@ -3130,7 +3130,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="1432-589b-36f0-86ce" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="7"/>
+            <cost name="pts" typeId="points" value="5"/>
           </costs>
           <modifiers>
             <modifier type="set" value="5" field="ba7-12d2-ca78-1865">
