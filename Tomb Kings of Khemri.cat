@@ -1808,6 +1808,14 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                     <categoryLink name="MOUNT" hidden="false" id="dc8-7e58-4a50-355a" targetId="c96a-608-5de4-b943" primary="false"/>
                   </categoryLinks>
                 </entryLink>
+                <entryLink import="true" name="Grand Skeleton Chariot" hidden="false" type="selectionEntry" id="45c5-a407-412a-ad8d1" targetId="4a24-ffc8-223a-d8d41" sortIndex="4">
+                  <costs>
+                    <cost name="pts" typeId="points" value="120"/>
+                  </costs>
+                  <categoryLinks>
+                    <categoryLink name="MOUNT" hidden="false" id="dc8-7e58-4a50-355a1" targetId="c96a-608-5de4-b943" primary="false"/>
+                  </categoryLinks>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Command" hidden="false" id="4093-de7c-f27f-3d58" sortIndex="4">
