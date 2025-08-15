@@ -1220,11 +1220,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value=": 5+" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Armour Value" hidden="false" type="profile" id="9864-8ae-51d8-94dc" targetId="e099-1ebb-9e85-34c8">
-              <modifiers>
-                <modifier type="append" value=": 5+" field="name"/>
-              </modifiers>
-            </infoLink>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1250,7 +1245,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
     <selectionEntry type="model" import="true" name="Grand Skeleton Chariot" hidden="false" id="mount-gsc" collective="true" subType="mount">
       <costs><cost name="pts" typeId="points" value="120"/></costs>
       <infoLinks>
-        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="mount-gsc-info" targetId="22be-951e-6b32-6af6">
+        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="mount-gsc-info" targetId="grand-skeleton-chariot">
           <modifiers>
             <modifier type="set" value="(+4)" field="83ed-7b82-bf1f-e558">
               <conditions>
