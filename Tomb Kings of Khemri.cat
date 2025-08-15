@@ -1193,7 +1193,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <infoLinks>
         <infoLink name="Skeleton Chariot" hidden="false" type="profile" id="dfe1-74b6-2872-dc22" targetId="22be-951e-6b32-6af6">
           <modifiers>
-            <modifier type="set" value="(+3)" field="83ed-7b82-bf1f-e558">
+            <modifier type="set" value="+3" field="83ed-7b82-bf1f-e558">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
               </conditions>
@@ -1245,15 +1245,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
     <selectionEntry type="model" import="true" name="Grand Skeleton Chariot" hidden="false" id="mount-gsc" collective="true" subType="mount">
       <costs><cost name="pts" typeId="points" value="120"/></costs>
       <infoLinks>
-        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="mount-gsc-info" targetId="grand-skeleton-chariot">
-          <modifiers>
-            <modifier type="set" value="(+4)" field="83ed-7b82-bf1f-e558">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="mount-gsc-info" targetId="grand-skeleton-chariot"/>
         <infoLink name="Base (50x100)" hidden="false" type="profile" id="ca57-4e57-ef32-e215d25e" targetId="d456-e30e-f85d-14d"/>
       </infoLinks>
       <infoGroups>
