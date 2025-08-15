@@ -348,63 +348,64 @@ Note that this spell allows a character to leave combat.</characteristic>
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">1</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Conveyance</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">8+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">This spell can only target friendly models whose troop type is ‘infantry’. If the target friendly unit is not fleeing and has not already moved during this Movement phase, it gains the Fly (12) special rule until your next Start of Turn sub-phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Gathering Darkness" hidden="false" id="2d01-89fc-315d-ef5" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
-          <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">2</characteristic>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, the target enemy unit suffers a -2 modifier to its Initiative characteristic (to a minimum of 1), a -2 modifier to its Leadership characteristic (to a minimum of 2) and cannot use their General&apos;s Inspiring Presence special rule. This spell may target an enemy unit engaged in combat.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Daemonic Familiars" hidden="false" id="239d-1559-3435-c845" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
-          <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">3</characteristic>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Assailment</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">8+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Combat</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">A single enemy unit the caster is engaged in combat with suffers 2D6 Strength 2 hits, with no armour saves permitted (Ward and Regeneration saves can be attempted as normal).</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+/9+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">6&quot;/12&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">If the target friendly unit is not fleeing, it gains the Fly (10) special rule until your next Start of Turn sub-phase. </characteristic>
           </characteristics>
         </profile>
         <profile name="Daemonic Vessel" hidden="false" id="e802-6788-1f5c-59a5" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">4</characteristic>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">2</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
             <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Self</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this turn, the caster, their mount and any unit they have joined, gain a +1 modifier to their Strength and Attacks characteristics (to a maximum of 10), and improve the Armoir Piercing characteristic of their weapons by 1.</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Remains in Play. The caster (not their mount) gains a +3 modifier to their Strength and Attacks characteristics (to a maximum of 10) and improve the Armour Piercing characteristic of their weapons by 3. In addition, they gain a 6+ ward save (does not stack).</characteristic>
           </characteristics>
         </profile>
-        <profile name="Vortex of Chaos" hidden="false" id="9237-484e-88ea-80f3" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+        <profile name="Gathering Darkness" hidden="false" id="2d01-89fc-315d-ef5" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+          <characteristics>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">3</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">11+/13+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, the target enemy unit suffers a -1/-2 modifier to its Leadership characteristic (to a minimum of 2) and cannot use their General‘s Inspiring Presence or Hold your Ground special rule. </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chill Wind" hidden="false" id="239d-1559-3435-c845" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+          <characteristics>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">4</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">13+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">24&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Every model in the unit suffers a S2 AP-2 hit. If the target suffers any unsaved Wounds, all models in the unit suffer a -1 penalty to their Weapon Skill, Ballistic Skill and Initiative characteristic until the start of the caster's next Magic phase. </characteristic>
+          </characteristics>
+        </profile>
+
+        <profile name="Oblivion" hidden="false" id="9237-484e-88ea-80f3" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">5</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magical Vortex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">8+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Remains in Play. Place a small (3&quot;) blast template so that its central hole is within 15&quot; of the caster. Whilst in play, the template is treated as difficult terrain. The template scatters D6&quot; during every Start of Turn sub-phase (see page 95). Any unit (friend or foe) that moves through the template, or that the template moves over, suffers D6+1 Strength 3 hits, each with an AP of -.</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">15+/23+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Directional</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">To determine how many inches the small/Large template moves, roll an artillery dice and multiply the result by 3. If the result on the artillery dice is a misfire, centre the template on the caster and roll a scatter dice and a D6. Templates moves in a direction of caster’s choice, but within frontal arc.  Any model touched by the template at any point during its move must pass a Strength test per Wound on their profile or suffer a Wound which Ignores Armour Saves and Regeneration.</characteristic>
           </characteristics>
         </profile>
         <profile name="Daemonic Vigour" hidden="false" id="94e4-9c6e-c726-1ae0" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">6</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this turn, the target friendly unit gains +1 modifier to its movement, Toughness and Initiative characteristics (to a maximum of 10).</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">17+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this turn, the target friendly unit gains a +1 modifier to its Attacks, Strength and Toughness characteristics (to a maximum of 10).</characteristic>
           </characteristics>
         </profile>
-        <profile name="The Summoning" hidden="false" id="6661-b481-b61c-6f89" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+        <profile name="Daemonic Familiar" hidden="false" id="6661-b481-b61c-6f89" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magic Missile</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Assailment and Magic Missile</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">5+/10+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">18&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">The target enemy unit suffers 2d6 Strength 4 hits, each with an AP of -1.</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">A single enemy unit suffers 2D6/4D6 Strength 2 hits, with no armour save permitted (Ward and Regeneration saves can be attempted as normal).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -416,63 +417,63 @@ Note that this spell allows a character to leave combat.</characteristic>
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">1</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magic Missile</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">8+</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">5+/10+/15+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">24&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">The target enemy unit suffers 2D6 Strength 4 hits, each with an AP of -. This Spell has the Flaming Attacks special rule.</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">The target enemy unit suffers D6/2D6/3D6 Strength 4 hits, each with an AP of -1. This spell has the Flaming Attacks special rule.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Curse of Arrow Attraction" hidden="false" id="7008-1178-68f9-8d00" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+        <profile name="Piercing Bolt" hidden="false" id="7008-1178-68f9-8d00" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">2</characteristic>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">21&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, you may re-roll any rolls To Hit of a natural 1 when shooting at the target enemy unit.</characteristic>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">3</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magic Missle</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+/11+/13+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">24&quot;/30&quot;/36&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a"> The target enemy unit counts as being hit by the following profile: STR 6, AP-3, Multiple Wounds (D3), Through and Through.</characteristic>
           </characteristics>
         </profile>
         <profile name="Pillar of Fire" hidden="false" id="c5c3-f8d-3eec-e7bc" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">3</characteristic>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">6</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magical Vortex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">15+/20+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Remains in Play. Place a small (3&quot;) blast template so tat its central hole is within 12&quot; of the caster. Whilst in play, the template is treated as difficult terrain. The template scatters D6&quot; during every Start of Turn sub- phase (see page 95). Any enemy unit that moves through the template, or that the template moves over, suffers D3+3 Strength 3 hits, each with an AP of -2. These hits have the Flaming Attacks special rule.</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Remains in Play. Place the small/large round template anywhere within  12&quot; of the caster - it then scatters D6&quot;. All models hit by the template suffer a Strength 4 AP-1 hit. Whilst in play, the template is treated as dangerous terrain. The template moves D6&quot; in a random direction at the start of the casters next magic phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Arcane Urgency" hidden="false" id="f7a6-2122-95a3-e169" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">4</characteristic>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Conveyance</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">If the target friendly unit is not fleeing and has moved during this Movement phase, it may immediately move again.</characteristic>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">2</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">If the target friendly unit is not fleeing it may immediately move (includes marching move). </characteristic>
           </characteristics>
         </profile>
-        <profile name="Oaken Shield" hidden="false" id="cc92-c6d0-ec22-72ff" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+        <profile name="Firecage" hidden="false" id="cc92-c6d0-ec22-72ff" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
+          <characteristics>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">4</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">11+/13+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">18&quot;/24&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">The target unit immediately suffers D6 Strength 4 AP-1 hits. In addition, if the target unit moves for any reason, every model in the unit suffers an immediate Strength 4 AP-1 hit and the spell ends. If the unit does not move, Fulminating spell automatically ceases at the start of the caster's next Magic phase. </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Flames of Ruin" hidden="false" id="2839-830d-91b3-30d6" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">5</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Self</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, the caster and any unit they have joined gain 5+ Ward save against any wounds suffered.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Curse of Cowardly Flight" hidden="false" id="2839-830d-91b3-30d6" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
-          <characteristics>
-            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">6</characteristic>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">8+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">The target enemy unit must immediately make a Panic test. If the target unit automatically passes any Panic tests it is required to make for any reason, it must still make this test and, should it fail, it will Give Ground.</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a"> 13+/15+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">6&quot;/12&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">The target unit has a +1 bonus when rolling to wound with all shooting and close combat attacks until the start of the caster's next Magic phase. The target unit also counts as having both magical attacks and the Flaming Attacks special rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hammerhand" hidden="false" id="3d8c-b96f-460a-f7c3" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Assailment</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">5+/8+/11+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Combat</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">A single enemy unit the caster is engaged in combat with suffers 2D3 Strength 4 hits, each with an AP of -2.</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">A single enemy unit the caster is engaged in combat with suffers 2D3/4D3/6D3 Strength 4 hits, each with an AP of -2. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -692,26 +693,26 @@ The casting player chooses a single item carried by the target. This magic item 
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">9+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this turn, the target enemy unit suffers a -1 modifier to its Strength and Toughness characteristics (to a minimum of 1). If this spell is cast, the effects if any other Hex previously cast on the target immediately expire.</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">11+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">18&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this Turn, the target enemy unit suffers a -1 modifier to its Strength and Toughness characteristics (to a minimum of 1).</characteristic>
           </characteristics>
         </profile>
         <profile name="Khsar&apos;s Incantation of the Desert Wind" hidden="false" id="fd34-d014-d7b4-c6f3" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
-            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">6+/10+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Self</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">If this spell is cast with a casting result of 6 or more, a single friendly unit that has the Nehekharan Undead special rule and is within the caster&apos;s Command range gains the Reserve Move special rule. If this spell is cast with a casting result of 10 or more, every friendly unit that has the Nehekharan Undead special rule and is within the caster&apos;s Command range gains the Reserve Move special rule. The spell lasts until the end of this turn.</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Conveyance</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">6+/9+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">A single/all friendly units within range that has the Nehekharan Undead special rule gains the Reserve Move special rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Djaf&apos;s Incantation of Cursed Blades" hidden="false" id="10fe-9f08-f6a7-ea15" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+</characteristic>
-            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Self</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+/11+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
             <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, any friendly unit that has the Nehekhara Undead special rule and that is within the caster&apos;s Command Range might re-roll any rolls To Hit of a natural 1.</characteristic>
           </characteristics>
         </profile>
