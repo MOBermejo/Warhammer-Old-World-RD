@@ -148,6 +148,19 @@ Tomb Kings deal S5 hits, Tomb Princes S4, any other unit S3. In close combat, an
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
     </profile>
+    <profile name="Grand Skeleton Chariot" hidden="false" id="grand-skeleton-chariot" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Skeletal Steed" hidden="false" id="ded6-32d1-1b45-653b" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
@@ -210,6 +223,27 @@ Eternal Legions: You may not have more of any specific units than you have units
  Note that a Casket of Souls can still pivot freely at any time during its turn and may make follow up move as normal.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Royal Lineage" hidden="false" id="desc-royal-lineage" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a Tomb King is destroyed, at the start of next turn, your entire army has Hatred of the enemy army. If a Tomb Prince is destroyed, at the start of next turn, your entire army has Hatred (Unit that killed the Tomb Prince). 
+
+ The Tomb King and Tomb Prince have Eternal Hatred (Unit that killed Tomb King/Prince).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Eternal Legions" hidden="false" id="desc-eternal-legions" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">You may not have more of any specific units than you have units of Skeleton Archers and Skeleton Warriors. 
+
+ - If you have 2 units of Skeleton Archers or 1 unit of Skeleton Archers and 1 unit of Skeleton Warriors, you may not have more than 2 units of Tomb Guard, Carrion, Ushabti, etc... in your army.
+
+ - The Skeleton Archers and Warriors in your army can not be outnumbered (Model count and unit STR) by any other unit (Skeleton Skirmishers, Horse Archers, etc...). </characteristic>
+      </characteristics>
+    </profile>
+    <profile name="I Rule Alone!" hidden="false" id="desc-rule-alone" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50"> You may not have more than one Tomb King in your army who must be the general.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Cloud of Dust" hidden="false" id="9ada-55bb-3fc4-e52b" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="142" publicationId="7c89-736c-3139-24a0">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">Any enemy model that targets this model during the Shooting phase suffers an additional -1 To Hit modifier.</characteristic>
@@ -229,7 +263,13 @@ Eternal Legions: You may not have more of any specific units than you have units
     </profile>
     <profile name="Nehekharan Phalanx" hidden="false" id="da25-5643-68aa-bcc1" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule that is arrayed in a Close Order formation, and that is equipped with and chooses to use shields, may choose not to Give Ground Should it lose a round in combat. However, if the winning side significantly outnumbers the losing side, it will overwhelm the loser. If the Unit Strength of the winning side is more than twice that of the losing side, the unit cannot use this special rule and must Give Ground as normal.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Applies to all chariots, who can be in Close Order (Chosen before the start of the battle).
+
+ - The Armour Piercing and Strength characteristic of any Impact Hits caused by a model with this special rule (but not its mount) is improved by 1+ the current Rank Bonus of its unit (or, in the case of Characters, the current Rank Bonus of any unit they have joined).
+ - Gain the First Charge special rule if there are at least 3 frontal chariots.
+ - Gain the Counter-Charge special rule if you are led by a Tomb King or Tomb Prince on chariot. 
+ - Gain +D3 impact hits on the front chariots for each other chariot in the unit. Example:  Unit of 6 chariots, 2 ranks of 3.. Instead of 3D6 S4 AP0 Impact Hits, deal 
+3D6+3D3 S5 AP-1 Impact Hits. Unit of 9 chariots, 3 ranks of 3.. Instead of 3D6 S4 AP0 Impact Hits, deal 3D6+6D3 S6 AP-2 Impact Hits.</characteristic>
       </characteristics>
     </profile>
     <profile name="Tomb Guard" hidden="false" id="c30-1885-910e-7397" typeId="b070-143a-73f-2772" typeName="Model">
@@ -1153,7 +1193,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <infoLinks>
         <infoLink name="Skeleton Chariot" hidden="false" type="profile" id="dfe1-74b6-2872-dc22" targetId="22be-951e-6b32-6af6">
           <modifiers>
-            <modifier type="set" value="(+3)" field="83ed-7b82-bf1f-e558">
+            <modifier type="set" value="+3" field="83ed-7b82-bf1f-e558">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
               </conditions>
@@ -1194,6 +1234,53 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
           </constraints>
           <categoryLinks>
             <categoryLink targetId="4cf7-bf85-308d-c29a" id="fe0d-68ec-174b-524b" primary="false" name="CHARIOT CREW"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="remove" value="5165-d052-cfc2-5887" field="category"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <comment>Character mount</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Grand Skeleton Chariot" hidden="false" id="mount-gsc" collective="true" subType="mount">
+      <costs><cost name="pts" typeId="points" value="120"/></costs>
+      <infoLinks>
+        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="mount-gsc-info" targetId="grand-skeleton-chariot"/>
+        <infoLink name="Base (50x100)" hidden="false" type="profile" id="ca57-4e57-ef32-e215d25e" targetId="d456-e30e-f85d-14d"/>
+      </infoLinks>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="6874-cede-b3ab-8f38f3">
+          <infoLinks>
+            <infoLink name="Reserve Move" hidden="false" type="profile" id="f4d8-56e3-c350-bbd1-ryl" targetId="1f10-d7d-be19-7e8f"/>
+            <infoLink name="Dry as Dust" hidden="false" type="profile" id="8535-18b1-15b4-3187-ryl" targetId="ae9b-6cef-787a-da54"/>
+            <infoLink name="Swiftstride" hidden="false" type="profile" id="5647-4da2-cd-eee9-ryl" targetId="dc91-48b3-3696-217"/>
+            <infoLink name="Impact Hits" hidden="false" type="profile" id="ca2c-fedf-6a56-f687-ryl" targetId="5c2-e9dd-2715-a0c0">
+              <modifiers>
+                <modifier type="append" value="(D6+1)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Open Order" hidden="false" type="profile" id="5117-d09d-f761-63c0-ryl" targetId="5b67-8535-146c-7cea"/>
+            <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="2b3b-49a6-735a-c83c-ryl" targetId="cc25-1643-8beb-8c64"/>
+            <infoLink name="Armour Value" hidden="false" type="profile" id="9864-8ae-51d8-94dc-ryl" targetId="e099-1ebb-9e85-34c8">
+              <modifiers>
+                <modifier type="append" value=": 4+" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Royal Chariot" hidden="false" type="profile" id="def-royal-chariot" targetId="royal-chariot"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink targetId="d768-7cf0-de0a-c249" id="cat-heavy-chariot-def" primary="false" name="Heavy Chariot"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="c159-b160-172e-9a34-ryl" targetId="cb60-7835-709e-f0b9" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="6b52-b876-6cd4-d94b-ryl"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="2e4c-ec8c-1234-cd2b-ryl"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="4cf7-bf85-308d-c29a" id="fe0d-68ec-174b-524b-ryl" primary="false" name="CHARIOT CREW"/>
           </categoryLinks>
           <modifiers>
             <modifier type="remove" value="5165-d052-cfc2-5887" field="category"/>
@@ -1707,9 +1794,9 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                     <categoryLink name="MOUNT" hidden="false" id="9caf-dc40-d475-4138" targetId="c96a-608-5de4-b943" primary="false"/>
                   </categoryLinks>
                 </entryLink>
-                <entryLink import="true" name="Necrolith Bone Dragon" hidden="false" type="selectionEntry" id="9562-c5fe-5324-917f" targetId="88e9-3dde-cbe0-910d" sortIndex="4">
+                <entryLink import="true" name="Grand Skeletal Chariot" hidden="false" type="selectionEntry" id="9562-c5fe-5324-917f2" targetId="def-royal-chariot" sortIndex="4">
                   <costs>
-                    <cost name="pts" typeId="points" value="195"/>
+                    <cost name="pts" typeId="points" value="120"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Khemrian Warsphinx" hidden="false" type="selectionEntry" id="45c5-a407-412a-ad8d" targetId="a00b-8bf2-be9a-2da" sortIndex="1">
@@ -5105,7 +5192,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Dry as Dust" hidden="false" id="6773b160-2305d02a/Arch Necrotect" type="profile" targetId="ae9b-6cef-787a-da54"/>
             <infoLink name="Flammable" hidden="false" id="d513512a-75979fd4/Arch Necrotect" type="profile" targetId="8f64-6d4c-466b-1b94"/>
             <infoLink name="Immortal Overseer" hidden="false" id="50a19e9f-90d0392d/Arch Necrotect" type="profile" targetId="e1e-470-3078-c879"/>
-            <infoLink name="Khopesh" hidden="false" id="669b3825-98f2bf1b/Arch Necrotect" type="profile" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Nehekharan Undead" hidden="false" id="74385db3-e36d9161/Arch Necrotect" type="profile" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" id="452d1c3-c3f36ef1/Arch Necrotect" type="profile" targetId="2eb0-1ec8-8e04-72d4">
               <modifiers>
