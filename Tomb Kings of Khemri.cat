@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="be27-8084-f552-1f4" name="Tomb Kings of Khemri" gameSystemId="420" gameSystemRevision="33" revision="104" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
   <sharedProfiles>
+    <profile id="royal-chariot" name="Royal Chariot" typeId="rules">
+      <characteristics>
+        <characteristic name="Description" typeId="text">
+          Can join a unit of chariots as if it was the same unit type.
+        </characteristic>
+      </characteristics>
+    </profile>
     <profile name="Dry as Dust" hidden="false" id="ae9b-6cef-787a-da54" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="153" publicationId="7c89-736c-3139-24a0">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">Each time this model suffers an unsaved wound from a Flaming Attack, your opponent may roll a D6. On a roll of 1-3, the flames quickly die down and this model escapes further harm. On a roll of 4+, the flames take hold and this model loses one additional Wound.
@@ -10,7 +17,15 @@
     </profile>
     <profile name="Eternal Taskmaster" hidden="false" id="2cb-b6cc-72e8-ee9e" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="130" publicationId="7c89-736c-3139-24a0">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this character may attempt to drive a unit they have joined to greater efforts by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase this character and any unit they have joined gains the Extra Attacks (+1) and Hatred (all enemies) special rules.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this character may attempt to drive a unit they have joined to greater efforts by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase this character and any unit they have joined gains the Extra Attacks (+1) and Hatred (all enemies) special rules. Furthermore, if this test is passed, you increase the Indomitable of that unit by 1 (or it gains the Indomitable (1) special rule if it did not have it).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stoneshaper" hidden="false" id="stoneshaper" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="130" publicationId="7c89-736c-3139-24a0">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">You can join a unit of Monstrous Infantry, Monstrous Cavalry, Monstrous Beasts or Monsters and count as the same troop type with the same Movement value. You also follow the rules for Handler, except you are not removed as casualty when your "pack" dies.
+          
+          
+ Handler: When an enemy unit shoots at a mixed unit that contains one or more handlers (Packmasters, overseers, etc...), the enemy player must roll a D6 for each successful roll To Hit before making any rolls To Wound. On a roll of 1-4, the hit is inflicted upon the most common model in the unit (so long as there are at least 5 of them), on a hit roll of 5-6, the hit is inflicted on the handler. In combat, enemy models must allocate their attacks against a model they are in Base Contact with (or against the closest model if they are within The Fighting Rank but not in Base Contact) before rolling To Hit.</characteristic>
       </characteristics>
     </profile>
     <profile name="Indomitable" hidden="false" id="9e4d-c79a-658d-6900" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="153" publicationId="7c89-736c-3139-24a0">
@@ -22,7 +37,9 @@
     </profile>
     <profile name="Curse of the Necropolis" hidden="false" id="ccfe-3943-82d5-2a58" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="153" publicationId="7c89-736c-3139-24a0">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a model with this special rule loses its last Wound to an enemy attack, the unit that made the attack must immediately make a Leadership test. If this test is failed, the enemy unit suffers D3 Strength 2 hits, each with an AP of -.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50"> If a model with this special rule loses its last Wound to an enemy attack, the unit that made the attack must immediately make a Leadership test (-2 against a Tomb King, -1 against a Tomb Prince, no malus otherwise). If this test is failed, the enemy unit suffers D6 Strength * hits, that ignore armour saves.
+
+Tomb Kings deal S5 hits, Tomb Princes S4, any other unit S3. In close combat, any Wounds inflicted count towards the combat result. If more than one unit is responsible for the destruction of the model with this special rule (it is destroyed by the combat result in a multiple combat due to its Unstable rule, for example), then all guilty units are affected. If the model is killed in a challenge, then only their opponent is cursed, and not the whole enemy unit. </characteristic>
       </characteristics>
     </profile>
     <profile name="Cleaving Blow" hidden="false" id="e8fa-c1b8-3da7-f23d" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
@@ -42,6 +59,22 @@
 
  
 • 	“Strike like the Cobra!”: +D3 Initiative.
+
+ Note that this special rule is not cumulative. In other words, using it more than once on the same unit during the same turn has no further effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="My Will Be Done (King)" hidden="false" id="abde-68e9-9d0e-a46" typeId="c1ac-c1c8-f9d5-9673-king" typeName="Special Rule" page="126" publicationId="7c89-736c-3139-24a0">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this character may attempt to exert their will upon those around them by making a Leadership test (using their own Leadership). If this test is passed, choose one of the following modifiers. Until your next Start of Turn sub-phase, a friendly Nehekharan Undead unit within command range gains that modifier (to a maximum of 10):
+
+ 
+• 	“Forward to Glory!”: +D3+1 Movement.
+
+ 
+• 	“My Worthy Champions!”: +D3 Weapon Skill.
+
+ 
+• 	“Strike like the Cobra!”: +D3+1 Initiative.
 
  Note that this special rule is not cumulative. In other words, using it more than once on the same unit during the same turn has no further effect.</characteristic>
       </characteristics>
@@ -115,6 +148,19 @@
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
     </profile>
+    <profile name="Grand Skeleton Chariot" hidden="false" id="grand-skeleton-chariot" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Skeletal Steed" hidden="false" id="ded6-32d1-1b45-653b" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
@@ -137,7 +183,16 @@
 • Unbreakable 
 • Unstable
 
-A character with this special rule cannot join a unit without this special rule, and vice versa.</characteristic>
+A character with this special rule cannot join a unit without this special rule, and vice versa.
+
+A character with this special rule cannot join a unit without this special rule, and vice versa.
+
+A character with this special rule cannot join a unit without this special rule, and vice versa.
+
+Eternal Legions: You may not have more of any specific units than you have units of Skeleton Archers and Skeleton Warriors. 
+- If you have 2 units of Skeleton Archers or 1 unit of Skeleton Archers and 1 unit of Skeleton Warriors, you may not have more than 2 units of Tomb Guard, Carrion, Ushabti, etc... in your army. 
+- The Skeleton Archers and Warriors in your army can not be outnumbered (Model count and unit STR) by any other unit (Skeleton Skirmishers, Horse Archers, etc...). 
+- I Rule Alone!: You may not have more than one Tomb King in your army who must be the general. </characteristic>
       </characteristics>
     </profile>
     <profile name="Skulls of Fire" hidden="false" id="e737-8a01-c57c-7917" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
@@ -168,6 +223,27 @@ A character with this special rule cannot join a unit without this special rule,
  Note that a Casket of Souls can still pivot freely at any time during its turn and may make follow up move as normal.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Royal Lineage" hidden="false" id="desc-royal-lineage" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a Tomb King is destroyed, at the start of next turn, your entire army has Hatred of the enemy army. If a Tomb Prince is destroyed, at the start of next turn, your entire army has Hatred (Unit that killed the Tomb Prince). 
+
+ The Tomb King and Tomb Prince have Eternal Hatred (Unit that killed Tomb King/Prince).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Eternal Legions" hidden="false" id="desc-eternal-legions" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">You may not have more of any specific units than you have units of Skeleton Archers and Skeleton Warriors. 
+
+ - If you have 2 units of Skeleton Archers or 1 unit of Skeleton Archers and 1 unit of Skeleton Warriors, you may not have more than 2 units of Tomb Guard, Carrion, Ushabti, etc... in your army.
+
+ - The Skeleton Archers and Warriors in your army can not be outnumbered (Model count and unit STR) by any other unit (Skeleton Skirmishers, Horse Archers, etc...). </characteristic>
+      </characteristics>
+    </profile>
+    <profile name="I Rule Alone!" hidden="false" id="desc-rule-alone" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50"> You may not have more than one Tomb King in your army who must be the general.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Cloud of Dust" hidden="false" id="9ada-55bb-3fc4-e52b" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="142" publicationId="7c89-736c-3139-24a0">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">Any enemy model that targets this model during the Shooting phase suffers an additional -1 To Hit modifier.</characteristic>
@@ -187,7 +263,13 @@ A character with this special rule cannot join a unit without this special rule,
     </profile>
     <profile name="Nehekharan Phalanx" hidden="false" id="da25-5643-68aa-bcc1" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule that is arrayed in a Close Order formation, and that is equipped with and chooses to use shields, may choose not to Give Ground Should it lose a round in combat. However, if the winning side significantly outnumbers the losing side, it will overwhelm the loser. If the Unit Strength of the winning side is more than twice that of the losing side, the unit cannot use this special rule and must Give Ground as normal.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Applies to all chariots, who can be in Close Order (Chosen before the start of the battle).
+
+ - The Armour Piercing and Strength characteristic of any Impact Hits caused by a model with this special rule (but not its mount) is improved by 1+ the current Rank Bonus of its unit (or, in the case of Characters, the current Rank Bonus of any unit they have joined).
+ - Gain the First Charge special rule if there are at least 3 frontal chariots.
+ - Gain the Counter-Charge special rule if you are led by a Tomb King or Tomb Prince on chariot. 
+ - Gain +D3 impact hits on the front chariots for each other chariot in the unit. Example:  Unit of 6 chariots, 2 ranks of 3.. Instead of 3D6 S4 AP0 Impact Hits, deal 
+3D6+3D3 S5 AP-1 Impact Hits. Unit of 9 chariots, 3 ranks of 3.. Instead of 3D6 S4 AP0 Impact Hits, deal 3D6+6D3 S6 AP-2 Impact Hits.</characteristic>
       </characteristics>
     </profile>
     <profile name="Tomb Guard" hidden="false" id="c30-1885-910e-7397" typeId="b070-143a-73f-2772" typeName="Model">
@@ -1165,6 +1247,61 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       </entryLinks>
       <comment>Character mount</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Grand Skeleton Chariot" hidden="false" id="mount-gsc" collective="true" subType="mount">
+      <costs><cost name="pts" typeId="points" value="120"/></costs>
+      <infoLinks>
+        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="mount-gsc-info" targetId="22be-951e-6b32-6af6">
+          <modifiers>
+            <modifier type="set" value="(+4)" field="83ed-7b82-bf1f-e558">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Base (50x100)" hidden="false" type="profile" id="ca57-4e57-ef32-734e" targetId="d456-e30e-f85d-14d"/>
+      </infoLinks>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="6874-cede-b3ab-8f3">
+          <infoLinks>
+            <infoLink name="Reserve Move" hidden="false" type="profile" id="f4d8-56e3-c350-bbd1" targetId="1f10-d7d-be19-7e8f"/>
+            <infoLink name="Dry as Dust" hidden="false" type="profile" id="8535-18b1-15b4-3187" targetId="ae9b-6cef-787a-da54"/>
+            <infoLink name="Swiftstride" hidden="false" type="profile" id="5647-4da2-cd-eee9" targetId="dc91-48b3-3696-217"/>
+            <infoLink name="Impact Hits" hidden="false" type="profile" id="ca2c-fedf-6a56-f687" targetId="5c2-e9dd-2715-a0c0">
+              <modifiers>
+                <modifier type="append" value="(D6+1)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Open Order" hidden="false" type="profile" id="5117-d09d-f761-63c0" targetId="5b67-8535-146c-7cea"/>
+            <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="2b3b-49a6-735a-c83c" targetId="cc25-1643-8beb-8c64"/>
+            <infoLink name="Armour Value" hidden="false" type="profile" id="9864-8ae-51d8-94dc" targetId="e099-1ebb-9e85-34c8">
+              <modifiers>
+                <modifier type="append" value=": 4+" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Royal Chariot" hidden="false" type="profile" id="def-royal-chariot" targetId="royal-chariot"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink targetId="d768-7cf0-de0a-c249" id="cat-heavy-chariot-def" primary="false" name="Heavy Chariot"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="c159-b160-172e-9a34" targetId="cb60-7835-709e-f0b9" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="6b52-b876-6cd4-d94b"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="2e4c-ec8c-1234-cd2b"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="4cf7-bf85-308d-c29a" id="fe0d-68ec-174b-524b" primary="false" name="CHARIOT CREW"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="remove" value="5165-d052-cfc2-5887" field="category"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <comment>Character mount</comment>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Petryfing Gaze" hidden="false" id="7b4b-76b0-6887-bb2e" collective="false">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c495-a5ee-c98-c11c"/>
@@ -1310,11 +1447,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(Tomb Guard Crew Only)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Khopesh" id="5b76-f0a3-6f15-580a" hidden="false" type="profile" targetId="b049-caf4-f185-d3d4">
-              <modifiers>
-                <modifier type="append" value="(Tomb Guard Crew Only)" field="name"/>
-              </modifiers>
-            </infoLink>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1431,7 +1563,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Additional Hand Weapon" hidden="false" type="selectionEntry" id="2a5f-2ffe-5635-8285" targetId="8943-3e16-db2a-b7f3" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="3"/>
+                    <cost name="pts" typeId="points" value="2"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Great Weapon" hidden="false" type="selectionEntry" id="98d4-7d58-3570-7ed3" targetId="2283-26e9-76c3-6048" sortIndex="5">
@@ -1463,7 +1595,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="5420-1ac1-b724-a097" targetId="cb60-7835-709e-f0b9" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Skeleton Chariot" hidden="false" type="selectionEntry" id="7d7b-8402-9c2f-9bcd" targetId="4a24-ffc8-223a-d8d4" sortIndex="2">
@@ -1564,7 +1696,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="d85f-a44f-ab3d-58d0">
           <infoLinks>
             <infoLink name="Dry as Dust" hidden="false" type="profile" id="31f3-b226-e884-55fd" targetId="ae9b-6cef-787a-da54"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="1df4-e099-3dd-e428" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Curse of the Necropolis" hidden="false" type="profile" id="bb96-b827-24db-540b" targetId="ccfe-3943-82d5-2a58"/>
             <infoLink name="Flammable" hidden="false" type="profile" id="99ee-523b-1d7e-4f6b" targetId="8f64-6d4c-466b-1b94"/>
             <infoLink name="Indomitable" hidden="false" type="profile" id="9e00-5095-e226-4569" targetId="9e4d-c79a-658d-6900">
@@ -1579,6 +1710,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(5+)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Royal Lineage" hidden="false" type="profile" id="desc-royal-lineage/tomb-prince" targetId="desc-royal-lineage"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1632,7 +1764,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Additional Hand Weapon" hidden="false" type="selectionEntry" id="3dcb-41a8-acf5-e96c" targetId="8943-3e16-db2a-b7f3" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="3"/>
+                    <cost name="pts" typeId="points" value="2"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Great Weapon" hidden="false" type="selectionEntry" id="348e-997e-193c-e203" targetId="2283-26e9-76c3-6048" sortIndex="5">
@@ -1664,25 +1796,25 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="17e8-5b60-4d43-e139" targetId="cb60-7835-709e-f0b9" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Skeleton Chariot" hidden="false" type="selectionEntry" id="ba4a-f74-20d7-70a2" targetId="4a24-ffc8-223a-d8d4" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="35"/>
+                    <cost name="pts" typeId="points" value="90"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink name="MOUNT" hidden="false" id="9caf-dc40-d475-4138" targetId="c96a-608-5de4-b943" primary="false"/>
                   </categoryLinks>
                 </entryLink>
-                <entryLink import="true" name="Necrolith Bone Dragon" hidden="false" type="selectionEntry" id="9562-c5fe-5324-917f" targetId="88e9-3dde-cbe0-910d" sortIndex="4">
+                <entryLink import="true" name="Grand Skeletal Chariot" hidden="false" type="selectionEntry" id="9562-c5fe-5324-917f2" targetId="def-royal-chariot" sortIndex="4">
                   <costs>
-                    <cost name="pts" typeId="points" value="195"/>
+                    <cost name="pts" typeId="points" value="120"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Khemrian Warsphinx" hidden="false" type="selectionEntry" id="45c5-a407-412a-ad8d" targetId="a00b-8bf2-be9a-2da" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="175"/>
+                    <cost name="pts" typeId="points" value="210"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink name="MOUNT" hidden="false" id="dc8-7e58-4a50-355a" targetId="c96a-608-5de4-b943" primary="false"/>
@@ -1752,7 +1884,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="bc2d-af6d-d6d2-6414" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="160"/>
+            <cost name="pts" typeId="points" value="175"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="787c-5504-eecd-83b0" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -1778,7 +1910,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="3770-8ed3-72f1-8375">
           <infoLinks>
             <infoLink name="Dry as Dust" hidden="false" type="profile" id="b686-3e79-3cfc-c2a1" targetId="ae9b-6cef-787a-da54"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="67ce-a450-4813-a228" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Curse of the Necropolis" hidden="false" type="profile" id="c359-661e-3944-fa5a" targetId="ccfe-3943-82d5-2a58"/>
             <infoLink name="Flammable" hidden="false" type="profile" id="7c01-eab8-2e12-e59a" targetId="8f64-6d4c-466b-1b94"/>
             <infoLink name="Indomitable" hidden="false" type="profile" id="19f2-2c68-59a3-b2d1" targetId="9e4d-c79a-658d-6900">
@@ -1786,13 +1917,15 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(2)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="My Will Be Done" hidden="false" type="profile" id="1076-912e-c665-559e" targetId="abde-68e9-9d0e-a46"/>
+            <infoLink name="My Will Be Done" hidden="false" type="profile" id="1076-912e-c665-559e-c" targetId="abde-68e9-9d0e-a46-king"/>
+            <infoLink name="From Beneath the Sands" hidden="false" type="profile" id="c76a-ba27-cdfc-40e7" targetId="2363-698-c566-4bfb"/>
             <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="daf9-f6b5-ac71-a3e8" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" type="profile" id="afde-7679-5e5f-7ae1" targetId="2eb0-1ec8-8e04-72d4">
               <modifiers>
                 <modifier type="append" value="(5+)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Royal Lineage" hidden="false" type="profile" id="desc-royal-lineage/tomb-king" targetId="desc-royal-lineage"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1846,7 +1979,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Additional Hand Weapon" hidden="false" type="selectionEntry" id="d4e4-28a-9b9-318f" targetId="8943-3e16-db2a-b7f3" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="3"/>
+                    <cost name="pts" typeId="points" value="2"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Great Weapon" hidden="false" type="selectionEntry" id="4a17-6823-aba3-6e35" targetId="2283-26e9-76c3-6048" sortIndex="5">
@@ -1878,12 +2011,12 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="d7a1-efb1-8af8-d860" targetId="cb60-7835-709e-f0b9" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Skeleton Chariot" hidden="false" type="selectionEntry" id="cb02-3107-a474-84" targetId="4a24-ffc8-223a-d8d4" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="35"/>
+                    <cost name="pts" typeId="points" value="90"/>
                   </costs>
                   <categoryLinks>
                     <categoryLink name="MOUNT" hidden="false" id="d356-7309-87af-b11f" targetId="c96a-608-5de4-b943" primary="false"/>
@@ -1924,7 +2057,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="139d-cab3-f65b-f15f" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="60"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="c3d7-187b-6daa-4095" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -1950,7 +2083,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="45e2-8cd-93d9-7d32">
           <infoLinks>
             <infoLink name="Dry as Dust" hidden="false" type="profile" id="d9e9-d1b5-39d5-b1b4" targetId="ae9b-6cef-787a-da54"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="801b-b6e5-f77d-46fd" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Banner Of The King" hidden="false" type="profile" id="cd68-88b8-9bf2-1458" targetId="d88f-102f-fef9-dab2"/>
             <infoLink name="Flammable" hidden="false" type="profile" id="36b3-80ee-9a9a-ad79" targetId="8f64-6d4c-466b-1b94"/>
             <infoLink name="Indomitable" hidden="false" type="profile" id="9482-6d0b-f4e5-fa74" targetId="9e4d-c79a-658d-6900">
@@ -2015,7 +2147,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="ed11-786d-674c-7855" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55"/>
+            <cost name="pts" typeId="points" value="40"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="fcc3-38d-3dda-7c65" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -2027,7 +2159,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="dd5c-f574-ddee-ab7f">
           <infoLinks>
             <infoLink name="Eternal Taskmaster" hidden="false" type="profile" id="51fe-1549-90b8-2320" targetId="2cb-b6cc-72e8-ee9e"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="662e-3923-b328-b5bf" targetId="b049-caf4-f185-d3d4"/>
+            <infoLink name="Stoneshaper" hidden="false" type="profile" id="stoneshaper/necrotect" targetId="stoneshaper"/>
             <infoLink name="Dry as Dust" hidden="false" type="profile" id="df53-d013-12e9-a0e3" targetId="ae9b-6cef-787a-da54"/>
             <infoLink name="Flammable" hidden="false" type="profile" id="473d-2ba5-91cb-6cc0" targetId="8f64-6d4c-466b-1b94"/>
             <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="9f7d-333e-e032-3958" targetId="cc25-1643-8beb-8c64"/>
@@ -2076,7 +2208,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Lore of Nehekhara" id="3028-39eb-245d-ab73" hidden="false" type="infoGroup" targetId="2faa-884e-d8e5-331a"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Lores of Magic" hidden="false" id="683c-150e-9d33-a00b" sortIndex="6">
@@ -2118,7 +2250,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="b0e5-4eda-6e6b-7a37" targetId="cb60-7835-709e-f0b9" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="10"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -2185,7 +2317,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="3736-9498-af20-4223">
           <infoLinks>
             <infoLink name="Curse of the Necropolis" hidden="false" type="profile" id="dbb8-33ca-411b-c3cb" targetId="ccfe-3943-82d5-2a58"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="c2b6-17e4-95e5-a89a" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Arise!" hidden="false" type="profile" id="2711-22eb-8b20-8d4a" targetId="a869-df99-ad99-f255"/>
             <infoLink name="Lore of Nehekhara" hidden="false" type="profile" id="c762-f894-c779-717e" targetId="5ba4-f380-93dc-358d"/>
             <infoLink name="Indomitable" hidden="false" type="profile" id="bdc3-dd59-e731-f964" targetId="9e4d-c79a-658d-6900">
@@ -2240,7 +2371,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Lore of Nehekhara" id="c9c2-25b1-69b5-ea5f" hidden="false" type="infoGroup" targetId="2faa-884e-d8e5-331a"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="140"/>
+            <cost name="pts" typeId="points" value="130"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Lores of Magic" hidden="false" id="a084-d0ed-60a2-9522" sortIndex="6">
@@ -2282,7 +2413,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               <entryLinks>
                 <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="94aa-4896-568-d88a" targetId="cb60-7835-709e-f0b9" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Necrolith Bone Dragon" hidden="false" type="selectionEntry" id="fd40-12d3-7db8-dc97" targetId="88e9-3dde-cbe0-910d" sortIndex="2">
@@ -2330,7 +2461,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="d0fb-a9da-3955-7f93">
           <infoLinks>
             <infoLink name="Curse of the Necropolis" hidden="false" type="profile" id="e4c7-8dd5-1c64-8ed0" targetId="ccfe-3943-82d5-2a58"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="1643-e51d-4ceb-3d50" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Arise!" hidden="false" type="profile" id="bd7f-5d60-b17a-b04a" targetId="a869-df99-ad99-f255"/>
             <infoLink name="Lore of Nehekhara" hidden="false" type="profile" id="6583-39df-290f-e038" targetId="5ba4-f380-93dc-358d"/>
             <infoLink name="Indomitable" hidden="false" type="profile" id="789e-fc6f-685a-6fc2" targetId="9e4d-c79a-658d-6900">
@@ -2543,7 +2673,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(1)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="ba61-4508-18c4-ddf4" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Cleaving Blow" hidden="false" type="profile" id="3168-b128-66b9-f7c2" targetId="e8fa-c1b8-3da7-f23d"/>
             <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="dbc6-80b0-15b6-e254" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" type="profile" id="d9a-2ca1-15c4-fd61" targetId="2eb0-1ec8-8e04-72d4">
@@ -3105,7 +3234,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoGroup name="Special Rules" hidden="false" id="1c0f-443c-c932-d529">
           <infoLinks>
             <infoLink name="Close Order" hidden="false" type="profile" id="5f45-48c8-7e75-2c62" targetId="883e-e1b1-4fe9-5912"/>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="fe40-c7cd-bfc8-79a7" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Arrows of Asaph" hidden="false" type="profile" id="86b7-e0fe-b4b8-a737" targetId="d57a-d79-ea09-8dbd"/>
             <infoLink name="Indomitable" hidden="false" type="profile" id="6af9-7605-a43c-3d72" targetId="9e4d-c79a-658d-6900">
               <modifiers>
@@ -3871,7 +3999,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(1)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Khopesh" hidden="false" type="profile" id="7a54-4ac2-36b4-c2da" targetId="b049-caf4-f185-d3d4"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -4654,7 +4781,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoLink name="Base (60x100)" hidden="false" type="profile" id="d79c-e0cc-6b2d-c3cd" targetId="5125-89a4-916a-eabd"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="175"/>
+        <cost name="pts" typeId="points" value="210"/>
       </costs>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="f664-8cda-e9eb-a1f1">
@@ -4927,7 +5054,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(2)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Khopesh" hidden="false" id="669b3825-98f2bf1b/Prince Apophas" type="profile" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Loner" hidden="false" id="9baa537f-9024a38d/Prince Apophas" type="profile" targetId="2ecd-c6b3-bd8b-864b"/>
             <infoLink name="Nehekharan Undead" hidden="false" id="74385db3-e36d9161/Prince Apophas" type="profile" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" id="452d1c3-c3f36ef1/Prince Apophas" type="profile" targetId="2eb0-1ec8-8e04-72d4">
@@ -5079,7 +5205,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Dry as Dust" hidden="false" id="6773b160-2305d02a/Arch Necrotect" type="profile" targetId="ae9b-6cef-787a-da54"/>
             <infoLink name="Flammable" hidden="false" id="d513512a-75979fd4/Arch Necrotect" type="profile" targetId="8f64-6d4c-466b-1b94"/>
             <infoLink name="Immortal Overseer" hidden="false" id="50a19e9f-90d0392d/Arch Necrotect" type="profile" targetId="e1e-470-3078-c879"/>
-            <infoLink name="Khopesh" hidden="false" id="669b3825-98f2bf1b/Arch Necrotect" type="profile" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Nehekharan Undead" hidden="false" id="74385db3-e36d9161/Arch Necrotect" type="profile" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" id="452d1c3-c3f36ef1/Arch Necrotect" type="profile" targetId="2eb0-1ec8-8e04-72d4">
               <modifiers>
@@ -5451,7 +5576,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(1)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Khopesh" hidden="false" id="669b3825-98f2bf1b" type="profile" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Magic Resistance" hidden="false" id="42d206ce-6fed70d8" type="profile" targetId="90ed-c9be-a611-79cc">
               <modifiers>
                 <modifier type="append" value="(2)" field="name"/>
@@ -6061,7 +6185,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(2)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Khopesh" hidden="false" id="625a-bd78-ac2f-a735" type="profile" targetId="b049-caf4-f185-d3d4"/>
             <infoLink name="Nehekharan Undead" hidden="false" id="f003-6407-5bb4-a819" type="profile" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Open Order" hidden="false" id="6c4b-1f0-5dc8-2769" type="profile" targetId="5b67-8535-146c-7cea"/>
             <infoLink name="Regeneration" hidden="false" id="a296-b3bb-56da-c7b5" type="profile" targetId="2eb0-1ec8-8e04-72d4">
