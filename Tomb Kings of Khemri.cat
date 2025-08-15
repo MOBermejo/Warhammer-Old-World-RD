@@ -1242,6 +1242,59 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       </entryLinks>
       <comment>Character mount</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Grand Skeleton Chariot" hidden="false" id="4a24-ffc8-223a-d8d41" collective="true" subType="mount">
+      <infoLinks>
+        <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="dfe1-74b6-2872-dc221" targetId="grand-skeleton-chariot">
+          <modifiers>
+            <modifier type="set" value="+3" field="83ed-7b82-bf1f-e558">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Base (50x100)" hidden="false" type="profile" id="ca57-4e57-ef32-734e1" targetId="d456-e30e-f85d-14d"/>
+      </infoLinks>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="6874-cede-b3ab-8f31">
+          <infoLinks>
+            <infoLink name="Reserve Move" hidden="false" type="profile" id="f4d8-56e3-c350-bbd11" targetId="1f10-d7d-be19-7e8f"/>
+            <infoLink name="Dry as Dust" hidden="false" type="profile" id="8535-18b1-15b4-31871" targetId="ae9b-6cef-787a-da54"/>
+            <infoLink name="Swiftstride" hidden="false" type="profile" id="5647-4da2-cd-eee91" targetId="dc91-48b3-3696-217"/>
+            <infoLink name="Impact Hits" hidden="false" type="profile" id="ca2c-fedf-6a56-f6871" targetId="5c2-e9dd-2715-a0c0">
+              <modifiers>
+                <modifier type="append" value="(D3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Open Order" hidden="false" type="profile" id="5117-d09d-f761-63c01" targetId="5b67-8535-146c-7cea"/>
+            <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="2b3b-49a6-735a-c83c1" targetId="cc25-1643-8beb-8c64"/>
+            <infoLink name="Armour Value" hidden="false" type="profile" id="8da8-a220-a2ea-aba01" targetId="e099-1ebb-9e85-34c8">
+              <modifiers>
+                <modifier type="append" value=": 5+" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink targetId="7dce-b0f0-2217-2820" id="a4bc-6ce2-8802-eb22" primary="false" name="Light Chariot"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="c159-b160-172e-9a341" targetId="cb60-7835-709e-f0b9" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="6b52-b876-6cd4-d94b1"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="2e4c-ec8c-1234-cd2b1"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="4cf7-bf85-308d-c29a" id="fe0d-68ec-174b-524b1" primary="false" name="CHARIOT CREW"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="remove" value="5165-d052-cfc2-5887" field="category"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <comment>Character mount</comment>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Petryfing Gaze" hidden="false" id="7b4b-76b0-6887-bb2e" collective="false">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c495-a5ee-c98-c11c"/>
@@ -1852,7 +1905,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(2)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="My Will Be Done" hidden="false" type="profile" id="1076-912e-c665-559e-c" targetId="abde-68e9-9d0e-a46-king"/>
+            <infoLink name="My Will Be Done (King)" hidden="false" type="profile" id="1076-912e-c665-559e-c" targetId="abde-68e9-9d0e-a46-king"/>
             <infoLink name="From Beneath the Sands" hidden="false" type="profile" id="c76a-ba27-cdfc-40e7-tk" targetId="2363-698-c566-4bfb"/>
             <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="daf9-f6b5-ac71-a3e8" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" type="profile" id="afde-7679-5e5f-7ae1" targetId="2eb0-1ec8-8e04-72d4">
@@ -4706,7 +4759,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <infoLinks>
         <infoLink name="Khemrian Warsphinx" hidden="false" type="profile" id="a906-376-a286-36b" targetId="b912-8890-1908-8424">
           <modifiers>
-            <modifier type="set" value="(+5)" field="83ed-7b82-bf1f-e558">
+            <modifier type="set" value="(+6)" field="83ed-7b82-bf1f-e558">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
               </conditions>
