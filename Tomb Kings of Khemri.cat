@@ -8,6 +8,20 @@
         </characteristic>
       </characteristics>
     </profile>
+    <profile id="tk-crushing-blows" name="Crushing Blows" typeId="c1ac-c1c8-f9d5-9673">
+      <characteristics>
+        <characteristic name="Description" typeId="text">
+          Increase AP with any melee attack (including magical weapons, Stomps and Impact Hits) by 1 (From AP/ to AP-1, from AP-1 to AP-2, etc...).
+        </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="tk-trained" name="Trained" typeId="c1ac-c1c8-f9d5-9673">
+      <characteristics>
+        <characteristic name="Description" typeId="text">
+           This unit may wield a two-handed weapon in conjunction with a shield, gaining +1 armour save (but not the additional +1 for fighting with a hand weapon and shield) and the benefits from the shieldwall special rule (if applicable).  
+        </characteristic>
+      </characteristics>
+    </profile>
     <profile name="Dry as Dust" hidden="false" id="ae9b-6cef-787a-da54" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="153" publicationId="7c89-736c-3139-24a0">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">Each time this model suffers an unsaved wound from a Flaming Attack, your opponent may roll a D6. On a roll of 1-3, the flames quickly die down and this model escapes further harm. On a roll of 4+, the flames take hold and this model loses one additional Wound.
@@ -63,7 +77,7 @@ Tomb Kings deal S5 hits, Tomb Princes S4, any other unit S3. In close combat, an
  Note that this special rule is not cumulative. In other words, using it more than once on the same unit during the same turn has no further effect.</characteristic>
       </characteristics>
     </profile>
-    <profile name="My Will Be Done (King)" hidden="false" id="abde-68e9-9d0e-a46-king" typeId="c1ac-c1c8-f9d5-9673-king" typeName="Special Rule" page="126" publicationId="7c89-736c-3139-24a0">
+    <profile name="My Will Be Done (King)" hidden="false" id="abde-68e9-9d0e-a46-king" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="126" publicationId="7c89-736c-3139-24a0">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this character may attempt to exert their will upon those around them by making a Leadership test (using their own Leadership). If this test is passed, choose one of the following modifiers. Until your next Start of Turn sub-phase, a friendly Nehekharan Undead unit within command range gains that modifier (to a maximum of 10):
 
@@ -105,6 +119,7 @@ Tomb Kings deal S5 hits, Tomb Princes S4, any other unit S3. In close combat, an
         <characteristic name="Description" typeId="9f84-4221-785a-db50">Should a Monarch of Nehekhara model suffer a hit whilst within 3&quot; of this model, you may choose to transfer that hit and all of its effects onto this model.</characteristic>
       </characteristics>
     </profile>
+    
     <profile name="Arise!" hidden="false" id="a869-df99-ad99-f255" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="128" publicationId="7c89-736c-3139-24a0">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, if they are not engaged in combat, this character may attempt to resurrect the fallen (see page 154) by making a Leadership test (using their own Leadership). If this test is passed, a single friendly unit that has the Nehekharan Undead special rule and is within 12&quot; of this character recovers a number of lost Wounds. However, magically repairing gigantic undead constructs is much harder than raising skeletons from the sand. Therefore, how many Wounds are recovered depends upon the unit’s troop type and this character’s Level of Wizardry:
@@ -251,7 +266,7 @@ Eternal Legions: You may not have more of any specific units than you have units
     </profile>
     <profile name="Unbound Spirits" hidden="false" id="54de-15ad-9dc8-e4be" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="149" publicationId="7c89-736c-3139-24a0">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">If the crew of a Casket of Souls is reduced to zero Wounds, immediately roll a D6 for every unit (friend or foe) within 12&quot; of the model. On a roll of 4+, the unit suffers D6 Strength 3 hits, with no armour or Regeneration saves permitted (Ward saves can be attempted as normal). Once these hits are resolved, the Casket of Souls is removed from play.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If the crew of a Casket of Souls is reduced to zero Wounds, immediately roll a D6 for every unit (friend or foe) within 12&quot; of the model. On a roll of 4+, the unit suffers D6 Strength 4 hits, with no armour or Regeneration saves permitted (Ward saves can be attempted as normal). Once these hits are resolved, the Casket of Souls is removed from play.</characteristic>
       </characteristics>
     </profile>
     <profile name="Khopesh" hidden="false" id="b049-caf4-f185-d3d4" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="154" publicationId="7c89-736c-3139-24a0">
@@ -421,7 +436,7 @@ Eternal Legions: You may not have more of any specific units than you have units
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
@@ -537,9 +552,9 @@ Eternal Legions: You may not have more of any specific units than you have units
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">8</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
@@ -575,10 +590,10 @@ Eternal Legions: You may not have more of any specific units than you have units
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">7</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
@@ -589,8 +604,8 @@ Eternal Legions: You may not have more of any specific units than you have units
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">8</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
@@ -658,7 +673,7 @@ Eternal Legions: You may not have more of any specific units than you have units
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">A Casket of Souls can cast the following Bound spells, with a Power Level of 2:
 
-Light Of Death Type: Magic Missile Casting Value: 7+ Range: 36&quot; Effect: The target enemy unit must immediately make a Leadership test. If this test is passed, it suffers D3 Strength 3 hits, each with an AP of -1. If, however, this test is failed, it suffers D6+3 Strength 6 hits, each with the Multiple Wounds (2) special rule and with no armour or Regeneration saves permitted (Ward saves can be attempted as normal).
+Light Of Death Type: Magic Missile Casting Value: 7+ Range: 36&quot; Effect: One enemy unit within Line of Sight of the Casket must take a Leadership test on an additional D6, discarding the lowest result. For each point the test is failed by, it suffers an automatic Wound which Ignores Armour Saves. Once the Leadership test has been resolved, roll a D6: on a 3+, choose another enemy unit within Line of Sight of the Casket that is within 6" of the initial target, which also suffers the effects of the Light of Death. Keep rolling for further victims (each within Line of Sight of the Casket and within 6" of the last target struck), until the roll is failed or there are no more viable targets. A unit can only be the target of Light of Death once per phase. 
 
 Light Of Protection Type: Enchantment Casting Value: 8+ Range: Self Effect: Remains in Play. Whilst this Bound spell is in play, this model and any friendly unit within 18&quot; of this model gains a 6+ Ward save against any wounds suffered. In addition, whilst this Bound spell is in play, enemy units suffer a -1 modifier to any rolls To Hit made against this model and any friendly unit within 18&quot; of this model.
 
@@ -782,7 +797,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S2</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">N/A</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Multiple Wounds (D3)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">When making a roll To Wound for an attack made with this weapon, substitute the target’s Toughness with its Initiative. No armour save is permitted against wounds caused by this weapon (Ward and Regeneration saves can be attempted as normal)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Auto Hits. Each hit forces an enemy to take an Initiative test or suffer a wound with no armour saves allowed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Breath of Dessication" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ada5-bc2c-a82f-3d76">
@@ -798,8 +813,8 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Poisoned Attacks, Strike First</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Poisoned Attacks, Strike First, Monster Slayer</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">In combat, this model may choose to make one of its attacks each turn with this weapon</characteristic>
       </characteristics>
     </profile>
@@ -817,7 +832,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Killing Blow, Requires Two Hands</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Killing Blow, Requires Two Hands, Extra Attack (1)</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
       </characteristics>
     </profile>
@@ -826,7 +841,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Killing Blow, Monster Slayer</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Killing Blow</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
       </characteristics>
     </profile>
@@ -834,7 +849,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S+5</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-4</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-5</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Killing Blow, Monster Slayer, Strike Last]</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This model may make one additional attack each turn with this weapon</characteristic>
       </characteristics>
@@ -852,7 +867,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Killing Blow</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
       </characteristics>
@@ -1246,7 +1261,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <infoLinks>
         <infoLink name="Grand Skeleton Chariot" hidden="false" type="profile" id="dfe1-74b6-2872-dc221" targetId="grand-skeleton-chariot">
           <modifiers>
-            <modifier type="set" value="+3" field="83ed-7b82-bf1f-e558">
+            <modifier type="set" value="+4" field="83ed-7b82-bf1f-e558">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a4cc-15c9-cfae-1b3b" shared="true"/>
               </conditions>
@@ -1263,21 +1278,22 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Swiftstride" hidden="false" type="profile" id="5647-4da2-cd-eee91" targetId="dc91-48b3-3696-217"/>
             <infoLink name="Impact Hits" hidden="false" type="profile" id="ca2c-fedf-6a56-f6871" targetId="5c2-e9dd-2715-a0c0">
               <modifiers>
-                <modifier type="append" value="(D3)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Open Order" hidden="false" type="profile" id="5117-d09d-f761-63c01" targetId="5b67-8535-146c-7cea"/>
             <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="2b3b-49a6-735a-c83c1" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Armour Value" hidden="false" type="profile" id="8da8-a220-a2ea-aba01" targetId="e099-1ebb-9e85-34c8">
               <modifiers>
-                <modifier type="append" value=": 5+" field="name"/>
+                <modifier type="append" value=": 4+" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Royal Chariot" hidden="false" type="profile" id="2b3b-49a6-735a-c83c11" targetId="royal-chariot"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink targetId="7dce-b0f0-2217-2820" id="a4bc-6ce2-8802-eb22" primary="false" name="Light Chariot"/>
+        <categoryLink targetId="d768-7cf0-de0a-c249" id="179f-ef27-e225-1ccf1" primary="false" name="Heavy Chariot"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Skeletal Steed" hidden="false" type="selectionEntry" id="c159-b160-172e-9a341" targetId="cb60-7835-709e-f0b9" sortIndex="1">
@@ -1435,7 +1451,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <infoGroups>
         <infoGroup name="Special Rules" id="4892-f153-50f7-251e" hidden="false">
           <infoLinks>
-            <infoLink name="Cleaving Blow" id="f364-0d74-94d8-a815" hidden="false" type="profile" targetId="e8fa-c1b8-3da7-f23d">
+            <infoLink name="Killing Blow" hidden="false" id="c99b78e7-800faab5/tgc2," type="profile" targetId="860b-e13a-4710-9bf0">
               <modifiers>
                 <modifier type="append" value="(Tomb Guard Crew Only)" field="name"/>
               </modifiers>
@@ -1532,9 +1548,9 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c60f-628d-11d4-ac16"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="4551-3281-bf69-12aa" targetId="7cab-40e6-f134-de78" sortIndex="2">
+            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="d3ba-249c-6abe-fe751" targetId="62fb-f89d-afc-1cf1" sortIndex="2">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4764-9147-9f01-f4c9"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca30-a687-7140-e39e1"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="4b7c-f683-52a0-a231" targetId="1539-fd78-88f-badd" sortIndex="7">
@@ -1596,7 +1612,15 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                     <cost name="pts" typeId="points" value="35"/>
                   </costs>
                   <categoryLinks>
-                    <categoryLink name="MOUNT" hidden="false" id="176-446-f019-9adc" targetId="c96a-608-5de4-b943" primary="false"/>
+                    <categoryLink name="MOUNT" hidden="false" id="176-446-f019-9adc1" targetId="c96a-608-5de4-b943" primary="false"/>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink import="true" name="Khemrian Warsphinx" hidden="false" type="selectionEntry" id="45c5-a407-412a-ad8d1" targetId="a00b-8bf2-be9a-2da" sortIndex="1">
+                  <costs>
+                    <cost name="pts" typeId="points" value="210"/>
+                  </costs>
+                  <categoryLinks>
+                    <categoryLink name="MOUNT" hidden="false" id="dc8-7e58-4a50-355a1" targetId="c96a-608-5de4-b943" primary="false"/>
                   </categoryLinks>
                 </entryLink>
               </entryLinks>
@@ -1663,7 +1687,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="21f4-1bb5-99d5-beb3" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="90"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="c876-acfa-822-15c4" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -1922,6 +1946,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               </modifiers>
             </infoLink>
             <infoLink name="Royal Lineage" hidden="false" type="profile" id="desc-royal-lineage/tomb-king" targetId="desc-royal-lineage"/>
+            <infoLink name="Crushing Blows" hidden="false" type="profile" id="daf9-f6b5-ac71-a3e81" targetId="tk-crushing-blows"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2510,7 +2535,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             </entryLink>
             <entryLink import="true" name="Halberd" hidden="false" type="selectionEntry" id="f691-e0ab-8ce0-b43d" targetId="f0a5-1b2e-3d2b-d540" sortIndex="4">
               <costs>
-                <cost name="pts" typeId="points" value="1"/>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2519,7 +2544,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="3034-78b5-15f8-888" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10"/>
+            <cost name="pts" typeId="points" value="8"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="348e-fb87-5803-c761" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -2609,30 +2634,6 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit Options" hidden="false" id="ff26-4186-8669-f0cf" sortIndex="3">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Nehekharan Phalanx" hidden="false" id="e253-53e2-6281-a49" sortIndex="2">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22c-26f6-a105-57f7"/>
-                <constraint type="max" value="0" field="selections" scope="roster" shared="false" id="6a21-68a8-a0ee-178e" includeChildSelections="true"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Nehekharan Phalanx" hidden="false" type="profile" id="1e6-f5f-2a56-27d9" targetId="a527-88cc-ddd6-1ea0"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="increment" value="1" field="points">
-                  <repeats>
-                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" id="246c-63aa-398c-ed6f" includeChildSelections="true"/>
-                  </repeats>
-                </modifier>
-                <modifier type="increment" value="1" field="6a21-68a8-a0ee-178e">
-                  <repeats>
-                    <repeat value="1000" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" id="f79e-b7d8-4bf5-c7c4" includeChildSelections="true"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Drilled" hidden="false" id="5d8d-4b52-27b3-8215" sortIndex="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9574-2540-5f3a-c60f"/>
@@ -2669,7 +2670,8 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(1)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Cleaving Blow" hidden="false" type="profile" id="3168-b128-66b9-f7c2" targetId="e8fa-c1b8-3da7-f23d"/>
+            <infoLink name="Trained" hidden="false" id="trn/tg," type="profile" targetId="tk-trained"/>
+            <infoLink name="Killing Blow" hidden="false" id="c99b78e7-800faab5/tg," type="profile" targetId="860b-e13a-4710-9bf0"/>
             <infoLink name="Nehekharan Undead" hidden="false" type="profile" id="dbc6-80b0-15b6-e254" targetId="cc25-1643-8beb-8c64"/>
             <infoLink name="Regeneration" hidden="false" type="profile" id="d9a-2ca1-15c4-fd61" targetId="2eb0-1ec8-8e04-72d4">
               <modifiers>
@@ -2718,12 +2720,12 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             </entryLink>
             <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="bb-b85e-2ca6-7471" targetId="7cab-40e6-f134-de78" sortIndex="3">
               <costs>
-                <cost name="pts" typeId="points" value="1"/>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Thrusting Spear" hidden="false" type="selectionEntry" id="3b-15-cd0b-6fef" targetId="99d2-7f59-5c14-3bf7" sortIndex="4">
               <costs>
-                <cost name="pts" typeId="points" value="1"/>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -2732,7 +2734,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="fb5e-38ec-be15-4e34" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="4"/>
+            <cost name="pts" typeId="points" value="3"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="f01a-4a3f-9fdf-c5db" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -2927,7 +2929,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="d699-baf6-b988-305" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5"/>
+            <cost name="pts" typeId="points" value="3"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="ba9b-d21e-5d2f-49fe" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -3172,6 +3174,14 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
           </characteristics>
         </profile>
+        <profile id="giant-bow-ush" name="Giant Bow" typeId="9f84-4221-785a-db50" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range">36&quot;</characteristic>
+            <characteristic name="Strength">6</characteristic>
+            <characteristic name="AP">-2</characteristic>
+            <characteristic name="Abilities">Armor Bane (2), Multiple Wounds (2), Volley Fire, Through and Through</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Ushabti" hidden="false" id="b5f-332a-4534-1525" sortIndex="1">
@@ -3198,7 +3208,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="f0dc-39c0-bf55-2e34" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="49"/>
+            <cost name="pts" typeId="points" value="31"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Equipment" hidden="false" id="7540-38e5-afa2-b337" sortIndex="3" defaultSelectionEntryId="595e-5b1c-6179-21cb" collective="true">
@@ -3208,7 +3218,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Greatbow" hidden="false" type="selectionEntry" id="fedb-371b-153e-4240" targetId="35e3-366d-1ae2-6f00" sortIndex="1" collective="true">
+                <entryLink import="true" name="Giant Bow" hidden="false" type="selectionEntry" id="fedb-371b-153e-4240" targetId="giant-bow-ush" sortIndex="1" collective="true">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
@@ -3314,7 +3324,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="fda4-ebfa-1e45-f7e5" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="37"/>
+            <cost name="pts" typeId="points" value="20"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Ambushers" hidden="false" id="a3a9-a525-6744-5dc6" collective="true" sortIndex="2">
@@ -3379,7 +3389,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="9f48-bec2-2c8e-28ac" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="27"/>
+            <cost name="pts" typeId="points" value="22"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Monstrous Infantry" hidden="false" id="25-a7f9-5fcb-72d9" targetId="5c55-f9d6-b181-92f8" primary="false"/>
@@ -3454,7 +3464,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="ba06-caf7-2926-8a30" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="11"/>
+            <cost name="pts" typeId="points" value="7"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Chariot Runners" hidden="false" id="a4e4-3587-b5a7-c6a1" collective="true" sortIndex="4">
@@ -3639,7 +3649,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="c5-c536-fa4-a990" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="11"/>
+            <cost name="pts" typeId="points" value="7"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Heavy Cavalry" hidden="false" id="9c5b-293c-2f76-1e35" targetId="5165-d052-cfc2-5887" primary="false"/>
@@ -3858,7 +3868,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="85c8-a450-f95c-11a4" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="54"/>
+            <cost name="pts" typeId="points" value="44"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Monstrous Cavalry" hidden="false" id="d06a-f3a4-92a3-7f64" targetId="2c85-5f2b-9288-1257" primary="false"/>
@@ -3972,7 +3982,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(1)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Cleaving Blow" hidden="false" type="profile" id="4f9f-943-4885-7e59" targetId="e8fa-c1b8-3da7-f23d">
+            <infoLink name="Killing Blow" hidden="false" id="c99b78e7-800faab5/nkkb," type="profile" targetId="860b-e13a-4710-9bf0">
               <modifiers>
                 <modifier type="append" value="(Necropolis Knights &amp; Captain only)" field="name"/>
               </modifiers>
@@ -4048,7 +4058,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (50x100)" hidden="false" type="profile" id="4656-371e-734e-f266" targetId="d456-e30e-f85d-14d"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="52"/>
+            <cost name="pts" typeId="points" value="27"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Ambushers" hidden="false" id="227b-f920-d7ef-490c" collective="true" sortIndex="6">
@@ -4204,7 +4214,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <infoLink name="Swiftstride" hidden="false" type="profile" id="1d81-10d0-d855-d1a3" targetId="dc91-48b3-3696-217"/>
                 <infoLink name="Impact Hits" hidden="false" type="profile" id="5091-8f05-dccd-69f9" targetId="5c2-e9dd-2715-a0c0">
                   <modifiers>
-                    <modifier type="append" value="(D3)" field="name"/>
+                    <modifier type="append" value="(D6)" field="name"/>
                   </modifiers>
                 </infoLink>
                 <infoLink name="Open Order" hidden="false" type="profile" id="df3e-d954-c1a0-74d" targetId="5b67-8535-146c-7cea"/>
@@ -4247,7 +4257,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9773-4eed-864f-e00c" includeChildSelections="false"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="41"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4346,6 +4356,14 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
           </characteristics>
         </profile>
+        <profile id="giant-bow-necro" name="Giant Bow" typeId="9f84-4221-785a-db50" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range">48&quot;</characteristic>
+            <characteristic name="Strength">7</characteristic>
+            <characteristic name="AP">-3</characteristic>
+            <characteristic name="Abilities">Armor Bane (2), Multiple Wounds (D3), Through and Through</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Necrolith Colossus" hidden="false" id="e85a-b140-ee7-febf">
@@ -4360,13 +4378,14 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
               </constraints>
             </entryLink>
             <entryLink import="true" name="Paired Great Khopeshes" hidden="false" type="selectionEntry" id="4e3e-6b21-2c06-532f" targetId="6ed7-6877-9262-4fc2" sortIndex="2"/>
+            <entryLink import="true" name="Giant Bow" hidden="false" type="selectionEntry" id="4e3e-6b21-2c06-532f1" targetId="giant-bow-necro" sortIndex="2"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Necrolith Colossus" hidden="false" type="profile" id="d91e-730e-281e-6ed4" targetId="aaeb-9584-4fd2-94f1"/>
             <infoLink name="Base (50x50)" hidden="false" type="profile" id="cb3d-a17d-935a-b5a5" targetId="7813-4d15-143d-1bf1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="160"/>
+            <cost name="pts" typeId="points" value="210"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Behemoth" hidden="false" id="f3d6-b184-fd74-6065" targetId="3755-6732-99b2-c713" primary="false"/>
@@ -4393,7 +4412,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             </infoLink>
             <infoLink name="Stomp Attacks" hidden="false" type="profile" id="6e52-5f9e-99c9-8e8" targetId="72db-24bb-7493-d753">
               <modifiers>
-                <modifier type="append" value="(D3)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Timmm-Berrr!" hidden="false" type="profile" id="b0bc-e2f2-9129-b02e" targetId="4f28-3f86-cf88-6b3a"/>
@@ -4498,7 +4517,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             </infoLink>
             <infoLink name="Stomp Attacks" hidden="false" type="profile" id="2bde-65e6-ee07-cdff" targetId="72db-24bb-7493-d753">
               <modifiers>
-                <modifier type="append" value="(D3)" field="name"/>
+                <modifier type="append" value="(D3+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Vanguard" hidden="false" type="profile" id="781-d26b-3199-6805" targetId="691e-10ec-4f7c-a2c4"/>
@@ -4543,7 +4562,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (60x100)" hidden="false" type="profile" id="46ec-2ecc-fbd3-a402" targetId="5125-89a4-916a-eabd"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="195"/>
+            <cost name="pts" typeId="points" value="290"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Behemoth" hidden="false" id="5db3-d7f6-39b4-11a9" targetId="3755-6732-99b2-c713" primary="false"/>
@@ -4570,7 +4589,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             </infoLink>
             <infoLink name="Stomp Attacks" hidden="false" type="profile" id="53c-eee-a6f0-39c9" targetId="72db-24bb-7493-d753">
               <modifiers>
-                <modifier type="append" value="(D3+2)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Terror" hidden="false" type="profile" id="a9f8-ef19-bf80-c6fc" targetId="c7a2-35bf-4313-f4f0"/>
@@ -4607,7 +4626,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (60x100)" hidden="false" type="profile" id="d972-299a-4e70-cb39" targetId="5125-89a4-916a-eabd"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="105"/>
+            <cost name="pts" typeId="points" value="90"/>
           </costs>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Skulls of the Foe" hidden="false" id="484c-d288-2e8f-95c3" collective="true" sortIndex="2">
@@ -4615,7 +4634,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <infoLink name="Skulls of the Foe" hidden="false" type="profile" id="d236-d934-67fc-b2d8" targetId="d9e3-ed61-8048-842"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40d6-c4fa-f4f9-513a"/>
@@ -4688,7 +4707,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             <infoLink name="Base (round 50)" hidden="false" type="profile" id="4887-f250-b51d-fd41" targetId="2c87-b5d6-e13b-4082"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="135"/>
+            <cost name="pts" typeId="points" value="115"/>
           </costs>
           <categoryLinks>
             <categoryLink name="War Machine" hidden="false" id="7d7b-2c4e-13a0-1e2e" targetId="9fcf-19ad-fe84-9c61" primary="false"/>
@@ -4703,7 +4722,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
                 <modifier type="append" value="(2)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Cleaving Blow" hidden="false" type="profile" id="5262-3d71-6a6f-432c" targetId="e8fa-c1b8-3da7-f23d"/>
+            <infoLink name="Killing Blow" hidden="false" id="c99b78e7-800faab5/cos," type="profile" targetId="860b-e13a-4710-9bf0"/>
             <infoLink name="Dry as Dust" hidden="false" type="profile" id="4343-23b8-7e81-952e" targetId="ae9b-6cef-787a-da54"/>
             <infoLink name="Regeneration" hidden="false" type="profile" id="8534-12e2-4e1-c740" targetId="2eb0-1ec8-8e04-72d4">
               <modifiers>
@@ -4777,7 +4796,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         <infoLink name="Base (60x100)" hidden="false" type="profile" id="d79c-e0cc-6b2d-c3cd" targetId="5125-89a4-916a-eabd"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="210"/>
+        <cost name="pts" typeId="points" value="240"/>
       </costs>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="f664-8cda-e9eb-a1f1">
@@ -4799,7 +4818,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
             </infoLink>
             <infoLink name="Stomp Attacks" hidden="false" type="profile" id="7e3c-1493-e038-660a" targetId="72db-24bb-7493-d753">
               <modifiers>
-                <modifier type="append" value="(D3)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Terror" hidden="false" type="profile" id="bf2-c204-7eb1-2050" targetId="c7a2-35bf-4313-f4f0"/>
@@ -6165,7 +6184,7 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="118a-f2fa-c01b-267e">
           <infoLinks>
-            <infoLink name="Cleaving Blow" hidden="false" id="8dfbb9f5-162eeaeb" type="profile" targetId="e8fa-c1b8-3da7-f23d">
+            <infoLink name="Killing Blow" hidden="false" id="c99b78e7-800faab5/tgc," type="profile" targetId="860b-e13a-4710-9bf0">
               <modifiers>
                 <modifier type="append" value="(Tomb Guard Crew only)" field="name"/>
               </modifiers>
