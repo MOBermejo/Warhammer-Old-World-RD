@@ -1198,7 +1198,7 @@
     <infoLink name="Crushing Blows" hidden="false" type="profile" id="beastlord-crushing-blows" targetId="crushing-blows-profile"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Lord" hidden="false" id="beastlord-cat-lord" targetId="331e-3a37-38cb-23d2" primary="true"/>
+    <categoryLink name="Characters" hidden="false" id="beastlord-cat-characters" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="beastlord-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1391,7 +1391,7 @@
     <infoLink name="Lore of Beasts" hidden="false" type="profile" id="gbs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Lord" hidden="false" id="gbs-cat-lord" targetId="331e-3a37-38cb-23d2" primary="true"/>
+    <categoryLink name="Characters" hidden="false" id="gbs-cat-characters" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
     <categoryLink name="Wizard" hidden="false" id="gbs-cat-wizard" targetId="f954-b4c0-b835-a048" primary="false"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gbs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
@@ -1511,7 +1511,7 @@
     <infoLink name="Crushing Blows" hidden="false" type="profile" id="doombull-crushing-blows" targetId="crushing-blows-profile"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Lord" hidden="false" id="doombull-cat-lord" targetId="331e-3a37-38cb-23d2" primary="true"/>
+    <categoryLink name="Characters" hidden="false" id="doombull-cat-characters" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="doombull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -2796,7 +2796,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="bestigor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="bestigor-unit-size">
@@ -2932,7 +2932,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="minotaur-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="81"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="minotaur-unit-size">
@@ -3108,7 +3108,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="centigor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="45"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="centigor-unit-size">
@@ -3280,7 +3280,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="razorgor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="32"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="razorgor-unit-size">
@@ -3403,7 +3403,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="chaos-ogre-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="75"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="chaos-ogre-unit-size">
@@ -3565,7 +3565,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="dragon-ogre-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="117"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="dragon-ogre-unit-size">
@@ -3617,7 +3617,7 @@
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="harpy-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0"/>
+        <cost name="pts" typeId="points" value="45"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit Size" hidden="false" id="harpy-unit-size">
