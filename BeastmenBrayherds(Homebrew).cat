@@ -357,13 +357,13 @@
       </characteristics>
     </profile>
 
-    <profile name="Hunting Spear" hidden="false" id="hunting-spear-profile" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+    <profile name="Hunter's Spear" hidden="false" id="hunting-spear-profile" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">User</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Requires Two Hands</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Counts as cavalry spear. Bearer gains the Always Strikes First special rule when using this weapon.</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">+1</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Cumbersome, Multiple Wounds (2), Through and Through</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Can be shot like a Bolt Thrower, using the Through and Through special rule.</characteristic>
       </characteristics>
     </profile>
 
@@ -374,6 +374,36 @@
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The bearer gains the Hatred special rule. In addition, the bearer gains +1 Attack when using this weapon.</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Brass Cleaver" hidden="false" id="brass-cleaver-profile" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">User</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Enemy models are not permitted an Armour, Ward or Regeneration save against an attack made with this weapon.</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Axe of Men" hidden="false" id="axe-men-profile" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">+2</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-3</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Killing Blow, Requires Two Hands</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">If the wielder starts the combat phase in close combat with human enemies, they count as having succeeded their Primal Fury with a double. If the wielder kills an enemy character in a challenge, they gain the Terror special rule for the remainder of the game.</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Slaughterer's Blades" hidden="false" id="slaughterer-blades-profile" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">User</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Requires Two Hands</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Minotaur Only. Gives the wielder +1 Attack for each enemy model in base contact.</characteristic>
       </characteristics>
     </profile>
 
@@ -555,18 +585,63 @@
           </categoryLinks>
         </selectionEntry>
 
-        <selectionEntry type="upgrade" name="Hunting Spear" hidden="false" id="hunting-spear-select">
+        <selectionEntry type="upgrade" name="Hunter's Spear" hidden="false" id="hunting-spear-select">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="hunting-spear-max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Hunter's Spear" hidden="false" type="profile" id="hunting-spear-link" targetId="hunting-spear-profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Magic Weapon" hidden="false" id="hunting-spear-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
+          </categoryLinks>
+        </selectionEntry>
+
+        <selectionEntry type="upgrade" name="Brass Cleaver" hidden="false" id="brass-cleaver-select">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="brass-cleaver-max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Brass Cleaver" hidden="false" type="profile" id="brass-cleaver-link" targetId="brass-cleaver-profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Magic Weapon" hidden="false" id="brass-cleaver-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
+          </categoryLinks>
+        </selectionEntry>
+
+        <selectionEntry type="upgrade" name="Axe of Men" hidden="false" id="axe-men-select">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="axe-men-max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="25"/>
           </costs>
           <infoLinks>
-            <infoLink name="Hunting Spear" hidden="false" type="profile" id="hunting-spear-link" targetId="hunting-spear-profile"/>
+            <infoLink name="Axe of Men" hidden="false" type="profile" id="axe-men-link" targetId="axe-men-profile"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="hunting-spear-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
+            <categoryLink name="Magic Weapon" hidden="false" id="axe-men-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
+          </categoryLinks>
+        </selectionEntry>
+
+        <selectionEntry type="upgrade" name="Slaughterer's Blades" hidden="false" id="slaughterer-blades-select">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="slaughterer-blades-max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Slaughterer's Blades" hidden="false" type="profile" id="slaughterer-blades-link" targetId="slaughterer-blades-profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Magic Weapon" hidden="false" id="slaughterer-blades-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
           </categoryLinks>
         </selectionEntry>
 
