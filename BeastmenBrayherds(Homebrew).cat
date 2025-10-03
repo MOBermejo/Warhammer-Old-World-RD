@@ -1096,549 +1096,894 @@
   
   <selectionEntries>
     
-    <!-- BEASTLORD -->
-    <selectionEntry type="model" name="Beastlord" hidden="false" id="beastlord-entry" collective="false">
+    <!-- BEASTLORD - CORRECTED WITH ALL 5 MARKS, LD9 -->
+<selectionEntry type="model" name="Beastlord" hidden="false" id="beastlord-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="beastlord-max-1"/>
+  </constraints>
+  <profiles>
+    <profile name="Beastlord" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="beastlord-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="beastlord-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Bestial Charge" hidden="false" type="profile" id="beastlord-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
+    <infoLink name="Foe render" hidden="false" type="profile" id="beastlord-foe-render" targetId="31c4-f186-18ba-cd04"/>
+    <infoLink name="Crushing Blows" hidden="false" type="profile" id="beastlord-crushing-blows" targetId="crushing-blows-profile"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Lord" hidden="false" id="beastlord-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="beastlord-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="135"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Equipment" hidden="false" id="beastlord-equipment">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="beastlord-max-1"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
       </constraints>
-      <profiles>
-        <profile name="Beastlord" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="beastlord-profile-entry">
-          <characteristics>
-            <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-            <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
-            <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-            <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-            <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-            <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-            <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
-            <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-            <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Primal Fury" hidden="false" type="profile" id="beastlord-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
-        <infoLink name="Bestial Charge" hidden="false" type="profile" id="beastlord-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
-        <infoLink name="Foe render" hidden="false" type="profile" id="beastlord-foe-render" targetId="31c4-f186-18ba-cd04"/>
-        <infoLink name="Crushing Blows" hidden="false" type="profile" id="beastlord-crushing-blows" targetId="crushing-blows-profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Lord" hidden="false" id="beastlord-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="beastlord-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="135"/>
-      </costs>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Equipment" hidden="false" id="beastlord-equipment">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="beastlord-add-hw">
-              <costs>
-                <cost name="pts" typeId="points" value="3"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="beastlord-gw">
-              <costs>
-                <cost name="pts" typeId="points" value="6"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Armour" hidden="false" id="beastlord-armour">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="beastlord-light">
-              <costs>
-                <cost name="pts" typeId="points" value="2"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="beastlord-heavy">
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Shield" hidden="false" id="beastlord-shield">
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Shield" hidden="false" id="beastlord-shield-opt">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="2"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Mark of Chaos" hidden="false" id="beastlord-mark">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="beastlord-mark-undivided">
-              <costs>
-                <cost name="pts" typeId="points" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="beastlord-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" hidden="false" id="beastlord-items">
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="beastlord-magic-items" targetId="1539-fd78-88f-badd"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
-
-    <!-- GREAT BRAY-SHAMAN -->
-    <selectionEntry type="model" name="Great Bray-Shaman" hidden="false" id="great-bray-shaman-entry" collective="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="beastlord-add-hw">
+          <costs>
+            <cost name="pts" typeId="points" value="3"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="beastlord-gw">
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armour" hidden="false" id="beastlord-armour">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="great-bray-shaman-max-1"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
       </constraints>
-      <profiles>
-        <profile name="Great Bray-Shaman" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="great-bray-shaman-profile-entry">
-          <characteristics>
-            <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-            <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
-            <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-            <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-            <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-            <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-            <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-            <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-            <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Primal Fury" hidden="false" type="profile" id="gbs-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
-        <infoLink name="Braystaff" hidden="false" type="profile" id="gbs-braystaff" targetId="583e-832e-5e02-23cb"/>
-        <infoLink name="Lore of Beasts" hidden="false" type="profile" id="gbs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Lord" hidden="false" id="gbs-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
-        <categoryLink name="Wizard" hidden="false" id="gbs-cat-wizard" targetId="5f84-07c3-d44f-87ab" primary="false"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gbs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="135"/>
-      </costs>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Wizard Level" hidden="false" id="gbs-wizard-level">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="beastlord-light">
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="beastlord-heavy">
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Shield" hidden="false" id="beastlord-shield">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Shield" hidden="false" id="beastlord-shield-opt">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Wizard Level 3" hidden="false" id="gbs-level-3">
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Wizard Level 4" hidden="false" id="gbs-level-4">
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Lore of Magic" hidden="false" id="gbs-lore">
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="beastlord-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="beastlord-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="25"/>
+          </costs>
           <infoLinks>
-            <infoLink name="Lore of Beasts" hidden="false" type="infoGroup" id="gbs-lore-beasts-info" targetId="aeab-25ff-6e57-d7d3"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="beastlord-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" hidden="false" id="gbs-items">
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gbs-magic-items" targetId="1539-fd78-88f-badd"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="beastlord-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="beastlord-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="beastlord-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="beastlord-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="beastlord-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="beastlord-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="beastlord-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="beastlord-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="beastlord-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="beastlord-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
 
-    <!-- DOOMBULL -->
-    <selectionEntry type="model" name="Doombull" hidden="false" id="doombull-entry" collective="false">
+<!-- GREAT BRAY-SHAMAN - CORRECTED WITH ALL 5 MARKS -->
+<selectionEntry type="model" name="Great Bray-Shaman" hidden="false" id="great-bray-shaman-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="great-bray-shaman-max-1"/>
+  </constraints>
+  <profiles>
+    <profile name="Great Bray-Shaman" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="great-bray-shaman-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="gbs-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Braystaff" hidden="false" type="profile" id="gbs-braystaff" targetId="583e-832e-5e02-23cb"/>
+    <infoLink name="Lore of Beasts" hidden="false" type="profile" id="gbs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Lord" hidden="false" id="gbs-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
+    <categoryLink name="Wizard" hidden="false" id="gbs-cat-wizard" targetId="5f84-07c3-d44f-87ab" primary="false"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gbs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="135"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Wizard Level" hidden="false" id="gbs-wizard-level">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="doombull-max-1"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
       </constraints>
-      <profiles>
-        <profile name="Doombull" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="doombull-profile-entry">
-          <characteristics>
-            <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
-            <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
-            <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-            <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
-            <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-            <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
-            <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
-            <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
-            <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Primal Fury" hidden="false" type="profile" id="doombull-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
-        <infoLink name="Bestial Charge" hidden="false" type="profile" id="doombull-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
-        <infoLink name="Crushing Blows" hidden="false" type="profile" id="doombull-crushing-blows" targetId="crushing-blows-profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Lord" hidden="false" id="doombull-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="doombull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="225"/>
-      </costs>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Equipment" hidden="false" id="doombull-equipment">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="doombull-add-hw">
-              <costs>
-                <cost name="pts" typeId="points" value="6"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="doombull-gw">
-              <costs>
-                <cost name="pts" typeId="points" value="12"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Armour" hidden="false" id="doombull-armour">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="doombull-light">
-              <costs>
-                <cost name="pts" typeId="points" value="3"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="doombull-heavy">
-              <costs>
-                <cost name="pts" typeId="points" value="6"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Shield" hidden="false" id="doombull-shield">
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Shield" hidden="false" id="doombull-shield-opt">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="3"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Mark of Chaos" hidden="false" id="doombull-mark">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="doombull-mark-undivided">
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="doombull-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" hidden="false" id="doombull-items">
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="doombull-magic-items" targetId="1539-fd78-88f-badd"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Wizard Level 3" hidden="false" id="gbs-level-3">
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Wizard Level 4" hidden="false" id="gbs-level-4">
+          <costs>
+            <cost name="pts" typeId="points" value="35"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="gbs-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="gbs-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="25"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="gbs-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="gbs-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="gbs-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="gbs-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="gbs-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="gbs-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="gbs-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="gbs-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="gbs-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="gbs-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gbs-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
 
+<!-- DOOMBULL - CORRECTED WITH ALL 5 MARKS -->
+<selectionEntry type="model" name="Doombull" hidden="false" id="doombull-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="doombull-max-1"/>
+  </constraints>
+  <profiles>
+    <profile name="Doombull" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="doombull-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="doombull-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Bestial Charge" hidden="false" type="profile" id="doombull-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
+    <infoLink name="Crushing Blows" hidden="false" type="profile" id="doombull-crushing-blows" targetId="crushing-blows-profile"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Lord" hidden="false" id="doombull-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="doombull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="225"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Equipment" hidden="false" id="doombull-equipment">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="doombull-add-hw">
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="doombull-gw">
+          <costs>
+            <cost name="pts" typeId="points" value="12"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armour" hidden="false" id="doombull-armour">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="doombull-light">
+          <costs>
+            <cost name="pts" typeId="points" value="3"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="doombull-heavy">
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Shield" hidden="false" id="doombull-shield">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Shield" hidden="false" id="doombull-shield-opt">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="3"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="doombull-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="doombull-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="25"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="doombull-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="doombull-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="doombull-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="doombull-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="doombull-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="doombull-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="doombull-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="doombull-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="doombull-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="doombull-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="doombull-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
     <!-- ============================================ -->
     <!-- HEROES -->
     <!-- ============================================ -->
 
-    <!-- WARGOR -->
-    <selectionEntry type="model" name="Wargor" hidden="false" id="wargor-entry" collective="false">
+    <!-- WARGOR - CORRECTED WITH ALL 5 MARKS -->
+<selectionEntry type="model" name="Wargor" hidden="false" id="wargor-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="wargor-max-roster"/>
+  </constraints>
+  <profiles>
+    <profile name="Wargor" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="wargor-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="wargor-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Bestial Charge" hidden="false" type="profile" id="wargor-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
+    <infoLink name="Foe render" hidden="false" type="profile" id="wargor-foe-render" targetId="31c4-f186-18ba-cd04"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Hero" hidden="false" id="wargor-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="wargor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="50"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Equipment" hidden="false" id="wargor-equipment">
       <constraints>
-        <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="wargor-max-roster"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
       </constraints>
-      <profiles>
-        <profile name="Wargor" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="wargor-profile-entry">
-          <characteristics>
-            <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-            <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
-            <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-            <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-            <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-            <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
-            <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-            <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-            <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Primal Fury" hidden="false" type="profile" id="wargor-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
-        <infoLink name="Bestial Charge" hidden="false" type="profile" id="wargor-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
-        <infoLink name="Foe render" hidden="false" type="profile" id="wargor-foe-render" targetId="31c4-f186-18ba-cd04"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Hero" hidden="false" id="wargor-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="wargor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="50"/>
-      </costs>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Equipment" hidden="false" id="wargor-equipment">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="wargor-add-hw">
-              <costs>
-                <cost name="pts" typeId="points" value="2"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="wargor-gw">
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Armour" hidden="false" id="wargor-armour">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="wargor-light">
-              <costs>
-                <cost name="pts" typeId="points" value="1"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="wargor-heavy">
-              <costs>
-                <cost name="pts" typeId="points" value="2"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Shield" hidden="false" id="wargor-shield">
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Shield" hidden="false" id="wargor-shield-opt">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="1"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Mark of Chaos" hidden="false" id="wargor-mark">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="wargor-mark-undivided">
-              <costs>
-                <cost name="pts" typeId="points" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="wargor-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" hidden="false" id="wargor-items">
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="wargor-magic-items" targetId="1539-fd78-88f-badd"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
-
-    <!-- BRAY-SHAMAN -->
-    <selectionEntry type="model" name="Bray-Shaman" hidden="false" id="bray-shaman-entry" collective="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="wargor-add-hw">
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="wargor-gw">
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armour" hidden="false" id="wargor-armour">
       <constraints>
-        <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="bray-shaman-max-roster"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
       </constraints>
-      <profiles>
-        <profile name="Bray-Shaman" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="bray-shaman-profile-entry">
-          <characteristics>
-            <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-            <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
-            <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-            <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
-            <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-            <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
-            <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
-            <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-            <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Primal Fury" hidden="false" type="profile" id="bs-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
-        <infoLink name="Braystaff" hidden="false" type="profile" id="bs-braystaff" targetId="583e-832e-5e02-23cb"/>
-        <infoLink name="Lore of Beasts" hidden="false" type="profile" id="bs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Hero" hidden="false" id="bs-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
-        <categoryLink name="Wizard" hidden="false" id="bs-cat-wizard" targetId="5f84-07c3-d44f-87ab" primary="false"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="bs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="80"/>
-      </costs>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Wizard Level" hidden="false" id="bs-wizard-level">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="wargor-light">
+          <costs>
+            <cost name="pts" typeId="points" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="wargor-heavy">
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Shield" hidden="false" id="wargor-shield">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Shield" hidden="false" id="wargor-shield-opt">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Wizard Level 1" hidden="false" id="bs-level-1">
-              <costs>
-                <cost name="pts" typeId="points" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Wizard Level 2" hidden="false" id="bs-level-2">
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Lore of Magic" hidden="false" id="bs-lore">
+          <costs>
+            <cost name="pts" typeId="points" value="1"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="wargor-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="wargor-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
           <infoLinks>
-            <infoLink name="Lore of Beasts" hidden="false" type="infoGroup" id="bs-lore-beasts-info" targetId="aeab-25ff-6e57-d7d3"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="wargor-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" hidden="false" id="bs-items">
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="bs-magic-items" targetId="1539-fd78-88f-badd"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="wargor-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="wargor-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="wargor-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="wargor-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="wargor-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="wargor-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="wargor-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="wargor-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="wargor-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="wargor-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
 
-    <!-- GOREBULL -->
-    <selectionEntry type="model" name="Gorebull" hidden="false" id="gorebull-entry" collective="false">
+<!-- CENTIGOR CHIEFTAIN - CORRECTED WITH ALL 5 MARKS -->
+<selectionEntry type="model" name="Centigor Chieftain" hidden="false" id="centigor-chieftain-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="centigor-chieftain-max-roster"/>
+  </constraints>
+  <profiles>
+    <profile name="Centigor Chieftain" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="centigor-chieftain-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="centi-chief-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Bestial Charge" hidden="false" type="profile" id="centi-chief-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
+    <infoLink name="Crushing Blows" hidden="false" type="profile" id="centi-chief-crushing-blows" targetId="crushing-blows-profile"/>
+    <infoLink name="Drunken" hidden="false" type="profile" id="centi-chief-drunken" targetId="drunken-profile"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Hero" hidden="false" id="centi-chief-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="centi-chief-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="85"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Equipment" hidden="false" id="centi-chief-equipment">
       <constraints>
-        <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="gorebull-max-roster"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
       </constraints>
-      <profiles>
-        <profile name="Gorebull" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="gorebull-profile-entry">
-          <characteristics>
-            <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
-            <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
-            <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-            <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-            <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-            <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
-            <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-            <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-            <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Primal Fury" hidden="false" type="profile" id="gorebull-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
-        <infoLink name="Bestial Charge" hidden="false" type="profile" id="gorebull-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
-        <infoLink name="Crushing Blows" hidden="false" type="profile" id="gorebull-crushing-blows" targetId="crushing-blows-profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink name="Hero" hidden="false" id="gorebull-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gorebull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="115"/>
-      </costs>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Equipment" hidden="false" id="gorebull-equipment">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="centi-chief-add-hw">
+          <costs>
+            <cost name="pts" typeId="points" value="3"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="centi-chief-gw">
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armour" hidden="false" id="centi-chief-armour">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="centi-chief-light">
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="centi-chief-heavy">
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Shield" hidden="false" id="centi-chief-shield">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Shield" hidden="false" id="centi-chief-shield-opt">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="gorebull-add-hw">
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="gorebull-gw">
-              <costs>
-                <cost name="pts" typeId="points" value="8"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Armour" hidden="false" id="gorebull-armour">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="gorebull-light">
-              <costs>
-                <cost name="pts" typeId="points" value="2"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="gorebull-heavy">
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Shield" hidden="false" id="gorebull-shield">
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Shield" hidden="false" id="gorebull-shield-opt">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="2"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Mark of Chaos" hidden="false" id="gorebull-mark">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="gorebull-mark-undivided">
-              <costs>
-                <cost name="pts" typeId="points" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="gorebull-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" hidden="false" id="gorebull-items">
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gorebull-magic-items" targetId="1539-fd78-88f-badd"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="centi-chief-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="centi-chief-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="centi-chief-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="centi-chief-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="centi-chief-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="centi-chief-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="centi-chief-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="centi-chief-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="centi-chief-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="centi-chief-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="centi-chief-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="centi-chief-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="centi-chief-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
 
+<!-- BRAY-SHAMAN - CORRECTED WITH ALL 5 MARKS -->
+<selectionEntry type="model" name="Bray-Shaman" hidden="false" id="bray-shaman-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="bray-shaman-max-roster"/>
+  </constraints>
+  <profiles>
+    <profile name="Bray-Shaman" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="bray-shaman-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="bs-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Braystaff" hidden="false" type="profile" id="bs-braystaff" targetId="583e-832e-5e02-23cb"/>
+    <infoLink name="Lore of Beasts" hidden="false" type="profile" id="bs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Hero" hidden="false" id="bs-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Wizard" hidden="false" id="bs-cat-wizard" targetId="5f84-07c3-d44f-87ab" primary="false"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="bs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="80"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Wizard Level" hidden="false" id="bs-wizard-level">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Wizard Level 1" hidden="false" id="bs-level-1">
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Wizard Level 2" hidden="false" id="bs-level-2">
+          <costs>
+            <cost name="pts" typeId="points" value="25"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="bs-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="bs-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="bs-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="bs-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="bs-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="bs-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="bs-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="bs-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="bs-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="bs-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="bs-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="bs-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="bs-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
+
+<!-- GOREBULL - CORRECTED WITH ALL 5 MARKS -->
+<selectionEntry type="model" name="Gorebull" hidden="false" id="gorebull-entry" collective="false">
+  <constraints>
+    <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="gorebull-max-roster"/>
+  </constraints>
+  <profiles>
+    <profile name="Gorebull" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="gorebull-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <infoLinks>
+    <infoLink name="Primal Fury" hidden="false" type="profile" id="gorebull-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
+    <infoLink name="Bestial Charge" hidden="false" type="profile" id="gorebull-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
+    <infoLink name="Crushing Blows" hidden="false" type="profile" id="gorebull-crushing-blows" targetId="crushing-blows-profile"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink name="Hero" hidden="false" id="gorebull-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gorebull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="115"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Equipment" hidden="false" id="gorebull-equipment">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="gorebull-add-hw">
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="gorebull-gw">
+          <costs>
+            <cost name="pts" typeId="points" value="8"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armour" hidden="false" id="gorebull-armour">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Light Armour" hidden="false" id="gorebull-light">
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Heavy Armour" hidden="false" id="gorebull-heavy">
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Shield" hidden="false" id="gorebull-shield">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Shield" hidden="false" id="gorebull-shield-opt">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="gorebull-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Chaos Undivided" hidden="false" id="gorebull-mark-undivided">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="gorebull-mark-undivided-link" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="gorebull-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="gorebull-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="gorebull-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="gorebull-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="gorebull-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="gorebull-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="gorebull-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="gorebull-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="gorebull-items">
+      <entryLinks>
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gorebull-magic-items" targetId="1539-fd78-88f-badd"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+</selectionEntry>
     <!-- CHAOS WARHOUNDS -->
     <selectionEntry type="unit" name="Chaos Warhounds" hidden="false" id="chaos-warhounds-entry" collective="false">
       <profiles>
@@ -3229,3 +3574,4 @@
 
 </catalogue>
 </catalogue>
+
