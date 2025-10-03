@@ -1244,7 +1244,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="beastlord-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="beastlord-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="beastlord-magic-items" targetId="1539-fd78-88f-badd" sortIndex="8">
           <constraints>
             <constraint type="max" value="100" field="points" scope="parent" shared="false" id="beastlord-magic-100pts"/>
           </constraints>
@@ -1390,7 +1390,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="gbs-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gbs-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gbs-magic-items" targetId="1539-fd78-88f-badd" sortIndex="10">
           <constraints>
             <constraint type="max" value="100" field="points" scope="parent" shared="false" id="gbs-magic-100pts"/>
           </constraints>
@@ -1541,7 +1541,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="doombull-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="doombull-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="doombull-magic-items" targetId="1539-fd78-88f-badd" sortIndex="8">
           <constraints>
             <constraint type="max" value="100" field="points" scope="parent" shared="false" id="doombull-magic-100pts"/>
           </constraints>
@@ -1695,7 +1695,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="wargor-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="wargor-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="wargor-magic-items" targetId="1539-fd78-88f-badd" sortIndex="8">
           <constraints>
             <constraint type="max" value="50" field="points" scope="parent" shared="false" id="wargor-magic-50pts"/>
           </constraints>
@@ -1847,7 +1847,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="centi-chief-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="centi-chief-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="centi-chief-magic-items" targetId="1539-fd78-88f-badd" sortIndex="8">
           <constraints>
             <constraint type="max" value="50" field="points" scope="parent" shared="false" id="centi-chief-magic-50pts"/>
           </constraints>
@@ -1971,7 +1971,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="bs-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="bs-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="bs-magic-items" targetId="1539-fd78-88f-badd" sortIndex="8">
           <constraints>
             <constraint type="max" value="50" field="points" scope="parent" shared="false" id="bs-magic-50pts"/>
           </constraints>
@@ -2122,7 +2122,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Items" hidden="false" id="gorebull-items">
       <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gorebull-magic-items" targetId="1539-fd78-88f-badd">
+        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gorebull-magic-items" targetId="1539-fd78-88f-badd" sortIndex="8">
           <constraints>
             <constraint type="max" value="50" field="points" scope="parent" shared="false" id="gorebull-magic-50pts"/>
           </constraints>
