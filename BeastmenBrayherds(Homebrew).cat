@@ -562,9 +562,6 @@
           <infoLinks>
             <infoLink name="Axes of Khorgor" hidden="false" type="profile" id="axes-khorgor-link" targetId="axes-khorgor-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="axes-khorgor-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Herdstone Axe" hidden="false" id="herdstone-axe-select">
@@ -577,9 +574,6 @@
           <infoLinks>
             <infoLink name="Herdstone Axe" hidden="false" type="profile" id="herdstone-axe-link" targetId="herdstone-axe-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="herdstone-axe-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Hunter's Spear" hidden="false" id="hunting-spear-select">
@@ -592,9 +586,6 @@
           <infoLinks>
             <infoLink name="Hunter's Spear" hidden="false" type="profile" id="hunting-spear-link" targetId="hunting-spear-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="hunting-spear-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Brass Cleaver" hidden="false" id="brass-cleaver-select">
@@ -607,9 +598,6 @@
           <infoLinks>
             <infoLink name="Brass Cleaver" hidden="false" type="profile" id="brass-cleaver-link" targetId="brass-cleaver-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="brass-cleaver-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Axe of Men" hidden="false" id="axe-men-select">
@@ -622,9 +610,6 @@
           <infoLinks>
             <infoLink name="Axe of Men" hidden="false" type="profile" id="axe-men-link" targetId="axe-men-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="axe-men-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Slaughterer's Blades" hidden="false" id="slaughterer-blades-select">
@@ -637,9 +622,6 @@
           <infoLinks>
             <infoLink name="Slaughterer's Blades" hidden="false" type="profile" id="slaughterer-blades-link" targetId="slaughterer-blades-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="slaughterer-blades-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Blade of the Beastlord" hidden="false" id="blade-beastlord-select">
@@ -652,9 +634,6 @@
           <infoLinks>
             <infoLink name="Blade of the Beastlord" hidden="false" type="profile" id="blade-beastlord-link" targetId="blade-beastlord-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="blade-beastlord-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <!-- Magic Armour -->
@@ -680,9 +659,6 @@
           <infoLinks>
             <infoLink name="Festerpelt" hidden="false" type="profile" id="festerpelt-link" targetId="festerpelt-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Armour" hidden="false" id="festerpelt-cat" targetId="a0af-8df0-e3f6-4344" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Ramhorn Helm" hidden="false" id="ramhorn-helm-select">
@@ -695,9 +671,6 @@
           <infoLinks>
             <infoLink name="Ramhorn Helm" hidden="false" type="profile" id="ramhorn-helm-link" targetId="ramhorn-helm-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Armour" hidden="false" id="ramhorn-helm-cat" targetId="a0af-8df0-e3f6-4344" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <!-- Talismans -->
@@ -723,9 +696,6 @@
           <infoLinks>
             <infoLink name="Blackened Talisman of Chaos" hidden="false" type="profile" id="blackened-talisman-link" targetId="blackened-talisman-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Talisman" hidden="false" id="blackened-talisman-cat" targetId="0bba-327e-5e65-4c34" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Eye of the Night" hidden="false" id="eye-night-select">
@@ -738,9 +708,6 @@
           <infoLinks>
             <infoLink name="Eye of the Night" hidden="false" type="profile" id="eye-night-link" targetId="eye-night-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Talisman" hidden="false" id="eye-night-cat" targetId="0bba-327e-5e65-4c34" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <!-- Enchanted Items -->
@@ -766,9 +733,6 @@
           <infoLinks>
             <infoLink name="Horns of the First Beast" hidden="false" type="profile" id="horns-firstbeast-link" targetId="horns-firstbeast-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Enchanted Item" hidden="false" id="horns-firstbeast-cat" targetId="5d39-0051-3445-cae8" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Brayblast Trumpet" hidden="false" id="brayblast-trumpet-select">
@@ -781,9 +745,6 @@
           <infoLinks>
             <infoLink name="Brayblast Trumpet" hidden="false" type="profile" id="brayblast-trumpet-link" targetId="brayblast-trumpet-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Enchanted Item" hidden="false" id="brayblast-trumpet-cat" targetId="5d39-0051-3445-cae8" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Dark Heart" hidden="false" id="dark-heart-select">
@@ -796,9 +757,6 @@
           <infoLinks>
             <infoLink name="Dark Heart" hidden="false" type="profile" id="dark-heart-link" targetId="dark-heart-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Enchanted Item" hidden="false" id="dark-heart-cat" targetId="5d39-0051-3445-cae8" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Stone of Spite" hidden="false" id="stone-spite-select">
@@ -811,9 +769,6 @@
           <infoLinks>
             <infoLink name="Stone of Spite" hidden="false" type="profile" id="stone-spite-link" targetId="stone-spite-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Enchanted Item" hidden="false" id="stone-spite-cat" targetId="5d39-0051-3445-cae8" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Skin of Man" hidden="false" id="skin-man-select">
@@ -826,9 +781,6 @@
           <infoLinks>
             <infoLink name="Skin of Man" hidden="false" type="profile" id="skin-man-link" targetId="skin-man-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Enchanted Item" hidden="false" id="skin-man-cat" targetId="5d39-0051-3445-cae8" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <!-- Arcane Items -->
@@ -854,9 +806,6 @@
           <infoLinks>
             <infoLink name="Gnarlstaff" hidden="false" type="profile" id="gnarlstaff-link" targetId="gnarlstaff-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Arcane Item" hidden="false" id="gnarlstaff-cat" targetId="ef9b-9fc6-49c2-f5b4" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Hagtree Fetish" hidden="false" id="hagtree-fetish-select">
@@ -869,9 +818,6 @@
           <infoLinks>
             <infoLink name="Hagtree Fetish" hidden="false" type="profile" id="hagtree-fetish-link" targetId="hagtree-fetish-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Arcane Item" hidden="false" id="hagtree-fetish-cat" targetId="ef9b-9fc6-49c2-f5b4" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
       </selectionEntries>
@@ -903,9 +849,6 @@
           <infoLinks>
             <infoLink name="Manbane Standard" hidden="false" type="profile" id="manbane-standard-link" targetId="manbane-standard-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Standard" hidden="false" id="manbane-standard-cat" targetId="f0d8-47c8-a3e3-67bf" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Totem of Rust" hidden="false" id="totem-rust-select">
@@ -918,9 +861,6 @@
           <infoLinks>
             <infoLink name="Totem of Rust" hidden="false" type="profile" id="totem-rust-link" targetId="totem-rust-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Standard" hidden="false" id="totem-rust-cat" targetId="f0d8-47c8-a3e3-67bf" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Gore Banner" hidden="false" id="gore-banner-select">
@@ -933,9 +873,6 @@
           <infoLinks>
             <infoLink name="Gore Banner" hidden="false" type="profile" id="gore-banner-link" targetId="gore-banner-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Standard" hidden="false" id="gore-banner-cat" targetId="f0d8-47c8-a3e3-67bf" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Banner of Outrage" hidden="false" id="banner-outrage-select">
@@ -948,9 +885,6 @@
           <infoLinks>
             <infoLink name="Banner of Outrage" hidden="false" type="profile" id="banner-outrage-link" targetId="banner-outrage-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Standard" hidden="false" id="banner-outrage-cat" targetId="f0d8-47c8-a3e3-67bf" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
       </selectionEntries>
@@ -2225,12 +2159,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional Models" hidden="false" id="warhound-additional-models">
+          <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Chaos Warhound" hidden="false" id="warhound-additional">
               <costs>
                 <cost name="pts" typeId="points" value="5"/>
               </costs>
               <constraints>
-                <constraint type="max" value="-1" field="selections" scope="parent" shared="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -2311,12 +2249,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional Models" hidden="false" id="gor-additional-models">
+          <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Gor" hidden="false" id="gor-additional">
               <costs>
                 <cost name="pts" typeId="points" value="7"/>
               </costs>
               <constraints>
-                <constraint type="max" value="-1" field="selections" scope="parent" shared="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -2500,12 +2442,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional Models" hidden="false" id="ungor-additional-models">
+          <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Ungor" hidden="false" id="ungor-additional">
               <costs>
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <constraints>
-                <constraint type="max" value="-1" field="selections" scope="parent" shared="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -2675,12 +2621,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional Models" hidden="false" id="ungor-raiders-additional-models">
+          <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Ungor Raider" hidden="false" id="ungor-raiders-additional">
               <costs>
                 <cost name="pts" typeId="points" value="6"/>
               </costs>
               <constraints>
-                <constraint type="max" value="-1" field="selections" scope="parent" shared="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
