@@ -550,9 +550,6 @@
           <infoLinks>
             <infoLink name="Primeval Club" hidden="false" type="profile" id="primeval-club-link" targetId="primeval-club-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Weapon" hidden="false" id="primeval-club-cat" targetId="d7c7-c6bb-2da4-66c0" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Axes of Khorgor" hidden="false" id="axes-khorgor-select">
@@ -671,9 +668,6 @@
           <infoLinks>
             <infoLink name="Brass Armour" hidden="false" type="profile" id="brass-armour-link" targetId="brass-armour-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Armour" hidden="false" id="brass-armour-cat" targetId="a0af-8df0-e3f6-4344" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Festerpelt" hidden="false" id="festerpelt-select">
@@ -717,9 +711,6 @@
           <infoLinks>
             <infoLink name="Shadowgave Furs" hidden="false" type="profile" id="shadowgave-furs-link" targetId="shadowgave-furs-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Talisman" hidden="false" id="shadowgave-furs-cat" targetId="0bba-327e-5e65-4c34" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Blackened Talisman of Chaos" hidden="false" id="blackened-talisman-select">
@@ -763,9 +754,6 @@
           <infoLinks>
             <infoLink name="Chalice of Dark Rain" hidden="false" type="profile" id="chalice-darkrain-link" targetId="chalice-darkrain-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Enchanted Item" hidden="false" id="chalice-darkrain-cat" targetId="5d39-0051-3445-cae8" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Horns of the First Beast" hidden="false" id="horns-firstbeast-select">
@@ -854,9 +842,6 @@
           <infoLinks>
             <infoLink name="Shard of the Herdstone" hidden="false" type="profile" id="shard-herdstone-link" targetId="shard-herdstone-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Arcane Item" hidden="false" id="shard-herdstone-cat" targetId="ef9b-9fc6-49c2-f5b4" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Gnarlstaff" hidden="false" id="gnarlstaff-select">
@@ -906,9 +891,6 @@
           <infoLinks>
             <infoLink name="Rampaging Banner" hidden="false" type="profile" id="rampaging-banner-link" targetId="rampaging-banner-profile"/>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Magic Standard" hidden="false" id="rampaging-banner-cat" targetId="f0d8-47c8-a3e3-67bf" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
 
         <selectionEntry type="upgrade" name="Manbane Standard" hidden="false" id="manbane-standard-select">
@@ -2813,12 +2795,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional Models" hidden="false" id="bestigor-additional-models">
+          <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Bestigor" hidden="false" id="bestigor-additional">
               <costs>
                 <cost name="pts" typeId="points" value="11"/>
               </costs>
               <constraints>
-                <constraint type="max" value="-1" field="selections" scope="parent" shared="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -2949,12 +2935,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Additional Models" hidden="false" id="minotaur-additional-models">
+          <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Minotaur" hidden="false" id="minotaur-additional">
               <costs>
                 <cost name="pts" typeId="points" value="27"/>
               </costs>
               <constraints>
-                <constraint type="max" value="-1" field="selections" scope="parent" shared="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
