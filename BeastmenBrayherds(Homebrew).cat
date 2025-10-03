@@ -3717,6 +3717,76 @@
       </selectionEntryGroups>
     </selectionEntry>
 
+<!-- CYGOR -->
+<selectionEntry type="unit" name="Cygor" hidden="false" id="cygor-entry" collective="false">
+  <profiles>
+    <profile name="Cygor" hidden="false" typeId="b070-143a-73f-2772" typeName="Model" id="cygor-profile-entry">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <categoryLinks>
+    <categoryLink name="Rare" hidden="false" id="cygor-cat-rare" targetId="2bfe-5863-46fe-d284" primary="true"/>
+    <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cygor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="points" value="210"/>
+  </costs>
+  <selectionEntryGroups>
+    <selectionEntryGroup name="Marks of Chaos" hidden="false" id="cygor-mark">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="cygor-mark-khorne">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="cygor-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="cygor-mark-nurgle">
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="cygor-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="cygor-mark-slaanesh">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="cygor-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="cygor-mark-tzeentch">
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="cygor-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <infoLinks>
+    <infoLink name="Bestial Charge" hidden="false" type="profile" id="cygor-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
+  </infoLinks>
+</selectionEntry>
+
   <!-- ============================================ -->
   <!-- FORCE ENTRIES - ORGANIZES UNITS INTO CATEGORIES -->
   <!-- ============================================ -->
