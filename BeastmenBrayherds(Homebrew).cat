@@ -3801,6 +3801,36 @@
         <categoryLink id="beastmen-cat-rare" name="Rare" hidden="false" targetId="2bfe-5863-46fe-d284" primary="false"/>
         <categoryLink id="beastmen-cat-wizard" name="Wizard" hidden="false" targetId="f954-b4c0-b835-a048" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <!-- Lords -->
+        <entryLink import="true" name="Beastlord" hidden="false" type="selectionEntry" id="force-beastlord" targetId="beastlord-entry"/>
+        <entryLink import="true" name="Great Bray-Shaman" hidden="false" type="selectionEntry" id="force-great-bray-shaman" targetId="great-bray-shaman-entry"/>
+        <entryLink import="true" name="Doombull" hidden="false" type="selectionEntry" id="force-doombull" targetId="doombull-entry"/>
+        <!-- Heroes -->
+        <entryLink import="true" name="Wargor" hidden="false" type="selectionEntry" id="force-wargor" targetId="wargor-entry"/>
+        <entryLink import="true" name="Bray-Shaman" hidden="false" type="selectionEntry" id="force-bray-shaman" targetId="bray-shaman-entry"/>
+        <entryLink import="true" name="Gorebull" hidden="false" type="selectionEntry" id="force-gorebull" targetId="gorebull-entry"/>
+        <entryLink import="true" name="Centigor Chieftain" hidden="false" type="selectionEntry" id="force-centigor-chieftain" targetId="centigor-chieftain-entry"/>
+        <!-- Core -->
+        <entryLink import="true" name="Chaos Warhounds" hidden="false" type="selectionEntry" id="force-chaos-warhounds" targetId="chaos-warhounds-entry"/>
+        <entryLink import="true" name="Gor Herds" hidden="false" type="selectionEntry" id="force-gor-herds" targetId="gor-herds-entry"/>
+        <entryLink import="true" name="Ungor Herds" hidden="false" type="selectionEntry" id="force-ungor-herds" targetId="ungor-herds-entry"/>
+        <entryLink import="true" name="Ungor Raiders" hidden="false" type="selectionEntry" id="force-ungor-raiders" targetId="ungor-raiders-entry"/>
+        <!-- Special -->
+        <entryLink import="true" name="Bestigor Herds" hidden="false" type="selectionEntry" id="force-bestigor-herds" targetId="bestigor-herds-entry"/>
+        <entryLink import="true" name="Minotaur Herds" hidden="false" type="selectionEntry" id="force-minotaur-herds" targetId="minotaur-herds-entry"/>
+        <entryLink import="true" name="Centigor Herds" hidden="false" type="selectionEntry" id="force-centigor-herds" targetId="centigor-herds-entry"/>
+        <entryLink import="true" name="Razorgor Herds" hidden="false" type="selectionEntry" id="force-razorgor-herds" targetId="razorgor-herds-entry"/>
+        <entryLink import="true" name="Tuskgor Chariots" hidden="false" type="selectionEntry" id="force-tuskgor-chariots" targetId="tuskgor-chariot-entry"/>
+        <entryLink import="true" name="Chaos Ogres" hidden="false" type="selectionEntry" id="force-chaos-ogres" targetId="chaos-ogres-entry"/>
+        <entryLink import="true" name="Dragon Ogres" hidden="false" type="selectionEntry" id="force-dragon-ogres" targetId="dragon-ogres-entry"/>
+        <entryLink import="true" name="Harpies" hidden="false" type="selectionEntry" id="force-harpies" targetId="harpies-entry"/>
+        <entryLink import="true" name="Cockatrice" hidden="false" type="selectionEntry" id="force-cockatrice" targetId="cockatrice-entry"/>
+        <!-- Rare -->
+        <entryLink import="true" name="Chaos Giant" hidden="false" type="selectionEntry" id="force-chaos-giant" targetId="chaos-giant-entry"/>
+        <entryLink import="true" name="Chaos Spawn" hidden="false" type="selectionEntry" id="force-chaos-spawn" targetId="chaos-spawn-entry"/>
+        <entryLink import="true" name="Cygor" hidden="false" type="selectionEntry" id="force-cygor" targetId="cygor-entry"/>
+      </entryLinks>
     </forceEntry>
   </forceEntries>
 </catalogue>
