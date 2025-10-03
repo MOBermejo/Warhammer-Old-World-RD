@@ -3716,4 +3716,21 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+
+  <!-- ============================================ -->
+  <!-- FORCE ENTRIES - ORGANIZES UNITS INTO CATEGORIES -->
+  <!-- ============================================ -->
+  
+  <forceEntries>
+    <forceEntry id="beastmen-force" name="Beastmen Brayherds (Homebrew)">
+      <categoryLinks>
+        <categoryLink id="beastmen-cat-lord" name="Lord" hidden="false" targetId="331e-3a37-38cb-23d2" primary="false"/>
+        <categoryLink id="beastmen-cat-hero" name="Hero" hidden="false" targetId="a4cc-15c9-cfae-1b3b" primary="false"/>
+        <categoryLink id="beastmen-cat-core" name="Core" hidden="false" targetId="f0e3-2e32-8866-ea32" primary="false"/>
+        <categoryLink id="beastmen-cat-special" name="Special" hidden="false" targetId="633f-f67a-1b6a-d203" primary="false"/>
+        <categoryLink id="beastmen-cat-rare" name="Rare" hidden="false" targetId="2bfe-5863-46fe-d284" primary="false"/>
+        <categoryLink id="beastmen-cat-wizard" name="Wizard" hidden="false" targetId="f954-b4c0-b835-a048" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
 </catalogue>
