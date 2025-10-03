@@ -199,7 +199,7 @@
 
     <profile name="Mark of Chaos Undivided" hidden="false" id="595-bbd0-34c7-e601" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Chaos Undivided can re-roll any failed Fear, Panic or Terror tests.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Chaos Undivided can re-roll any failed Fear, Panic or Terror tests. Any units with the Mark of Chaos Undivided can swap their Mark for another by paying the appropriate cost (Characters, Behemoths, Monstrous Creatures, Chariots/Price per model). A character with a Mark of Chaos cannot join a unit that has a different Mark of Chaos. Each model in a unit must have the same Mark.</characteristic>
       </characteristics>
     </profile>
     
@@ -1123,7 +1123,7 @@
     <infoLink name="Crushing Blows" hidden="false" type="profile" id="beastlord-crushing-blows" targetId="crushing-blows-profile"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Lord" hidden="false" id="beastlord-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
+    <categoryLink name="Lord" hidden="false" id="beastlord-cat-lord" targetId="331e-3a37-38cb-23d2" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="beastlord-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1142,7 +1142,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="beastlord-gw">
           <costs>
-            <cost name="pts" typeId="points" value="6"/>
+            <cost name="pts" typeId="points" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1172,6 +1172,30 @@
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Other" hidden="false" id="beastlord-other">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Ambushers" hidden="false" id="beastlord-ambushers">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Command" hidden="false" id="beastlord-command">
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="General" hidden="false" id="beastlord-general">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1228,6 +1252,41 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="beastlord-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="beastlord-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="beastlord-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="beastlord-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="beastlord-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="beastlord-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="beastlord-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="beastlord-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="beastlord-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="beastlord-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="beastlord-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mount" hidden="false" id="beastlord-mount">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="(None)" hidden="false" id="beastlord-mount-none">
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Tuskgor Chariot" hidden="false" id="beastlord-mount-tuskgor">
+          <costs>
+            <cost name="pts" typeId="points" value="90"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Razorgor Chariot" hidden="false" id="beastlord-mount-razorgor">
+          <costs>
+            <cost name="pts" typeId="points" value="120"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
 
@@ -1257,8 +1316,8 @@
     <infoLink name="Lore of Beasts" hidden="false" type="profile" id="gbs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Lord" hidden="false" id="gbs-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
-    <categoryLink name="Wizard" hidden="false" id="gbs-cat-wizard" targetId="5f84-07c3-d44f-87ab" primary="false"/>
+    <categoryLink name="Lord" hidden="false" id="gbs-cat-lord" targetId="331e-3a37-38cb-23d2" primary="true"/>
+    <categoryLink name="Wizard" hidden="false" id="gbs-cat-wizard" targetId="f954-b4c0-b835-a048" primary="false"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gbs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1335,6 +1394,19 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gbs-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="gbs-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="gbs-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="gbs-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="gbs-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="gbs-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="gbs-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="gbs-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="gbs-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="gbs-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="gbs-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
 
@@ -1364,7 +1436,7 @@
     <infoLink name="Crushing Blows" hidden="false" type="profile" id="doombull-crushing-blows" targetId="crushing-blows-profile"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Lord" hidden="false" id="doombull-cat-lord" targetId="8d07-1b6e-5a6c-4b8b" primary="true"/>
+    <categoryLink name="Lord" hidden="false" id="doombull-cat-lord" targetId="331e-3a37-38cb-23d2" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="doombull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1378,12 +1450,12 @@
       <selectionEntries>
         <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="doombull-add-hw">
           <costs>
-            <cost name="pts" typeId="points" value="6"/>
+            <cost name="pts" typeId="points" value="3"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="doombull-gw">
           <costs>
-            <cost name="pts" typeId="points" value="12"/>
+            <cost name="pts" typeId="points" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1469,6 +1541,19 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="doombull-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="doombull-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="doombull-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="doombull-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="doombull-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="doombull-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="doombull-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="doombull-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="doombull-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="doombull-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="doombull-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
     <!-- ============================================ -->
@@ -1501,7 +1586,7 @@
     <infoLink name="Foe render" hidden="false" type="profile" id="wargor-foe-render" targetId="31c4-f186-18ba-cd04"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Hero" hidden="false" id="wargor-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Hero" hidden="false" id="wargor-cat-hero" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="wargor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1606,6 +1691,19 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="wargor-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="wargor-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="wargor-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="wargor-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="wargor-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="wargor-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="wargor-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="wargor-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="wargor-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="wargor-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="wargor-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
 
@@ -1636,7 +1734,7 @@
     <infoLink name="Drunken" hidden="false" type="profile" id="centi-chief-drunken" targetId="drunken-profile"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Hero" hidden="false" id="centi-chief-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Hero" hidden="false" id="centi-chief-cat-hero" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="centi-chief-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1741,6 +1839,19 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="centi-chief-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="centi-chief-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="centi-chief-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="centi-chief-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="centi-chief-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="centi-chief-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="centi-chief-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="centi-chief-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="centi-chief-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="centi-chief-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="centi-chief-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
 
@@ -1770,8 +1881,8 @@
     <infoLink name="Lore of Beasts" hidden="false" type="profile" id="bs-lore-beasts" targetId="6419-d95f-555e-16b9"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Hero" hidden="false" id="bs-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
-    <categoryLink name="Wizard" hidden="false" id="bs-cat-wizard" targetId="5f84-07c3-d44f-87ab" primary="false"/>
+    <categoryLink name="Hero" hidden="false" id="bs-cat-hero" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
+    <categoryLink name="Wizard" hidden="false" id="bs-cat-wizard" targetId="f954-b4c0-b835-a048" primary="false"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="bs-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1848,6 +1959,19 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="bs-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="bs-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="bs-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="bs-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="bs-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="bs-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="bs-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="bs-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="bs-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="bs-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="bs-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
 
@@ -1877,7 +2001,7 @@
     <infoLink name="Crushing Blows" hidden="false" type="profile" id="gorebull-crushing-blows" targetId="crushing-blows-profile"/>
   </infoLinks>
   <categoryLinks>
-    <categoryLink name="Hero" hidden="false" id="gorebull-cat-hero" targetId="cc0c-4638-73ab-6fd9" primary="true"/>
+    <categoryLink name="Hero" hidden="false" id="gorebull-cat-hero" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
     <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gorebull-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
   </categoryLinks>
   <costs>
@@ -1891,12 +2015,12 @@
       <selectionEntries>
         <selectionEntry type="upgrade" name="Additional Hand Weapon" hidden="false" id="gorebull-add-hw">
           <costs>
-            <cost name="pts" typeId="points" value="4"/>
+            <cost name="pts" typeId="points" value="3"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" name="Great Weapon" hidden="false" id="gorebull-gw">
           <costs>
-            <cost name="pts" typeId="points" value="8"/>
+            <cost name="pts" typeId="points" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1982,6 +2106,19 @@
         <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gorebull-magic-items" targetId="1539-fd78-88f-badd"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="gorebull-gifts">
+      <entryLinks>
+        <entryLink import="true" name="Uncanny Senses" hidden="false" type="selectionEntry" id="gorebull-gift-unse" targetId="unse-select-aaaa"/>
+        <entryLink import="true" name="Gnarled Hide" hidden="false" type="selectionEntry" id="gorebull-gift-gnhi" targetId="gnhi-select-bbbb"/>
+        <entryLink import="true" name="Gouge-Tusks" hidden="false" type="selectionEntry" id="gorebull-gift-gtsk" targetId="gtsk-select-cccc"/>
+        <entryLink import="true" name="Many-Limbed Fiend" hidden="false" type="selectionEntry" id="gorebull-gift-mlfi" targetId="mlfi-select-dddd"/>
+        <entryLink import="true" name="Rune of the Beast Ascendant" hidden="false" type="selectionEntry" id="gorebull-gift-ruba" targetId="ruba-select-eeee"/>
+        <entryLink import="true" name="Muscular Monstrosity" hidden="false" type="selectionEntry" id="gorebull-gift-mumo" targetId="mumo-select-ffff"/>
+        <entryLink import="true" name="Crown of Horns" hidden="false" type="selectionEntry" id="gorebull-gift-crho" targetId="crho-select-gggg"/>
+        <entryLink import="true" name="Pelt of Midnight" hidden="false" type="selectionEntry" id="gorebull-gift-pemi" targetId="pemi-select-hhhh"/>
+        <entryLink import="true" name="Slug-Skin" hidden="false" type="selectionEntry" id="gorebull-gift-slsk" targetId="slsk-select-iiii"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
     <!-- ============================================ -->
@@ -2010,7 +2147,7 @@
         <infoLink name="Bestial Charge" hidden="false" type="profile" id="warhound-bestial-charge" targetId="4203-7f82-8eaa-bfd3"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="warhound-cat-core" targetId="b745-17c4-8fbf-8b04" primary="true"/>
+        <categoryLink name="Core" hidden="false" id="warhound-cat-core" targetId="f0e3-2e32-8866-ea32" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="warhound-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2096,7 +2233,7 @@
         <infoLink name="Primal Fury" hidden="false" type="profile" id="gor-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="gor-cat-core" targetId="b745-17c4-8fbf-8b04" primary="true"/>
+        <categoryLink name="Core" hidden="false" id="gor-cat-core" targetId="f0e3-2e32-8866-ea32" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2162,7 +2299,7 @@
           <selectionEntries>
             <selectionEntry type="upgrade" name="Additional Hand Weapons" hidden="false" id="gor-add-hw">
               <costs>
-                <cost name="pts" typeId="points" value="1"/>
+                <cost name="pts" typeId="points" value="2"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="10" field="points">
@@ -2232,7 +2369,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="gor-mark-khorne-link" targetId="d9f1-e07b-2f02-e8c2"/>
+                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="gor-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="gor-mark-nurgle">
@@ -2240,7 +2377,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="gor-mark-nurgle-link" targetId="3f58-6db3-06ae-1697"/>
+                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="gor-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="gor-mark-slaanesh">
@@ -2248,7 +2385,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="gor-mark-slaanesh-link" targetId="4e0c-1c07-9cf6-d840"/>
+                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="gor-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="gor-mark-tzeentch">
@@ -2256,7 +2393,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="gor-mark-tzeentch-link" targetId="8f6f-e7f3-c3c8-0c1e"/>
+                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="gor-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2285,7 +2422,7 @@
         <infoLink name="Primal Fury" hidden="false" type="profile" id="ungor-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="ungor-cat-core" targetId="b745-17c4-8fbf-8b04" primary="true"/>
+        <categoryLink name="Core" hidden="false" id="ungor-cat-core" targetId="f0e3-2e32-8866-ea32" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="ungor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2407,7 +2544,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="ungor-mark-khorne-link" targetId="d9f1-e07b-2f02-e8c2"/>
+                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="ungor-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="ungor-mark-nurgle">
@@ -2415,7 +2552,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="ungor-mark-nurgle-link" targetId="3f58-6db3-06ae-1697"/>
+                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="ungor-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="ungor-mark-slaanesh">
@@ -2423,7 +2560,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="ungor-mark-slaanesh-link" targetId="4e0c-1c07-9cf6-d840"/>
+                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="ungor-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="ungor-mark-tzeentch">
@@ -2431,7 +2568,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="ungor-mark-tzeentch-link" targetId="8f6f-e7f3-c3c8-0c1e"/>
+                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="ungor-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2460,7 +2597,7 @@
         <infoLink name="Primal Fury" hidden="false" type="profile" id="ungor-raiders-primal-fury" targetId="24a7-8ec2-fca1-21e2"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="ungor-raiders-cat-core" targetId="b745-17c4-8fbf-8b04" primary="true"/>
+        <categoryLink name="Core" hidden="false" id="ungor-raiders-cat-core" targetId="f0e3-2e32-8866-ea32" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="ungor-raiders-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2521,7 +2658,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="ungor-raiders-mark-khorne-link" targetId="d9f1-e07b-2f02-e8c2"/>
+                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="ungor-raiders-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="ungor-raiders-mark-nurgle">
@@ -2529,7 +2666,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="ungor-raiders-mark-nurgle-link" targetId="3f58-6db3-06ae-1697"/>
+                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="ungor-raiders-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="ungor-raiders-mark-slaanesh">
@@ -2537,7 +2674,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="ungor-raiders-mark-slaanesh-link" targetId="4e0c-1c07-9cf6-d840"/>
+                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="ungor-raiders-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="ungor-raiders-mark-tzeentch">
@@ -2545,7 +2682,7 @@
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="ungor-raiders-mark-tzeentch-link" targetId="8f6f-e7f3-c3c8-0c1e"/>
+                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="ungor-raiders-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2580,7 +2717,7 @@
         <infoLink name="Despoilers" hidden="false" type="profile" id="bestigor-despoilers" targetId="despoilers-profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="bestigor-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="bestigor-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="bestigor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2716,7 +2853,7 @@
         <infoLink name="Crushing Blows" hidden="false" type="profile" id="minotaur-crushing-blows" targetId="crushing-blows-profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="minotaur-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="minotaur-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="minotaur-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -2837,7 +2974,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="minotaur-mark-khorne-link" targetId="d9f1-e07b-2f02-e8c2"/>
+                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="minotaur-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="minotaur-mark-nurgle">
@@ -2845,7 +2982,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="minotaur-mark-nurgle-link" targetId="3f58-6db3-06ae-1697"/>
+                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="minotaur-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="minotaur-mark-slaanesh">
@@ -2853,7 +2990,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="minotaur-mark-slaanesh-link" targetId="4e0c-1c07-9cf6-d840"/>
+                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="minotaur-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="minotaur-mark-tzeentch">
@@ -2861,7 +2998,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="minotaur-mark-tzeentch-link" targetId="8f6f-e7f3-c3c8-0c1e"/>
+                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="minotaur-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2892,7 +3029,7 @@
         <infoLink name="Drunken" hidden="false" type="profile" id="centigor-drunken" targetId="drunken-profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="centigor-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="centigor-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="centigor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3064,7 +3201,7 @@
         <infoLink name="Razor Tusks" hidden="false" type="profile" id="razorgor-razor-tusks" targetId="razor-tusks-profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="razorgor-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="razorgor-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="razorgor-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3120,7 +3257,7 @@
         <infoLink name="Razor Tusks" hidden="false" type="profile" id="tuskgor-chariot-razor-tusks" targetId="razor-tusks-profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="tuskgor-chariot-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="tuskgor-chariot-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="tuskgor-chariot-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3187,7 +3324,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="chaos-ogre-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="chaos-ogre-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="chaos-ogre-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3233,7 +3370,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="6"/>
+                <cost name="pts" typeId="points" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3296,7 +3433,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="chaos-ogre-mark-khorne-link" targetId="d9f1-e07b-2f02-e8c2"/>
+                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="chaos-ogre-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="chaos-ogre-mark-nurgle">
@@ -3304,7 +3441,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="chaos-ogre-mark-nurgle-link" targetId="3f58-6db3-06ae-1697"/>
+                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="chaos-ogre-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="chaos-ogre-mark-slaanesh">
@@ -3312,7 +3449,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="chaos-ogre-mark-slaanesh-link" targetId="4e0c-1c07-9cf6-d840"/>
+                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="chaos-ogre-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="chaos-ogre-mark-tzeentch">
@@ -3320,7 +3457,7 @@
                 <cost name="pts" typeId="points" value="4"/>
               </costs>
               <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="chaos-ogre-mark-tzeentch-link" targetId="8f6f-e7f3-c3c8-0c1e"/>
+                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="chaos-ogre-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -3349,7 +3486,7 @@
         <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="dragon-ogre-mark-undivided" targetId="595-bbd0-34c7-e601"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="dragon-ogre-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="dragon-ogre-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="dragon-ogre-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3401,7 +3538,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="harpy-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="harpy-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="harpy-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3453,7 +3590,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="cockatrice-cat-special" targetId="b745-17c4-8fbf-8b05" primary="true"/>
+        <categoryLink name="Special" hidden="false" id="cockatrice-cat-special" targetId="633f-f67a-1b6a-d203" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cockatrice-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3483,7 +3620,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="chaos-giant-cat-rare" targetId="b745-17c4-8fbf-8b06" primary="true"/>
+        <categoryLink name="Rare" hidden="false" id="chaos-giant-cat-rare" targetId="2bfe-5863-46fe-d284" primary="true"/>
         <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="chaos-giant-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
       <costs>
@@ -3529,4 +3666,54 @@
             <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">10</characteristic>
           </characteristics>
         </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="chaos-spawn-cat-rare" targetId="2bfe-5863-46fe-d284" primary="true"/>
+        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="chaos-spawn-cat-faction" targetId="a265-1c26-e439-8f2c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="37"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Marks of Chaos" hidden="false" id="chaos-spawn-marks">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" name="Mark of Khorne" hidden="false" id="chaos-spawn-mark-khorne">
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="chaos-spawn-mark-khorne-link" targetId="mkh1-2345-6789-abcd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Mark of Nurgle" hidden="false" id="chaos-spawn-mark-nurgle">
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="chaos-spawn-mark-nurgle-link" targetId="mnu1-2345-6789-abcd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Mark of Slaanesh" hidden="false" id="chaos-spawn-mark-slaanesh">
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="chaos-spawn-mark-slaanesh-link" targetId="msl1-2345-6789-abcd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Mark of Tzeentch" hidden="false" id="chaos-spawn-mark-tzeentch">
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="chaos-spawn-mark-tzeentch-link" targetId="mtz1-2345-6789-abcd"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
 </catalogue>
