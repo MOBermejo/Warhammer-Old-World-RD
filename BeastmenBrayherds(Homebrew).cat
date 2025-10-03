@@ -895,7 +895,9 @@
     <!-- Do NOT count against magic item budget -->
     <!-- ============================================ -->
     
-    <selectionEntry type="upgrade" import="true" name="Uncanny Senses" hidden="false" id="unse-select-aaaa">
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="shared-gifts-chaos">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Uncanny Senses" hidden="false" id="unse-select-aaaa">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="unse-max-roster"/>
       </constraints>
@@ -1035,7 +1037,9 @@
       <infoLinks>
         <infoLink name="Slug-Skin" hidden="false" type="profile" id="slsk-info" targetId="slsk-iiii-iiii-iiii"/>
       </infoLinks>
-    </selectionEntry>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
 
   </sharedSelectionEntries>
 
