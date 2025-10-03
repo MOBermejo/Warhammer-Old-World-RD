@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="beef-dead-cafe-babe" name="Beastmen Brayherds (Homebrew)" gameSystemId="420" gameSystemRevision="144" revision="3" authorName="Homebrew" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="beef-dead-cafe-babe" name="Beastmen Brayherds (Homebrew)" gameSystemId="420" gameSystemRevision="144" revision="4" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Homebrew" battleScribeVersion="2.03" type="catalogue">
 
   <publications>
     <publication id="homebrew-pub" name="Beastmen Homebrew Rules" shortName="Homebrew"/>
@@ -36,174 +36,18 @@
       </characteristics>
     </profile>
 
-    <profile name="Despoilers" hidden="false" id="des1-2345-6789-abcd" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Each enemy standard bearer that is removed as a result of a successful pursuit move or slain in combat by a unit of Bestigors adds +1 to their future Combat Resolution. If the unit flees for any reason, they will lose this bonus.</characteristic>
-      </characteristics>
-    </profile>
-
-    <!-- MARKS OF CHAOS -->
-    
     <profile name="Mark of Chaos Undivided" hidden="false" id="595-bbd0-34c7-e601" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Chaos Undivided can re-roll any failed Fear, Panic or Terror tests.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">May take gifts of the Ruinous Powers.</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Mark of Tzeentch" hidden="false" id="mtz1-2345-6789-abcd" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Tzeentch have the Magic Resistance (-1) and Ward save (6+) special rules.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Mark of Nurgle" hidden="false" id="mnu1-2345-6789-abcd" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Nurgle have the Poisoned Attacks special rule and Enemy models in base contact suffer -1 to their Weapon Skill.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Mark of Khorne" hidden="false" id="mkh1-2345-6789-abcd" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Khorne have the Counter Charge and Furious Charge special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Mark of Slaanesh" hidden="false" id="msl1-2345-6789-abcd" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Models with the Mark of Slaanesh have the Immune to Psychology special rule and +1 MVT.</characteristic>
-      </characteristics>
-    </profile>
-
-    <!-- GIFTS OF CHAOS -->
+    <!-- CHARACTER STATS -->
     
-    <profile name="Uncanny Senses" hidden="false" id="gift-uncanny-5pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Model gains +1I.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Gnarled Hides" hidden="false" id="gift-gnarled-5pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Model improves its armour save by 1.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Gouge-Tusks" hidden="false" id="gift-gouge-10pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Model gains the Impact Hits (1) special rule or gains +1 to their Impact Hits.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Many-Limbed Fiend" hidden="false" id="gift-manylimbed-15pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">This model (but not its mount) has a +1 modifier to its Attacks characteristic. However, this bonus attack must be made using an ordinary Hand Weapon.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Rune of the Beast Ascendant" hidden="false" id="gift-rune-15pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Model gains +1LD.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Muscular Monstrosity" hidden="false" id="gift-muscular-20pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Model gains +1S.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Crown of Horns" hidden="false" id="gift-crown-20pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Characters only. This character and any unit they have joined gains the Stubborn special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Pelt of Midnight" hidden="false" id="gift-pelt-25pts" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Characters only. Any enemy model that targets this character or any unit they have joined during The Shooting Phase suffers an additional -1 To Hit modifier.</characteristic>
-      </characteristics>
-    </profile>
-
-    <!-- OTHER SPECIAL RULES -->
-    
-    <profile name="Braystaff" hidden="false" id="583e-832e-5e02-23cb" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">When this model's combat is chosen during Step 1.1 of any Choose &amp; Fight Combat sub-phase, it must choose to use its Braystaff offensively or defensively. Used offensively, a Braystaff counts as a great weapon. Used defensively, a Braystaff counts as a hand weapon and gives its wielder an Armour Value of 5+.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Razor Tusks" hidden="false" id="3650-49a2-85b-702e" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">During a Turn in which it charged, the Armour Piercing characteristic of a Tuskgor's or Razorgor's tusks Attacks and Impact Hits is AP-1.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Drunken" hidden="false" id="7c-7525-760e-17ad" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">At the start of each strategy phase, roll a D6 for this model or the unit they joined and consult the table below to see what effect they have until the start of their next turn: 1-2, Drunken Stupor: The unit gains the Stupidity special rule. 3-4, Drunken Frenzy: The unit gains the Furious Charge special rule. 5-6, Drunken Bravado: The unit gains the Stubborn special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Ensorcelled Weapons" hidden="false" id="ensw-1111-2222-3333" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Applies to all melee weapons.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Maddening Aura" hidden="false" id="madd-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Each enemy unit within 12" of one or more Jabberslythes at the beginning of the Beastmen Magic phase must take a Leadership test. For every point by which a unit fails its test, it suffers a wound which Ignores Armour Saves. This has no effect on units with Immunity (Psychology).</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Petrifying Gaze" hidden="false" id="petr-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Auto-Hit, that forces an enemy to take an Initiative test or suffer a wound with no armour saves allowed and with the Multiple Wounds (D3) and Magical Attacks special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Stony Stare" hidden="false" id="ston-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">If this test is failed, they suffer D3 wounds with no armour saves permitted.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Ghosight" hidden="false" id="ghos-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Does not affect enemy models with regeneration save.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Soul-Eater" hidden="false" id="soul-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Has 24" range.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Crown of Antlers" hidden="false" id="crow-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Can re-roll the number of Impact Hits.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Troll Vomit" hidden="false" id="trlv-1111-2222-3333" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Troll Vomit is S5 instead of S3.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Acidic Vomit" hidden="false" id="acid-1234-5678-90ab" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">S4, AP-1 Breath Weapon.</characteristic>
-      </characteristics>
-    </profile>
-
-    <!-- UNIT PROFILES -->
-    
-    <profile name="Beastlord" hidden="false" id="beast-lord-profile-ld9" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Beastlord" hidden="false" id="fad0-b9f-5128-2420" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">7</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
@@ -214,49 +58,7 @@
       </characteristics>
     </profile>
 
-    <profile name="Wargor" hidden="false" id="ea1b-6da5-54c-8e8" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Great Bray-Shaman" hidden="false" id="gbs-profile-135pts" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Bray-Shaman" hidden="false" id="bs-profile" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Doombull" hidden="false" id="doom-profile-225pts" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Doombull" hidden="false" id="a14d-a46a-be5-72f8" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">7</characteristic>
@@ -270,35 +72,9 @@
       </characteristics>
     </profile>
 
-    <profile name="Gorebull" hidden="false" id="gore-profile-115pts" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Centigor Chieftain" hidden="false" id="cent-chief-profile-ld8" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Gor" hidden="false" id="16a9-6b4b-1dc9-ff17" typeId="b070-143a-73f-2772" typeName="Model">
+    <!-- CORE UNIT STATS -->
+    
+    <profile name="Gor" hidden="false" id="e71f-b44c-1293-39aa" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
@@ -306,13 +82,13 @@
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Ungor" hidden="false" id="e8f-c68f-43a9-f13f" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Ungor" hidden="false" id="d55a-3f11-8f7e-18b9" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
@@ -326,7 +102,7 @@
       </characteristics>
     </profile>
 
-    <profile name="Bestigor" hidden="false" id="5e9d-c8f7-a6b8-d9c7" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Bestigor" hidden="false" id="4c01-d7e7-b83c-0a05" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
@@ -334,27 +110,15 @@
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Chaos Warhound" hidden="false" id="6103-19c8-df74-6423" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Centigor" hidden="false" id="2f21-6ec5-60a9-5b7e" typeId="b070-143a-73f-2772" typeName="Model">
+    <!-- SPECIAL UNIT STATS -->
+    
+    <profile name="Centigor" hidden="false" id="fa8f-cf9e-d1dc-ea8c" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
@@ -362,50 +126,36 @@
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Minotaur" hidden="false" id="mino-profile-27pts" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Minotaur" hidden="false" id="1f49-8739-a20a-9a70" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Razorgor" hidden="false" id="razo-profile-32pts" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Razorgor" hidden="false" id="6d84-4eb9-2a32-d634" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Harpy" hidden="false" id="766a-b57d-def9-458e" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
       </characteristics>
     </profile>
@@ -424,17 +174,75 @@
       </characteristics>
     </profile>
 
-    <profile name="Dragon Ogre" hidden="false" id="drag-ogre-profile" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Dragon Ogre" hidden="false" id="c4f9-3bf9-8fc0-34aa" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Harpy" hidden="false" id="766a-b57d-def9-458e" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+      </characteristics>
+    </profile>
+
+    <!-- RARE UNIT STATS -->
+    
+    <profile name="Chaos Troll" hidden="false" id="25f9-7e5d-f88f-e21a" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">1</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">4</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Chaos Spawn" hidden="false" id="b7e1-4f25-ca9d-5ee4" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">2D6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">D6+1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">10</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Cygor" hidden="false" id="aad9-a4f8-c37e-e0f6" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">2</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
       </characteristics>
     </profile>
 
@@ -460,786 +268,222 @@
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Cygor" hidden="false" id="aad9-a4f8-c37e-e0f6" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Chaos Giant" hidden="false" id="dd04-8d3f-ea4d-6b09" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">*</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">10</characteristic>
+      </characteristics>
+    </profile>
+
+    <profile name="Gigantic Spawn of Chaos" hidden="false" id="b0dc-8a5c-3c1f-e15d" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">2D6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">D6+3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">10</characteristic>
       </characteristics>
     </profile>
 
-    <profile name="Jabberslythe" hidden="false" id="jabb-prof-165pts" typeId="b070-143a-73f-2772" typeName="Model">
+    <profile name="Jabberslythe" hidden="false" id="4dc2-ea92-e5c1-9f78" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Chaos Troll" hidden="false" id="25f9-7e5d-f88f-e21a" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">1</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">4</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Cockatrice" hidden="false" id="cock-prof-165pts" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">5</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">6</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">6</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Preyton" hidden="false" id="prey-prof-155pts" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Tuskgor" hidden="false" id="tusk-1111-2222-3333" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Tuskgor Chariot" hidden="false" id="1bee-7cdb-ebd8-2b64" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Razorgor Chariot" hidden="false" id="razc-4444-5555-6666" typeId="b070-143a-73f-2772" typeName="Model">
-      <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
-        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
-      </characteristics>
-    </profile>
-
-    <!-- MAGIC ITEM PROFILES -->
-    
-    <profile name="Primeval Club" hidden="false" id="prmc-1111-1111-1111" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User LD</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Magical Attacks</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">The Strength characteristic of the Primeval Club is equal to the current Leadership characteristic of the model that wields it.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Axes of Khorgor" hidden="false" id="axkh-2222-2222-2222" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User +1</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Magical Attacks, Two-Handed, Extra Attack (+1)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Two-Hand Weapons. The wielder may re-roll hits and wounds in close combat.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Herdstone Axe" hidden="false" id="hdax-3333-3333-3333" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User +2</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Two-Handed, Strikes Last</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">If the wielder of this weapon successfully Wounds an enemy model, roll a D6 after resolving all their attacks. If the D6 exceeds their remaining wounds, the model is automatically slain with no saves allowed.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Hunter's Spear" hidden="false" id="htsp-4444-4444-4444" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User +1</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Cumbersome, Multiple Wounds (2), Through and Through</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Can be shot like a Bolt Thrower, using the Through and Through special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Brass Cleaver" hidden="false" id="brcl-5555-5555-5555" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Enemy models are not permitted an Armour, Ward or Regeneration save against an attack made with this weapon.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Axe of Men" hidden="false" id="axmn-6666-6666-6666" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User +2</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Killing Blow, Two-Handed</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">If the wielder starts the combat phase in close combat with human enemies (Empire, Bretonnian and most Chaos Warriors!), they count as having succeeded their Primal Fury with a double. Furthermore, Should the wielder of the Axe of Men kill an enemy character (including Champions) in a challenge, they gain the Terror special rule for the remainder of the game.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Slaughterer's Blades" hidden="false" id="slbl-7777-7777-7777" typeId="a378-c633-912d-11ce" typeName="Weapon">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">Close Combat</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Two-Handed, Extra Attack (+1)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Minotaur Only. Two-Hand Weapons. Gives the wielder +1 Attack for each enemy model in base contact.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Festerpelt" hidden="false" id="fstp-8888-8888-8888" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">May be worn with other Armour. Improves wearer's armour save by 1 and grants them the Regeneration (5+) special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Brass Armour" hidden="false" id="brar-9999-9999-9999" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">The wearer has a 2+ armour save. However, any 6's to hit or wound ignore the wearer's armour.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Ramhorn Helm" hidden="false" id="rmhl-aaaa-aaaa-aaaa" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">May be worn with other Armour. Improves wearer's armour save by 1. In addition, for every armour save the wearer passes, the bearer may immediately make a bonus attack at their base Strength.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Shadowgave Furs" hidden="false" id="shfw-bbbb-bbbb-bbbb" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">All shooting attacks directed at the bearer or the unit he is with suffer -1 To Hit. In addition, successful hits on scatter dice must be re-rolled.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Blackened Talisman of Chaos" hidden="false" id="bltc-cccc-cccc-cccc" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Grants the bearer a 4+ ward save, which becomes a 6+ ward save against the Killing Blow and Multiple Wounds special rules.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Eye of the Night" hidden="false" id="eynt-dddd-dddd-dddd" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">The Eye of the Night gives the bearer the Magic Resistance (2) special rule. In addition, if an enemy Wizard within 24" suffers a Miscast, you may force them to re-roll the result on the Miscast table.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Rampaging Banner" hidden="false" id="rmpb-eeee-eeee-eeee" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">All friendly beastmen units within 12" of the model carrying the Rampaging Banner increases their Maximum Possible Charge Range by 3" and, when it makes a Charge roll, may apply a +D3 modifier to the result.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Manbane Standard" hidden="false" id="mnbs-ffff-ffff-ffff" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">All enemy units within 12" of the model carrying the Manbane Standard suffer a -1 modifier to their Leadership characteristic (to a minimum of 2).</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Totem of Rust" hidden="false" id="totm-gggg-gggg-gggg" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Enemy units in contact with the model (or their unit) carrying the Totem of Rust suffers a -1 modifier to its Armour Save rolls.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Gore Banner" hidden="false" id="gorb-hhhh-hhhh-hhhh" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit carrying the Gore Banner gains the Terror special rule.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Banner of Outrage" hidden="false" id="bnot-iiii-iiii-iiii" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">The unit carrying the Banner of Outrage roll an additional D6 for Primal Fury tests and discard one dice of your choice.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Chalice of Dark Rain" hidden="false" id="chdr-jjjj-jjjj-jjjj" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Single use. During the Command sub-phase of their Turn, if they are not engaged in combat, the bearer of the Chalice of Dark Rain may drink from it. Until your next Start of Turn sub-phase, the range of all enemy Missile Weapons is halved (rounding fractions up) and enemy War Machines cannot shoot.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Horns of the First Beast" hidden="false" id="hofb-kkkk-kkkk-kkkk" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless the bearer of the Horn of the First Beast is fleeing, any friendly unit that is within 18" of this model may use its Leadership characteristic when testing for Primal Fury.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Brayblast Trumpet" hidden="false" id="brtr-llll-llll-llll" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Single Use. This can be used during the Command sub-phase of their Turn. When used, all friendly units with the Ambushers special rule may re-roll failed attempts to enter the battlefield that turn.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Dark Heart" hidden="false" id="dkht-mmmm-mmmm-mmmm" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Single Use. After deployment, but before the start of the game, roll a D6 and consult the table: 1, Damned by the Gods: This model loses a wound with no saves of any kind allowed. 2, Favour of the Gods: This model gains +1 modifier to their Weapon Skill characteristic (to a maximum of 10). 3, Eyes of Chaos: This model gains +1 modifier to their Ballistic Skill characteristic (to a maximum of 10). 4, Dark Fury: This model gains +1 modifier to their Attacks characteristic (to a maximum of 10). 5, Unnatural Quickness: This model gains the Strike First special rule. 6, Apotheosis: This model gains all of the previous benefits of this table (except for the Damned by the Gods result) and +1 modifier to their LD characteristic (To a maximum of 10).</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Stone of Spite" hidden="false" id="stos-nnnn-nnnn-nnnn" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Single Use. Every Arcane Item within 18" is immediately destroyed (friend and foe), and each bearer of an Arcane Item suffers D6 Strength 4 hits per item lost.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Skin of Man" hidden="false" id="skom-oooo-oooo-oooo" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Bearer and unit they join gains the Fear special rule, against which human enemies (Empire, Bretonnian and most Chaos Warriors!) roll an additional D6 and discard the lowest.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Shard of the Herdstone" hidden="false" id="shhd-pppp-pppp-pppp" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Single use. During the Magic Phase of their Turn, bearer may use the Shard of the Herdstone. Increase the number of your casting dice by 2D3.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Gnarlstaff" hidden="false" id="gnst-qqqq-qqqq-qqqq" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Bearer gains +1 to casting and channelling. At the start of each of your Magic phases, pick one terrain feature within 18" of the bearer. Any enemy unit within that terrain feature suffer D6 Strength 4 AP-1 Hits, 2D6 if its a forest.</characteristic>
-      </characteristics>
-    </profile>
-
-    <profile name="Hagtree Fetish" hidden="false" id="hgft-rrrr-rrrr-rrrr" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
-      <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Choose an enemy unit within 24" at the start of each Magic phase. Any failed To Wound rolls made during the Magic phase against that unit may be re-rolled.</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
       </characteristics>
     </profile>
 
   </sharedProfiles>
 
   <!-- ===================================================================== -->
-  <!-- CATEGORY ENTRIES -->
+  <!-- SHARED SELECTION ENTRIES - EQUIPMENT -->
   <!-- ===================================================================== -->
-  <categoryEntries>
-    <categoryEntry name="Characters" hidden="false" id="a4cc-15c9-cfae-1b3b"/>
-    <categoryEntry name="Core" hidden="false" id="f0e3-2e32-8866-ea32"/>
-    <categoryEntry name="Special" hidden="false" id="633f-f67a-1b6a-d203"/>
-    <categoryEntry name="Rare" hidden="false" id="2bfe-5863-46fe-d284"/>
-    <categoryEntry name="Named Characters" hidden="false" id="3ba8-a41e-b6ae-d4ba"/>
-    <categoryEntry name="Faction: Beastmen Brayherds" hidden="false" id="a265-1c26-e439-8f2c"/>
-    <categoryEntry name="Magic Weapon" hidden="false" id="d7c7-c6bb-2da4-66c0"/>
-    <categoryEntry name="Magic Armour" hidden="false" id="2f8c-48e7-e4d0-54a3"/>
-    <categoryEntry name="Talisman" hidden="false" id="0bba-327e-5e65-4c34"/>
-    <categoryEntry name="Enchanted Item" hidden="false" id="5d39-0051-3445-cae8"/>
-    <categoryEntry name="Arcane Item" hidden="false" id="ef9b-9fc6-49c2-f5b4"/>
-    <categoryEntry name="Magic Standard" hidden="false" id="8f43-16f1-3fe0-90df"/>
-  </categoryEntries>
-
-  <!-- ===================================================================== -->
-  <!-- SHARED SELECTION ENTRIES -->
-  <!-- ===================================================================== -->
+  
   <sharedSelectionEntries>
 
-    <!-- GIFTS OF CHAOS GROUP -->
-    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="gifts-of-chaos-group" flatten="true">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gifts-max-one"/>
-      </constraints>
-      <selectionEntries>
-        
-        <selectionEntry type="upgrade" import="true" name="Uncanny Senses" hidden="false" id="gift-uncanny-5">
-          <infoLinks>
-            <infoLink name="Uncanny Senses" hidden="false" type="profile" id="gift-uncanny-info" targetId="gift-uncanny-5pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-uncanny-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Additional Hand Weapon" hidden="false" id="8943-3e16-db2a-b7f3">
+      <infoLinks>
+        <infoLink name="Additional Hand Weapon" hidden="false" type="profile" id="ahw-link" targetId="ahw-profile-ref"/>
+      </infoLinks>
+    </selectionEntry>
 
-        <selectionEntry type="upgrade" import="true" name="Gnarled Hides" hidden="false" id="gift-gnarled-5">
-          <infoLinks>
-            <infoLink name="Gnarled Hides" hidden="false" type="profile" id="gift-gnarled-info" targetId="gift-gnarled-5pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-gnarled-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Great Weapon" hidden="false" id="2283-26e9-76c3-6048">
+      <infoLinks>
+        <infoLink name="Great Weapon" hidden="false" type="profile" id="gw-link" targetId="gw-profile-ref"/>
+      </infoLinks>
+    </selectionEntry>
 
-        <selectionEntry type="upgrade" import="true" name="Gouge-Tusks" hidden="false" id="gift-gouge-10">
-          <infoLinks>
-            <infoLink name="Gouge-Tusks" hidden="false" type="profile" id="gift-gouge-info" targetId="gift-gouge-10pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-gouge-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="10"/>
-          </costs>
-        </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="e4f2-d5c1-88a3-9e05">
+      <infoLinks>
+        <infoLink name="Shield" hidden="false" type="profile" id="shield-link" targetId="shield-profile-ref"/>
+      </infoLinks>
+    </selectionEntry>
 
-        <selectionEntry type="upgrade" import="true" name="Many-Limbed Fiend" hidden="false" id="gift-manylimbed-15">
-          <infoLinks>
-            <infoLink name="Many-Limbed Fiend" hidden="false" type="profile" id="gift-manylimbed-info" targetId="gift-manylimbed-15pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-manylimbed-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="15"/>
-          </costs>
-        </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light Armour" hidden="false" id="d74f-9c07-b842-1a79">
+      <infoLinks>
+        <infoLink name="Light Armour" hidden="false" type="profile" id="la-link" targetId="la-profile-ref"/>
+      </infoLinks>
+    </selectionEntry>
 
-        <selectionEntry type="upgrade" import="true" name="Rune of the Beast Ascendant" hidden="false" id="gift-rune-15">
-          <infoLinks>
-            <infoLink name="Rune of the Beast Ascendant" hidden="false" type="profile" id="gift-rune-info" targetId="gift-rune-15pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-rune-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="15"/>
-          </costs>
-        </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Armour" hidden="false" id="3fd3-bc03-6a6f-ea4a">
+      <infoLinks>
+        <infoLink name="Heavy Armour" hidden="false" type="profile" id="ha-link" targetId="ha-profile-ref"/>
+      </infoLinks>
+    </selectionEntry>
 
-        <selectionEntry type="upgrade" import="true" name="Muscular Monstrosity" hidden="false" id="gift-muscular-20">
-          <infoLinks>
-            <infoLink name="Muscular Monstrosity" hidden="false" type="profile" id="gift-muscular-info" targetId="gift-muscular-20pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-muscular-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Crown of Horns" hidden="false" id="gift-crown-20">
-          <infoLinks>
-            <infoLink name="Crown of Horns" hidden="false" type="profile" id="gift-crown-info" targetId="gift-crown-20pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-crown-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Pelt of Midnight" hidden="false" id="gift-pelt-25">
-          <infoLinks>
-            <infoLink name="Pelt of Midnight" hidden="false" type="profile" id="gift-pelt-info" targetId="gift-pelt-25pts"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="gift-pelt-roster-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="25"/>
-          </costs>
-        </selectionEntry>
-
-      </selectionEntries>
-    </selectionEntryGroup>
-
-    <!-- MARKS OF CHAOS GROUP FOR UNITS (2pts per model) -->
-    <selectionEntryGroup name="Marks of Chaos" hidden="false" id="marks-of-chaos-units" flatten="true">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="marks-unit-max"/>
-      </constraints>
-      <selectionEntries>
-        
-        <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="mark-khorne-unit-2pts">
-          <infoLinks>
-            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="mk-khorne-info-unit" targetId="mkh1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="2"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="mark-nurgle-unit-2pts">
-          <infoLinks>
-            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="mk-nurgle-info-unit" targetId="mnu1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="2"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="mark-slaanesh-unit-2pts">
-          <infoLinks>
-            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="mk-slaanesh-info-unit" targetId="msl1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="2"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="mark-tzeentch-unit-2pts">
-          <infoLinks>
-            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="mk-tzeentch-info-unit" targetId="mtz1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="2"/>
-          </costs>
-        </selectionEntry>
-
-      </selectionEntries>
-    </selectionEntryGroup>
-
-    <!-- MARKS OF CHAOS GROUP FOR CHARACTERS -->
-    <selectionEntryGroup name="Marks of Chaos (Characters)" hidden="false" id="marks-of-chaos-chars" flatten="true">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="marks-char-max"/>
-      </constraints>
-      <selectionEntries>
-        
-        <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="mark-khorne-char-15pts">
-          <infoLinks>
-            <infoLink name="Mark of Khorne" hidden="false" type="profile" id="mk-khorne-info-char" targetId="mkh1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="15"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="mark-nurgle-char-15pts">
-          <infoLinks>
-            <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="mk-nurgle-info-char" targetId="mnu1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="15"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="mark-slaanesh-char-10pts">
-          <infoLinks>
-            <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="mk-slaanesh-info-char" targetId="msl1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="10"/>
-          </costs>
-        </selectionEntry>
-
-        <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="mark-tzeentch-char-20pts">
-          <infoLinks>
-            <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="mk-tzeentch-info-char" targetId="mtz1-2345-6789-abcd"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-        </selectionEntry>
-
-      </selectionEntries>
-    </selectionEntryGroup>
-
-    <!-- MAGIC ITEMS GROUP -->
-    <selectionEntryGroup name="Magic Items" hidden="false" id="1539-fd78-88f-badd">
-      <selectionEntries>
-        
-        <!-- ALL MAGIC ITEMS FROM YOUR ORIGINAL DOCUMENT -->
-        <!-- I'll include the structure but keeping it brief here -->
-        
-      </selectionEntries>
-    </selectionEntryGroup>
+    <selectionEntry type="upgrade" import="true" name="Hand Weapon" hidden="false" id="721d-36e3-388a-c0d6">
+      <infoLinks>
+        <infoLink name="Hand Weapon" hidden="false" type="profile" id="hw-link" targetId="hw-profile-ref"/>
+      </infoLinks>
+    </selectionEntry>
 
   </sharedSelectionEntries>
 
   <!-- ===================================================================== -->
   <!-- SELECTION ENTRIES - ALL UNITS -->
   <!-- ===================================================================== -->
+  
   <selectionEntries>
 
-    <!-- ===================================================================== -->
-    <!-- CHARACTER UNITS -->
-    <!-- ===================================================================== -->
-
+    <!-- ================================================================= -->
     <!-- BEASTLORD -->
+    <!-- ================================================================= -->
     <selectionEntry type="unit" import="true" name="Beastlord" hidden="false" id="4533-c25f-76b4-5f7b">
-      <profiles>
-        <profile name="Beastlord" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="fb5d-d6ae-88cd-3d82">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Beastlord" hidden="false" id="dc63-8f3-3a9d-5d53">
+        <selectionEntry type="model" import="true" name="Beastlord" hidden="false" id="4533-c25f-76b4-model" sortIndex="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8f9-2dae-15e2-a69d"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6e4-5c1e-7d4-59f5"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="beastlord-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="beastlord-max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="135"/>
+            <cost name="pts" typeId="points" value="95"/>
           </costs>
           <infoLinks>
-            <infoLink name="Beastlord" hidden="false" type="profile" id="blord-info" targetId="beast-lord-profile-ld9"/>
+            <infoLink name="Beastlord" hidden="false" type="profile" id="beastlord-stat" targetId="fad0-b9f-5128-2420"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="blord-magic" targetId="1539-fd78-88f-badd">
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="beastlord-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
               <constraints>
-                <constraint type="max" value="100" field="points" scope="parent" shared="true" id="blord-magic-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="beastlord-hw-min"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="blord-gifts" targetId="gifts-of-chaos-group"/>
-            <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="blord-marks" targetId="marks-of-chaos-chars"/>
           </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="beastlord-equipment" hidden="false" sortIndex="2">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="beastlord-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3">
+                  <costs>
+                    <cost name="pts" typeId="points" value="4"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="beastlord-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048">
+                  <costs>
+                    <cost name="pts" typeId="points" value="6"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy Armour" hidden="false" id="beastlord-ha" type="selectionEntry" targetId="3fd3-bc03-6a6f-ea4a">
+                  <costs>
+                    <cost name="pts" typeId="points" value="6"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Shield" hidden="false" id="beastlord-shield" type="selectionEntry" targetId="e4f2-d5c1-88a3-9e05">
+                  <costs>
+                    <cost name="pts" typeId="points" value="3"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="blord-rules">
+        <infoGroup name="Special Rules" hidden="false" id="beastlord-rules">
           <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="blord-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="blord-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Crushing Blows" hidden="false" type="profile" id="blord-crush" targetId="cb01-9876-5432-1def"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="blord-undiv" targetId="595-bbd0-34c7-e601"/>
+            <infoLink name="Primal Fury" hidden="false" type="profile" id="beastlord-primal" targetId="24a7-8ec2-fca1-21e2"/>
+            <infoLink name="Bestial Charge" hidden="false" type="profile" id="beastlord-bestial" targetId="4203-7f82-8eaa-bfd3"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="beastlord-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="blord-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="blord-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Characters" hidden="false" id="beastlord-char-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- WARGOR -->
-    <selectionEntry type="unit" import="true" name="Wargor" hidden="false" id="3976-351d-f2ee-2271">
-      <profiles>
-        <profile name="Wargor" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="warg-unit-prof">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Wargor" hidden="false" id="warg-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="warg-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="warg-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="50"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Wargor" hidden="false" type="profile" id="warg-info" targetId="ea1b-6da5-54c-8e8"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="warg-magic" targetId="1539-fd78-88f-badd">
-              <constraints>
-                <constraint type="max" value="50" field="points" scope="parent" shared="true" id="warg-magic-max"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="warg-gifts" targetId="gifts-of-chaos-group"/>
-            <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="warg-marks" targetId="marks-of-chaos-chars"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="warg-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="warg-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="warg-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="warg-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="warg-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="warg-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- GREAT BRAY-SHAMAN -->
-    <selectionEntry type="unit" import="true" name="Great Bray-Shaman" hidden="false" id="f96e-b8e2-eaee-522">
-      <profiles>
-        <profile name="Great Bray-Shaman" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="gbs-unit-prof">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Great Bray-Shaman" hidden="false" id="gbs-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gbs-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gbs-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="135"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Great Bray-Shaman" hidden="false" type="profile" id="gbs-info" targetId="gbs-profile-135pts"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gbs-magic" targetId="1539-fd78-88f-badd">
-              <constraints>
-                <constraint type="max" value="100" field="points" scope="parent" shared="true" id="gbs-magic-max"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="gbs-gifts" targetId="gifts-of-chaos-group"/>
-            <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="gbs-marks" targetId="marks-of-chaos-chars"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="gbs-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="gbs-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="gbs-undiv" targetId="595-bbd0-34c7-e601"/>
-            <infoLink name="Braystaff" hidden="false" type="profile" id="gbs-braystaff" targetId="583e-832e-5e02-23cb"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="gbs-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gbs-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- BRAY-SHAMAN -->
-    <selectionEntry type="unit" import="true" name="Bray-Shaman" hidden="false" id="e79f-ee3d-1c16-cf8">
-      <profiles>
-        <profile name="Bray-Shaman" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="bs-unit-prof">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Bray-Shaman" hidden="false" id="bs-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bs-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bs-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="65"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Bray-Shaman" hidden="false" type="profile" id="bs-info" targetId="bs-profile"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="bs-magic" targetId="1539-fd78-88f-badd">
-              <constraints>
-                <constraint type="max" value="50" field="points" scope="parent" shared="true" id="bs-magic-max"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="bs-gifts" targetId="gifts-of-chaos-group"/>
-            <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="bs-marks" targetId="marks-of-chaos-chars"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="bs-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="bs-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="bs-undiv" targetId="595-bbd0-34c7-e601"/>
-            <infoLink name="Braystaff" hidden="false" type="profile" id="bs-braystaff" targetId="583e-832e-5e02-23cb"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="bs-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="bs-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
+    <!-- ================================================================= -->
     <!-- DOOMBULL -->
-    <selectionEntry type="unit" import="true" name="Doombull" hidden="false" id="be56-e411-9bf1-3171">
-      <profiles>
-        <profile name="Doombull" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="doom-unit-prof">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Doombull" hidden="false" id="9e8d-c7f6-b8a9-doom">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Doombull" hidden="false" id="doom-model">
+        <selectionEntry type="model" import="true" name="Doombull" hidden="false" id="9e8d-c7f6-b8a9-doom-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="doom-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="doom-max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="225"/>
+            <cost name="pts" typeId="points" value="140"/>
           </costs>
           <infoLinks>
-            <infoLink name="Doombull" hidden="false" type="profile" id="doom-info" targetId="doom-profile-225pts"/>
+            <infoLink name="Doombull" hidden="false" type="profile" id="doom-stat" targetId="a14d-a46a-be5-72f8"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="doom-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="doom-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="doom-equipment" hidden="false" sortIndex="2">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="doom-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3">
+                  <costs>
+                    <cost name="pts" typeId="points" value="6"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="doom-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048">
+                  <costs>
+                    <cost name="pts" typeId="points" value="9"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy Armour" hidden="false" id="doom-ha" type="selectionEntry" targetId="3fd3-bc03-6a6f-ea4a">
+                  <costs>
+                    <cost name="pts" typeId="points" value="9"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Shield" hidden="false" id="doom-shield" type="selectionEntry" targetId="e4f2-d5c1-88a3-9e05">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="doom-magic" targetId="1539-fd78-88f-badd">
-          <constraints>
-            <constraint type="max" value="100" field="points" scope="parent" shared="true" id="doom-magic-max"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="doom-gifts" targetId="gifts-of-chaos-group"/>
-        <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="doom-marks" targetId="marks-of-chaos-chars"/>
-      </entryLinks>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="doom-rules">
           <infoLinks>
@@ -1252,155 +496,15 @@
       </infoGroups>
       <categoryLinks>
         <categoryLink name="Characters" hidden="false" id="doom-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="doom-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- GOREBULL -->
-    <selectionEntry type="unit" import="true" name="Gorebull" hidden="false" id="b7f3-9e8d-c7f6-b9e7">
+    <!-- ================================================================= -->
+    <!-- GOR HERDS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Gor Herds" hidden="false" id="8e9d-c7f6-b8a9-gors">
       <profiles>
-        <profile name="Gorebull" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="gore-unit-prof">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Gorebull" hidden="false" id="gore-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gore-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gore-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="115"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Gorebull" hidden="false" type="profile" id="gore-info" targetId="gore-profile-115pts"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="gore-magic" targetId="1539-fd78-88f-badd">
-              <constraints>
-                <constraint type="max" value="50" field="points" scope="parent" shared="true" id="gore-magic-max"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="gore-gifts" targetId="gifts-of-chaos-group"/>
-            <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="gore-marks" targetId="marks-of-chaos-chars"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="gore-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="gore-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="gore-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Crushing Blows" hidden="false" type="profile" id="gore-crush" targetId="cb01-9876-5432-1def"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="gore-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="gore-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gore-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- CENTIGOR CHIEFTAIN -->
-    <selectionEntry type="unit" import="true" name="Centigor Chieftain" hidden="false" id="c5e9-d8f7-b9e6-a7d8">
-      <profiles>
-        <profile name="Centigor Chieftain" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cent-chief-unit">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Cavalry (character)</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Centigor Chieftain" hidden="false" id="cent-chief-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cent-chief-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cent-chief-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="85"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Centigor Chieftain" hidden="false" type="profile" id="cent-chief-info" targetId="cent-chief-profile-ld8"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="Magic Items" hidden="false" type="selectionEntryGroup" id="cent-chief-magic" targetId="1539-fd78-88f-badd">
-              <constraints>
-                <constraint type="max" value="50" field="points" scope="parent" shared="true" id="cent-chief-magic-max"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Gifts of Chaos" hidden="false" type="selectionEntryGroup" id="cent-chief-gifts" targetId="gifts-of-chaos-group"/>
-            <entryLink import="true" name="Marks of Chaos (Characters)" hidden="false" type="selectionEntryGroup" id="cent-chief-marks" targetId="marks-of-chaos-chars"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="cent-chief-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="cent-chief-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="cent-chief-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Crushing Blows" hidden="false" type="profile" id="cent-chief-crush" targetId="cb01-9876-5432-1def"/>
-            <infoLink name="Drunken" hidden="false" type="profile" id="cent-chief-drunk" targetId="7c-7525-760e-17ad"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="cent-chief-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="cent-chief-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cent-chief-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- ===================================================================== -->
-    <!-- CORE UNITS - WITH EQUIPMENT FIXES -->
-    <!-- ===================================================================== -->
-
-    <!-- CHAOS WARHOUNDS -->
-    <selectionEntry type="unit" import="true" name="Chaos Warhounds" hidden="false" id="f9e8-d7c6-b9e7-a8d6">
-      <profiles>
-        <profile name="Chaos Warhounds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="warhound-unit">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Beast</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">5+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Chaos Warhound" hidden="false" id="warhound-model">
-          <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="warhound-min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Chaos Warhound" hidden="false" type="profile" id="warhound-info" targetId="6103-19c8-df74-6423"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="warhound-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="warhound-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="warhound-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="warhound-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="warhound-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="warhound-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- GOR HERDS - WITH EQUIPMENT -->
-    <selectionEntry type="unit" import="true" name="Gor Herds" hidden="false" id="c4d7-9e8f-b6d9-a7e8">
-      <profiles>
-        <profile name="Gor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="gor-unit">
+        <profile name="Gor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="gor-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular Infantry</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">10+</characteristic>
@@ -1408,7 +512,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Gor" hidden="false" id="gor-model">
+        <selectionEntry type="model" import="true" name="Gor" hidden="false" id="gor-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="gor-min"/>
           </constraints>
@@ -1416,56 +520,56 @@
             <cost name="pts" typeId="points" value="7"/>
           </costs>
           <infoLinks>
-            <infoLink name="Gor" hidden="false" type="profile" id="gor-info" targetId="16a9-6b4b-1dc9-ff17"/>
+            <infoLink name="Gor" hidden="false" type="profile" id="gor-stat" targetId="e71f-b44c-1293-39aa"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Equipment" id="gor-equip-group" hidden="false" sortIndex="2" flatten="true">
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="gor-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gor-equip-min"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gor-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="gor-equipment" hidden="false" sortIndex="2" flatten="true">
+              <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gor-equip-max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Additional Hand Weapon" hidden="false" id="gor-ahw">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="gor-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="2"/>
                   </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="gor-shield">
+                </entryLink>
+                <entryLink import="true" name="Shield" hidden="false" id="gor-shield" type="selectionEntry" targetId="e4f2-d5c1-88a3-9e05" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="1"/>
                   </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Unit Upgrades" hidden="false" id="gor-upgrades">
-          <entryLinks>
-            <entryLink import="true" name="Marks of Chaos" hidden="false" type="selectionEntryGroup" id="gor-marks" targetId="marks-of-chaos-units"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="gor-rules">
           <infoLinks>
             <infoLink name="Primal Fury" hidden="false" type="profile" id="gor-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="gor-bestial" targetId="4203-7f82-8eaa-bfd3"/>
+            <infoLink name="Beastmen Ambush" hidden="false" type="profile" id="gor-ambush" targetId="ba01-1234-5678-9abc"/>
             <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="gor-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="gor-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gor-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Core" hidden="false" id="gor-core-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- UNGOR HERDS - WITH EQUIPMENT -->
-    <selectionEntry type="unit" import="true" name="Ungor Herds" hidden="false" id="55ac-3093-dbc4-5b4d">
+    <!-- ================================================================= -->
+    <!-- UNGOR HERDS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Ungor Herds" hidden="false" id="8e9d-c7f6-b8a9-ungor">
       <profiles>
-        <profile name="Ungor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="ungor-unit">
+        <profile name="Ungor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="ungor-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular Infantry</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">10+</characteristic>
@@ -1473,73 +577,167 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ungor" hidden="false" id="ungor-model">
+        <selectionEntry type="model" import="true" name="Ungor" hidden="false" id="ungor-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="ungor-min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="4"/>
+            <cost name="pts" typeId="points" value="5"/>
           </costs>
           <infoLinks>
-            <infoLink name="Ungor" hidden="false" type="profile" id="ungor-info" targetId="e8f-c68f-43a9-f13f"/>
+            <infoLink name="Ungor" hidden="false" type="profile" id="ungor-stat" targetId="d55a-3f11-8f7e-18b9"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Equipment" id="ungor-equip-group" hidden="false" sortIndex="2" flatten="true">
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="ungor-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ungor-equip-min"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ungor-equip-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ungor-hw-min"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Throwing Spears" hidden="false" id="ungor-throw-spear">
-                  <costs>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Thrusting Spears" hidden="false" id="ungor-thrust-spear">
-                  <costs>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shortbow" hidden="false" id="ungor-shortbow">
-                  <costs>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shield" hidden="false" id="ungor-shield">
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="ungor-equipment" hidden="false" sortIndex="2" flatten="true">
+              <entryLinks>
+                <entryLink import="true" name="Shield" hidden="false" id="ungor-shield" type="selectionEntry" targetId="e4f2-d5c1-88a3-9e05" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="1"/>
                   </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Unit Upgrades" hidden="false" id="ungor-upgrades">
-          <entryLinks>
-            <entryLink import="true" name="Marks of Chaos" hidden="false" type="selectionEntryGroup" id="ungor-marks" targetId="marks-of-chaos-units"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="ungor-rules">
           <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="ungor-primal" targetId="24a7-8ec2-fca1-21e2"/>
             <infoLink name="Beastmen Ambush" hidden="false" type="profile" id="ungor-ambush" targetId="ba01-1234-5678-9abc"/>
             <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="ungor-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Core" hidden="false" id="ungor-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="ungor-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Core" hidden="false" id="ungor-core-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-<!-- CHAOS OGRES -->
-    <selectionEntry type="unit" import="true" name="Chaos Ogres" hidden="false" id="8e9d-c7f6-b9a8-d7e6">
+
+    <!-- ================================================================= -->
+    <!-- BESTIGOR HERDS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Bestigor Herds" hidden="false" id="8e9d-c7f6-b8a9-best">
       <profiles>
-        <profile name="Chaos Ogres" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cogre-unit">
+        <profile name="Bestigor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="best-unit-profile">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Heavy Infantry</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">10+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bestigor" hidden="false" id="best-model" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="best-min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Bestigor" hidden="false" type="profile" id="best-stat" targetId="4c01-d7e7-b83c-0a05"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="best-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="best-hw-min"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="best-ha" targetId="3fd3-bc03-6a6f-ea4a" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="best-ha-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="best-rules">
+          <infoLinks>
+            <infoLink name="Primal Fury" hidden="false" type="profile" id="best-primal" targetId="24a7-8ec2-fca1-21e2"/>
+            <infoLink name="Beastmen Ambush" hidden="false" type="profile" id="best-ambush" targetId="ba01-1234-5678-9abc"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="best-undiv" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="best-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+
+    <!-- ================================================================= -->
+    <!-- CENTIGOR HERDS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Centigor Herds" hidden="false" id="8e9d-c7f6-b9a8-d7c6">
+      <profiles>
+        <profile name="Centigor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cent-unit-profile">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Light Cavalry</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Centigor" hidden="false" id="cent-model" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="cent-min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Centigor" hidden="false" type="profile" id="cent-stat" targetId="fa8f-cf9e-d1dc-ea8c"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="cent-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cent-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="cent-equipment" hidden="false" sortIndex="2" flatten="true">
+              <entryLinks>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="cent-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="1">
+                  <costs>
+                    <cost name="pts" typeId="points" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Shield" hidden="false" id="cent-shield" type="selectionEntry" targetId="e4f2-d5c1-88a3-9e05" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="1"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="cent-rules">
+          <infoLinks>
+            <infoLink name="Primal Fury" hidden="false" type="profile" id="cent-primal" targetId="24a7-8ec2-fca1-21e2"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="cent-undiv" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="cent-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+
+    <!-- ================================================================= -->
+    <!-- MINOTAUR HERDS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Minotaur Herds" hidden="false" id="a60-a56e-1b19-1969">
+      <profiles>
+        <profile name="Minotaur Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="mino-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
@@ -1547,7 +745,117 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Chaos Ogre" hidden="false" id="cogre-model">
+        <selectionEntry type="model" import="true" name="Minotaur" hidden="false" id="mino-model" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="mino-min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="27"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Minotaur" hidden="false" type="profile" id="mino-stat" targetId="1f49-8739-a20a-9a70"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="mino-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="mino-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="mino-equipment" hidden="false" sortIndex="2" flatten="true">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="mino-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1">
+                  <costs>
+                    <cost name="pts" typeId="points" value="3"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="mino-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="4"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Light Armour" hidden="false" id="mino-la" type="selectionEntry" targetId="d74f-9c07-b842-1a79" sortIndex="3">
+                  <costs>
+                    <cost name="pts" typeId="points" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Shield" hidden="false" id="mino-shield" type="selectionEntry" targetId="e4f2-d5c1-88a3-9e05" sortIndex="4">
+                  <costs>
+                    <cost name="pts" typeId="points" value="2"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="mino-rules">
+          <infoLinks>
+            <infoLink name="Primal Fury" hidden="false" type="profile" id="mino-primal" targetId="24a7-8ec2-fca1-21e2"/>
+            <infoLink name="Bestial Charge" hidden="false" type="profile" id="mino-bestial" targetId="4203-7f82-8eaa-bfd3"/>
+            <infoLink name="Crushing Blows" hidden="false" type="profile" id="mino-crush" targetId="cb01-9876-5432-1def"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="mino-undiv" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="mino-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+
+    <!-- ================================================================= -->
+    <!-- RAZORGOR HERDS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Razorgor Herds" hidden="false" id="9d8e-c7f6-b8a9-d7i6">
+      <profiles>
+        <profile name="Razorgor Herds" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="razor-unit-profile">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Beasts</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Razorgor" hidden="false" id="razor-model" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="razor-min"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Razorgor" hidden="false" type="profile" id="razor-stat" targetId="6d84-4eb9-2a32-d634"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="razor-rules">
+          <infoLinks>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="razor-undiv" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="razor-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+
+    <!-- ================================================================= -->
+    <!-- CHAOS OGRES -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Chaos Ogres" hidden="false" id="8e9d-c7f6-b9a8-d7e6">
+      <profiles>
+        <profile name="Chaos Ogres" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cogre-unit-profile">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chaos Ogre" hidden="false" id="cogre-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="cogre-min"/>
           </constraints>
@@ -1555,48 +863,38 @@
             <cost name="pts" typeId="points" value="25"/>
           </costs>
           <infoLinks>
-            <infoLink name="Chaos Ogre" hidden="false" type="profile" id="cogre-info" targetId="f5e8-2b11-e7a6-b4f3"/>
+            <infoLink name="Chaos Ogre" hidden="false" type="profile" id="cogre-stat" targetId="f5e8-2b11-e7a6-b4f3"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="cogre-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cogre-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="cogre-equipment" hidden="false" sortIndex="2" flatten="true">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="cogre-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1">
+                  <costs>
+                    <cost name="pts" typeId="points" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="cogre-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="3"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Light Armour" hidden="false" id="cogre-la" type="selectionEntry" targetId="d74f-9c07-b842-1a79" sortIndex="3">
+                  <costs>
+                    <cost name="pts" typeId="points" value="2"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Unit Upgrades" hidden="false" id="cogre-upgrades">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="cogre-mark-khorne">
-              <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="cogre-mk-kh-info" targetId="mkh1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="cogre-mark-nurgle">
-              <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="cogre-mk-nu-info" targetId="mnu1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="cogre-mark-slaanesh">
-              <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="cogre-mk-sl-info" targetId="msl1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="cogre-mark-tzeentch">
-              <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="cogre-mk-tz-info" targetId="mtz1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="cogre-rules">
           <infoLinks>
@@ -1605,23 +903,24 @@
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="cogre-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cogre-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Special" hidden="false" id="cogre-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
+    <!-- ================================================================= -->
     <!-- DRAGON OGRES -->
+    <!-- ================================================================= -->
     <selectionEntry type="unit" import="true" name="Dragon Ogres" hidden="false" id="7e8d-c9f6-b8a9-d7f6">
       <profiles>
-        <profile name="Dragon Ogres" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="dogre-unit">
+        <profile name="Dragon Ogres" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="dogre-unit-profile">
           <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Cavalry</characteristic>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Beasts</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dragon Ogre" hidden="false" id="dogre-model">
+        <selectionEntry type="model" import="true" name="Dragon Ogre" hidden="false" id="dogre-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="dogre-min"/>
           </constraints>
@@ -1629,209 +928,163 @@
             <cost name="pts" typeId="points" value="39"/>
           </costs>
           <infoLinks>
-            <infoLink name="Dragon Ogre" hidden="false" type="profile" id="dogre-info" targetId="drag-ogre-profile"/>
+            <infoLink name="Dragon Ogre" hidden="false" type="profile" id="dogre-stat" targetId="c4f9-3bf9-8fc0-34aa"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="dogre-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dogre-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="dogre-equipment" hidden="false" sortIndex="2" flatten="true">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="dogre-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1">
+                  <costs>
+                    <cost name="pts" typeId="points" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="dogre-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="3"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="dogre-rules">
           <infoLinks>
-            <infoLink name="Ensorcelled Weapons" hidden="false" type="profile" id="dogre-ensw" targetId="ensw-1111-2222-3333"/>
+            <infoLink name="Crushing Blows" hidden="false" type="profile" id="dogre-crush" targetId="cb01-9876-5432-1def"/>
             <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="dogre-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="dogre-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="dogre-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Special" hidden="false" id="dogre-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- PREYTON -->
-    <selectionEntry type="unit" import="true" name="Preyton" hidden="false" id="prey-entry-155">
+    <!-- ================================================================= -->
+    <!-- HARPIES -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Harpies" hidden="false" id="7e8d-c9f6-b8a9-d7g6">
       <profiles>
-        <profile name="Preyton" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="prey-unit">
+        <profile name="Harpies" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="harpy-unit-profile">
           <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Creature</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Beasts</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">5+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Preyton" hidden="false" id="prey-model">
+        <selectionEntry type="model" import="true" name="Harpy" hidden="false" id="harpy-model" sortIndex="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="prey-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="prey-max"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="harpy-min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="155"/>
+            <cost name="pts" typeId="points" value="9"/>
           </costs>
           <infoLinks>
-            <infoLink name="Preyton" hidden="false" type="profile" id="prey-info" targetId="prey-prof-155pts"/>
+            <infoLink name="Harpy" hidden="false" type="profile" id="harpy-stat" targetId="766a-b57d-def9-458e"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="prey-rules">
+        <infoGroup name="Special Rules" hidden="false" id="harpy-rules">
           <infoLinks>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="prey-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Crown of Antlers" hidden="false" type="profile" id="prey-crown" targetId="crow-1234-5678-90ab"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="prey-undiv" targetId="595-bbd0-34c7-e601"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="harpy-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="prey-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="prey-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Special" hidden="false" id="harpy-spec-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- ===================================================================== -->
-    <!-- RARE UNITS -->
-    <!-- ===================================================================== -->
-
-    <!-- RAZORGOR CHARIOT -->
-    <selectionEntry type="unit" import="true" name="Razorgor Chariot" hidden="false" id="7d8e-c9f6-b8a9-d7k6">
+    <!-- ================================================================= -->
+    <!-- CHAOS TROLLS -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Chaos Trolls" hidden="false" id="7d8e-c9f6-b8a9-d7j6">
       <profiles>
-        <profile name="Razorgor Chariot" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="rchar-unit">
+        <profile name="Chaos Trolls" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="ctroll-unit-profile">
           <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Chariot</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Razorgor Chariot" hidden="false" id="rchar-model">
+        <selectionEntry type="model" import="true" name="Chaos Troll" hidden="false" id="ctroll-model" sortIndex="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="rchar-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="rchar-max"/>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ctroll-min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="100"/>
+            <cost name="pts" typeId="points" value="22"/>
           </costs>
           <infoLinks>
-            <infoLink name="Razorgor Chariot" hidden="false" type="profile" id="rchar-info" targetId="razc-4444-5555-6666"/>
+            <infoLink name="Chaos Troll" hidden="false" type="profile" id="ctroll-stat" targetId="25f9-7e5d-f88f-e21a"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Unit Upgrades" hidden="false" id="rchar-upgrades">
-          <entryLinks>
-            <entryLink import="true" name="Marks of Chaos" hidden="false" type="selectionEntryGroup" id="rchar-marks" targetId="marks-of-chaos-units"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="rchar-rules">
+        <infoGroup name="Special Rules" hidden="false" id="ctroll-rules">
           <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="rchar-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="rchar-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Crushing Blows" hidden="false" type="profile" id="rchar-crush" targetId="cb01-9876-5432-1def"/>
-            <infoLink name="Razor Tusks" hidden="false" type="profile" id="rchar-tusks" targetId="3650-49a2-85b-702e"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="rchar-undiv" targetId="595-bbd0-34c7-e601"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="ctroll-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="rchar-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="rchar-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Rare" hidden="false" id="ctroll-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- GHORGON -->
-    <selectionEntry type="unit" import="true" name="Ghorgon" hidden="false" id="7e8d-c9f6-b8a9-d7k6">
+    <!-- ================================================================= -->
+    <!-- CHAOS SPAWN -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Chaos Spawn" hidden="false" id="8e9d-c7f6-b8a9-d7j6">
       <profiles>
-        <profile name="Ghorgon" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="ghorg-unit">
+        <profile name="Chaos Spawn" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cspawn-unit-profile">
           <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghorgon" hidden="false" id="ghorg-model">
+        <selectionEntry type="model" import="true" name="Chaos Spawn" hidden="false" id="cspawn-model" sortIndex="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ghorg-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ghorg-max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cspawn-min"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="points" value="230"/>
+            <cost name="pts" typeId="points" value="37"/>
           </costs>
           <infoLinks>
-            <infoLink name="Ghorgon" hidden="false" type="profile" id="ghorg-info" targetId="69c1-d9ac-e2fd-b237"/>
+            <infoLink name="Chaos Spawn" hidden="false" type="profile" id="cspawn-stat" targetId="b7e1-4f25-ca9d-5ee4"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="ghorg-rules">
+        <infoGroup name="Special Rules" hidden="false" id="cspawn-rules">
           <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="ghorg-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="ghorg-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="ghorg-undiv" targetId="595-bbd0-34c7-e601"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="cspawn-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="ghorg-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="ghorg-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Rare" hidden="false" id="cspawn-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- JABBERSLYTHE -->
-    <selectionEntry type="unit" import="true" name="Jabberslythe" hidden="false" id="9e8d-c7f6-b8a9-d7k6">
-      <profiles>
-        <profile name="Jabberslythe" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="jabber-unit">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Jabberslythe" hidden="false" id="jabber-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jabber-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jabber-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="165"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Jabberslythe" hidden="false" type="profile" id="jabber-info" targetId="jabb-prof-165pts"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Acidic Vomit" hidden="false" id="jabber-acidic">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jabber-acidic-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Acidic Vomit" hidden="false" type="profile" id="jabber-acidic-info" targetId="acid-1234-5678-90ab"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="jabber-rules">
-          <infoLinks>
-            <infoLink name="Primal Fury" hidden="false" type="profile" id="jabber-primal" targetId="24a7-8ec2-fca1-21e2"/>
-            <infoLink name="Bestial Charge" hidden="false" type="profile" id="jabber-bestial" targetId="4203-7f82-8eaa-bfd3"/>
-            <infoLink name="Maddening Aura" hidden="false" type="profile" id="jabber-madden" targetId="madd-1234-5678-90ab"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="jabber-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="jabber-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="jabber-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
+    <!-- ================================================================= -->
     <!-- CYGOR -->
+    <!-- ================================================================= -->
     <selectionEntry type="unit" import="true" name="Cygor" hidden="false" id="8d9e-c7f6-b8a9-d7j6">
       <profiles>
-        <profile name="Cygor" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cygor-unit">
+        <profile name="Cygor" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cygor-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
@@ -1839,7 +1092,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Cygor" hidden="false" id="cygor-model">
+        <selectionEntry type="model" import="true" name="Cygor" hidden="false" id="cygor-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cygor-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cygor-max"/>
@@ -1848,29 +1101,28 @@
             <cost name="pts" typeId="points" value="210"/>
           </costs>
           <infoLinks>
-            <infoLink name="Cygor" hidden="false" type="profile" id="cygor-info" targetId="aad9-a4f8-c37e-e0f6"/>
+            <infoLink name="Cygor" hidden="false" type="profile" id="cygor-stat" targetId="aad9-a4f8-c37e-e0f6"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="cygor-rules">
           <infoLinks>
-            <infoLink name="Ghosight" hidden="false" type="profile" id="cygor-ghos" targetId="ghos-1234-5678-90ab"/>
-            <infoLink name="Soul-Eater" hidden="false" type="profile" id="cygor-soul" targetId="soul-1234-5678-90ab"/>
             <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="cygor-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="cygor-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cygor-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Rare" hidden="false" id="cygor-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- CHAOS GIANT -->
-    <selectionEntry type="unit" import="true" name="Chaos Giant" hidden="false" id="7e8d-c9f6-b8a9-d7j6">
+    <!-- ================================================================= -->
+    <!-- DRAGON OGRE SHAGGOTH -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Dragon Ogre Shaggoth" hidden="false" id="9e8d-c7f6-b8a9-d7j6">
       <profiles>
-        <profile name="Chaos Giant" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cgiant-unit">
+        <profile name="Dragon Ogre Shaggoth" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="shaggoth-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
@@ -1878,7 +1130,109 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Chaos Giant" hidden="false" id="cgiant-model">
+        <selectionEntry type="model" import="true" name="Dragon Ogre Shaggoth" hidden="false" id="shaggoth-model" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="shaggoth-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="shaggoth-max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="220"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Dragon Ogre Shaggoth" hidden="false" type="profile" id="shaggoth-stat" targetId="27f9-4f92-8d2b-4089"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="shaggoth-hw" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="shaggoth-hw-min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Equipment" id="shaggoth-equipment" hidden="false" sortIndex="2">
+              <entryLinks>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="shaggoth-ahw" type="selectionEntry" targetId="8943-3e16-db2a-b7f3">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Great Weapon" hidden="false" id="shaggoth-gw" type="selectionEntry" targetId="2283-26e9-76c3-6048">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="shaggoth-rules">
+          <infoLinks>
+            <infoLink name="Crushing Blows" hidden="false" type="profile" id="shaggoth-crush" targetId="cb01-9876-5432-1def"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="shaggoth-undiv" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="shaggoth-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+
+    <!-- ================================================================= -->
+    <!-- GHORGON -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Ghorgon" hidden="false" id="7e8d-c9f6-b8a9-d7k6">
+      <profiles>
+        <profile name="Ghorgon" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="ghorgon-unit-profile">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ghorgon" hidden="false" id="ghorgon-model" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ghorgon-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ghorgon-max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="230"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Ghorgon" hidden="false" type="profile" id="ghorgon-stat" targetId="69c1-d9ac-e2fd-b237"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="ghorgon-rules">
+          <infoLinks>
+            <infoLink name="Bestial Charge" hidden="false" type="profile" id="ghorgon-bestial" targetId="4203-7f82-8eaa-bfd3"/>
+            <infoLink name="Primal Fury" hidden="false" type="profile" id="ghorgon-primal" targetId="24a7-8ec2-fca1-21e2"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="ghorgon-undiv" targetId="595-bbd0-34c7-e601"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="ghorgon-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+
+    <!-- ================================================================= -->
+    <!-- CHAOS GIANT -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Chaos Giant" hidden="false" id="7e8d-c9f6-b8a9-d7j6">
+      <profiles>
+        <profile name="Chaos Giant" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cgiant-unit-profile">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chaos Giant" hidden="false" id="cgiant-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cgiant-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cgiant-max"/>
@@ -1886,22 +1240,9 @@
           <costs>
             <cost name="pts" typeId="points" value="170"/>
           </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Scaly Skin" hidden="false" id="cgiant-scaly">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cgiant-scaly-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="cgiant-regen">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cgiant-regen-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="10"/>
-          </costs>
+          <infoLinks>
+            <infoLink name="Chaos Giant" hidden="false" type="profile" id="cgiant-stat" targetId="dd04-8d3f-ea4d-6b09"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
@@ -1912,86 +1253,16 @@
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="cgiant-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cgiant-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Rare" hidden="false" id="cgiant-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- CHAOS SPAWN -->
-    <selectionEntry type="unit" import="true" name="Chaos Spawn" hidden="false" id="8e9d-c7f6-b8a9-d7j6">
-      <profiles>
-        <profile name="Chaos Spawn" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cspawn-unit">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Beasts</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Chaos Spawn" hidden="false" id="cspawn-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cspawn-min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="37"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Unit Upgrades" hidden="false" id="cspawn-upgrades">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="cspawn-mark-khorne">
-              <infoLinks>
-                <infoLink name="Mark of Khorne" hidden="false" type="profile" id="cspawn-mk-kh-info" targetId="mkh1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="cspawn-mark-nurgle">
-              <infoLinks>
-                <infoLink name="Mark of Nurgle" hidden="false" type="profile" id="cspawn-mk-nu-info" targetId="mnu1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="cspawn-mark-slaanesh">
-              <infoLinks>
-                <infoLink name="Mark of Slaanesh" hidden="false" type="profile" id="cspawn-mk-sl-info" targetId="msl1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="cspawn-mark-tzeentch">
-              <infoLinks>
-                <infoLink name="Mark of Tzeentch" hidden="false" type="profile" id="cspawn-mk-tz-info" targetId="mtz1-2345-6789-abcd"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="4"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="cspawn-rules">
-          <infoLinks>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="cspawn-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="cspawn-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cspawn-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
+    <!-- ================================================================= -->
     <!-- GIGANTIC SPAWN OF CHAOS -->
+    <!-- ================================================================= -->
     <selectionEntry type="unit" import="true" name="Gigantic Spawn of Chaos" hidden="false" id="8d9e-c7f6-b8a9-d7k6">
       <profiles>
-        <profile name="Gigantic Spawn of Chaos" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="gspawn-unit">
+        <profile name="Gigantic Spawn of Chaos" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="gspawn-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
@@ -1999,7 +1270,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Gigantic Spawn of Chaos" hidden="false" id="gspawn-model">
+        <selectionEntry type="model" import="true" name="Gigantic Spawn of Chaos" hidden="false" id="gspawn-model" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="gspawn-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="gspawn-max"/>
@@ -2007,6 +1278,9 @@
           <costs>
             <cost name="pts" typeId="points" value="175"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Gigantic Spawn of Chaos" hidden="false" type="profile" id="gspawn-stat" targetId="b0dc-8a5c-3c1f-e15d"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
@@ -2017,52 +1291,16 @@
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="gspawn-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="gspawn-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Rare" hidden="false" id="gspawn-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
-    <!-- CHAOS TROLLS -->
-    <selectionEntry type="unit" import="true" name="Chaos Trolls" hidden="false" id="7d8e-c9f6-b8a9-d7j6">
+    <!-- ================================================================= -->
+    <!-- JABBERSLYTHE -->
+    <!-- ================================================================= -->
+    <selectionEntry type="unit" import="true" name="Jabberslythe" hidden="false" id="9e8d-c7f6-b8a9-d7k6">
       <profiles>
-        <profile name="Chaos Trolls" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="ctroll-unit">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Infantry</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Chaos Troll" hidden="false" id="ctroll-model">
-          <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ctroll-min"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="22"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Chaos Troll" hidden="false" type="profile" id="ctroll-info" targetId="25f9-7e5d-f88f-e21a"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="ctroll-rules">
-          <infoLinks>
-            <infoLink name="Troll Vomit" hidden="false" type="profile" id="ctroll-vomit" targetId="trlv-1111-2222-3333"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="ctroll-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="ctroll-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="ctroll-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- DRAGON OGRE SHAGGOTH -->
-    <selectionEntry type="unit" import="true" name="Dragon Ogre Shaggoth" hidden="false" id="9e8d-c7f6-b8a9-d7j6">
-      <profiles>
-        <profile name="Dragon Ogre Shaggoth" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="shag-unit">
+        <profile name="Jabberslythe" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="jabber-unit-profile">
           <characteristics>
             <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Behemoth</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
@@ -2070,73 +1308,164 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dragon Ogre Shaggoth" hidden="false" id="shag-model">
+        <selectionEntry type="model" import="true" name="Jabberslythe" hidden="false" id="jabber-model" sortIndex="1">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="shag-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="shag-max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="220"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Dragon Ogre Shaggoth" hidden="false" type="profile" id="shag-info" targetId="27f9-4f92-8d2b-4089"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="shag-rules">
-          <infoLinks>
-            <infoLink name="Crushing Blows" hidden="false" type="profile" id="shag-crush" targetId="cb01-9876-5432-1def"/>
-            <infoLink name="Ensorcelled Weapons" hidden="false" type="profile" id="shag-ensw" targetId="ensw-1111-2222-3333"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="shag-undiv" targetId="595-bbd0-34c7-e601"/>
-          </infoLinks>
-        </infoGroup>
-      </infoGroups>
-      <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="shag-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="shag-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-
-    <!-- COCKATRICE -->
-    <selectionEntry type="unit" import="true" name="Cockatrice" hidden="false" id="8d9e-c7f6-b8a9-d7k6">
-      <profiles>
-        <profile name="Cockatrice" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="cock-unit">
-          <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Monstrous Creature</characteristic>
-            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Cockatrice" hidden="false" id="cock-model">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cock-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cock-max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="jabber-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="jabber-max"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="165"/>
           </costs>
           <infoLinks>
-            <infoLink name="Cockatrice" hidden="false" type="profile" id="cock-info" targetId="cock-prof-165pts"/>
+            <infoLink name="Jabberslythe" hidden="false" type="profile" id="jabber-stat" targetId="4dc2-ea92-e5c1-9f78"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoGroups>
-        <infoGroup name="Special Rules" hidden="false" id="cock-rules">
+        <infoGroup name="Special Rules" hidden="false" id="jabber-rules">
           <infoLinks>
-            <infoLink name="Petrifying Gaze" hidden="false" type="profile" id="cock-petr" targetId="petr-1234-5678-90ab"/>
-            <infoLink name="Stony Stare" hidden="false" type="profile" id="cock-stony" targetId="ston-1234-5678-90ab"/>
-            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="cock-undiv" targetId="595-bbd0-34c7-e601"/>
+            <infoLink name="Bestial Charge" hidden="false" type="profile" id="jabber-bestial" targetId="4203-7f82-8eaa-bfd3"/>
+            <infoLink name="Mark of Chaos Undivided" hidden="false" type="profile" id="jabber-undiv" targetId="595-bbd0-34c7-e601"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
       <categoryLinks>
-        <categoryLink name="Rare" hidden="false" id="cock-cat" targetId="2bfe-5863-46fe-d284" primary="true"/>
-        <categoryLink name="Faction: Beastmen Brayherds" hidden="false" id="cock-fac" targetId="a265-1c26-e439-8f2c" primary="false"/>
+        <categoryLink name="Rare" hidden="false" id="jabber-rare-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
       </categoryLinks>
     </selectionEntry>
 
   </selectionEntries>
+
+  <!-- ===================================================================== -->
+  <!-- ENTRY LINKS -->
+  <!-- ===================================================================== -->
+  
+  <entryLinks>
+    
+    <!-- Characters -->
+    <entryLink import="true" name="Beastlord" hidden="false" type="selectionEntry" id="beastlord-link" targetId="4533-c25f-76b4-5f7b">
+      <categoryLinks>
+        <categoryLink name="Characters" hidden="false" id="beastlord-link-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Doombull" hidden="false" type="selectionEntry" id="doombull-link" targetId="9e8d-c7f6-b8a9-doom">
+      <categoryLinks>
+        <categoryLink name="Characters" hidden="false" id="doombull-link-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
+    <!-- Core -->
+    <entryLink import="true" name="Gor Herds" hidden="false" type="selectionEntry" id="gor-link" targetId="8e9d-c7f6-b8a9-gors">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="gor-link-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Ungor Herds" hidden="false" type="selectionEntry" id="ungor-link" targetId="8e9d-c7f6-b8a9-ungor">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="ungor-link-cat" targetId="f0e3-2e32-8866-ea32" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
+    <!-- Special -->
+    <entryLink import="true" name="Bestigor Herds" hidden="false" type="selectionEntry" id="best-link" targetId="8e9d-c7f6-b8a9-best">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="best-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Centigor Herds" hidden="false" type="selectionEntry" id="cent-link" targetId="8e9d-c7f6-b9a8-d7c6">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="cent-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Chaos Ogres" hidden="false" type="selectionEntry" id="cogre-link" targetId="8e9d-c7f6-b9a8-d7e6">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="cogre-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Dragon Ogres" hidden="false" type="selectionEntry" id="dogre-link" targetId="7e8d-c9f6-b8a9-d7f6">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="dogre-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Harpies" hidden="false" type="selectionEntry" id="harpy-link" targetId="7e8d-c9f6-b8a9-d7g6">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="harpy-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Minotaur Herds" hidden="false" type="selectionEntry" id="mino-link" targetId="a60-a56e-1b19-1969">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="mino-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Razorgor Herds" hidden="false" type="selectionEntry" id="razor-link" targetId="9d8e-c7f6-b8a9-d7i6">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="razor-link-cat" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
+    <!-- Rare -->
+    <entryLink import="true" name="Chaos Giant" hidden="false" type="selectionEntry" id="cgiant-link" targetId="7e8d-c9f6-b8a9-d7j6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="cgiant-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Chaos Spawn" hidden="false" type="selectionEntry" id="cspawn-link" targetId="8e9d-c7f6-b8a9-d7j6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="cspawn-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Chaos Trolls" hidden="false" type="selectionEntry" id="ctroll-link" targetId="7d8e-c9f6-b8a9-d7j6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="ctroll-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Cygor" hidden="false" type="selectionEntry" id="cygor-link" targetId="8d9e-c7f6-b8a9-d7j6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="cygor-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Dragon Ogre Shaggoth" hidden="false" type="selectionEntry" id="shag-link" targetId="9e8d-c7f6-b8a9-d7j6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="shag-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Ghorgon" hidden="false" type="selectionEntry" id="ghorg-link" targetId="7e8d-c9f6-b8a9-d7k6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="ghorg-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Gigantic Spawn of Chaos" hidden="false" type="selectionEntry" id="gspawn-link" targetId="8d9e-c7f6-b8a9-d7k6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="gspawn-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+    <entryLink import="true" name="Jabberslythe" hidden="false" type="selectionEntry" id="jabber-link" targetId="9e8d-c7f6-b8a9-d7k6">
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="jabber-link-cat" targetId="8214-cf48-b1cd-5f5e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    
+  </entryLinks>
+
+  <readme>Beastmen Brayherds Homebrew - Fixed and Complete</readme>
+
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Magic Items" id="magic-items-link" targetId="6c22-b0e4-7c83-f9ce"/>
+  </catalogueLinks>
 
 </catalogue>
