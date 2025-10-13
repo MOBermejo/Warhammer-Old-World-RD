@@ -538,18 +538,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dragon Slaying Sword" hidden="false" id="5622-11bf-3952-ba8e" sortIndex="62">
-              <infoLinks>
-                <infoLink targetId="7e18-9bc6-5da5-5a53" id="c544-d29c-2597-734b" type="profile" name="Dragon Slaying Sword" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="50"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aac-c478-25a-5c1a"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="6476-8393-656f-bda7"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Heartwood Lance" hidden="true" id="6bb5-3d2d-b94b-ddc7" sortIndex="64">
               <infoLinks>
                 <infoLink targetId="1f84-87dd-f65-be20" id="e997-3d23-1132-fa79" type="profile" name="Heartwood Lance" hidden="false"/>
@@ -1642,7 +1630,7 @@
                 <infoLink name="Hammer of Judgement" id="babc-3029-e8bb-c216" hidden="false" type="profile" targetId="8804-dcf1-9e08-cde9"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="50"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="048d-6de3-eba5-6b88"/>
@@ -5047,33 +5035,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Obsidian Lodestone" hidden="false" id="a778-40ee-5cdf-181b" sortIndex="4">
-              <infoLinks>
-                <infoLink targetId="6af1-5f1-de38-a8af" id="a508-d6d0-98f3-5563" type="profile" name="Obsidian Lodestone" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2352-9fff-99ba-6c97"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Paymaster&apos;s Coin" hidden="false" id="d1dd-ffc8-35ca-de84" sortIndex="10">
-              <infoLinks>
-                <infoLink targetId="53aa-817-e6a5-d091" id="e2b8-b957-825d-4741" type="profile" name="Paymaster&apos;s Coin" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Luckstone" hidden="false" id="e093-6183-8cf0-bd53" sortIndex="2">
-              <infoLinks>
-                <infoLink targetId="66e3-abd0-f364-2583" id="b0f7-e325-a7e8-9126" type="profile" name="Luckstone" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cathayan Jet Pendant" hidden="true" id="330e-3874-c979-a8a6" sortIndex="1">
               <infoLinks>
                 <infoLink targetId="32e-8d0e-94ac-abb5" id="2213-c98f-c662-6c53" type="profile" name="Cathayan Jet Pendant" hidden="false"/>
@@ -5132,21 +5093,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Jade Amulet" hidden="true" id="ba37-bf9e-ffb-b1d0" sortIndex="8">
-              <infoLinks>
-                <infoLink name="Jade Amulet" hidden="false" id="a797-cb87-dce8-3de4" targetId="1a62-c3f0-7c10-3d3" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dark Heart" hidden="true" id="88f7-6edb-5cc6-1995" sortIndex="7">
               <infoLinks>
                 <infoLink name="Dark Heart" id="6c35-982e-b721-7d37" hidden="false" targetId="d4d8-2aee-88a8-3ad" type="profile"/>
@@ -5161,21 +5107,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Witch Hunter&apos;s Ward" hidden="true" id="cb02-7500-68f1-79f0" sortIndex="6">
-              <infoLinks>
-                <infoLink name="Witch Hunter&apos;s Ward" id="552f-99da-7cd1-82c8" hidden="false" targetId="eed3-f514-d549-dafd" type="profile"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5244,17 +5175,6 @@
               <infoLinks>
                 <infoLink name="Glowy Green Amulet" hidden="false" id="b96d-1b31-abee-ff96" type="profile" targetId="30fc-2660-41d9-e75f"/>
               </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dawnstone" hidden="false" id="7cae-4c47-2020-8905" sortIndex="21">
-              <infoLinks>
-                <infoLink targetId="6fb0-8fbd-1f64-499d" id="665f-48df-517d-d2b1" type="profile" name="Dawnstone" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="831c-701f-26f1-9886"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="The White Cloak" hidden="true" id="7f41-ab1-71d3-79f5" sortIndex="18">
               <infoLinks>
@@ -6088,17 +6008,6 @@
                   </conditionGroups>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wizarding Hat" hidden="false" id="e631-aff7-808c-7cc0" sortIndex="46">
-              <infoLinks>
-                <infoLink targetId="b974-7e5d-3825-335b" id="dea0-bd4b-420d-5a19" type="profile" name="Wizarding Hat" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="45"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c3c4-d705-3a44-e7ba"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Stone of Spite" hidden="true" id="d75-8e96-398d-a029" sortIndex="45">
               <infoLinks>
@@ -7153,46 +7062,6 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Extremely Common Items" hidden="false" id="d690-6307-8be0-9fec" flatten="true" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Healing Potion" hidden="false" id="b147-b086-11f1-bdff" sortIndex="20">
-              <infoLinks>
-                <infoLink targetId="e52f-fb39-5868-3d11" id="ef1f-eda3-dd2b-7bb6" type="profile" name="Healing Potion" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Potion of Foolhardiness" hidden="false" id="58ca-a1a8-d52b-6cce" sortIndex="3">
-              <infoLinks>
-                <infoLink targetId="f789-7ee8-c654-3162" id="4b7f-4799-92d7-ded8" type="profile" name="Potion of Foolhardiness" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Potion of Speed" hidden="false" id="e7ec-552f-f331-88f6" sortIndex="6">
-              <infoLinks>
-                <infoLink targetId="588e-bad9-4c1c-779e" id="f337-9743-7cae-255f" type="profile" name="Potion of Speed" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Potion of Toughness" hidden="false" id="624f-aa63-b16e-9198" sortIndex="12">
-              <infoLinks>
-                <infoLink targetId="998f-2a5e-a106-d5" id="19e6-30d-73eb-52d5" type="profile" name="Potion of Toughness" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Potion of Strength" hidden="false" id="fd37-b783-71cb-368d" sortIndex="16">
-              <infoLinks>
-                <infoLink targetId="650f-cff0-9994-d2ed" id="8086-6d7e-800f-533f" type="profile" name="Potion of Strength" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Favour of the Gods" hidden="true" id="f916-f052-3b15-a75" sortIndex="1">
               <infoLinks>
                 <infoLink targetId="8c3d-fb32-355b-506a" id="23cb-d15f-29a1-d578" type="profile" name="Favour of the Gods" hidden="false"/>
@@ -7708,24 +7577,6 @@
                 <infoLink name="Wizard&apos;s Familiar" id="e49e-71ba-fea9-2ded" hidden="false" type="profile" targetId="1d0c-e863-2a42-b5bb"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="d229-652f-c96d-51d0" sortIndex="10">
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <infoLinks>
-                <infoLink name="Wizard&apos;s Staff" id="8bb0-e4ed-3864-9066" hidden="false" type="profile" targetId="74d8-751e-64d6-eeb"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b46b-0c9d-891a-2643"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Heartwood Pendant" hidden="true" id="5fd4-2f89-57eb-bbd8" sortIndex="3">
               <infoLinks>
                 <infoLink name="Heartwood Pendant" id="0d32-a9ce-f55a-4f14" hidden="false" targetId="0335-f25e-4f5e-73d8" type="profile"/>
@@ -8201,17 +8052,6 @@
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="ad6a-7599-c704-8ed3"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Earthing Rod" hidden="false" id="a4f1-73ba-532d-f105" sortIndex="1">
-              <infoLinks>
-                <infoLink targetId="54a8-2257-1373-d77c" id="857a-430e-9a92-a81c" type="profile" name="Earthing Rod" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="300a-8700-f02-7f66"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Glittering Wotnots" hidden="true" id="ed56-b26d-8826-eaf1" sortIndex="31">
@@ -8981,16 +8821,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile name="Wizarding Hat" hidden="false" id="b974-7e5d-3825-335b" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
-      <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">The wearer is a Level 1 Wizard and knows one randomly generated spell from a Lore of Magic of your choosing. However, the whispers of the ghostly Wizard haunting the hat are often confusing. Therefore, the wearer also becomes subject to the Stupidity special rule.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Dawnstone" hidden="false" id="6fb0-8fbd-1f64-499d" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The bearer if the Dawnstone may re-roll any Armour Save roll of a natural 1.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Spellshield" hidden="false" id="1823-6baf-b56d-e012" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
         <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Spellshield is a shield. In addition, its bearer has a 5+ Ward save against any wounds suffered that were caused by a Magic Missile, a magical Vortex, or and Assailment spell.</characteristic>
@@ -9021,19 +8851,9 @@
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Wearer has a 4+ ward save against magical attacks and spells.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Paymaster&apos;s Coin" hidden="false" id="53aa-817-e6a5-d091" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Single use. The bearer of a Paymaster&apos;s Coin can re-roll any failed rolls To Hit made during the Combat phase.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Obsidian Lodestone" hidden="false" id="6af1-5f1-de38-a8af" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
       <characteristics>
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">A model may purchase up to three Obsidian Lodestones. A model that bears a single Obsidian Lodestone has magic Resistance (-1), a model that bears two has Magic Resistance (-2), and a model that bears three has a Magic Resistance (-3).</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Luckstone" hidden="false" id="66e3-abd0-f364-2583" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Single use. The bearer of a Luckstone can re-roll a single failed Armour Save roll.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Blazing Banner" hidden="false" id="e466-b234-2c9b-a58e" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
@@ -9054,11 +8874,6 @@
     <profile name="Potion of Strength" hidden="false" id="650f-cff0-9994-d2ed" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
       <characteristics>
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single use. During the Command sub-phase of their turn, the bearer of a Potion of Strength can consume it. Until the end of that turn, the model has a +D3 modifier to its Strength characteristic (to a maximum of 10).</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Potion of Foolhardiness" hidden="false" id="f789-7ee8-c654-3162" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
-      <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single use. During the Command sub-phase of their turn, the bearer of a Potion of Foolhardiness can consume it. Until the end of that turn, the model gains the Immune to Psychology special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Ruby Ring of Ruin" hidden="false" id="747b-8014-aa45-da53" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
@@ -9089,11 +8904,6 @@
     <profile name="Wand of Jet" hidden="false" id="3ef9-54eb-f23a-356d" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer of the Wand of Jet may apply a +1 modifier to any of their Casting or Dispel rolls. However, should they roll any natural double when making a Casting or Dispel roll, the Wand of Jet is destroyed and it cannot be used again.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Earthing Rod" hidden="false" id="54a8-2257-1373-d77c" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
-      <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. Should they miscast a spell, a Wizard can use the Earthing Rod to re-roll the result rolled on the Miscast table.</characteristic>
       </characteristics>
     </profile>
     <profile name="Lore Familiar" hidden="false" id="af85-e641-1bb1-2314" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
@@ -9426,11 +9236,6 @@ Note that this does not increase the Wizard&apos;s Level.</characteristic>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Once per turn, upon successfully casting a spell, the bearer of the Annulian Crystal can choose to forget that spell and immediately generate another (not including signature spells) in the usual manner.
 
 Note that it is possible the Wizard might generate the spell they just forgot, or one forgotten in a previous turn. Consider it fate.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Jade Amulet" hidden="false" id="1a62-c3f0-7c10-3d3" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
-      <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The bearer is immune to the [Killing Blow] special rule. If the bearer is struck a [Killing Blow], they are permitted armour and [Regeneration] saves as normal. If the wound is unsaved, they lose a single Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="The White Cloak" hidden="false" id="1bb5-777b-726e-966b" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
@@ -10592,15 +10397,6 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Models whose troop type is &apos;cavalry&apos;, &apos;monster&apos; or &apos;chariot&apos; only.This weapon’s Strength and Armour Piercing modifiers apply only during a turn in which the wielder charged. In addition, during a turn in which the wielder charged, Porko&apos;s Pigstikka grants them +1 Attack for each rank the enemy unit has.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Dragon Slaying Sword" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="7e18-9bc6-5da5-5a53">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Monster Slayer</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
       </characteristics>
     </profile>
     <profile name="Demonsword" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="d57f-2b2-25c2-8863">
