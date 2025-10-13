@@ -141,18 +141,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Biting Blade" hidden="false" id="c9ce-445-cf63-4fd7" sortIndex="2">
-              <infoLinks>
-                <infoLink targetId="2002-3cb5-b083-4f5d" id="f26-a5eb-5f86-b1fa" type="profile" name="Biting Blade" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dd-b7ff-593-a8c5"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c226-9eac-a08d-dcfa"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wollopa&apos;s One Hit Wunda" hidden="true" id="f-99c-a394-caf6" sortIndex="3">
               <infoLinks>
                 <infoLink targetId="3cd5-b801-7f66-a88" id="2fec-1e3b-dd5a-4f0a" type="profile" name="Wollopa’s One Hit Wunda" hidden="false"/>
@@ -176,18 +164,6 @@
                   </conditionGroups>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Berserker Blade" hidden="false" id="e51f-b03e-4530-55c6" sortIndex="4">
-              <infoLinks>
-                <infoLink targetId="a139-4cd2-9b32-976" id="f9df-eb03-3f38-8ce6" type="profile" name="Berserker Blade" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7463-8bef-a326-f9ee"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="8449-8d17-d080-486c"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Foe Bane" hidden="true" id="e891-9e4e-b88f-913c" sortIndex="5">
               <infoLinks>
@@ -275,30 +251,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sword of Swiftness" hidden="false" id="e06f-b758-fb16-2389" sortIndex="14">
-              <infoLinks>
-                <infoLink targetId="fe33-36b-dbd5-8d6f" id="8871-da56-1e55-669e" type="profile" name="Sword Of Swiftness" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="9379-f639-c5ea-5aa3"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f7f-d772-51c7-5946"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Giant Blade" hidden="false" id="7b65-2bc5-4987-840b" sortIndex="23">
-              <infoLinks>
-                <infoLink targetId="1bfb-2e2c-4c1b-3e9" id="af37-d5f9-6e4e-b556" type="profile" name="Giant Blade" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="30"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="9ed6-aea6-d2f2-d0db"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6573-4587-20dc-d213"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Da Choppiest Choppa" hidden="true" id="549b-8fb4-19a9-8373" sortIndex="29">
               <infoLinks>
                 <infoLink targetId="337e-bc83-742-fcb4" id="e760-4bf0-7271-9348" type="profile" name="Da Choppiest Choppa" hidden="false"/>
@@ -368,18 +320,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spelleater Axe" hidden="false" id="bcc-6f1b-e98e-c10a" sortIndex="39">
-              <infoLinks>
-                <infoLink targetId="9fc4-5744-6b56-46b4" id="a77c-cdf4-5b1-3172" type="profile" name="Spelleater Axe" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1036-1e27-5934-d73b"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="e17b-27b6-3d2e-735f"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bow of Loren" hidden="true" id="86fe-856d-5174-1ca9" sortIndex="41">
               <infoLinks>
@@ -551,18 +491,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Headsman&apos;s Axe" hidden="false" id="d8de-dfe4-5837-7019" sortIndex="55">
-              <infoLinks>
-                <infoLink targetId="3f21-4a58-34b4-2827" id="ba2f-df7e-9eb2-51cc" type="profile" name="Headsman&apos;s Axe" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="45"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26f9-1cf-5557-b41d"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="88e8-a2c3-43a0-47f2"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Axe of Men" hidden="true" id="b4b7-f174-ae4a-808a" sortIndex="58">
               <infoLinks>
                 <infoLink targetId="589d-b2ec-97f6-c143" id="37ce-b0ca-3dd3-a8cf" type="profile" name="Axe of Men" hidden="false"/>
@@ -699,18 +627,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Duellist&apos;s Blades" hidden="false" id="5638-3b60-865-a40b" sortIndex="71">
-              <infoLinks>
-                <infoLink targetId="eacf-3aa6-5e0a-8f59" id="a088-53b9-70f4-6e78" type="profile" name="Duellist’s Blades" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="55"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d23b-7fa9-25a-ff78"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="3114-1bab-43ca-26a7"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Primeval Club" hidden="true" id="59ea-5a16-a5be-b10a" sortIndex="79">
               <infoLinks>
                 <infoLink targetId="fa71-201-414d-f36c" id="5c1a-4aac-af5-e4b2" type="profile" name="Primeval Club" hidden="false"/>
@@ -729,18 +645,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sword of Battle" hidden="false" id="1180-e5da-b3c-506e" sortIndex="80">
-              <infoLinks>
-                <infoLink targetId="ff90-4440-23f2-adf7" id="1380-2808-204f-8513" type="profile" name="Sword Of Battle" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="60"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d525-939a-690-e624"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="9950-ec4f-4194-d25c"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Blood Drinker" hidden="true" id="7c66-caa0-a9af-58cd" sortIndex="53">
               <infoLinks>
@@ -849,7 +753,7 @@
                 <infoLink name="Mace Of Helsturm (Double-Handed)" hidden="false" id="86a5-f9bb-ebe3-f254" type="profile" targetId="6fba-8a80-ab5a-a7a5"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="65"/>
+                <cost name="pts" typeId="points" value="40"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff0a-55ee-2ed6-96a8"/>
@@ -862,18 +766,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ogre Blade" hidden="false" id="2b42-6e56-3fbf-1290" sortIndex="94">
-              <infoLinks>
-                <infoLink hidden="false" name="Ogre Blade" targetId="a783-88a3-2265-a8ea" type="profile" id="7a36-5dae-95d8-ef3b"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="75"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c696-bf4a-d292-f6ac"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="136a-8d7f-d77a-ab68"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Spear of Twilight" hidden="true" id="6896-7a9e-45d2-d921" sortIndex="84">
               <infoLinks>
@@ -1745,32 +1637,9 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Pearl Daggers" hidden="true" id="7ffe-e582-0c8f-c384" sortIndex="36">
+            <selectionEntry type="upgrade" import="true" name="Hammer of Judgement" hidden="true" id="8477-a808-d395-618d" sortIndex="63">
               <infoLinks>
-                <infoLink name="Pearl Daggers" id="da49-8f8b-6821-a683" hidden="false" type="profile" targetId="f218-c250-1826-43a7"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36db-f06f-d44b-3e6a"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1cd3-0356-7adf-56a7" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true" includeChildSelections="false"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hammer of Righteousness" hidden="true" id="8477-a808-d395-618d" sortIndex="63">
-              <infoLinks>
-                <infoLink name="Hammer of Righteousness" id="babc-3029-e8bb-c216" hidden="false" type="profile" targetId="8804-dcf1-9e08-cde9"/>
+                <infoLink name="Hammer of Judgement" id="babc-3029-e8bb-c216" hidden="false" type="profile" targetId="8804-dcf1-9e08-cde9"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50"/>
@@ -2156,86 +2025,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Extremely Common Weapons" hidden="false" id="71f7-df12-b67a-5030" sortIndex="1" flatten="true">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Sword of Striking" hidden="false" id="a797-f5c8-1ac7-458b" sortIndex="2">
-              <infoLinks>
-                <infoLink targetId="f480-beec-54e7-732c" id="3ce6-e8d1-353a-659c" type="profile" name="Sword Of Striking" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edd4-7391-c8a3-cbd8"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sword of Might" hidden="false" id="3868-b78a-4e09-4027" sortIndex="3">
-              <infoLinks>
-                <infoLink targetId="3d06-c3d0-e4bd-7561" id="ee3e-dd80-dee3-c616" type="profile" name="Sword Of Might" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9030-6817-3278-84fa"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Burning Blade" hidden="false" id="9c8f-8e79-503a-327b" sortIndex="1">
-              <infoLinks>
-                <infoLink targetId="c72b-cdb2-9ed9-2bc" id="bacf-9125-af23-2197" type="profile" name="Burning Blade" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fb-122a-84f4-611f"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Death Globe" hidden="true" id="af96-63f9-ec87-336c" sortIndex="5">
-              <infoLinks>
-                <infoLink targetId="2238-68e0-24f2-f70d" id="f5aa-9b8c-8009-ef04" type="profile" name="Death Globe" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ed3f-1102-3044-59f5" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Backstabber&apos;s Blade" hidden="true" id="4226-934c-a0-beba" collective="true" sortIndex="4">
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Backstabber&apos;s Blade" id="d690-fba0-f141-afb0" hidden="false" type="profile" targetId="89db-977b-a7fa-4421"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <comment>generated</comment>
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f812-7780-6897-718b" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f89b-a1c3-e6eb-e69a" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="96f6-a6de-3328-b74c" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="b060-648a-8c55-c7c6" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="062e-87ff-e17b-aa13" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Armour" hidden="false" id="2ade-3285-8d5d-cf4" collapsible="true">
@@ -2345,42 +2134,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bedazzling Helm" hidden="true" id="6ae5-8edd-8273-6fec" sortIndex="9">
-              <infoLinks>
-                <infoLink targetId="f6c7-c60e-fbef-a459" id="3ed2-ed75-effc-19ca" type="profile" name="Bedazzling Helm" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="60"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="27d-dd35-c389-d480"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="The Mask of the Furnace" hidden="true" id="3a86-d390-8092-8d12" sortIndex="7">
               <infoLinks>
                 <infoLink targetId="1e07-f5d0-e2f6-fe5" id="1f9a-fa82-3be3-f23" type="profile" name="The Mask of the Furnace" hidden="false"/>
@@ -2464,170 +2217,6 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcd5-32a6-30b6-3bc6"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Extremely Common" hidden="false" id="4cc6-255d-2e37-71b1" flatten="false" sortIndex="4">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Trollhide Trousers" hidden="true" id="e80a-f9f7-ea2f-438b" sortIndex="7">
-              <costs>
-                <cost name="pts" typeId="points" value="40"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Trollhide Trousers" hidden="false" id="6857-7e7a-be1-8341" type="profile" targetId="bded-b681-6a64-5d7e"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fea1-f2a8-d87c-36ca" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <comment>generated</comment>
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f812-7780-6897-718b" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f89b-a1c3-e6eb-e69a" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="96f6-a6de-3328-b74c" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="may-have-armour" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spellshield" hidden="true" id="32b3-2805-50f0-4143" sortIndex="3">
-              <infoLinks>
-                <infoLink targetId="1823-6baf-b56d-e012" id="9cd3-4c54-3f18-4086" type="profile" name="Spellshield" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-shield" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f072-ff84-8490-5fc6" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Enchanted Shield" hidden="true" id="7181-63ef-4b1e-9a1d" sortIndex="2">
-              <infoLinks>
-                <infoLink targetId="d36e-5023-a050-de3d" id="ad6a-a2cf-73dd-f299" type="profile" name="Enchanted Shield" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="10"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-shield" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5c0-f9fe-ceca-f119" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Charmed Shield" hidden="true" id="8c8b-9e4b-84a2-9991" sortIndex="1">
-              <infoLinks>
-                <infoLink targetId="fc7f-5c6c-b80d-1f53" id="a1ec-5543-876c-5624" type="profile" name="Charmed Shield" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-shield" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec4f-707c-bb03-c72d" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpstone Armour" hidden="true" id="97a3-62d4-c334-f323" sortIndex="4">
-              <profiles>
-                <profile name="Warpstone Armour" typeId="c14f-740-8107-d34b" typeName="Armour" hidden="false" id="8d4c-cebb-935a-e849">
-                  <characteristics>
-                    <characteristic name="Description" typeId="adcd-c649-e6fc-a9f6">Warpstone Armour is a suit of heavy armour which may be purchased and worn by a Wizard, even if they do not have the option to be equipped with armour, a shield or barding, without penalty.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ed3f-1102-3044-59f5" shared="true"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f954-b4c0-b835-a048" shared="true" includeChildSelections="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c040-54ce-d413-9e19" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Full Plate Chaos Armour" hidden="true" id="742e-f200-4c8b-e863" sortIndex="6">
-              <infoLinks>
-                <infoLink name="Full Plate Chaos Armour" id="4cf2-7e47-f643-68ea" hidden="false" targetId="5954-7a64-e7c1-47a3" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="40"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a72-46ec-4f8f-0aac" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a265-1c26-e439-8f2c" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f8bd-9647-bbde-fb7e" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="50f7-6ee0-7369-ea5e" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Chaos Armour" hidden="true" id="c888-4764-17ba-428c" sortIndex="5">
-              <infoLinks>
-                <infoLink name="Heavy Chaos Armour" id="4bff-4512-72f7-9066" hidden="false" targetId="bd54-d183-5191-f071" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="30"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0844-fb33-39e8-5cd4" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a265-1c26-e439-8f2c" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f8bd-9647-bbde-fb7e" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="50f7-6ee0-7369-ea5e" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Shields" hidden="false" id="2917-37ed-ff8a-2391" flatten="false" sortIndex="2">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Ironspike Shield" hidden="true" id="e9c1f40-7b668a8a" collective="true" sortIndex="2">
@@ -2671,25 +2260,6 @@
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ed3f-1102-3044-59f5" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-shield" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shield of the Warrior True" hidden="true" id="acc2-1c98-657d-78ce" sortIndex="6">
-              <infoLinks>
-                <infoLink targetId="cec2-fbe2-d85f-e98c" id="58cd-f00b-8e3c-659d" type="profile" name="Shield of the Warrior True" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="30"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ee6-e245-8437-f9ff"/>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc6f-9cd8-d63b-15d3" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-shield" shared="true"/>
                   </conditions>
                 </modifier>
@@ -3241,61 +2811,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Armour of Fortune" hidden="true" id="91cf-f18c-6317-d460" sortIndex="22">
-              <infoLinks>
-                <infoLink targetId="1d41-7f22-d490-6143" id="3167-7980-4463-28d4" type="profile" name="Armour of Fortune" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="45"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="9cc-8084-247d-86ea"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Glittering Scales" hidden="true" id="500e-a9c5-481c-597c" sortIndex="11">
-              <infoLinks>
-                <infoLink targetId="7b8f-6f2-31b2-3bac" id="172f-3643-2f81-92e5" type="profile" name="Glittering Scales" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="47fb-9b3-7a05-373c"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Armour of Silvered Steel" hidden="true" id="12fd-1595-1bfe-7ebc" sortIndex="15">
-              <infoLinks>
-                <infoLink targetId="8d88-2649-5aee-81c" id="f59-abe2-3345-1845" type="profile" name="Armour of Silvered Steel" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="40"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="db91-2953-c5df-e9f3"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warding Splint" hidden="true" id="98d9-36a2-6d89-da81" sortIndex="14">
               <infoLinks>
                 <infoLink targetId="8c5f-a8f4-9972-76fe" id="c9d2-58c2-1a36-3fb8" type="profile" name="Warding Splint" hidden="false"/>
@@ -3530,25 +3045,6 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Twice-Blessed Armour" hidden="true" id="42cf-7eb5-7251-f225" sortIndex="3">
-              <infoLinks>
-                <infoLink name="Twice-Blessed Armour" id="86a8-27c9-fe2b-b790" hidden="false" targetId="2500-cfe5-e7a2-b408" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="25"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f203-1d9a-4226-29d7" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Armour of Stars" hidden="true" id="3a92-5061-256d-900c" sortIndex="16">
               <infoLinks>
                 <infoLink targetId="2bdc-8d00-dc06-3e63" id="7aba-4bd9-eb6e-99df" type="profile" name="Armour of Stars" hidden="false"/>
@@ -3666,50 +3162,6 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Magic Standards" hidden="false" id="6bbe-8054-19b7-e5d6">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Banner of Iron Resolve" hidden="false" id="a5ef-f76b-ee4d-4999" sortIndex="72">
-          <infoLinks>
-            <infoLink targetId="84e3-9f8d-36de-1c74" id="2f6e-98b9-e407-924b" type="profile" name="Banner of Iron Resolve" hidden="false"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="50"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="dee0-7a54-be59-f20f"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Rampaging Banner" hidden="false" id="2ece-6a7e-eeba-6c56" sortIndex="41">
-          <infoLinks>
-            <infoLink targetId="97bc-aaed-56f0-5bd5" id="6e15-3f52-e1fa-7c2" type="profile" name="Rampaging Banner" hidden="false"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="30"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="a06a-825c-e524-c85"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Razor Standard" hidden="false" id="43ea-669f-4d09-ad26" sortIndex="59">
-          <infoLinks>
-            <infoLink targetId="698f-90df-a5f-5c86" id="ace6-254f-8952-5186" type="profile" name="Razor Standard" hidden="false"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="40"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="f970-6e23-f85e-569a"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="War Banner" hidden="false" id="4409-cbf7-c0df-ee19" sortIndex="35">
-          <infoLinks>
-            <infoLink targetId="a1d9-54e-cf82-35c6" id="40f1-ed61-7e84-f706" type="profile" name="War Banner" hidden="false"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c0f5-e815-5021-5dfe"/>
-          </constraints>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Banner of the Gods" hidden="true" id="d78c-6b39-688f-d1c7" sortIndex="92">
           <infoLinks>
             <infoLink targetId="f3ee-58e6-462c-14bd" id="bae4-12f-57ca-a040" type="profile" name="Banner of the Gods" hidden="false"/>
@@ -5208,28 +4660,6 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tapestry of Sigmar&apos;s Triumph" hidden="true" id="5220-4bb2-8429-c058" sortIndex="65">
-          <infoLinks>
-            <infoLink name="Tapestry of Sigmar&apos;s Triumph" id="603a-630b-0b61-80fb" hidden="false" targetId="b2cd-8467-2050-fc41" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="40"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c169-d74e-7430-6580" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Emperor&apos;s Standard" hidden="true" id="1a25-8a9c-dc1f-9efd" sortIndex="29">
           <infoLinks>
             <infoLink name="Emperor&apos;s Standard" id="d354-86ae-6991-49d3" hidden="false" targetId="f167-37b5-628e-1ecb" type="profile"/>
@@ -6591,7 +6021,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Laurels of Victory" hidden="true" id="6646-8009-78fb-ac3c" sortIndex="40">
               <costs>
-                <cost name="pts" typeId="points" value="40"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -6688,9 +6118,9 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flying Carpet" hidden="true" id="6f4-749b-1894-1c50" sortIndex="38">
+            <selectionEntry type="upgrade" import="true" name="Blessed Skull Sigil" hidden="true" id="6f4-749b-1894-1c50" sortIndex="38">
               <infoLinks>
-                <infoLink targetId="4598-35be-b8bc-4c7d" id="b73b-e2a3-2043-da3e" type="profile" name="Flying Carpet" hidden="false"/>
+                <infoLink targetId="4598-35be-b8bc-4c7d" id="b73b-e2a3-2043-da3e" type="profile" name="Blessed Skull Sigil" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40"/>
@@ -6754,17 +6184,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ruby Ring of Ruin" hidden="false" id="5739-4d14-8f8a-13e6" sortIndex="33">
-              <infoLinks>
-                <infoLink targetId="747b-8014-aa45-da53" id="13b0-b224-74fe-ec4a" type="profile" name="Ruby Ring of Ruin" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="35"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c5f0-d750-ade4-135"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Pendant of Damnation" hidden="true" id="6744-8ccf-7e1b-1c6e" sortIndex="25">
               <infoLinks>
@@ -6886,9 +6305,9 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="The Silver Horn" hidden="true" id="c310-94fc-e508-28fe" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Lichbone Powder" hidden="true" id="c310-94fc-e508-28fe" sortIndex="5">
               <costs>
-                <cost name="pts" typeId="points" value="15"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -6901,7 +6320,7 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fe67-f920-1c03-dff2" includeChildSelections="true"/>
               </constraints>
               <infoLinks>
-                <infoLink name="The Silver Horn" hidden="false" id="96b7-7904-7b24-c48d" type="profile" targetId="1f40-b521-ca01-255c" publicationId="8b8d-8fc4-559e-87b1" page="76"/>
+                <infoLink name="Lichbone Powder" hidden="false" id="96b7-7904-7b24-c48d" type="profile" targetId="1f40-b521-ca01-255c" publicationId="8b8d-8fc4-559e-87b1" page="76"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Skin of Man" hidden="true" id="3442-62f8-774e-54fb" sortIndex="4">
@@ -6935,9 +6354,9 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shroud of Iron" hidden="true" id="8657-7c53-2c23-5c2e" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Sanctified Silver Bullets" hidden="true" id="8657-7c53-2c23-5c2e" sortIndex="1">
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="5"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -6950,7 +6369,7 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3ad0-437b-dab-83df" includeChildSelections="true"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Shroud of Iron" hidden="false" id="5f22-1e30-8cbc-62bf" type="profile" targetId="1338-e796-cf74-9932"/>
+                <infoLink name="Sanctified Silver Bullets" hidden="false" id="5f22-1e30-8cbc-62bf" type="profile" targetId="1338-e796-cf74-9932"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Big Boss &apos;At" hidden="true" id="575d-12d1-59e9-3031" sortIndex="48">
@@ -7550,12 +6969,12 @@
                 <infoLink name="Daemon-Forged Barding" id="beea-0350-c5d6-ff99" hidden="false" type="profile" targetId="d7fe-f7da-efa5-89bb"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ring of Fortune" hidden="true" id="69a0-af0d-9541-6095" sortIndex="9">
+            <selectionEntry type="upgrade" import="true" name="Ring of Volans" hidden="true" id="69a0-af0d-9541-6095" sortIndex="9">
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="15"/>
               </costs>
               <infoLinks>
-                <infoLink name="Ring of Fortune" id="2023-ae16-7955-f328" hidden="false" type="profile" targetId="934a-13de-b8f3-12a9"/>
+                <infoLink name="Ring of Volans" id="2023-ae16-7955-f328" hidden="false" type="profile" targetId="934a-13de-b8f3-12a9"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6df0-3f44-6a53-d8b5" includeChildSelections="true"/>
@@ -7568,12 +6987,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ring of Taal" hidden="true" id="fbd9-ade7-f76b-75ea" sortIndex="10">
+            <selectionEntry type="upgrade" import="true" name="Staff of Command" hidden="true" id="fbd9-ade7-f76b-75ea" sortIndex="10">
               <costs>
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
               <infoLinks>
-                <infoLink name="Ring of Taal" id="8772-516c-38ee-efe2" hidden="false" type="profile" targetId="7a6a-f0d0-2eed-c4ca"/>
+                <infoLink name="Staff of Command" id="8772-516c-38ee-efe2" hidden="false" type="profile" targetId="7a6a-f0d0-2eed-c4ca"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7bb7-55d8-5394-ca2b" includeChildSelections="true"/>
@@ -8112,22 +7531,6 @@
               </constraints>
               <comment>Extra Spells: 1</comment>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dispel Scroll" hidden="false" id="332b-2ad0-5a80-167" sortIndex="7">
-              <infoLinks>
-                <infoLink targetId="a4d9-9393-9230-6ae6" id="79ed-53fb-d916-f9e4" type="profile" name="Dispel Scroll" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Power Scroll" hidden="false" id="4dfa-5f77-7f4c-4cab" sortIndex="8">
-              <infoLinks>
-                <infoLink targetId="8d49-9b39-7e0b-4489" id="d78f-2326-4ac8-7846" type="profile" name="Power Scroll" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hieratic Jar" hidden="true" id="90b3-c639-518e-46e3" sortIndex="11">
               <infoLinks>
                 <infoLink targetId="7ced-b473-887b-231c" id="8585-ccb-8749-e821" type="profile" name="Hieratic Jar" hidden="false"/>
@@ -8169,14 +7572,6 @@
                   </conditionGroups>
                 </modifier>
               </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scroll of Transmogrification" hidden="false" id="23d2-d892-502f-718" sortIndex="20">
-              <infoLinks>
-                <infoLink targetId="1610-786d-cf0-cf8e" id="d73d-6a17-38cb-8f09" type="profile" name="Scroll of Transmogrification" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="50"/>
-              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Sigil of Asuryan" hidden="true" id="fc4f-f9de-b307-93b5" sortIndex="18">
               <infoLinks>
@@ -8425,9 +7820,53 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6317-8343-aa28-3b82"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Potion of Endurance" hidden="false" id="b2a4-11f3-8ac2-45c8" sortIndex="8">
+              <infoLinks>
+                <infoLink targetId="b8a1-22e4-83c0-1fd2" id="c5f9-8f63-1acb-35d7" type="profile" name="Potion of Endurance" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+
+            <selectionEntry type="upgrade" import="true" name="Potion of Focus" hidden="false" id="f6d8-45b2-9de3-1c72" sortIndex="9">
+              <infoLinks>
+                <infoLink targetId="c4f7-9122-32ab-9de3" id="a8c3-3b67-5de1-9fd1" type="profile" name="Potion of Focus" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+
+            <selectionEntry type="upgrade" import="true" name="Potion of Fury" hidden="false" id="c9b2-4ae5-2c17-1fd7" sortIndex="10">
+              <infoLinks>
+                <infoLink targetId="e9b2-6744-54c9-7bc1" id="f3a2-91b4-7f6c-2ac1" type="profile" name="Potion of Fury" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+
+            <selectionEntry type="upgrade" import="true" name="Potion of Healing" hidden="false" id="a3f8-9b32-6a21-2f90" sortIndex="11">
+              <infoLinks>
+                <infoLink targetId="f3d4-8899-74a1-2c78" id="b6e4-3fc2-9d0a-3d42" type="profile" name="Potion of Healing" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
+
+            <selectionEntry type="upgrade" import="true" name="Potion of Strength" hidden="false" id="e1d5-23b1-4ca7-5fa8" sortIndex="12">
+              <infoLinks>
+                <infoLink targetId="a7c8-5621-98f4-3aee" id="c7b2-89d3-2ef5-1c69" type="profile" name="Potion of Strength" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Book of Ashur" hidden="true" id="577b-4fbd-3a9c-a6bc" sortIndex="56">
               <costs>
-                <cost name="pts" typeId="points" value="85"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -9552,11 +8991,6 @@
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The bearer if the Dawnstone may re-roll any Armour Save roll of a natural 1.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Bedazzling Helm" hidden="false" id="f6c7-c60e-fbef-a459" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
-      <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Models whose troop type is ‘infantry’ or ‘cavalry’ only. May be worn with other armour. The wearer of the Bedazzling Helm improves their armour value by 1 (to a maximum of 2+). In addition, any enemy model that directs its attacks against the wearer during the Combat phase suffers a -1 modifier to its rolls To Hit.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Spellshield" hidden="false" id="1823-6baf-b56d-e012" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
         <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Spellshield is a shield. In addition, its bearer has a 5+ Ward save against any wounds suffered that were caused by a Magic Missile, a magical Vortex, or and Assailment spell.</characteristic>
@@ -9582,16 +9016,6 @@
         <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of Silvered Steel is a suit of armour that gives its wearer an armour value of 3+ which cannot be improved in any way.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Glittering Scales" hidden="false" id="7b8f-6f2-31b2-3bac" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
-      <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Glittering Scales is a suit of light armour. In addition once per turn, you may make your opponent re-roll a single roll To Hit made against the wearer.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Shield of the Warrior True" hidden="false" id="cec2-fbe2-d85f-e98c" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
-      <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Shield of the Warrior True is a shield. In addition, its bearer has a 5+ Ward saved against any wounds suffered during the Shooting phase.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Icon of Sigmar" hidden="false" id="f924-9353-d555-cd75" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
       <characteristics>
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Wearer has a 4+ ward save against magical attacks and spells.</characteristic>
@@ -9612,34 +9036,14 @@
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Single use. The bearer of a Luckstone can re-roll a single failed Armour Save roll.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Banner of Iron Resolve" hidden="false" id="84e3-9f8d-36de-1c74" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
-      <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Banner of Iron Resolve gains the Stubborn special rule.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Razor Standard" hidden="false" id="698f-90df-a5f-5c86" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
-      <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Razor Standard gains the Armour Bane (2) special rule.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Rampaging Banner" hidden="false" id="97bc-aaed-56f0-5bd5" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
-      <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">When a unit carrying the Rampaging Banner declares a charge, it may re-roll its Charge roll.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="War Banner" hidden="false" id="a1d9-54e-cf82-35c6" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
-      <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">When calculating its combat result, a unit carrying the War Banner may claim an additional bonus of +1 combat result point.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="The Blazing Banner" hidden="false" id="e466-b234-2c9b-a58e" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
         <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Blazing Banner gains the Flaming Attacks special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Flying Carpet" hidden="false" id="4598-35be-b8bc-4c7d" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
+    <profile name="Blessed Skull Sigil" hidden="false" id="4598-35be-b8bc-4c7d" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Models whose troop type is &apos;regular infantry&apos; or &apos;heavy infantry&apos; only. The bearer of the Flying Carpet gains the Fly (8) and Swiftstride special rules. However, the bearer cannot join a unit.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">The bearer and the unit they join have a 6+ Ward save against any non magical wounds. In addition, they may roll 3D6 when taking break or panic tests, discarding the highest.</characteristic>
       </characteristics>
     </profile>
     <profile name="Healing Potion" hidden="false" id="e52f-fb39-5868-3d11" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
@@ -9677,13 +9081,6 @@
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. The bearer may use this scroll instead of making a Wizardly dispel attempt. The spell is cast as normal. Once the spell has been resolved, roll  2D6. For each roll of a 4+, the casting Wizard loses a single Wound.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Scroll of Transmogrification" hidden="false" id="1610-786d-cf0-cf8e" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
-      <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. The bearer may use this scroll instead of making a Wizardly dispel attempt. The spell is cast as normal. Once the spell has been resolved, the casting player must roll equal to or lower than the casting Wizard&apos;s Level of Wizardry on a single D6. Should they fail, the Wizard turn into a frog.
-
-Whilst transmogrified, the Wizard cannot cast or dispel any spells, cannot use any of their equipment (magical or mundane) and reduces all of their characteristics (excluding Wounds) to 1. During each Start of Turn sub-phase, a player may roll a D6 for each transmogrified Wizard in their army. On a roll of 4+, the Wizard returns to normal.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Arcane Familiar" hidden="false" id="c962-ee58-3304-b9fc" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of an Arcane Familiar knows spells from two Lores of Magic, rather than the usual one. When determining the spells the Wizard knows, you must roll for each Lore separately. Duplicate spells are re-rolled as normal. The Wizard may discard one randomly generated spell as normal, replacing it with the signature spell of the same Lore of Magic.</characteristic>
@@ -9704,14 +9101,34 @@ Whilst transmogrified, the Wizard cannot cast or dispel any spells, cannot use a
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of a Lore Familiar does not randomly generate their spells. Instead, they may choose which spells they know from their chosen lore (including that lore&apos;s signature spell).</characteristic>
       </characteristics>
     </profile>
-    <profile name="Dispel Scroll" hidden="false" id="a4d9-9393-9230-6ae6" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+    <profile name="Channelpath Potion" hidden="false" id="a4d9-9393-9230-6ae6" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. A wizard may use this scroll when attempting a Wizardly dispel. If they do so, roll an extra D6 when making the Dispel roll and discard the lowest result. However, if a double 1 is rolled on any two of the dice rolled, the Wizard is outclassed in the art.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Drinker channels on a 2+, rather than a 6 and gains +1 to cast and dispel spells until the start of their next turn.  </characteristic>
       </characteristics>
     </profile>
-    <profile name="Power Scroll" hidden="false" id="8d49-9b39-7e0b-4489" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+    <profile name="Potion of Endurance" hidden="false" id="b8a1-22e4-83c0-1fd2" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. A Wizard may use this scroll when attempting to cast a spell. If they do so, roll an extra D6 when making the Casting roll and discard the lowest result. However, if a double 1 is rolled on any two of the dice rolled, the spell is miscast.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Drinker gains +2 to their T.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Potion of Focus" hidden="false" id="c4f7-9122-32ab-9de3" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Drinker doubles their WS (to a maximum of 10).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Potion of Fury" hidden="false" id="e9b2-6744-54c9-7bc1" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Drinker gains +3 to their A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Potion of Healing" hidden="false" id="f3d4-8899-74a1-2c78" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Drinker recovers D3 Wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Potion of Strength" hidden="false" id="a7c8-5621-98f4-3aee" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Drinker gains +3 to their S.</characteristic>
       </characteristics>
     </profile>
     <profile name="Gilded Cuirass" hidden="false" id="7fa6-1ea0-2c48-b6ff" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
@@ -10256,29 +9673,24 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">When determining your combat result, each unsaved wound caused by an attack made by the bearer of the Laurels of Victory (but not their mount) is worth 2 combat result points, rather than the usual 1.</characteristic>
       </characteristics>
     </profile>
-    <profile name="The Silver Horn" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="1f40-b521-ca01-255c">
+    <profile name="Lichbone Powder" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="1f40-b521-ca01-255c">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Characters with the Swiftstride special rule only. The bearer of the Silver Horn (and any unit they have joined) may re-roll the D6 when using the Swiftstride special rule.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Witch hunter only. One use only. The Powders may be used immediately when an enemy Wizard miscasts. The Wizard must roll twice on the Miscast table, and you pick which result is used. </characteristic>
       </characteristics>
     </profile>
-    <profile name="Shroud of Iron" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="1338-e796-cf74-9932">
+    <profile name="Sanctified Silver Bullets" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="1338-e796-cf74-9932">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">The bearer of the Shroud of Iron (and any unit they have joined) has a 6+ Ward save against any wounds suffered that were caused by a non-magical template.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Witch Hunter with pistol(s) only. Any shots fired from the bearer pistol(s) have the Multiple Wounds (D3) special rule against Daemons, Undead and Wizards.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Book of Ashur" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="3dd7-88c9-9f93-b76c">
+    <profile name="Original Book of Ashur" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="3dd7-88c9-9f93-b76c">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer of the Book of Ashur increases their Dispel rangeby 3&quot; and, unless they roll any natural double, may apply a +1modifier to any of their Casting or Dispel rolls. However, ifthe bearer rolls any natural double when making a Casting orDispel roll, the book has proven to be a poor reproduction,full of glaring errors, and the +1 modifier cannot be applied tothat roll.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Increases the casting and dispel range of bearer by 6”. In addition, apply a +1 to the bearer’s casting and dispel attempts. However, should you ever roll a double, lose all the previous benefits for that cast (this page was riddled with errors!) and if you miscast, subtract 1 from the result rolled on the miscast table.</characteristic>
       </characteristics>
     </profile>
     <profile name="Wizard&apos;s Familiar" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="1d0c-e863-2a42-b5bb">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">0-1 per Wizard. The owner of a Wizard’s Familiar may apply a +1 modifier to any of their Dispel rolls.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Wizard&apos;s Staff" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="74d8-751e-64d6-eeb">
-      <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer of the Wizard’s Staff gains a +1 modifier to their Casting roll when attempting to cast an Assailment spell or a Magic Missile.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of a Wizard&apos;s Familiar may apply +1 modifier to any of their Dispel rolls. The first time you miscast, you may re-roll the result, but then this item ceases to function for the remainder of the game. </characteristic>
       </characteristics>
     </profile>
     <profile name="Trollhide Trousers" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="bded-b681-6a64-5d7e" publicationId="7c89-736c-3139-24a0" page="43">
@@ -11182,66 +10594,12 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Models whose troop type is &apos;cavalry&apos;, &apos;monster&apos; or &apos;chariot&apos; only.This weapon’s Strength and Armour Piercing modifiers apply only during a turn in which the wielder charged. In addition, during a turn in which the wielder charged, Porko&apos;s Pigstikka grants them +1 Attack for each rank the enemy unit has.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Sword Of Striking" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="f480-beec-54e7-732c">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">During the Combat phase, the wielder of the Sword of Striking has a +1 modifier to their rolls To Hit.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Duellist’s Blades" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="eacf-3aa6-5e0a-8f59">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Extra Attacks (+2), Magical Attacks, Requires Two Hands</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
     <profile name="Dragon Slaying Sword" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="7e18-9bc6-5da5-5a53">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Monster Slayer</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
-    <profile name="Headsman&apos;s Axe" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="3f21-4a58-34b4-2827">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks, Requires Two Hands</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
-    <profile name="Sword Of Swiftness" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="fe33-36b-dbd5-8d6f">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Strike First</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
-    <profile name="Burning Blade" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="c72b-cdb2-9ed9-2bc">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Flaming Attacks, Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
-    <profile name="Sword Of Might" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="3d06-c3d0-e4bd-7561">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
       </characteristics>
     </profile>
@@ -11315,60 +10673,6 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Terror</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The wielder of the Mangelder causes Terror. Any enemy unit that suffers one or more unsaved wounds from the Mangelder suffers a -1 modifier to its Leadership characteristic (to a minimum of 2) until the end of the turn.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Sword Of Battle" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="ff90-4440-23f2-adf7">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Extra Attacks (+1), Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Ogre Blade" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="a783-88a3-2265-a8ea">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks, Multiple Wounds (D3)</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
-    <profile name="Spelleater Axe" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="9fc4-5744-6b56-46b4">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Magic Resistance (-2)</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
-      </characteristics>
-    </profile>
-    <profile name="Giant Blade" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="1bfb-2e2c-4c1b-3e9">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (2), Magical Attacks, Multiple Wounds (2)</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Berserker Blade" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="a139-4cd2-9b32-976">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Extra Attacks (+1), Impetuous, Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The wielder of the Berserker Blade is Impetuous.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Biting Blade" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="2002-3cb5-b083-4f5d">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
       </characteristics>
     </profile>
     <profile name="Spellthieving Sword" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="cab4-d84c-4bdb-45a">
@@ -11592,8 +10896,8 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">10</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-5</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Magical Attacks, Multiple Wounds (D6), Requires Two Hands</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Flaming Attacks, Multiple Wounds (2D3)</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"></characteristic>
       </characteristics>
     </profile>
     <profile name="Sword Of The Quest (Single-Handed)" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="1c96-85cc-8c16-848e">
@@ -11720,15 +11024,6 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Priest and witch hunter characters only. Models hit by the Hammer of Judgement must take a LD test for every Hit suffered. If the test is failed, the model takes a wound with no saves of any kind allowed. Still roll to wound as normal whether the test was failed or not.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pearl Daggers" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="f218-c250-1826-43a7">
-      <characteristics>
-        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Extra Attacks (D3), Magical Attacks, Requires Two Hands</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The wielder of the Pearl Daggers may re-roll any failed rolls To Hit during the combat phase.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Blade of Silvered Steel" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="d7a7-112e-8738-7339">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
@@ -11752,11 +11047,6 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Shield of the Gorgon is a shield that may only be taken by a model in a Knightly Order Army of Infamy. In addition, whilst in base contact with the bearer, enemy models suffer a -1 modifier to their Attacks characteristic (to a minimum of 1).</characteristic>
       </characteristics>
     </profile>
-    <profile name="Twice-Blessed Armour" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="2500-cfe5-e7a2-b408">
-      <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Twice-Blessed Armour is a suit of full plate armour. In addition, the wearer may cast the Hammerhand spell from the Lore of Battle Magic (see page 320 of the Warhammer: the Old World rulebook) as a Bound spell with a Power Level of 2.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Witch Hunter&apos;s Ward" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="eed3-f514-d549-dafd">
       <characteristics>
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">A model that bears a Witch Hunter&apos;s Ward has the Magic Resistance (-2) special rule. In addition, once per game, the bearer of a Witch Hunter&apos;s Ward can re-roll a single failed Armour Save roll.</characteristic>
@@ -11770,11 +11060,6 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     <profile name="Banner of the Knights Panther" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="e194-0e55-10ac-f0a7">
       <characteristics>
         <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Battle Standard Bearer belonging to the Order of the Knights Panther only. A unit carrying the Banner of the Knights Panther gains the Unbreakable special rule.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Tapestry of Sigmar&apos;s Triumph" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="b2cd-8467-2050-fc41">
-      <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Tapestry of Sigmar&apos;s Triumph may re-roll any rolls To Wound of a natural 1 during the first round of a combat.</characteristic>
       </characteristics>
     </profile>
     <profile name="Emperor&apos;s Standard" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="f167-37b5-628e-1ecb">
@@ -11792,14 +11077,14 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">A Squintsoffen&apos;s Marvellous Magnifier may only be taken by models in a City-state of Nuln Army of Infamy. The bearer of a Magnifier and any unit they have joined does not suffer the usual -1 To Hit modifier when shooting at Long Range.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Ring of Fortune" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="934a-13de-b8f3-12a9">
+    <profile name="Ring of Volans" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="934a-13de-b8f3-12a9">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single use. The bearer of the Ring of Fortune can re-roll any failed rolls To Wound made during the Combat phase.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Pick the signature spell from one of the following lores of Magic (Battle Magic, Daemonology, Dark Magic, Elementalism, Illusion, Necromancy). It is now a bound spell of Power Level 1. </characteristic>
       </characteristics>
     </profile>
-    <profile name="Ring of Taal" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="7a6a-f0d0-2eed-c4ca">
+    <profile name="Staff of Command" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="7a6a-f0d0-2eed-c4ca">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single use. The bearer of the Ring of Taal may cast the Oaken Shield spell from the Lore of Battle Magic (see page 321 of the Warhammer: the Old World rulebook) as a Bound spell with a Power Level of 3.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Priests only. Whenever you successfully cast a prayer, you can attempt to cast another one in the same phase, for a maximum of two.</characteristic>
       </characteristics>
     </profile>
     <profile name="Twin-Tailed Wand" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="9d83-a565-0177-1df8">
