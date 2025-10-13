@@ -13,7 +13,7 @@
                 <infoLink targetId="5a79-fb85-30c9-ba1d" id="8585-c6c7-8b0f-f76a" type="profile" name="Runefang" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="100"/>
+                <cost name="pts" typeId="points" value="60"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1384-36d0-d8ea-2ade"/>
@@ -2917,7 +2917,7 @@
                 <infoLink targetId="3b2c-55d4-ad93-2951" id="c4d8-64a6-118e-8575" type="profile" name="Armour of Meteoric Iron" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="40"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="7bb8-ca7-b1a2-d06f"/>
@@ -3728,17 +3728,6 @@
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c0f5-e815-5021-5dfe"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Blazing Banner" hidden="false" id="aec3-785a-278-9a" sortIndex="34">
-          <infoLinks>
-            <infoLink targetId="e466-b234-2c9b-a58e" id="9e2e-9263-c288-9f99" type="profile" name="The Blazing Banner" hidden="false"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="25"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="7fb4-ac0f-6a0d-d06b"/>
-          </constraints>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Banner of the Gods" hidden="true" id="d78c-6b39-688f-d1c7" sortIndex="92">
           <infoLinks>
             <infoLink targetId="f3ee-58e6-462c-14bd" id="bae4-12f-57ca-a040" type="profile" name="Banner of the Gods" hidden="false"/>
@@ -4027,12 +4016,12 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Banner of Duty" hidden="true" id="288a-4d0e-1ab4-2fc7" sortIndex="1">
+        <selectionEntry type="upgrade" import="true" name="Steel Standard" hidden="true" id="288a-4d0e-1ab4-2fc7" sortIndex="1">
           <infoLinks>
-            <infoLink targetId="b6ec-cf6-c8a5-bc" id="7230-7983-2eb4-7bac" type="profile" name="Banner of Duty" hidden="false"/>
+            <infoLink targetId="b6ec-cf6-c8a5-bc" id="7230-7983-2eb4-7bac" type="profile" name="Steel Standard" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="10"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="da30-5ab7-95e7-ea73"/>
@@ -4045,12 +4034,12 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Gleaming Pennant" hidden="true" id="ddbd-c436-1e29-9e5d" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="Griffon Standard" hidden="true" id="ddbd-c436-1e29-9e5d" sortIndex="4">
           <infoLinks>
-            <infoLink targetId="e295-fea1-c3b3-5ee0" id="535b-84ed-e2-3295" type="profile" name="The Gleaming Pennant" hidden="false"/>
+            <infoLink targetId="e295-fea1-c3b3-5ee0" id="535b-84ed-e2-3295" type="profile" name="Griffon Standard" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="15"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c646-d1e6-7876-7d98"/>
@@ -5259,12 +5248,12 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Icon of Morr" hidden="true" id="1a25-8a9c-dc1f-9efd" sortIndex="29">
+        <selectionEntry type="upgrade" import="true" name="Emperor&apos;s Standard" hidden="true" id="1a25-8a9c-dc1f-9efd" sortIndex="29">
           <infoLinks>
-            <infoLink name="Icon of Morr" id="d354-86ae-6991-49d3" hidden="false" targetId="f167-37b5-628e-1ecb" type="profile"/>
+            <infoLink name="Emperor&apos;s Standard" id="d354-86ae-6991-49d3" hidden="false" targetId="f167-37b5-628e-1ecb" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="25"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5c89-59ae-125a-9d66" includeChildSelections="true"/>
@@ -5860,7 +5849,7 @@
                 <infoLink targetId="1bb5-777b-726e-966b" id="8769-7566-a4f7-f15a" type="profile" name="The White Cloak" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="30"/>
+                <cost name="pts" typeId="points" value="50"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="52c3-5344-6ded-e23a"/>
@@ -5873,12 +5862,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Talisman Of Protection" hidden="false" id="cbc6-eedb-26a2-969c" sortIndex="17">
+            <selectionEntry type="upgrade" import="true" name="Icon of Sigmar" hidden="false" id="cbc6-eedb-26a2-969c" sortIndex="17">
               <infoLinks>
-                <infoLink targetId="f924-9353-d555-cd75" id="12a3-6d11-9001-f239" type="profile" name="Talisman Of Protection" hidden="false"/>
+                <infoLink targetId="f924-9353-d555-cd75" id="12a3-6d11-9001-f239" type="profile" name="Icon of Sigmar" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="30"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="b850-73ea-2232-1a1"/>
@@ -6418,12 +6407,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Slayer&apos;s Hourglass" hidden="true" id="e94d-00af-b6a4-5956" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="The Silver Seal" hidden="true" id="e94d-00af-b6a4-5956" sortIndex="1">
               <infoLinks>
-                <infoLink name="Slayer&apos;s Hourglass" id="6fc6-c8e9-1568-ed57" hidden="false" targetId="d96f-2e3f-7300-f12d" type="profile"/>
+                <infoLink name="The Silver Seal" id="6fc6-c8e9-1568-ed57" hidden="false" targetId="d96f-2e3f-7300-f12d" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -9598,7 +9587,7 @@
     </profile>
     <profile name="Armour of Meteoric Iron" hidden="false" id="3b2c-55d4-ad93-2951" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of meteoric Iron gives its wearer an armour value of 5+, which cannot be improved in any way. However, nor can this armour value be reduced in any way either.</characteristic>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">A suit of plate armour that grants the wearer both a 1+ armour save (Bypassing the 2+ limitation, but cannot be improved by any means), and a 6+ ward save.</characteristic>
       </characteristics>
     </profile>
     <profile name="Charmed Shield" hidden="false" id="fc7f-5c6c-b80d-1f53" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
@@ -9626,9 +9615,9 @@
         <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Shield of the Warrior True is a shield. In addition, its bearer has a 5+ Ward saved against any wounds suffered during the Shooting phase.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Talisman Of Protection" hidden="false" id="f924-9353-d555-cd75" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
+    <profile name="Icon of Sigmar" hidden="false" id="f924-9353-d555-cd75" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
       <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The Talisman of Protection gives its bearer a 5+ Ward save against any wounds suffered.</characteristic>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Wearer has a 4+ ward save against magical attacks and spells.</characteristic>
       </characteristics>
     </profile>
     <profile name="Paymaster&apos;s Coin" hidden="false" id="53aa-817-e6a5-d091" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
@@ -10052,7 +10041,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="The White Cloak" hidden="false" id="1bb5-777b-726e-966b" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
       <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The wearer of the White Cloak has a 5+ Ward save against any wounds suffered, and a 3+ Ward save against any wounds suffered that were caused by an attack that has the [Flaming Attacks] special rule.</characteristic>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Enemies in base contact with the wearer are at -1 to all rolls To Hit. In addition, the wearer has a 5+ ward save, increasing to a 2+ ward save against Wounds caused by Flaming Attacks. </characteristic>
       </characteristics>
     </profile>
     <profile name="Armour of Fortune" hidden="false" id="1d41-7f22-d490-6143" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
@@ -10062,7 +10051,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Armour of Tarnus" hidden="false" id="b954-79e8-d851-94dd" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of Tarnus is a suit of light armour which may be purchased and worn by and Imperial Wizard, even if they do not have the option to be equipped with armour, a shield or barding, without penalty. In addition, its wearer has a 5+ Ward save against any wounds suffered.</characteristic>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of Tarnus is a suit of light armour which may be purchased and worn by an Imperial Wizard, even if they do not have the option to be equipped with armour, a shield or barding, without penalty. In addition, its wearer has a 5+ Ward save against any wounds suffered.</characteristic>
       </characteristics>
     </profile>
     <profile name="Imperial Banner" hidden="false" id="8241-9ea3-2673-a93f" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
@@ -10070,14 +10059,14 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">All friendly units within the Command range of the model carrying the Imperial Banner roll 3D6 when making a [Fear], Panic or [Terror] test and discard the highest result.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Banner of Duty" hidden="false" id="b6ec-cf6-c8a5-bc" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
+    <profile name="Steel Standard" hidden="false" id="b6ec-cf6-c8a5-bc" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Banner of Duty may re-roll any failed Rally test.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Improves the armour save of the unit by 1, to a maximum of 2+. </characteristic>
       </characteristics>
     </profile>
-    <profile name="The Gleaming Pennant" hidden="false" id="e295-fea1-c3b3-5ee0" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
+    <profile name="Griffon Standard" hidden="false" id="e295-fea1-c3b3-5ee0" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Single use. A unit carrying the Gleaming Pennant may re-roll a single failed Leadership test. Note that a Break test is not a Leadership test.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">When determining your combat result, a unit carrying the Griffon Standard can claim a Rank Bonus of +2 for each extra rank behind the first, rather than the usual +1 (to a maximum of double their usual rank bonus).</characteristic>
       </characteristics>
     </profile>
     <profile name="Griffon Standard" hidden="false" id="9932-c1f-c4f3-b95c" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
@@ -11427,9 +11416,9 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Strike First</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">When making a roll To Wound for a hit caused with a Runefang, a roll of 2+ is always a success, regardless of the target’s Toughness.</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-3</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Hits auto-wound and ignore armour saves.</characteristic>
       </characteristics>
     </profile>
     <profile name="Spear Of Twilight" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="bca4-d3f3-19b-b06a">
@@ -11501,25 +11490,25 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">6</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Multiple Wounds (2)</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Commanders of the Empire only.</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">If shot against a Monster of Behemoth, you can re-roll the wound and replace Multiple Wounds (2) with Multiple Wounds (D3+1). </characteristic>
       </characteristics>
     </profile>
     <profile name="Sword Of Justice" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="9137-7185-27fc-d24">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks, Multiple Wounds (2)</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks, Multiple Wounds (2), Strikes First</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The wielder of the Sword of Justice may re-roll any failed rolls To Wound.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Mace Of Helsturm (Single-Handed)" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="9bbc-5365-b4b1-fb92">
+    <profile name="Mace Of Helsturm" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="9bbc-5365-b4b1-fb92">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks, Requires Two Hands, Strike Last</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Instead of attacking normally, the bearer can choose to forfeit all of his normal Attacks to make a single, special Attack (which still has the Strikes Last special rule). If this Attack hits, it is resolved at Strength 10, AP-5 and has both the Flaming Attacks and Multiple Wounds (2D3) special rules.</characteristic>
       </characteristics>
     </profile>
     <profile name="Destroyer of Eternities" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="e6ee-8151-4b87-9fad">
@@ -11527,7 +11516,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="R" id="71f7-e5f4-8bd0-18cb" hidden="false" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" id="12ba-ccce-3afc-b65f" hidden="false" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
         <characteristic name="AP" id="f56-838d-8bf7-6a4a" hidden="false" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" id="4050-1439-ea3a-75b3" hidden="false" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks,Requires Two Hands, Strike Last</characteristic>
+        <characteristic name="Special Rules" id="4050-1439-ea3a-75b3" hidden="false" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks, Requires Two Hands, Strike Last</characteristic>
         <characteristic name="Note" id="dad7-44b-bdbc-ad63" hidden="false" typeId="5e5e-34db-1ee0-86">Rather than attacking normally, the wielder of the Destroyer of Eternities may choose to make a special ‘Scything’ attack. If they do, the enemy unit they are directing their attacks against suffers D6 automatic hits, each resolved using the Destroyer of Eternities’ profile.</characteristic>
       </characteristics>
     </profile>
@@ -11745,13 +11734,13 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Models with the Mark of Chaos Undivided only. When generating their spells, the bearer of the Tome of the Dark Gods may discard any number of their randomly generated spells. For each spell they discard, they may select any spell from the Lore of Chaos as if they had the corresponding Mark of Chaos.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hammer of Righteousness" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="8804-dcf1-9e08-cde9">
+    <profile name="Hammer of Judgment" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="8804-dcf1-9e08-cde9">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Requires Two Hands, Strikes Last</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Models hit by the Hammer of Righteousness must make a Leadership test for each hit suffered. If the test is failed, the hit wounds automatically and no Armour save is allowed (Regeneration and Ward saves may be taken as normal). If the test is passed, rolls To Wound and Armour saves are made as normal.</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Priest and witch hunter characters only. Models hit by the Hammer of Judgement must take a LD test for every Hit suffered. If the test is failed, the model takes a wound with no saves of any kind allowed. Still roll to wound as normal whether the test was failed or not.</characteristic>
       </characteristics>
     </profile>
     <profile name="Pearl Daggers" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="f218-c250-1826-43a7">
@@ -11796,9 +11785,9 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">A model that bears a Witch Hunter&apos;s Ward has the Magic Resistance (-2) special rule. In addition, once per game, the bearer of a Witch Hunter&apos;s Ward can re-roll a single failed Armour Save roll.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Slayer&apos;s Hourglass" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="d96f-2e3f-7300-f12d">
+    <profile name="The Silver Seal" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="d96f-2e3f-7300-f12d">
       <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Enemy models whose troop type is &apos;monster&apos; suffer a -1 modifier to their Weapon Skill characteristic whilst in base contact with the bearer of the Slayer&apos;s Hourglass</characteristic>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Grants the wearer a 6+ ward save and the Magic Resistance (1) special rule. If they already had this special rule, they now improve their Magic Resistance by 1. This is increased to Magic Resistance (2) (or +2) if there is an enemy Wizards currently on the battlefield, or Magic Resistance (3) (or +3) if there are 2 enemy Wizards currently on the battlefield, etc... to a maximum of Magic Resistance (5).</characteristic>
       </characteristics>
     </profile>
     <profile name="Banner of the Knights Panther" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="e194-0e55-10ac-f0a7">
@@ -11811,7 +11800,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Tapestry of Sigmar&apos;s Triumph may re-roll any rolls To Wound of a natural 1 during the first round of a combat.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Icon of Morr" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="f167-37b5-628e-1ecb">
+    <profile name="Emperor&apos;s Standard" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="f167-37b5-628e-1ecb">
       <characteristics>
         <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Icon of Morr gains the Fear special rule. If they already have the Fear special rule, they instead gain the Terror special rule.</characteristic>
       </characteristics>
