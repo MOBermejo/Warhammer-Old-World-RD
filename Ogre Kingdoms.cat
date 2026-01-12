@@ -9,7 +9,7 @@
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
       </characteristics>
@@ -22,7 +22,7 @@
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
@@ -63,7 +63,7 @@
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Firebelly" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="acab-22d2-45a8-5d39">
@@ -85,8 +85,8 @@
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">(+1)</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">(+4)</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">+1</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">+6</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
@@ -195,7 +195,7 @@
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">4</characteristic>
       </characteristics>
     </profile>
     <profile name="Groinbiter" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="c00d-124c-d664-4da2">
@@ -285,7 +285,7 @@
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">+1</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
@@ -373,12 +373,12 @@
     </profile>
     <profile name="Bull Charge" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="45ac-8869-838e-d392">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Impact Hits caused by this model (but not its mount) have an Armour Piercing characteristic of -1.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">The Armour Piercing and Strength characteristic of any Impact Hits caused by a model with this special rule (but not its mount) is improved by +1 the current Rank Bonus of its unit (or, in the case of Characters, the current Rank Bonus of any unit they have joined). Furthermore, if this unit travelled 10” or more on their charge, they add +D3 to their Impact hits.  </characteristic>
       </characteristics>
     </profile>
     <profile name="Butcher’s Cauldron" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="c84b-67d8-2e30-6552">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">This character replaces the Impact Hits (2) special rule with the Impact Hits (D3+1) special rule. In addition, during the Command sub-phase of their turn, if they are not engaged in combat, a character with a Butcher’s Cauldron may attempt to make an offering to the Great Maw by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase this character and any unit they have joined gains the Regeneration (5+) special rule. However, if this test is failed, this character immediately loses a single Wound.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">This character replaces the Impact Hits (2) special rule with the Impact Hits (D3+1) special rule. In addition, during the Command sub-phase of their Turn, if they are caused a single wound in the previous combat round, a character with a Butcher’s Cauldron may attempt to make an offering to the Great Maw by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase this character and any unit they have joined gains the Regeneration (5+) special rule. However, if this test is failed, this character immediately loses a single Wound. </characteristic>
       </characteristics>
     </profile>
     <profile name="Running With The Pack" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="6b-deb4-c472-6cc9">
@@ -431,6 +431,35 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
         <characteristic name="Description" typeId="9f84-4221-785a-db50">When a Gorger declares a charge, it may re-roll its Charge roll.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Crushing Blows" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-crush-blow-001">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Increase AP with any melee attack (including magical weapons, Stomps and Impact Hits) by 1 (From AP/ to AP-1, from AP-1 to AP-2, etc...).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Game Hunter" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-big-game-001">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">This model and any unit of Sabretusks it joins, can re-roll 1's to hit and wound Monstrous Creatures and Behemoths.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Down to Us" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-down-to-us-001">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a friendly unit of ogres (mostly composed of ogres) flees in good order or breaks and flees within 6&quot;, the Ironguts may re-roll 1's when rolling To Hit and To Wound in close combat until the end of your next turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Joyous Jumping" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-joyous-jump-001">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Has Stomp Attacks (D6+1) rather than D6 and roll twice for the number of hits, keeping the best result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stabbing Tusks" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-stab-tusk-001">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">User</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71"/>
+      </characteristics>
+    </profile>
     <profile name="Largely Insignificant" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="aed2-4490-d6f3-764f">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">Units with this special rule never cause friendly units to make Panic tests. However, a unit with this special rule cannot be joined by a character without this special rule.</characteristic>
@@ -443,7 +472,9 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
     </profile>
     <profile name="Mournfang Charge" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="58aa-12ed-bb2a-36fb">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Impact Hits caused by a model with this special rule have the Armour Bane (1) special rule and an Armour Piercing characteristic of -1.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">The Armour Piercing and Strength characteristic of any Impact Hits caused by a model with this special rule (but not its mount) is improved by +1 the current Rank Bonus of its unit (or, in the case of Characters, the current Rank Bonus of any unit they have joined). Furthermore, if this unit travelled 10” or more on their charge, they add +D3 to their Impact hits. 
+
+Gutplate: Gives 6+ Armour Value (or increases current armour save by 1) against attacks made by enemy models that lie within the wielders front arc. However, offers no protection to its wielder against attacks made by enemy models that lie within the wielder’s flank or rear arcs. </characteristic>
       </characteristics>
     </profile>
     <profile name="Numbing Chill" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="6f7a-4c85-3bf9-3c81">
@@ -458,7 +489,7 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
     </profile>
     <profile name="Thunderous Charge" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ab89-9d46-e422-8a13">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Impact Hits caused by this model have an Armour Piercing characteristic of -2.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Impact Hits and Stomps caused by this model have an armour piercing characteristic of -3.</characteristic>
       </characteristics>
     </profile>
     <profile name="Stonehorn" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="a74b-bbb4-255c-ac8f">
@@ -467,8 +498,8 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">(+1)</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">(+4)</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">+1</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">+6</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
@@ -488,7 +519,7 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">N/A</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Breath Weapon, Flaming Attacks</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71"/>
       </characteristics>
@@ -505,9 +536,9 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
     <profile name="Chill breath" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="a93c-c5f7-b30c-d970">
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">N/A</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">2</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">3</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Breath Weapon, Multiple Wounds (D3)</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Breath Weapon, any opponent hit gains the Strike Last special rule until the end of your next turn</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71"/>
       </characteristics>
     </profile>
@@ -525,8 +556,8 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
         <characteristic name="R" typeId="2360-c777-5e07-ed58">36&quot;</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">10</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cannon Fire, Cumbersome, Multiple Wounds (D3+1)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71"/>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cannon Fire, Cumbersome, Multiple Wounds (2D3)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Roll the artillery dice twice for the &quot;bounce&quot; and keep the result of your choice.</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="append" value="This weapon does not have 360° line of sight, it can only shoot into the Ironblaster&apos;s front arc." field="772a-a7ff-f6b3-df71">
@@ -541,11 +572,11 @@ For this attack, the Giant does not use its club. Instead, the target unit suffe
     </profile>
     <profile name="Cannon of the Sky-Titans -  Scatter shot" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="6937-1aa2-781d-a6cb">
       <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">N/A</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Breath Weapon</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">A Cannon of the Sky-Titans has two profiles, representing its two modes of firing. When firing solid shot, this weapon shoots like a cannon, using the ‘Cannon Fire’ special rule. This weapon uses the Ironblaster Misfire table.</characteristic>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">18&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">8</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cumbersome, Multiple Wounds (2)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Roll two artillery dice for the number of shots and keep the best result of one. This weapon uses the Ironblaster Misfire table.</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="append" value="This weapon does not have 360° line of sight, it can only shoot into the Ironblaster&apos;s front arc." field="772a-a7ff-f6b3-df71">
@@ -615,7 +646,7 @@ Enemy models removed from play are considered to have been removed from the figh
         <characteristic name="R" typeId="2360-c777-5e07-ed58">12-48&quot;</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">3 (4)</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">- (-2)</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Bombardment, Cumbersome, Multiple Wounds (2)</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Bombardment, Cumbersome, Killing Blow, Multiple Wounds (2)</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This weapon shoots like a stone thrower, using the ‘Bombardment’ special rule, a 5&quot; blast template and the Scraplauncher Misfire table. The Multiple Wounds (2) special rule applies only to a single model whose base lies underneath the central hole of the blast template</characteristic>
       </characteristics>
     </profile>
@@ -829,61 +860,18 @@ Enemy models removed from play are considered to have been removed from the figh
       </characteristics>
       <comment>Thundertusk Riders/Ogre Crew</comment>
     </profile>
-    <profile name="Leadbelcher Gun (Scatter shot)" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="92c9-78d2-aa39-a8b9">
+    <profile name="Leadbelcher Gun" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="92c9-78d2-aa39-a8b9">
       <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">18</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">3</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">A Leadbelcher gun has two profiles, representing its two modes of firing. If the roll To Hit is successful when firing scatter shot, a leadbelcher gun causes D3 hits to the target enemy unit, rather than the usual one.</characteristic>
-      </characteristics>
-      <modifiers>
-        <modifier type="append" value="Cumbersome, Multiple Shots (3)" field="5f83-3633-336b-93b4">
-          <comment>Renegades</comment>
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="974c-3bf3-af4b-701d" shared="true" includeChildSelections="true">
-              <comment>Renegades</comment>
-            </condition>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="A Leadbelcher gun has two profiles, representing its two modes of firing. A Leadbelcher gun ignores penalties for Moving and Shooting and Multiple Shots" field="772a-a7ff-f6b3-df71">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="974c-3bf3-af4b-701d" shared="true" includeChildSelections="true">
-              <comment>Renegades</comment>
-            </condition>
-          </conditions>
-          <comment>Renegades</comment>
-        </modifier>
-        <modifier type="set" value="4" field="ac19-f99c-72e9-a1a7">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="974c-3bf3-af4b-701d" shared="true" includeChildSelections="true">
-              <comment>Renegades</comment>
-            </condition>
-          </conditions>
-          <comment>Renegades</comment>
-        </modifier>
-        <modifier type="set" value="-1" field="9429-ffe7-2ce5-e9a5">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="force" childId="974c-3bf3-af4b-701d" shared="true" includeChildSelections="true">
-              <comment>Renegades</comment>
-            </condition>
-          </conditions>
-          <comment>Renegades</comment>
-        </modifier>
-      </modifiers>
-    </profile>
-    <profile name="Leadbelcher Gun (Solid shot)" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="b006-417c-17d1-fb58">
-      <characteristics>
-        <characteristic name="R" typeId="2360-c777-5e07-ed58">24</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Cumbersome, Multiple Wounds (2)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">A Leadbelcher gun has two profiles, representing its two modes of firing.</characteristic>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">24&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Cumbersome, Multiple Shots (Artillery Die)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">If you misfire, the unit loses 1 wound with no armour saves allowed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Butcher&apos;s Cauldron" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="e47f-fade-8eda-f02b">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">This character replaces the Impact Hits (2) special rule with the Impact Hits (D3+1) special rule. In addition, during the Command sub-phase of their turn, if they are not engaged in combat, a character with a Butcher’s Cauldron may attempt to make an offering to the Great Maw by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase this character and any unit they have joined gains the Regeneration (5+) special rule. However, if this test is failed, this character immediately loses a single Wound.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">This character replaces the Impact Hits (2) special rule with the Impact Hits (D3+1) special rule. In addition, during the Command sub-phase of their Turn, if they are caused a single wound in the previous combat round, a character with a Butcher’s Cauldron may attempt to make an offering to the Great Maw by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase this character and any unit they have joined gains the Regeneration (5+) special rule. However, if this test is failed, this character immediately loses a single Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="Ironblaster Misfire Table" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="3f14-f955-0263-c81f">
@@ -954,6 +942,14 @@ Enemy models removed from play are considered to have been removed from the figh
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a171-6e3a-b8f7-7e2c"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stabbing Tusks" hidden="false" id="ogre-stab-tusks-entry" collective="true">
+      <infoLinks>
+        <infoLink name="Stabbing Tusks" hidden="false" id="ogre-stab-tusks-link" type="profile" targetId="ogre-stab-tusk-001"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-stab-tusks-const"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Monstrous tusks" hidden="false" id="115a46f5-e8310feb" collective="true">
@@ -1046,7 +1042,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="65a3f9a5-5aa9749b" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="185"/>
+            <cost name="pts" typeId="points" value="220"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="1a90b8a4-2cc6a9ee" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -1073,17 +1069,17 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Additional Hand Weapon" id="74dc3d2a-17b92bd4" hidden="false" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Ironfist" id="e0afb746-438dfcd0" hidden="false" type="selectionEntry" targetId="2139-5be6-d6b0-4321" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="6"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Great Weapon" id="27ba4d90-e86290da" hidden="false" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="2" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="5"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1095,12 +1091,12 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Ogre Pistol" id="589fe66e-b6be3d78" hidden="false" type="selectionEntry" targetId="74-f736-80bd-67e3" sortIndex="1" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="6"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Brace Of Ogre Pistols" id="37ce8172-a2ce0a3c" hidden="false" type="selectionEntry" targetId="97c6-ef82-f23c-cc22" sortIndex="2" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="8"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1201,6 +1197,7 @@ Enemy models removed from play are considered to have been removed from the figh
               </modifiers>
             </infoLink>
             <infoLink name="Ogre Charge" hidden="false" id="cfb1c32b-c0866579/Tyrant" type="profile" targetId="9e92-303-8d40-895c"/>
+            <infoLink name="Crushing Blows" hidden="false" id="ogre-crush-tyrant-001" type="profile" targetId="ogre-crush-blow-001"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1224,7 +1221,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="4fb4e3eb-27ea8039" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="110"/>
+            <cost name="pts" typeId="points" value="130"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="e2ebf21e-fb5af4e8" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -1273,17 +1270,17 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Additional Hand Weapon" id="c0ff-17c6-c603-9932" hidden="false" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Ironfist" id="2c43-43f7-14fc-d959" hidden="false" type="selectionEntry" targetId="2139-5be6-d6b0-4321" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="6"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Great Weapon" id="e885-fe0-400f-6e19" hidden="false" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="2" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="5"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1296,12 +1293,12 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Ogre Pistol" id="b34b-20bd-6e72-6564" hidden="false" type="selectionEntry" targetId="74-f736-80bd-67e3" sortIndex="1" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="6"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Brace Of Ogre Pistols" id="102e-9423-9439-8490" hidden="false" type="selectionEntry" targetId="97c6-ef82-f23c-cc22" sortIndex="2" import="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="12"/>
+                    <cost name="pts" typeId="points" value="8"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1384,6 +1381,7 @@ Enemy models removed from play are considered to have been removed from the figh
               </modifiers>
             </infoLink>
             <infoLink name="Ogre Charge" hidden="false" id="cfb1c32b-c0866579/Bruiser" type="profile" targetId="9e92-303-8d40-895c"/>
+            <infoLink name="Crushing Blows" hidden="false" id="ogre-crush-bruiser-001" type="profile" targetId="ogre-crush-blow-001"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1408,7 +1406,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Lore of the Great Maw" hidden="false" id="b8f6-529a-44f8-b322" type="infoGroup" targetId="d77-266b-2229-4845"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="230"/>
+            <cost name="pts" typeId="points" value="215"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="b57aac53-43398101" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -1451,7 +1449,7 @@ Enemy models removed from play are considered to have been removed from the figh
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e4f124c6-e357fe50" includeChildSelections="false"/>
                   </constraints>
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1471,7 +1469,7 @@ Enemy models removed from play are considered to have been removed from the figh
             </selectionEntryGroup>
             <selectionEntryGroup name="Lores of Magic" hidden="false" id="b4f3d1c-4bd15526" sortIndex="6">
               <entryLinks>
-                <entryLink import="true" name="Battle Magic" hidden="false" id="6c54b9e4-3be0a12e" type="selectionEntry" targetId="5b2e-35c6-f987-741e" sortIndex="1"/>
+                <entryLink import="true" name="Dark Magic" hidden="false" id="6c54b9e4-3be0a12e" type="selectionEntry" targetId="e9f-f0fb-d874-4151" sortIndex="1"/>
                 <entryLink import="true" name="Elementalism" hidden="false" id="57c678c1-8d099e17" type="selectionEntry" targetId="2b23-3ae1-f5ad-8e7a" sortIndex="2"/>
                 <entryLink import="true" name="Illusion" hidden="false" id="9ddc8806-d14e4790" type="selectionEntry" targetId="af66-671f-5a42-a118" sortIndex="3"/>
               </entryLinks>
@@ -1551,7 +1549,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Lore of the Great Maw" hidden="false" id="a288-aed0-3aa6-9970" type="infoGroup" targetId="d77-266b-2229-4845"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="105"/>
+            <cost name="pts" typeId="points" value="140"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="d48dfabb-a1703249" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -1584,7 +1582,7 @@ Enemy models removed from play are considered to have been removed from the figh
             </selectionEntryGroup>
             <selectionEntryGroup name="Lores of Magic" hidden="false" id="33dce004-a60875ce" sortIndex="6">
               <entryLinks>
-                <entryLink import="true" name="Battle Magic" hidden="false" id="9eea306c-f53cbdb6" type="selectionEntry" targetId="5b2e-35c6-f987-741e" sortIndex="1"/>
+                <entryLink import="true" name="Dark Magic" hidden="false" id="9eea306c-f53cbdb6" type="selectionEntry" targetId="e9f-f0fb-d874-4151" sortIndex="1"/>
                 <entryLink import="true" name="Elementalism" hidden="false" id="93cc6ab9-1eee020f" type="selectionEntry" targetId="2b23-3ae1-f5ad-8e7a" sortIndex="2"/>
                 <entryLink import="true" name="Illusion" hidden="false" id="5d69c5fe-31ff2d48" type="selectionEntry" targetId="af66-671f-5a42-a118" sortIndex="3"/>
               </entryLinks>
@@ -1611,7 +1609,7 @@ Enemy models removed from play are considered to have been removed from the figh
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6541-c08b-32e1-220f" includeChildSelections="false"/>
                   </constraints>
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -1693,7 +1691,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (50x50)" hidden="false" type="profile" id="29920c57-fdb63aa5" targetId="7813-4d15-143d-1bf1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="115"/>
+            <cost name="pts" typeId="points" value="130"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="184b4262-2f58d9ac" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -1724,7 +1722,7 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Additional Hand Weapon" id="166a9389-e05f355f" hidden="false" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Harpoon Launcher" id="1633289e-a9b47768" hidden="false" type="selectionEntry" targetId="ad5-efdb-6caf-ecc4" sortIndex="2">
@@ -1861,6 +1859,8 @@ Enemy models removed from play are considered to have been removed from the figh
             </infoLink>
             <infoLink name="Ogre Charge" hidden="false" id="6c285e7f-9e5a568d/Hunter" type="profile" targetId="9e92-303-8d40-895c"/>
             <infoLink name="Running With The Pack" hidden="false" id="b4c8c925-bf2bc81b/Hunter" type="profile" targetId="6b-deb4-c472-6cc9"/>
+            <infoLink name="Crushing Blows" hidden="false" id="ogre-crush-hunter-001" type="profile" targetId="ogre-crush-blow-001"/>
+            <infoLink name="Big Game Hunter" hidden="false" id="ogre-biggame-hunter-001" type="profile" targetId="ogre-big-game-001"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -1884,7 +1884,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="7b06cf36-2babd000" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="110"/>
+            <cost name="pts" typeId="points" value="140"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="8378cd05-55471bfb" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -1903,6 +1903,7 @@ Enemy models removed from play are considered to have been removed from the figh
                 <constraint type="max" value="50" field="points" scope="parent" shared="false" id="ed3fa073-c6a4be21"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Big Name" hidden="false" id="ogre-bn-firebelly" type="selectionEntryGroup" targetId="b8ce-a2e-453d-d59e" sortIndex="3"/>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Command" hidden="false" id="71841a3-1ca061d1" sortIndex="4">
@@ -1928,15 +1929,14 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Great Weapon" id="34a58f59-eae7c9af" hidden="false" type="selectionEntry" targetId="2283-26e9-76c3-6048">
                   <costs>
-                    <cost name="pts" typeId="points" value="6"/>
+                    <cost name="pts" typeId="points" value="4"/>
                   </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Lores of Magic" hidden="false" id="3f6ef166-3cd19c70" sortIndex="6">
               <entryLinks>
-                <entryLink import="true" name="Battle Magic" hidden="false" id="882f69ce-e147bbd8" type="selectionEntry" targetId="5b2e-35c6-f987-741e" sortIndex="1"/>
-                <entryLink import="true" name="Elementalism" hidden="false" id="b13a9ff7-d7cee0c5" type="selectionEntry" targetId="2b23-3ae1-f5ad-8e7a" sortIndex="2"/>
+                <entryLink import="true" name="Elementalism" hidden="false" id="b13a9ff7-d7cee0c5" type="selectionEntry" targetId="2b23-3ae1-f5ad-8e7a" sortIndex="1"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="fc412afd-e5382e33"/>
@@ -2004,7 +2004,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="c8f9950-6eaf7e9a" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="31"/>
+            <cost name="pts" typeId="points" value="24"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="5b4836a0-978c2b6a" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -2032,12 +2032,12 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink import="true" name="Additional Hand Weapon" hidden="false" id="2e59b4e4-17e5c42e" type="selectionEntry" targetId="8943-3e16-db2a-b7f3" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="3"/>
+                    <cost name="pts" typeId="points" value="2"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Ironfist" hidden="false" id="f56ba5d0-6347271a" type="selectionEntry" targetId="2139-5be6-d6b0-4321" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -2198,7 +2198,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="826f333f-4444854d" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="39"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="4d91302b-f2026a79" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -2344,6 +2344,7 @@ Enemy models removed from play are considered to have been removed from the figh
               </modifiers>
             </infoLink>
             <infoLink name="Ogre Charge" hidden="false" id="f309e1d5-447ad1cb" type="profile" targetId="9e92-303-8d40-895c"/>
+            <infoLink name="Down to Us" hidden="false" id="ogre-down-ironguts-001" type="profile" targetId="ogre-down-to-us-001"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2367,7 +2368,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="e82af1b5-dfa664ab" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="41"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="77f68045-efbd353b" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -2494,7 +2495,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="f2207aed-3b6aa0a3" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5"/>
+            <cost name="pts" typeId="points" value="3"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="bdd4cefc-c12e2386" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1">
@@ -2584,7 +2585,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="84179407-f3e3cc55" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="54"/>
+            <cost name="pts" typeId="points" value="35"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="ee4d8973-95fb5f21" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
@@ -2599,7 +2600,7 @@ Enemy models removed from play are considered to have been removed from the figh
               <entryLinks>
                 <entryLink name="Ironfist" id="34a8e458-fcf733c2" hidden="false" type="selectionEntry" targetId="2139-5be6-d6b0-4321" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Great Weapon" id="43772342-93af2b0c" hidden="false" type="selectionEntry" targetId="2283-26e9-76c3-6048" sortIndex="2" import="true">
@@ -2620,7 +2621,7 @@ Enemy models removed from play are considered to have been removed from the figh
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac87-4586-165d-ccb6"/>
                   </constraints>
                   <costs>
-                    <cost name="pts" typeId="points" value="3"/>
+                    <cost name="pts" typeId="points" value="2"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2984,7 +2985,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (40x40)" hidden="false" type="profile" id="67f2ad67-15093b35" targetId="1b54-27fc-b510-61b8"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="46"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <entryLinks>
             <entryLink name="Grimfrost weapon" id="ff5b63ff-d8c9300d" hidden="false" type="selectionEntry" targetId="627b-167a-92bb-a761" import="true" sortIndex="1">
@@ -3104,12 +3105,12 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (25x50)" hidden="false" type="profile" id="3e227464-b86c87ae" targetId="2d9f-e535-9b2e-ca11"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="17"/>
+            <cost name="pts" typeId="points" value="22"/>
           </costs>
           <entryLinks>
-            <entryLink name="Hand Weapon" id="68910aff-65199f0d" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1">
+            <entryLink name="Stabbing Tusks" id="ogre-sabre-stab-link" hidden="false" type="selectionEntry" targetId="ogre-stab-tusks-entry" sortIndex="1">
               <constraints>
-                <constraint type="min" value="1" scope="parent" shared="false" field="selections" id="be9f30ac-84c7bbf6"/>
+                <constraint type="min" value="1" scope="parent" shared="false" field="selections" id="ogre-sabre-stab-min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -3203,7 +3204,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (50x100)" hidden="false" type="profile" id="bbe5c9a8-40f4fb52" targetId="d456-e30e-f85d-14d"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="64"/>
+            <cost name="pts" typeId="points" value="56"/>
           </costs>
           <entryLinks>
             <entryLink name="Hand Weapon" id="1ed92d38-34f34f22" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true" collective="true">
@@ -3237,7 +3238,7 @@ Enemy models removed from play are considered to have been removed from the figh
                 </entryLink>
                 <entryLink import="true" name="Ironfist" hidden="false" id="f2574c3f-5a23d64d" type="selectionEntry" targetId="2139-5be6-d6b0-4321" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -3482,7 +3483,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (100x150)" hidden="false" type="profile" id="e03758df-8766216d" targetId="a35e-8f23-b67-1efe"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="245"/>
+            <cost name="pts" typeId="points" value="250"/>
           </costs>
           <entryLinks>
             <entryLink name="Horns of stone" id="a86c7a75-8215a76b" hidden="false" type="selectionEntry" targetId="24b4bae2-7b28e2c">
@@ -3586,11 +3587,16 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Howdah" hidden="false" id="502dcc8d-1090dcc3" type="profile" targetId="b8f6-1cbc-b19-c7b7"/>
             <infoLink name="Impact Hits" hidden="false" id="d24ab8f3-659312a1" type="profile" targetId="5c2-e9dd-2715-a0c0">
               <modifiers>
-                <modifier type="append" value="(D6+1)" field="name"/>
+                <modifier type="append" value="(2D6+3)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Large Target" hidden="false" id="8ec37de-5dab0ca8" type="profile" targetId="c822-7ad0-f24a-e4af"/>
             <infoLink name="Stone Skeleton" hidden="false" id="6b0d34b2-7dfd237c" type="profile" targetId="d118-7e5e-c196-df92"/>
+            <infoLink name="Stomp Attacks" hidden="false" id="ogre-sh-riders-stomp" type="profile" targetId="72db-24bb-7493-d753">
+              <modifiers>
+                <modifier type="append" value="(D6+1)" field="name"/>
+              </modifiers>
+            </infoLink>
             <infoLink name="Swiftstride" hidden="false" id="58711404-7c5b09ce" type="profile" targetId="dc91-48b3-3696-217"/>
             <infoLink name="Terror" hidden="false" id="e8855a68-ac920612" type="profile" targetId="c7a2-35bf-4313-f4f0"/>
             <infoLink name="Thunderous Charge" hidden="false" id="151c4ab7-6bcd3585" type="profile" targetId="ab89-9d46-e422-8a13"/>
@@ -3622,7 +3628,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (100x150)" hidden="false" type="profile" id="f6fb2aa1-8adb7077" targetId="a35e-8f23-b67-1efe"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="215"/>
+            <cost name="pts" typeId="points" value="230"/>
           </costs>
           <entryLinks>
             <entryLink name="Great tusks" id="265906ec-d980e036" hidden="false" type="selectionEntry" targetId="9604dadf-ceb7936d" sortIndex="1">
@@ -3725,14 +3731,14 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Howdah" hidden="false" id="ff152f40-7f971a8a" type="profile" targetId="b8f6-1cbc-b19-c7b7"/>
             <infoLink name="Impact Hits" hidden="false" id="ef96fd33-23db34e1" type="profile" targetId="5c2-e9dd-2715-a0c0">
               <modifiers>
-                <modifier type="append" value="(D3)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Large Target" hidden="false" id="3efc3bab-dcb919f9" type="profile" targetId="c822-7ad0-f24a-e4af"/>
             <infoLink name="Numbing Chill" hidden="false" id="8db59805-59458efb" type="profile" targetId="6f7a-4c85-3bf9-3c81"/>
             <infoLink name="Stomp Attacks" hidden="false" id="4da02a5d-c28eee13" type="profile" targetId="72db-24bb-7493-d753">
               <modifiers>
-                <modifier type="append" value="(3)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
             <infoLink name="Swiftstride" hidden="false" id="e4a2232b-eaf3c579" type="profile" targetId="dc91-48b3-3696-217"/>
@@ -3765,7 +3771,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (50x50)" hidden="false" type="profile" id="41898961-e280d937" targetId="7813-4d15-143d-1bf1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="200"/>
+            <cost name="pts" typeId="points" value="170"/>
           </costs>
           <entryLinks>
             <entryLink name="Giant&apos;s Club" id="9e403146-8ccaa6d0" hidden="false" type="selectionEntry" targetId="f805-e237-f40c-e046" sortIndex="1">
@@ -3798,9 +3804,10 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="*Pick Up And…" hidden="false" id="1fa3a016-d66c5ae0" type="profile" targetId="ee32-71e0-ce47-435f"/>
             <infoLink name="Stomp Attacks" hidden="false" id="e852046c-ecc5f1b6" type="profile" targetId="72db-24bb-7493-d753">
               <modifiers>
-                <modifier type="append" value="(D6)" field="name"/>
+                <modifier type="append" value="(D6+1)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Joyous Jumping" hidden="false" id="ogre-joyous-giant-001" type="profile" targetId="ogre-joyous-jump-001"/>
             <infoLink name="Terror" hidden="false" id="fba09c0f-2daef89d" type="profile" targetId="c7a2-35bf-4313-f4f0"/>
             <infoLink name="Timmm-Berrr!" hidden="false" id="bdb4506-576f1c90" type="profile" targetId="4f28-3f86-cf88-6b3a"/>
             <infoLink name="Unbreakable" hidden="false" id="ecb73f9d-d3c35953" type="profile" targetId="d3eb-1fa0-bb19-f390"/>
@@ -3827,7 +3834,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (50x50)" hidden="false" type="profile" id="35b714d7-5b6eff25" targetId="7813-4d15-143d-1bf1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="90"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
           <entryLinks>
             <entryLink name="Wicked claws" id="bf444574-188c327e" hidden="false" type="selectionEntry" targetId="27ec5b6b-a7aa3bb9" sortIndex="1">
@@ -3900,6 +3907,11 @@ Enemy models removed from play are considered to have been removed from the figh
             </infoLink>
             <infoLink name="Swiftstride" hidden="false" id="4c9d65f8-e34fc1e2" type="profile" targetId="dc91-48b3-3696-217"/>
             <infoLink name="Unbreakable" hidden="false" id="b5f22854-7cdc195e" type="profile" targetId="d3eb-1fa0-bb19-f390"/>
+            <infoLink name="Stomp Attacks" hidden="false" id="ogre-stomp-gorger-001" type="profile" targetId="72db-24bb-7493-d753">
+              <modifiers>
+                <modifier type="append" value="(D3+1)" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -3912,8 +3924,7 @@ Enemy models removed from play are considered to have been removed from the figh
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f17-4fff-f52c-12d9"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Leadbelcher Gun (Solid shot)" hidden="false" id="ec12-3ace-fa95-9d80" type="profile" targetId="b006-417c-17d1-fb58"/>
-        <infoLink name="Leadbelcher Gun (Scatter shot)" hidden="false" id="fbca-c687-45e8-7a8e" type="profile" targetId="92c9-78d2-aa39-a8b9"/>
+        <infoLink name="Leadbelcher Gun" hidden="false" id="ec12-3ace-fa95-9d80" type="profile" targetId="92c9-78d2-aa39-a8b9"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Scraplauncher" hidden="false" id="4b5d-d682-6af3-b377">
@@ -3984,7 +3995,7 @@ Enemy models removed from play are considered to have been removed from the figh
         <infoLink name="Scraplauncher" id="0b6f-292c-b68f-971c" hidden="false" type="profile" targetId="e3eb-4144-107d-5056"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="160"/>
       </costs>
       <infoGroups>
         <infoGroup name="Special Rules" id="53acf65e-4b71d728" hidden="false">
@@ -4018,7 +4029,7 @@ Enemy models removed from play are considered to have been removed from the figh
         <infoLink name="Base (60x100)" id="7794-96a1-da59-71a0" hidden="false" type="profile" targetId="5125-89a4-916a-eabd"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="185"/>
+        <cost name="pts" typeId="points" value="225"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Cannon of the Sky-Titans" hidden="false" id="7b10-a569-796d-cbcd" type="selectionEntry" targetId="158b916e-a0f49078" sortIndex="1">
@@ -4414,7 +4425,6 @@ Enemy models removed from play are considered to have been removed from the figh
     </entryLink>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Magic Items" id="83fb-6f13-96a2-285e" targetId="6c22-b0e4-7c83-f9ce"/>
     <catalogueLink type="catalogue" name="The Lores of Magic" id="1074-cfbd-cdce-881d" targetId="f3c5-af11-649d-5dbb"/>
     <catalogueLink type="catalogue" name="Giant Library" id="9466-a1fb-bc00-947a" targetId="4013-4240-7515-27e0"/>
     <catalogueLink type="catalogue" name="Mercenaries" id="ca63-6cf5-6ee1-12fd" targetId="12a0-32cd-11d6-f952" importRootEntries="true"/>
@@ -4424,12 +4434,12 @@ Enemy models removed from play are considered to have been removed from the figh
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Mawseeker" hidden="true" id="b069-904d-6b2c-258a" sortIndex="7">
           <costs>
-            <cost name="pts" typeId="points" value="30"/>
+            <cost name="pts" typeId="points" value="20"/>
           </costs>
           <profiles>
             <profile name="Mawseeker" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="1ab9-2f2c-8983-a1e9">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Models whose troop type is ‘infantry’ only. This character has a +1 modifier to their Toughness characteristic. However, this character is also subject to the Stupidity special rule.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Models whose Troop Type is 'Infantry' only. This character has a +1 modifier to their Toughness characteristic. However, this character is also subject to the Stupidity special rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4460,7 +4470,7 @@ Enemy models removed from play are considered to have been removed from the figh
           <profiles>
             <profile name="Mountaineater" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="1e5-a7b9-3fb4-cb1b">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Models whose troop type is ‘infantry’ only. This character cannot be wounded by a roll To Wound of 2, regardless of the Strength of the attack.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">A Mountaineater will never be wounded on a score better than a 3+. Hits that cause automatic Wounds are unaffected.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4486,12 +4496,12 @@ Enemy models removed from play are considered to have been removed from the figh
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Longstrider" hidden="true" id="40f1-ee07-70cb-1a1e" sortIndex="3">
           <costs>
-            <cost name="pts" typeId="points" value="10"/>
+            <cost name="pts" typeId="points" value="5"/>
           </costs>
           <profiles>
             <profile name="Longstrider" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="511c-a30d-2f59-88d7">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Models whose troop type is ‘infantry’ only. This character has a +1 modifier to their Movement characteristic.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">A character with the Longstrider big name gains +1 to its Movement value.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4517,12 +4527,12 @@ Enemy models removed from play are considered to have been removed from the figh
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Deathcheater" hidden="false" id="f6f4-5d44-1d6c-d0f0" sortIndex="2">
           <costs>
-            <cost name="pts" typeId="points" value="5"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <profiles>
             <profile name="Deathcheater" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="c625-b4fd-5051-7807">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Once per game, you may make your opponent re-roll a single roll To Wound made against this character.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">The first time a Deathcheater is removed as a casualty, they drop down to 1 wound instead.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4532,12 +4542,12 @@ Enemy models removed from play are considered to have been removed from the figh
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Giantbreaker" hidden="false" id="56e4-cb30-f02f-d727" sortIndex="5">
           <costs>
-            <cost name="pts" typeId="points" value="20"/>
+            <cost name="pts" typeId="points" value="25"/>
           </costs>
           <profiles>
             <profile name="Giantbreaker" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="13cb-25ef-2f78-90a4">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">This character (but not their mount) has a +1 modifier to their Strength characteristic. However, this character cannot refuse a challenge and neither they, nor any unit they have joined, can Flee as a charge reaction.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">This character (but not their mount) has a +1 modifier to their Strength and AP characteristic. However, this character cannot refuse a challenge and neither they, nor any unit they have joined, can Flee as a charge reaction.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4552,7 +4562,7 @@ Enemy models removed from play are considered to have been removed from the figh
           <profiles>
             <profile name="Kineater" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="b9ec-76ce-8352-cfeb">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Army General only. Unless this character is fleeing, friendly models within this character’s Command range may re-roll any failed Panic or Rally test.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Tyrants only. Any friendly unit within the command range of a Kineater may re-roll failed Panic tests.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4567,19 +4577,57 @@ Enemy models removed from play are considered to have been removed from the figh
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a074-450d-75d9-891a"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Beastkiller" hidden="false" id="b4-f658-e067-746a" sortIndex="1">
+        <selectionEntry type="upgrade" import="true" name="Beastkiller" hidden="true" id="b4-f658-e067-746a" sortIndex="1">
           <costs>
-            <cost name="pts" typeId="points" value="5"/>
+            <cost name="pts" typeId="points" value="15"/>
           </costs>
           <profiles>
             <profile name="Beastkiller" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="37d7-5c1f-aedf-ed6c">
               <characteristics>
-                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Once per turn, this character may re-roll a single failed roll To Wound made against an enemy model with the Large Target special rule.</characteristic>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Hunters only. When making attacks against War Beasts, Monstrous Beasts or Monsters, the Beastkiller gains +1 on his rolls To Wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c45-227b-78d0-9f60"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="41ec4b2d-a3d5eee3" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Brawlerguts" hidden="true" id="braw-1e2g-ut5s-n4me" sortIndex="8">
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
+          <profiles>
+            <profile name="Brawlerguts" typeId="37ea-a98-7e8a-e94a" typeName="Big Name" hidden="false" id="braw-1e2g-ut5s-prof">
+              <characteristics>
+                <characteristic name="Description" typeId="275e-9f2f-c622-4cef">Model on foot only. Brawlerguts gain an additional Impact Hit on a successful Ogre Charge. In addition, Brawlerguts ignore all the effects of obstacles when attacking units that are defending them. This does benefit a unit he joins.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="braw-1e2g-cons-tr41"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4592,13 +4640,61 @@ Enemy models removed from play are considered to have been removed from the figh
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c8c-4901-9dec-8580"/>
       </constraints>
       <selectionEntries>
+        <selectionEntry type="model" name="Mournfang" id="ogre-mount-mournfang" hidden="true" sortIndex="0" subType="mount">
+          <infoLinks>
+            <infoLink name="Mournfang" hidden="false" type="profile" id="ogre-mount-mf-prof" targetId="3bd0-497a-3d4b-bba6"/>
+            <infoLink name="Base (60x100)" hidden="false" type="profile" id="ogre-mount-mf-base" targetId="5125-89a4-916a-eabd"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mount-mf-con1"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup name="Special Rules" hidden="false" id="ogre-mount-mf-sr">
+              <infoLinks>
+                <infoLink name="Armoured Hide" hidden="false" id="ogre-mount-mf-ah" type="profile" targetId="7dc8-b636-84b4-fdc">
+                  <modifiers>
+                    <modifier type="append" value="(1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Close Order" hidden="false" id="ogre-mount-mf-co" type="profile" targetId="883e-e1b1-4fe9-5912"/>
+                <infoLink name="Fear" hidden="false" id="ogre-mount-mf-fear" type="profile" targetId="5ec9-a98-d8c5-e18b"/>
+                <infoLink name="Impact Hits" hidden="false" id="ogre-mount-mf-ih" type="profile" targetId="5c2-e9dd-2715-a0c0">
+                  <modifiers>
+                    <modifier type="append" value="(D3+1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Mournfang Charge" hidden="false" id="ogre-mount-mf-mc" type="profile" targetId="58aa-12ed-bb2a-36fb"/>
+                <infoLink name="Swiftstride" hidden="false" id="ogre-mount-mf-sw" type="profile" targetId="dc91-48b3-3696-217"/>
+                <infoLink name="Crushing Blows" hidden="false" id="ogre-mount-mf-cb" type="profile" targetId="ogre-crush-blow-001"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <categoryLinks>
+            <categoryLink name="Monstrous Cavalry" hidden="false" id="ogre-mount-mf-cat" targetId="c98e-be4d-8b16-e32" primary="false"/>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="754c4517-2a58ad65" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d996a1d5-10a191cb" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
         <selectionEntry type="model" name="Stonehorn" id="bb8d0480-3d2645ca" hidden="true" sortIndex="2" subType="mount">
           <infoLinks>
             <infoLink name="Stonehorn" hidden="false" type="profile" id="d35b426-d2cc4930" targetId="a74b-bbb4-255c-ac8f"/>
             <infoLink name="Base (100x150)" hidden="false" type="profile" id="3a9a4f6e-fb9d5e78" targetId="b56f-7f81-4ba1-ed2c"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="195"/>
+            <cost name="pts" typeId="points" value="215"/>
           </costs>
           <entryLinks>
             <entryLink name="Horns of stone" id="5e20a3f8-22c90fe2" hidden="false" type="selectionEntry" targetId="24b4bae2-7b28e2c" sortIndex="1">
@@ -4633,13 +4729,19 @@ Enemy models removed from play are considered to have been removed from the figh
                 </infoLink>
                 <infoLink name="Close Order" hidden="false" id="7d71966f-817217d" type="profile" targetId="883e-e1b1-4fe9-5912"/>
                 <infoLink name="First Charge" hidden="false" id="90dbd0af-bfdd89bd" type="profile" targetId="785a-2886-af42-dce9"/>
+                <infoLink name="Howdah" hidden="false" id="ogre-sh-mount-howdah" type="profile" targetId="d62c-db5c-a4a1-242c"/>
                 <infoLink name="Impact Hits" hidden="false" id="14cbf3e0-fa87feaa" type="profile" targetId="5c2-e9dd-2715-a0c0">
                   <modifiers>
-                    <modifier type="append" value="(D6+1)" field="name"/>
+                    <modifier type="append" value="(2D6+3)" field="name"/>
                   </modifiers>
                 </infoLink>
                 <infoLink name="Large Target" hidden="false" id="8b85adb9-10c52d0f" type="profile" targetId="c822-7ad0-f24a-e4af"/>
                 <infoLink name="Stone Skeleton" hidden="false" id="4bbc7509-9d160adf" type="profile" targetId="d118-7e5e-c196-df92"/>
+                <infoLink name="Stomp Attacks" hidden="false" id="ogre-sh-mount-stomp" type="profile" targetId="72db-24bb-7493-d753">
+                  <modifiers>
+                    <modifier type="append" value="(D6+1)" field="name"/>
+                  </modifiers>
+                </infoLink>
                 <infoLink name="Swiftstride" hidden="false" id="3e2cee61-cce11637" type="profile" targetId="dc91-48b3-3696-217"/>
                 <infoLink name="Terror" hidden="false" id="4944667f-62561e8d" type="profile" targetId="c7a2-35bf-4313-f4f0"/>
                 <infoLink name="Thunderous Charge" hidden="false" id="f3b2d52a-fb1b03d4" type="profile" targetId="ab89-9d46-e422-8a13"/>
@@ -4656,8 +4758,6 @@ Enemy models removed from play are considered to have been removed from the figh
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="41ec4b2d-a3d5eee3" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="754c4517-2a58ad65" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d996a1d5-10a191cb" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4670,7 +4770,7 @@ Enemy models removed from play are considered to have been removed from the figh
             <infoLink name="Base (100x150)" hidden="false" type="profile" id="713aea06-2a99990" targetId="b56f-7f81-4ba1-ed2c"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="165"/>
+            <cost name="pts" typeId="points" value="210"/>
           </costs>
           <entryLinks>
             <entryLink name="Great tusks" id="4c9c92f9-157ae84f" hidden="false" type="selectionEntry" targetId="9604dadf-ceb7936d" sortIndex="1">
@@ -4705,16 +4805,17 @@ Enemy models removed from play are considered to have been removed from the figh
               <infoLinks>
                 <infoLink name="Close Order" hidden="false" id="50e92bd2-cb08051c" type="profile" targetId="883e-e1b1-4fe9-5912"/>
                 <infoLink name="First Charge" hidden="false" id="9fa18eb8-2d6ca4a2" type="profile" targetId="785a-2886-af42-dce9"/>
+                <infoLink name="Howdah" hidden="false" id="ogre-tt-mount-howdah" type="profile" targetId="d62c-db5c-a4a1-242c"/>
                 <infoLink name="Impact Hits" hidden="false" id="1502c1d2-5a4eb1c" type="profile" targetId="5c2-e9dd-2715-a0c0">
                   <modifiers>
-                    <modifier type="append" value="(D3)" field="name"/>
+                    <modifier type="append" value="(D6+1)" field="name"/>
                   </modifiers>
                 </infoLink>
                 <infoLink name="Large Target" hidden="false" id="31a9f3e6-9c208af0" type="profile" targetId="c822-7ad0-f24a-e4af"/>
                 <infoLink name="Numbing Chill" hidden="false" id="89893342-78b0bb0c" type="profile" targetId="6f7a-4c85-3bf9-3c81"/>
                 <infoLink name="Stomp Attacks" hidden="false" id="4d5e4d66-48661870" type="profile" targetId="72db-24bb-7493-d753">
                   <modifiers>
-                    <modifier type="append" value="(3)" field="name"/>
+                    <modifier type="append" value="(D6+1)" field="name"/>
                   </modifiers>
                 </infoLink>
                 <infoLink name="Swiftstride" hidden="false" id="eda9178c-e31917d6" type="profile" targetId="dc91-48b3-3696-217"/>
@@ -4732,8 +4833,6 @@ Enemy models removed from play are considered to have been removed from the figh
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="41ec4b2d-a3d5eee3" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="754c4517-2a58ad65" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d996a1d5-10a191cb" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -4741,6 +4840,489 @@ Enemy models removed from play are considered to have been removed from the figh
           </modifiers>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items" hidden="false" id="1539-fd78-88f-badd">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Magic Weapons" hidden="false" id="ogre-mw-grp-001" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-con-001"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Thundermace" hidden="false" id="ogre-mw-thun-001" sortIndex="1">
+              <profiles>
+                <profile name="Thundermace" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-mw-thun-prof">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2364-d934-8efa-1b10">Combat</characteristic>
+                    <characteristic name="Strength" typeId="ac19-cedb-9253-bedc">+2 (S10)</characteristic>
+                    <characteristic name="AP" typeId="957f-6a52-a4c6-d335">-3 (-5)</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Magical Attacks, Requires Two Hands, Strikes Last, Multiple Wounds (D6). Rather than attacking normally, the wielder may choose to make a special 'Thunderstrike' attack. If they do, make a single roll To Hit (against highest WS in the enemy unit). If successful, place a small (3") blast template so that its central hole is directly over the centre of the hit unit. Any enemy model whose base lies underneath counts as hit. The Strength and AP modifiers, as well as the Multiple Wounds special rule applies only against the enemy model below the centre hole.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="80"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-thun-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-mw-thun-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sceptre of Titans" hidden="true" id="ogre-mw-scep-001" sortIndex="2">
+              <profiles>
+                <profile name="Sceptre of Titans" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-mw-scep-prof">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2364-d934-8efa-1b10">Combat</characteristic>
+                    <characteristic name="Strength" typeId="ac19-cedb-9253-bedc">10</characteristic>
+                    <characteristic name="AP" typeId="957f-6a52-a4c6-d335">-5</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">General only. Magical Attacks, Multiple Wounds (D3).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="75"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-scep-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-mw-scep-con2" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="7d76-b1a1-1535-a04c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Great Gutgouger" hidden="false" id="ogre-mw-gut-001" sortIndex="3">
+              <profiles>
+                <profile name="Great Gutgouger" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-mw-gut-prof">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2364-d934-8efa-1b10">Combat</characteristic>
+                    <characteristic name="Strength" typeId="ac19-cedb-9253-bedc">+2</characteristic>
+                    <characteristic name="AP" typeId="957f-6a52-a4c6-d335">-3</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Armour Bane (1), Magical Attacks, Killing Blow, Strikes First. While bearer is involved in a challenge, he gains the Heroic Killing Blow special rule. In addition, if bearer slays his foe in a challenge, any enemy units in base contact with him are Disrupted for the remainder of the turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-gut-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-mw-gut-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bloodcleaver" hidden="true" id="ogre-mw-bld-001" sortIndex="4">
+              <profiles>
+                <profile name="Bloodcleaver" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-mw-bld-prof">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2364-d934-8efa-1b10">Combat</characteristic>
+                    <characteristic name="Strength" typeId="ac19-cedb-9253-bedc">+1</characteristic>
+                    <characteristic name="AP" typeId="957f-6a52-a4c6-d335">-2</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Butcher or Slaughtermaster only. Armour Bane (1), Magical Attacks. Every time the wielder causes an unsaved wound with the Bloodcleaver, he may regain one wound he lost earlier in the battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-bld-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-mw-bld-con2" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bf07890e-1fe4e118" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f0fa8626-fdda8b30" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chain-Bind Flails" hidden="false" id="ogre-mw-chn-001" sortIndex="5">
+              <profiles>
+                <profile name="Chain-Bind Flails" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-mw-chn-prof">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2364-d934-8efa-1b10">Combat</characteristic>
+                    <characteristic name="Strength" typeId="ac19-cedb-9253-bedc">User</characteristic>
+                    <characteristic name="AP" typeId="957f-6a52-a4c6-d335">-1</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Two hand weapons. Magical Attacks, Extra Attacks (+1). At the beginning of each close combat phase, wielder may nominate one enemy model in base contact (Affects character and their mount). That model loses D3 Attacks for that phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="35"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-chn-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-mw-chn-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Frostfang" hidden="false" id="ogre-mw-frs-001" sortIndex="6">
+              <profiles>
+                <profile name="Frostfang" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="ogre-mw-frs-prof">
+                  <characteristics>
+                    <characteristic name="Range" typeId="2364-d934-8efa-1b10">Combat</characteristic>
+                    <characteristic name="Strength" typeId="ac19-cedb-9253-bedc">+1</characteristic>
+                    <characteristic name="AP" typeId="957f-6a52-a4c6-d335">-1</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Magical Attacks, Armour Bane (2). For every successful Wound this weapon inflicts on an enemy Character, Monstrous Creature or Behemoth, that model suffers -1 Strength and Toughness for the remainder of the game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-mw-frs-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-mw-frs-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Armour" hidden="false" id="ogre-ma-grp-001" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ma-con-001"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mastodon Armour" hidden="false" id="ogre-ma-mast-001" sortIndex="1">
+              <profiles>
+                <profile name="Mastodon Armour" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ma-mast-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">Plate armour. If wearer suffers an unsaved wound from an attack with the Multiple Wounds special rule, reduce the number of Wounds lost by 1, to a minimum of 1. Furthermore, any enemies in base contact with wearer have the Strike Last special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="35"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ma-mast-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ma-mast-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gut Maw" hidden="false" id="ogre-ma-gutm-001" sortIndex="2">
+              <profiles>
+                <profile name="Gut Maw" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ma-gutm-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">Heavy Armour. Can be worn by Butchers and Slaughtermasters. For each unsaved wound the wearer causes during a Challenge, they recover a single lost Wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ma-gutm-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ma-gutm-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bullgut" hidden="false" id="ogre-ma-bull-001" sortIndex="3">
+              <profiles>
+                <profile name="Bullgut" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ma-bull-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">Heavy armour. Wearer deals an additional D3 Impact Hits. In addition, all Impact Hits improve their Strength and AP by 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ma-bull-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ma-bull-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Talismans" hidden="false" id="ogre-tal-grp-001" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-tal-con-001"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Overtyrant Crown" hidden="false" id="ogre-tal-ovr-001" sortIndex="1">
+              <profiles>
+                <profile name="Overtyrant Crown" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-tal-ovr-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">Any friendly Ogre Kingdoms unit that is fleeing at the beginning of the Ogre player's turn, and is within command range from wearer, rallies automatically. In addition, wearer and any unit he joins have the Immunity (Psychology) special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-tal-ovr-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-tal-ovr-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Battered Amulet" hidden="false" id="ogre-tal-bat-001" sortIndex="2">
+              <profiles>
+                <profile name="Battered Amulet" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-tal-bat-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">The bearer of this item gains a 4+ Ward save against Attacks with Strength 5 or more.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-tal-bat-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-tal-bat-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gnoblar Thiefstone" hidden="false" id="ogre-tal-thf-001" sortIndex="3">
+              <profiles>
+                <profile name="Gnoblar Thiefstone" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-tal-thf-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">One Use. If a character is killed in close combat while being in base contact with the model (or their unit) wearing the Thiefstone, you will automatically be allowed to pick up any one Magic Item (except Magic Standards) that the slain character might have had, as long as the bearer does not already have a magic item of that type. The model with the Thiefstone may then use that item itself for the rest of the battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-tal-thf-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-tal-thf-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Standards" hidden="false" id="ogre-ms-grp-001" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ms-con-001"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Rune Maw Standard" hidden="false" id="ogre-ms-rune-001" sortIndex="1">
+              <profiles>
+                <profile name="Rune Maw Standard" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ms-rune-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">When an enemy Wizard chooses a unit carrying the Rune Maw as the target of a spell, roll a D6. On a 3+, the Wizard's controlling player must choose another target. If there is no other viable target in range, the spell counts as having failed to cast.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ms-rune-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ms-rune-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cannibal Totem" hidden="false" id="ogre-ms-cann-001" sortIndex="2">
+              <profiles>
+                <profile name="Cannibal Totem" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ms-cann-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit carrying the Cannibal Totem gains the Regeneration (6+) special rule (Or improves it by 1, up to a maximum of 4+), but rolls only a single D6 when making a Pursuit roll (rather than the usual 2D6).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ms-cann-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ms-cann-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bull Banner" hidden="false" id="ogre-ms-bull-001" sortIndex="3">
+              <profiles>
+                <profile name="Bull Banner" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ms-bull-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit carrying the Bull Standard may re-roll any failed rolls To Wound when resolving Impact Hits.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ms-bull-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ms-bull-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Enchanted Items" hidden="false" id="ogre-ei-grp-001" sortIndex="5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-con-001"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Paymaster's Horde" hidden="false" id="ogre-ei-pay-001" sortIndex="1">
+              <profiles>
+                <profile name="Paymaster's Horde" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ei-pay-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless bearer is fleeing, at the start of the command sub-phase, they may take a LD test and apply one of the following effects if they succeed: All non-Immune to Psychology enemy units within 18" of the bearer have the Stupidity special rule for the remainder of the round. OR All friendly units within bearer's command range add +1 to their combat result scores. OR All friendly units within bearer's command range can re-roll 1's to hit and wound until the start of your next command phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-pay-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ei-pay-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shatterstone" hidden="false" id="ogre-ei-shat-001" sortIndex="2">
+              <profiles>
+                <profile name="Shatterstone" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ei-shat-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">All enemy units within 12" of the bearer of this item treat all terrain features as Dangerous Terrain. Terrain that is already Dangerous Terrain makes them fail the test on a 1-2 instead of just a 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-shat-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ei-shat-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Elixir of the Frostwyrm" hidden="false" id="ogre-ei-elx-001" sortIndex="3">
+              <profiles>
+                <profile name="Elixir of the Frostwyrm" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ei-elx-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">One use only. The bearer gains a Strength 5 AP-1 Breath Weapon attack that can be used in melee (Deals 2D6 hits instead of template). Any opponent hit gains the Strike Last special rule until the end of your next turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-elx-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ei-elx-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Carvalox Tusks" hidden="false" id="ogre-ei-carv-001" sortIndex="4">
+              <profiles>
+                <profile name="Carvalox Tusks" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ei-carv-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">All friendly Monstrous Beasts, Monstrous Creatures, Monsters, Gorgers and Yhetees within 12" of the bearer gain +1 to their Movement.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-carv-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ei-carv-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flask of Stonehorn Blood" hidden="false" id="ogre-ei-flask-001" sortIndex="5">
+              <profiles>
+                <profile name="Flask of Stonehorn Blood" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ei-flask-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">One use only. The bearer may use this item at the start of any of your turns. If they do so, all attacks targeting them must re-roll successful rolls To Wound for the duration of this turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-flask-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ei-flask-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rock Eye" hidden="false" id="ogre-ei-rock-001" sortIndex="6">
+              <profiles>
+                <profile name="Rock Eye" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ei-rock-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">At the beginning of each Ogre turn, pick one unit in the line of sight of the bearer of the Rock Eye. The opposing player must announce the presence of all Magic Items, Hidden models and the like that unit might have (Not any upgrades such as Vampiric Powers, Mutations, Vows, etc...).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ei-rock-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ei-rock-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arcane Items" hidden="false" id="ogre-ai-grp-001" sortIndex="6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ai-con-001"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hellheart" hidden="false" id="ogre-ai-hell-001" sortIndex="1">
+              <profiles>
+                <profile name="Hellheart" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ai-hell-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">One Use Only. The Hellheart can be used at the start of one of the opposing side's Magic phases, immediately after rolling for the Winds of Magic. All enemy Wizards within 5D6" of the bearer must roll 2D6 on the Miscast table. Special rules or magic items that affect a normal miscast roll can be used against miscasts caused by the Hellheart. After resolving all the Miscasts, add an extra dispel dice to the Ogre's dispel pool for each enemy Wizard that was forced to roll on the Miscast table.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ai-hell-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ai-hell-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hungry Maw Scroll" hidden="false" id="ogre-ai-hung-001" sortIndex="2">
+              <profiles>
+                <profile name="Hungry Maw Scroll" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ai-hung-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">One use only. When used instead of dispelling, the spell is automatically dispelled with no Dispel roll required. When used, the enemy spell can no longer be used for the remainder of the game.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="35"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ai-hung-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ai-hung-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Halfling Cookbook" hidden="false" id="ogre-ai-half-001" sortIndex="3">
+              <profiles>
+                <profile name="Halfling Cookbook" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ai-half-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">At the start of each of your Magic phases, the bearer of this item can pick one additional spell from the Lore of the Great Maw of those normally available to them and cast it this turn. Furthermore, the range of this chosen spell is increased by 6".</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ai-half-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ai-half-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wizardflesh Apron" hidden="false" id="ogre-ai-wiz-001" sortIndex="4">
+              <profiles>
+                <profile name="Wizardflesh Apron" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ogre-ai-wiz-prof">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9f84-4221-785a-db50">Wizard with the Lore of the Great Maw only. Enemy wizards within your command range suffer -1 to cast and dispel, which becomes -2 if they fail a LD test.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ogre-ai-wiz-con1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ogre-ai-wiz-con2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <profileTypes>

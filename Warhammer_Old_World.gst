@@ -13313,9 +13313,12 @@ An Ironfist cannot be used alongside a magic weapon to gain an extra attack, or 
     </profile>
     <profile name="Ogre Charge" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="9e92-303-8d40-895c">
       <characteristics>
-        <characteristic name="Description" id="1582-e7a1-573f-a448" hidden="false" typeId="9f84-4221-785a-db50">The Armour Piercing characteristic of any Impact Hits caused by a model with this special rule (but not its mount) is improved by the current Rank Bonus of its unit (or, in the case of characters, the current Rank Bonus of any unit they have joined).</characteristic>
+        <characteristic name="Description" id="1582-e7a1-573f-a448" hidden="false" typeId="9f84-4221-785a-db50">The Armour Piercing and Strength characteristic of any Impact Hits caused by a model with this special rule (but not its mount) is improved by +1 the current Rank Bonus of its unit (or, in the case of Characters, the current Rank Bonus of any unit they have joined). Furthermore, if this unit travelled 10” or more on their charge, they add +D3 to their Impact hits.
+          
+        Gutplate: Gives 6+ Armour Value (or increases current armour save by 1) against attacks made by enemy models that lie within the wielders front arc. However, offers no protection to its wielder against attacks made by enemy models that lie within the wielder’s flank or rear arcs. </characteristic>
       </characteristics>
     </profile>
+    
     <profile name="Enhanced Regeneration" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="ce1d-7cad-99ee-ec4f">
       <characteristics>
         <characteristic name="Description" id="7551-96d-6a19-e040" hidden="false" typeId="9f84-4221-785a-db50">Models with the Regeneration (X+) special rule within a Troll Horde army may re-roll any failed Regeneration saves against Wounds caused by non-magical attacks.</characteristic>
@@ -13353,7 +13356,7 @@ An Ironfist cannot be used alongside a magic weapon to gain an extra attack, or 
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">12&quot;</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane(1), Multiple Shots (2), Quick Shot</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">In combat: Extra Attacks (+1), Requires Two Hands</characteristic>
       </characteristics>
@@ -13398,7 +13401,7 @@ An Ironfist cannot be used alongside a magic weapon to gain an extra attack, or 
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">12&quot;</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Multiple Shots (3), Quick Shot</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
       </characteristics>

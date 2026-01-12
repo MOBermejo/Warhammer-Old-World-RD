@@ -3492,12 +3492,12 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Griffon Standard" hidden="true" id="f9e9-bf18-968e-ebff" sortIndex="76">
+        <selectionEntry type="upgrade" import="true" name="Emperor Standard" hidden="true" id="f9e9-bf18-968e-ebff" sortIndex="76">
           <infoLinks>
-            <infoLink targetId="9932-c1f-c4f3-b95c" id="4d0-d36b-efd7-8a54" type="profile" name="Griffon Standard" hidden="false"/>
+            <infoLink targetId="9932-c1f-c4f3-b95c" id="4d0-d36b-efd7-8a54" type="profile" name="Emperor Standard" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="50"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="ce-b047-2e59-5819"/>
@@ -7561,7 +7561,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Familiar" hidden="true" id="1dbe-13a7-9211-5d60" sortIndex="17">
               <costs>
-                <cost name="pts" id="3355-369f-b5e3-ea61" hidden="false" typeId="points" value="35"/>
+                <cost name="pts" id="3355-369f-b5e3-ea61" hidden="false" typeId="points" value="15"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -7780,12 +7780,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wand of Jet" hidden="false" id="2e4c-b05d-d62a-db40" sortIndex="42">
+            <selectionEntry type="upgrade" import="true" name="Multi-Wind Absorbing Speculum" hidden="false" id="2e4c-b05d-d62a-db40" sortIndex="42">
               <infoLinks>
-                <infoLink targetId="3ef9-54eb-f23a-356d" id="56c1-ffdc-1f59-6d5c" type="profile" name="Wand of Jet" hidden="false"/>
+                <infoLink targetId="3ef9-54eb-f23a-356d" id="56c1-ffdc-1f59-6d5c" type="profile" name="Multi-Wind Absorbing Speculum" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="45"/>
+                <cost name="pts" typeId="points" value="25"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="e43a-3b05-74fc-b69c"/>
@@ -8042,17 +8042,6 @@
                 </modifier>
               </modifiers>
               <comment>Extra Spells: 1</comment>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Arcane Familiar" hidden="false" id="8123-d36e-9442-13a1" sortIndex="2">
-              <infoLinks>
-                <infoLink targetId="c962-ee58-3304-b9fc" id="ca7e-8597-da1f-865d" type="profile" name="Arcane Familiar" hidden="false"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="15"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="ad6a-7599-c704-8ed3"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Glittering Wotnots" hidden="true" id="ed56-b26d-8826-eaf1" sortIndex="31">
               <costs>
@@ -8618,33 +8607,15 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Twin-Tailed Wand" hidden="true" id="88d3-43b1-820c-4a12" sortIndex="39">
+            <selectionEntry type="upgrade" import="true" name="Van Horstmann Explosive Staff" hidden="true" id="88d3-43b1-820c-4a12" sortIndex="39">
               <costs>
                 <cost name="pts" typeId="points" value="40"/>
               </costs>
               <infoLinks>
-                <infoLink name="Twin-Tailed Wand" id="af9a-b382-3788-26b9" hidden="false" type="profile" targetId="9d83-a565-0177-1df8"/>
+                <infoLink name="Van Horstmann Explosive Staff" id="af9a-b382-3788-26b9" hidden="false" type="profile" targetId="9d83-a565-0177-1df8"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6610-29af-f564-59b5" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crystal Ball" hidden="true" id="7cbd-7733-daba-6666" sortIndex="8">
-              <costs>
-                <cost name="pts" typeId="points" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Crystal Ball" id="fd6c-ca00-6612-e293" hidden="false" type="profile" targetId="1a8a-60e1-6b37-4c47"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="22d8-22e5-b29d-52f8" includeChildSelections="true"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -8901,9 +8872,9 @@
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of an Arcane Familiar knows spells from two Lores of Magic, rather than the usual one. When determining the spells the Wizard knows, you must roll for each Lore separately. Duplicate spells are re-rolled as normal. The Wizard may discard one randomly generated spell as normal, replacing it with the signature spell of the same Lore of Magic.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Wand of Jet" hidden="false" id="3ef9-54eb-f23a-356d" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+    <profile name="Multi-Wind Absorbing Speculum" hidden="false" id="3ef9-54eb-f23a-356d" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer of the Wand of Jet may apply a +1 modifier to any of their Casting or Dispel rolls. However, should they roll any natural double when making a Casting or Dispel roll, the Wand of Jet is destroyed and it cannot be used again.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Bearer may re-roll channelling dice and channels on a 5+ rather than a 6+. Each time you successfully channel, bearer adds +1 to the number of channelling dice they roll for next phase to a maximum of 3. </characteristic>
       </characteristics>
     </profile>
     <profile name="Lore Familiar" hidden="false" id="af85-e641-1bb1-2314" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
@@ -9268,9 +9239,9 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">When determining your combat result, a unit carrying the Griffon Standard can claim a Rank Bonus of +2 for each extra rank behind the first, rather than the usual +1 (to a maximum of double their usual rank bonus).</characteristic>
       </characteristics>
     </profile>
-    <profile name="Griffon Standard" hidden="false" id="9932-c1f-c4f3-b95c" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
+    <profile name="Emperor Standard" hidden="false" id="9932-c1f-c4f3-b95c" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">When determining your combat result, a unit carrying the Griffon Standard can claim a Rank Bonus of +2 for each extra rank behind the first, rather than the usual +1.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">The Emperor's Standard follows all the rules for a battle standard, except that the range of its Hold Your Ground! special rule is 18”. Also allows to re-roll all LD tests, not just Panic and Break tests. </characteristic>
       </characteristics>
     </profile>
     <profile name="Glowy Green Amulet" hidden="false" id="30fc-2660-41d9-e75f" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
@@ -9495,7 +9466,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Wizard&apos;s Familiar" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="1d0c-e863-2a42-b5bb">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of a Wizard&apos;s Familiar may apply +1 modifier to any of their Dispel rolls. The first time you miscast, you may re-roll the result, but then this item ceases to function for the remainder of the game. </characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of a Wizard’s Familiar may apply +1 modifier to any of their Dispel rolls. The first time you miscast, you may re-roll the result, but then this item ceases to function for the remainder of the game. </characteristic>
       </characteristics>
     </profile>
     <profile name="Trollhide Trousers" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="bded-b681-6a64-5d7e" publicationId="7c89-736c-3139-24a0" page="43">
@@ -10860,7 +10831,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     </profile>
     <profile name="Emperor&apos;s Standard" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="f167-37b5-628e-1ecb">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Icon of Morr gains the Fear special rule. If they already have the Fear special rule, they instead gain the Terror special rule.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">The Emperor's Standard follows all the rules for a battle standard, except that the range of its Hold Your Ground! special rule is 18”. Also allows to re-roll all LD tests, not just Panic and Break tests. </characteristic>
       </characteristics>
     </profile>
     <profile name="The Banner of the Free State of Nuln" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="c517-fe83-173a-f4bb">
@@ -10883,19 +10854,14 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Priests only. Whenever you successfully cast a prayer, you can attempt to cast another one in the same phase, for a maximum of two.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Twin-Tailed Wand" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="9d83-a565-0177-1df8">
+    <profile name="Van Horstmann Explosive Staff" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="9d83-a565-0177-1df8">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Once per turn, the bearer of the Twin-tailed Wand may attempt to cast one of their spells a second time. However, should they miscast a spell, the bearer is overwhelmed by the Winds of Magic and, instead of rolling on the Miscast table, suffers D3 wounds with no armour or Regeneration saves permitted (Ward saves can be attempted as normal).</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer of the Wizard’s Staff gains a +1 modifier to their Casting roll when attempting to cast an Assailment spell or a Magic Missile, increases the AP of those spells by 1 and may re-roll the number of hits for those spells (Individual dice). Furthermore, when you miscast, always count as having rolled a calamitous detonation!</characteristic>
       </characteristics>
     </profile>
     <profile name="Tome of Midnight" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="20a9-373f-d01f-4ee6">
       <characteristics>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer of the Tome of Midnight may apply a +1 modifier to any of their Casting rolls when attempting to cast spells from the Lore of Daemonology, Dark Magic, or Necromancy. In addition, they know one more spell (chosen in the usual way) than is normal for their Level of Wizardry. However, the bearer can only cast a number of spells equal to their Level of Wizardry per turn and is subject to the Loner special rule.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Crystal Ball" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="1a8a-60e1-6b37-4c47">
-      <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Once per turn, you may make your opponent re-roll a single roll To Hit or To Wound made against a friendly character model that is within the Command range of the bearer of the Crystal Ball.</characteristic>
       </characteristics>
     </profile>
     <profile name="Woodsman&apos;s Axe" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="5460-005b-3369-303b">
