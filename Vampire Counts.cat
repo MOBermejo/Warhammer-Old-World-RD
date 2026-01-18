@@ -3237,7 +3237,7 @@ If used as a mount by a vampire of the Lahmian bloodline, Enemy units in base co
             <entryLink import="true" name="Mount" hidden="false" id="8fa9b8-2811e7a2" type="selectionEntryGroup" targetId="1d0e-4804-8b2d-bf85" sortIndex="4" collapsible="true"/>
             <entryLink import="true" name="Magic Items" hidden="false" id="6e5fe959-bfff53af" type="selectionEntryGroup" targetId="1539-fd78-88f-badd" sortIndex="7">
               <constraints>
-                <constraint type="max" value="75" field="points" scope="parent" shared="false" id="350b6504-d79ad2ce"/>
+                <constraint type="max" value="100" field="points" scope="parent" shared="false" id="350b6504-d79ad2ce"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Strigoi Vampiric Powers" hidden="false" id="sgk-strigoi-vp" type="selectionEntryGroup" targetId="vc-strigoi-vp-group" sortIndex="2" collapsible="true">
