@@ -693,9 +693,9 @@ The casting player chooses a single item carried by the target. This magic item 
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">11+</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">10+/12+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">18&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this Turn, the target enemy unit suffers a -1 modifier to its Strength and Toughness characteristics (to a minimum of 1).</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until the end of this Turn, the target enemy unit/all enemy units within range suffer a -D3 modifier to their Strength and Toughness characteristics (to a minimum of 1).</characteristic>
           </characteristics>
         </profile>
         <profile name="Khsar&apos;s Incantation of the Desert Wind" hidden="false" id="fd34-d014-d7b4-c6f3" typeId="8232-ae14-b1f6-b4df" typeName="Spell">
@@ -713,7 +713,7 @@ The casting player chooses a single item carried by the target. This magic item 
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
             <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+/11+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12&quot;</characteristic>
-            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, any friendly unit that has the Nehekhara Undead special rule and that is within the caster&apos;s Command Range might re-roll any rolls To Hit of a natural 1.</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, any friendly unit that has the Nehekharan Undead special rule and that is within range may re-roll any rolls To Wound of a natural 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>

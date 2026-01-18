@@ -923,7 +923,7 @@
                 <infoLink targetId="e6ee-8151-4b87-9fad" id="dcdb-d4ca-38cd-be60" type="profile" name="Destroyer of Eternities" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="75"/>
+                <cost name="pts" typeId="points" value="80"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b25-b43a-80b-741b"/>
@@ -940,6 +940,63 @@
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blade of Mourning" hidden="true" id="tk-blade-mourning" sortIndex="27">
+              <infoLinks>
+                <infoLink targetId="tk-blade-mourning-prof" id="tk-blade-mourning-link" type="profile" name="Blade of Mourning" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tk-blade-mourning-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-blade-mourning-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Conqueror's Blade" hidden="true" id="tk-conquerors-blade" sortIndex="27">
+              <infoLinks>
+                <infoLink targetId="tk-conquerors-blade-prof" id="tk-conquerors-blade-link" type="profile" name="Conqueror's Blade" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tk-conquerors-blade-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-conquerors-blade-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spear of Radiance" hidden="true" id="tk-spear-radiance" sortIndex="27">
+              <infoLinks>
+                <infoLink targetId="tk-spear-radiance-prof" id="tk-spear-radiance-link" type="profile" name="Spear of Radiance" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tk-spear-radiance-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-spear-radiance-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -1291,12 +1348,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Phakth’s Blades Of Justice" hidden="true" id="6aae932e-cb718438" sortIndex="37">
+            <selectionEntry type="upgrade" import="true" name="Phakth's Blades Of Justice" hidden="true" id="6aae932e-cb718438" sortIndex="37">
               <infoLinks>
-                <infoLink targetId="a17d9c13-4226f2c1" id="8378-5393-90ed-3f16" type="profile" name="Phakth’s Blades Of Justice" hidden="false"/>
+                <infoLink targetId="a17d9c13-4226f2c1" id="8378-5393-90ed-3f16" type="profile" name="Phakth's Blades Of Justice" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="35"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a11-edb6-485e-9775"/>
@@ -2691,7 +2748,7 @@
                 <infoLink targetId="fd17-a820-3d4a-77d4" id="562d-ea0e-9fe3-adf7" type="profile" name="Armour of the Ages" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="50"/>
+                <cost name="pts" typeId="points" value="35"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="4aef-4a77-1fe9-520e"/>
@@ -2817,12 +2874,36 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour of Eternity" hidden="true" id="tk-armour-eternity" sortIndex="13">
+              <infoLinks>
+                <infoLink targetId="tk-armour-eternity-prof" id="tk-armour-eternity-link" type="profile" name="Armour of Eternity" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tk-armour-eternity-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-armour-eternity-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warding Splint" hidden="true" id="98d9-36a2-6d89-da81" sortIndex="14">
               <infoLinks>
                 <infoLink targetId="8c5f-a8f4-9972-76fe" id="c9d2-58c2-1a36-3fb8" type="profile" name="Warding Splint" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="35"/>
+                <cost name="pts" typeId="points" value="40"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="a65-4b8e-76f2-6b5e"/>
@@ -3725,7 +3806,7 @@
             <infoLink targetId="d9e6-8ccb-3158-dc01" id="26a4-2303-ed42-c7c1" type="profile" name="Standard of the Cursing Word" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="80"/>
+            <cost name="pts" typeId="points" value="60"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="7cf7-192-215c-371c"/>
@@ -3809,7 +3890,7 @@
             <infoLink targetId="477b-3c5-cdc3-f36b" id="4401-53c1-ed7c-435b" type="profile" name="Sigil of Centuries" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="45"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="f03c-ede1-ebdf-3962"/>
@@ -3881,7 +3962,7 @@
             <infoLink targetId="7b3e-1007-2e33-9cf5" id="9016-cd67-3315-47a7" type="profile" name="Banner of the Desert Winds" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="30"/>
+            <cost name="pts" typeId="points" value="20"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="d0e6-2564-5aae-8a50"/>
@@ -3915,7 +3996,7 @@
             <infoLink targetId="ed6c-cc0d-544b-ab94" id="2cda-d36-4d01-db1b" type="profile" name="Mirage Banner" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="20"/>
+            <cost name="pts" typeId="points" value="30"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="36f5-d03-d91c-466a"/>
@@ -3931,6 +4012,25 @@
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Standard of the Undying Legions" hidden="true" id="tk-undying-legions-entry" sortIndex="60">
+          <infoLinks>
+            <infoLink targetId="tk-undying-legions-prof" id="tk-undying-legions-link" type="profile" name="Standard of the Undying Legions" hidden="false"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="40"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="tk-undying-legions-c1"/>
+            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-undying-legions-c2"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
@@ -5306,7 +5406,7 @@
                 <infoLink targetId="f49b-4593-5b49-e3b7" id="15bd-822f-813d-9c39" type="profile" name="Amulet of the Serpent" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="30"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="82a-8fc3-61f7-1ab4"/>
@@ -5436,7 +5536,7 @@
                 <infoLink targetId="94cc-e3fe-4196-35cf" id="313a-5c8a-ee57-d2f0" type="profile" name="Collar of Shapesh" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="25"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="6e5f-288a-ee3b-5c80"/>
@@ -6053,7 +6153,7 @@
                 <infoLink targetId="50b-8181-7ff1-7bee" id="d6ca-22b2-a289-b763" type="profile" name="Cloak of the Dunes" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="50"/>
+                <cost name="pts" typeId="points" value="25"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="718a-2d9d-d873-a3df"/>
@@ -6268,7 +6368,7 @@
                 <infoLink targetId="1217-3cb5-8758-e02d" id="80ee-96cf-dfe5-2667" type="profile" name="Death Mask of Kharnutt" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="35"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="6572-56e5-faf8-fc60"/>
@@ -6284,6 +6384,78 @@
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Crown of Nehekhara" hidden="true" id="tk-crown-nehekhara" sortIndex="60">
+              <infoLinks>
+                <infoLink targetId="tk-crown-nehekhara-prof" id="tk-crown-nehekhara-link" type="profile" name="Crown of Nehekhara" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-crown-nehekhara-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sigil of Kings" hidden="true" id="tk-sigil-kings" sortIndex="30">
+              <infoLinks>
+                <infoLink targetId="tk-sigil-kings-prof" id="tk-sigil-kings-link" type="profile" name="Sigil of Kings" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-sigil-kings-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sun Chariot of Ptra" hidden="true" id="tk-sun-chariot" sortIndex="20">
+              <infoLinks>
+                <infoLink targetId="tk-sun-chariot-prof" id="tk-sun-chariot-link" type="profile" name="Sun Chariot of Ptra" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-sun-chariot-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Brooch of Hidden Dead" hidden="true" id="tk-brooch-hidden" sortIndex="15">
+              <infoLinks>
+                <infoLink targetId="tk-brooch-hidden-prof" id="tk-brooch-hidden-link" type="profile" name="Brooch of Hidden Dead" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-brooch-hidden-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -7555,7 +7727,7 @@
                 <infoLink targetId="7ced-b473-887b-231c" id="8585-ccb-8749-e821" type="profile" name="Hieratic Jar" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="25"/>
+                <cost name="pts" typeId="points" value="15"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -8206,12 +8378,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scarab Brooch" hidden="true" id="905d-34f-b5e7-c49a" sortIndex="11">
+            <selectionEntry type="upgrade" import="true" name="Scarab Brooch of Usurian" hidden="true" id="905d-34f-b5e7-c49a" sortIndex="11">
               <infoLinks>
-                <infoLink targetId="5591-b93a-8206-c28b" id="b26d-3b14-5c1b-6930" type="profile" name="Scarab Brooch" hidden="false"/>
+                <infoLink targetId="5591-b93a-8206-c28b" id="b26d-3b14-5c1b-6930" type="profile" name="Scarab Brooch of Usurian" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="35"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c444-1306-d9d6-c89c"/>
@@ -8652,9 +8824,9 @@
                 <cost name="pts" typeId="points" value="15"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Phâzerakt’s Kanopi" hidden="true" id="622c59aa-aca46454" collective="true" sortIndex="36">
+            <selectionEntry type="upgrade" import="true" name="Phâzerakt's Kanopi" hidden="true" id="622c59aa-aca46454" collective="true" sortIndex="36">
               <costs>
-                <cost name="pts" typeId="points" value="40"/>
+                <cost name="pts" typeId="points" value="50"/>
               </costs>
               <infoLinks>
                 <infoLink name="Phâzerakt’s Kanopi" hidden="false" type="profile" id="de7f-650e-d71c-8c22" targetId="a0281a50-f77bf79a"/>
@@ -8678,7 +8850,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Curse-Weaver Wand" hidden="true" id="99aa6902-c9a42cc" collective="true" sortIndex="9">
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
               <infoLinks>
                 <infoLink name="Curse-Weaver Wand" hidden="false" type="profile" id="ee65-e2f8-ed41-efd4" targetId="faef07e4-b7387f2e"/>
@@ -8697,6 +8869,60 @@
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Liche Staff" hidden="true" id="tk-liche-staff" sortIndex="60">
+              <infoLinks>
+                <infoLink targetId="tk-liche-staff-prof" id="tk-liche-staff-link" type="profile" name="Liche Staff" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-liche-staff-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scroll of the Cursing Word" hidden="true" id="tk-scroll-cursing" sortIndex="30">
+              <infoLinks>
+                <infoLink targetId="tk-scroll-cursing-prof" id="tk-scroll-cursing-link" type="profile" name="Scroll of the Cursing Word" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-scroll-cursing-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Neferra's Scrolls of Mighty Incantations" hidden="true" id="tk-neferra-scrolls" sortIndex="25">
+              <infoLinks>
+                <infoLink targetId="tk-neferra-scrolls-prof" id="tk-neferra-scrolls-link" type="profile" name="Neferra's Scrolls of Mighty Incantations" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="tk-neferra-scrolls-con"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6850-3df1-29ed-581" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -9268,7 +9494,7 @@ Note that this is a modifier to the result of a roll - it does not negate a roll
     </profile>
     <profile name="Standard of the Cursing Word" hidden="false" id="d9e6-8ccb-3158-dc01" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Battle Standard Bearer only. At the end of any phase in which one or more models in a unit joined by the bearer of the Standard of the Cursing World lost its last Wound to an enemy attack, the unit that made the attack must make a Leadership test. If this test is failed, the enemy unit suffers D3 Strength 2 hits, each with an Ap of -, for each model that lost its last Wound.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Battle Standard Bearer only. During the combat phase in which one or more models in a unit joined by the bearer of the Standard of the Cursing Word lost its last Wound to an enemy attack (not due to Unstable), the enemy unit that made the attack suffers 1 Strength 2 hit, which ignores armour saves, for each model that lost its last Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="Banner of Outrage" hidden="false" id="a2d2-43dd-ca64-8234" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
@@ -9587,7 +9813,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Armour of the Ages" hidden="false" id="fd17-a820-3d4a-77d4" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of the Ages is a suit of light armour. In addition, enemy models must re-roll successful rolls To Wound made against the wearer.</characteristic>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Heavy Armour. Enemy models must re-roll successful rolls To Wound made against the wearer.</characteristic>
       </characteristics>
     </profile>
     <profile name="Shield of Ptra" hidden="false" id="9ec6-4cab-27ff-f9b3" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
@@ -9597,7 +9823,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Warding Splint" hidden="false" id="8c5f-a8f4-9972-76fe" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Warding Splint is a suit of heavy armour which may be purchased and worn by a Liche Priest, even if they do not have the option to be equipped with armour, a shield or barding, without penalty. In addition, its wearer has a 5+ Ward save against any wounds suffered.</characteristic>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Warding Splint is a suit of Heavy Armour which may be purchased and worn by a Liche Priest, even if they do not have the option to be equipped with Armour, a Shield or Barding, without penalty. In addition, its wearer ignores the first wound they suffer once per round.</characteristic>
       </characteristics>
     </profile>
     <profile name="Royal Mantle" hidden="false" id="fee4-8472-b3b8-5a9f" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
@@ -9617,7 +9843,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Collar of Shapesh" hidden="false" id="94cc-e3fe-4196-35cf" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
       <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Single use. When the wearer of the Collar of Shapesh loses their last Wound, roll a D6. On a roll of 4+, the Wound is not lost. Instead, a single friendly model within the wearer’s Command range is removed from play as a casualty.</characteristic>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">For each unsaved Wound the bearer suffers (before calculating any Multiple Wounds), roll a D6: on a 4+ the Wound is transferred to any friendly model in base contact of the bearer's choosing, with no saves of any kind allowed. These Wounds still count towards combat resolution as normal. If there are no friendly models in base contact, then this rule has no effect.</characteristic>
       </characteristics>
     </profile>
     <profile name="Crown of Kings" hidden="false" id="2d44-7aa4-864b-91ac" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
@@ -9632,7 +9858,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Mirage Banner" hidden="false" id="ed6c-cc0d-544b-ab94" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Any enemy model that targets a unit carrying the Mirage Banner during the Shooting phase suffers an additional -1 To Hit modifier.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">The Mirage Banner forces all Hits from missile attacks targeting the unit carrying it to be re-rolled (including scatter and artillery dice that rolled a hit! Bearer's choice).</characteristic>
       </characteristics>
     </profile>
     <profile name="Banner of the Desert Winds" hidden="false" id="7b3e-1007-2e33-9cf5" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
@@ -9652,7 +9878,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Sigil of Centuries" hidden="false" id="477b-3c5-cdc3-f36b" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">All enemy units within 6’’ of the model carrying the Sigil of Centuries suffers a -1 modifier to their Initiative characteristic (to a minimum of 1).</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">All enemy units within 12'' of the model carrying the Sigil of Centuries suffer the Strike Last special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Royal Standard Of Settra" hidden="false" id="bd75-2ff0-231d-f93b" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
@@ -9662,12 +9888,32 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Cloak of the Dunes" hidden="false" id="50b-8181-7ff1-7bee" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Models whose troop type is ‘infantry’ only. The wearer of the Cloak of the Dunes gains the [Fly (9)] special rule. In addition, any enemy unit the wearer moves over during the Remaining Moves sub-phase suffers D6 Strength 2 hits, each with an AP of -1.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Infantry only. The wearer of the Cloak of Dunes has the Fly (10) special rule. In addition, if the bearer moves over an unengaged enemy unit in the Remaining Moves sub-phase, that enemy unit immediately suffers 2D6 Strength 2 hits ignoring armour saves. The bearer can move over several enemy units in the same turn, causing damage to every unit. The same target unit cannot be affected more than once in the same turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Death Mask of Kharnutt" hidden="false" id="1217-3cb5-8758-e02d" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">The wearer of the Death Mask of Kharnutt gains the [Terror] special rule.</characteristic>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">The model wearing this mask causes Terror. In addition, enemy units within command range of the wearer cannot benefit from the Inspiring Presence or Hold Your Ground special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crown of Nehekhara" hidden="false" id="tk-crown-nehekhara-prof" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
+      <characteristics>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Tomb King only. All friendly Tomb Kings of Khemri units within 12&quot; of the model can march as if they were within range of a Tomb Herald carrying a [Legion Banner], and gain +1 Initiative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sigil of Kings" hidden="false" id="tk-sigil-kings-prof" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
+      <characteristics>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">If the bearer has the My Will Be Done special rule they may use it on two units instead of one. However, one of these effects have a range of 6&quot;, and the bearer&apos;s unit still gains the benefit of their LD even if they&apos;re not within range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sun Chariot of Ptra" hidden="false" id="tk-sun-chariot-prof" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
+      <characteristics>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">A model with this upgrade gains the [Aura of Radiance] special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brooch of Hidden Dead" hidden="false" id="tk-brooch-hidden-prof" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
+      <characteristics>
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">One use only. The Brooch can be used during deployment and allows one infantry unit to be placed using the Scouts special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Icon of Rulership" hidden="false" id="a69a-798d-56a1-c611" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
@@ -9675,9 +9921,9 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Models whose troop type is ‘chariot’ only. This model doubles its Unit Strength, from 3 to 6. In addition, any Impact Hits caused by this model have an Armour Piercing characteristic of -2 and the [Magical Attacks] special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Scarab Brooch" hidden="false" id="5591-b93a-8206-c28b" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+    <profile name="Scarab Brooch of Usurian" hidden="false" id="5591-b93a-8206-c28b" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">When using the From Beneath the Sands special rule a summoned unit can be placed on the battlefield anywhere completely within 18’’ of a Liche Priest wearing the Scarab Brooch, rather than the usual 12’’.</characteristic>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Wearer has a 5+ ward save. When they lose their last wound, all relevant enemies count as having failed their LD test for the purpose of Curse of the Necropolis.</characteristic>
       </characteristics>
     </profile>
     <profile name="Enkhil’s Kanopi" hidden="false" id="e63b-c211-56aa-dd77" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
@@ -9688,6 +9934,21 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     <profile name="Hieratic Jar" hidden="false" id="7ced-b473-887b-231c" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. During the Command sub-phase of their turn, if they are not engaged in combat, the bearer of a Hieratic Jar can release the power held within it. The bearer may attempt to resurrect the fallen by using the [Arise!] Special rule twice during this Command sub-phase (rather than the usual once).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Liche Staff" hidden="false" id="tk-liche-staff-prof" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The bearer may re-roll failed Channel attempts. In addition, if they are the Hierophant, they can use [Arise!] a second time, but only to target the unit they are in.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scroll of the Cursing Word" hidden="false" id="tk-scroll-cursing-prof" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">One use only. When an enemy spell is cast within 18&quot; of the bearer, the bearer can read out the scroll. The spell is automatically dispelled with no Dispel roll required.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Neferra's Scrolls of Mighty Incantations" hidden="false" id="tk-neferra-scrolls-prof" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Bound Spell. Power Level 3. During the Conjuration sub-phase, the bearer can read from Neferra's Scrolls. When they do, they can use the Arise! special rule without expending any Power dice. However, the usual Wounds limit is halved, rounded up.</characteristic>
       </characteristics>
     </profile>
     <profile name="Laurels of Victory" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="7da2-85b7-871f-c436">
@@ -10535,13 +10796,13 @@ Note that this is a modifier to the result of a roll – it does not negate a ro
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Whilst engaged on a challenge, the bearer of the Conqueror’s Blade strike a Killing Blow if they roll a natural 5 or 6 when making a To Wound roll, rather than the usual 6. In addition, should the wielder slay the enemy General in a challenge, you win a bonus of 100 Victory Points at the end of the game.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Phakth’s Blades Of Justice" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="a17d9c13-4226f2c1">
+    <profile name="Phakth's Blades Of Justice" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="a17d9c13-4226f2c1">
       <characteristics>
         <characteristic name="R" id="ef9-db32-7f48-af97" hidden="false" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" id="1bb7-4924-6508-779c" hidden="false" typeId="4f75-25c9-31bd-7074">S</characteristic>
         <characteristic name="AP" id="c89a-d2bc-6318-92de" hidden="false" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" id="4635-6fae-a188-871d" hidden="false" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Requires Two Hands</characteristic>
-        <characteristic name="Note" id="772d-a6bf-bcd0-edc5" hidden="false" typeId="5e5e-34db-1ee0-86">Models whose troop type is ‘infantry’ only. Phakth’s Blades of Justice grant the wielder +1 Attack for each rank an enemy unit the wielder is engaged with has.</characteristic>
+        <characteristic name="Special Rules" id="4635-6fae-a188-871d" hidden="false" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks, Requires Two Hands</characteristic>
+        <characteristic name="Note" id="772d-a6bf-bcd0-edc5" hidden="false" typeId="5e5e-34db-1ee0-86">Phakth's Blades of Justice grant the wielder +1 Attack for each rank an enemy unit the wielder is engaged with has.</characteristic>
       </characteristics>
     </profile>
     <profile name="Staff Of Aeons" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="c895f795-5b78398b">
@@ -10592,10 +10853,10 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     <profile name="Flail of Skulls" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="ef45-4e9c-aab1-7f52">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">+3</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Multiple Wounds (2), Requires Two Hands</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The Flail of Skulls Strength modifier applies only against enemy models the wielder charged this turn.</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1 (+3)</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1 (-3)</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (2), Magical Attacks, Multiple Wounds (2)</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The Flail of Skulls Strength and AP modifiers applies only against enemy models the wielder charged this Turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Morning Star of Fracasse" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="4070-61ee-17a1-11e5">
@@ -10808,10 +11069,10 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     <profile name="Destroyer of Eternities" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="e6ee-8151-4b87-9fad">
       <characteristics>
         <characteristic name="R" id="71f7-e5f4-8bd0-18cb" hidden="false" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" id="12ba-ccce-3afc-b65f" hidden="false" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
-        <characteristic name="AP" id="f56-838d-8bf7-6a4a" hidden="false" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" id="4050-1439-ea3a-75b3" hidden="false" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks, Requires Two Hands, Strike Last</characteristic>
-        <characteristic name="Note" id="dad7-44b-bdbc-ad63" hidden="false" typeId="5e5e-34db-1ee0-86">Rather than attacking normally, the wielder of the Destroyer of Eternities may choose to make a special ‘Scything’ attack. If they do, the enemy unit they are directing their attacks against suffers D6 automatic hits, each resolved using the Destroyer of Eternities’ profile.</characteristic>
+        <characteristic name="S" id="12ba-ccce-3afc-b65f" hidden="false" typeId="4f75-25c9-31bd-7074">S+3</characteristic>
+        <characteristic name="AP" id="f56-838d-8bf7-6a4a" hidden="false" typeId="15e2-fff4-477f-ea26">-4</characteristic>
+        <characteristic name="Special Rules" id="4050-1439-ea3a-75b3" hidden="false" typeId="57a7-47c0-8d74-d54c">Heroic Killing Blow, Magical Attacks, Requires Two Hands, Strike Last</characteristic>
+        <characteristic name="Note" id="dad7-44b-bdbc-ad63" hidden="false" typeId="5e5e-34db-1ee0-86">Great weapon. The wielder can choose to exchange all of their Attacks to make a special attack. If they do so, all enemy models in the first rank the wielder is in base contact with, suffer a single automatic hit (using the weapon's stats).</characteristic>
       </characteristics>
     </profile>
     <profile name="Da Choppiest Choppa" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="337e-bc83-742-fcb4">
@@ -11659,6 +11920,43 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     <profile name="Liber Noctis" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="vc-liber-noctis-prof">
       <characteristics>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Allows wielder to cast Invocation of Nehek as a Bound Spell of Power Level 2. Exceptionally, this can cast the spell above its base value.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blade of Mourning" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="tk-blade-mourning-prof">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Requires Two Hands</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">For each unsaved wound suffered from the Blade of Mourning, the enemy unit suffers -1LD for their subsequent break test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Conqueror's Blade" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="tk-conquerors-blade-prof">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">When fighting in a challenge, the wielder's Killing Blow takes effect on a 5+ rather than a 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spear of Radiance" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="tk-spear-radiance-prof">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1 (+2)</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1 (-2)</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Always Strike First, Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Spear. A character or monster that suffers one or more unsaved Wounds from the Spear of Radiance suffers -1 to its rolls To Hit (both shooting and close combat) for the remainder of the game. The Strength and AP modifiers apply only against enemy models the wielder charged this Turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Armour of Eternity" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="tk-armour-eternity-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Heavy armour. Gain a 4+ ward save and improve your regeneration save by 1, to a maximum of 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Standard of the Undying Legions" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="tk-undying-legions-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">At the start of each command phase, counts as being affected by the Arise! Special rule (Can still be affected by the Arise! Special rule).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
