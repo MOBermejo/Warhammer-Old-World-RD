@@ -2522,6 +2522,7 @@
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5246,7 +5247,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Icon of Sigmar" hidden="false" id="cbc6-eedb-26a2-969c" sortIndex="17">
+            <selectionEntry type="upgrade" import="true" name="Icon of Sigmar" hidden="true" id="cbc6-eedb-26a2-969c" sortIndex="17">
               <infoLinks>
                 <infoLink targetId="f924-9353-d555-cd75" id="12a3-6d11-9001-f239" type="profile" name="Icon of Sigmar" hidden="false"/>
               </infoLinks>
@@ -5256,6 +5257,13 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="b850-73ea-2232-1a1"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e5f1-f9ee-d533-b2dc" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rune of the True Beast" hidden="true" id="bdd3-e91f-d857-429c" sortIndex="16">
               <infoLinks>
@@ -7813,49 +7821,84 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6317-8343-aa28-3b82"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Potion of Endurance" hidden="false" id="b2a4-11f3-8ac2-45c8" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="Potion of Endurance" hidden="true" id="b2a4-11f3-8ac2-45c8" sortIndex="8">
               <infoLinks>
                 <infoLink targetId="b8a1-22e4-83c0-1fd2" id="c5f9-8f63-1acb-35d7" type="profile" name="Potion of Endurance" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
 
-            <selectionEntry type="upgrade" import="true" name="Potion of Focus" hidden="false" id="f6d8-45b2-9de3-1c72" sortIndex="9">
+            <selectionEntry type="upgrade" import="true" name="Potion of Focus" hidden="true" id="f6d8-45b2-9de3-1c72" sortIndex="9">
               <infoLinks>
                 <infoLink targetId="c4f7-9122-32ab-9de3" id="a8c3-3b67-5de1-9fd1" type="profile" name="Potion of Focus" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
 
-            <selectionEntry type="upgrade" import="true" name="Potion of Fury" hidden="false" id="c9b2-4ae5-2c17-1fd7" sortIndex="10">
+            <selectionEntry type="upgrade" import="true" name="Potion of Fury" hidden="true" id="c9b2-4ae5-2c17-1fd7" sortIndex="10">
               <infoLinks>
                 <infoLink targetId="e9b2-6744-54c9-7bc1" id="f3a2-91b4-7f6c-2ac1" type="profile" name="Potion of Fury" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
 
-            <selectionEntry type="upgrade" import="true" name="Potion of Healing" hidden="false" id="a3f8-9b32-6a21-2f90" sortIndex="11">
+            <selectionEntry type="upgrade" import="true" name="Potion of Healing" hidden="true" id="a3f8-9b32-6a21-2f90" sortIndex="11">
               <infoLinks>
                 <infoLink targetId="f3d4-8899-74a1-2c78" id="b6e4-3fc2-9d0a-3d42" type="profile" name="Potion of Healing" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
 
-            <selectionEntry type="upgrade" import="true" name="Potion of Strength" hidden="false" id="e1d5-23b1-4ca7-5fa8" sortIndex="12">
+            <selectionEntry type="upgrade" import="true" name="Potion of Strength" hidden="true" id="e1d5-23b1-4ca7-5fa8" sortIndex="12">
               <infoLinks>
                 <infoLink targetId="a7c8-5621-98f4-3aee" id="c7b2-89d3-2ef5-1c69" type="profile" name="Potion of Strength" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Book of Ashur" hidden="true" id="577b-4fbd-3a9c-a6bc" sortIndex="56">
               <costs>
@@ -7893,7 +7936,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Feedback Scroll" hidden="false" id="bf6-ffab-4501-9db9" sortIndex="54">
+            <selectionEntry type="upgrade" import="true" name="Feedback Scroll" hidden="true" id="bf6-ffab-4501-9db9" sortIndex="54">
               <infoLinks>
                 <infoLink targetId="b485-2f08-6fc3-54c3" id="c748-94a7-8b24-8337" type="profile" name="Feedback Scroll" hidden="false"/>
               </infoLinks>
@@ -7903,6 +7946,13 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="3c61-2ffc-3186-4199"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Infernal Puppet" hidden="true" id="f3e4-3fca-1528-5d5c" sortIndex="46">
               <infoLinks>
@@ -7922,7 +7972,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Multi-Wind Absorbing Speculum" hidden="false" id="2e4c-b05d-d62a-db40" sortIndex="42">
+            <selectionEntry type="upgrade" import="true" name="Multi-Wind Absorbing Speculum" hidden="true" id="2e4c-b05d-d62a-db40" sortIndex="42">
               <infoLinks>
                 <infoLink targetId="3ef9-54eb-f23a-356d" id="56c1-ffdc-1f59-6d5c" type="profile" name="Multi-Wind Absorbing Speculum" hidden="false"/>
               </infoLinks>
@@ -7932,6 +7982,13 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="e43a-3b05-74fc-b69c"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Deepwood Sphere" hidden="true" id="f81a-8082-3fa3-cd43" sortIndex="41">
               <infoLinks>
@@ -8047,7 +8104,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lore Familiar" hidden="false" id="d211-7488-e120-41c5" sortIndex="21">
+            <selectionEntry type="upgrade" import="true" name="Lore Familiar" hidden="true" id="d211-7488-e120-41c5" sortIndex="21">
               <infoLinks>
                 <infoLink targetId="af85-e641-1bb1-2314" id="e140-8a3f-b06-6dca" type="profile" name="Lore Familiar" hidden="false"/>
               </infoLinks>
@@ -8057,6 +8114,13 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="77bd-d561-58a3-b01c"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hagtree Fetish" hidden="true" id="1d0f-1a3b-79bc-7706" sortIndex="18">
               <infoLinks>

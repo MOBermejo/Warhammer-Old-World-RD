@@ -1790,7 +1790,7 @@ If used as a mount by a vampire of the Lahmian bloodline, Enemy units in base co
         <categoryLink name="Faction: Vampire Counts" hidden="false" id="6cf-ef39-c90c-a219" primary="false" targetId="7345-d692-6f6a-d6f6"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vampire Marshal (Blood Dragons)" hidden="false" id="vc-vampire-marshal-unit" collective="false">
+    <selectionEntry type="unit" import="true" name="Vampire Marshal" hidden="false" id="vc-vampire-marshal-unit" collective="false">
       <profiles>
         <profile name="Vampire Marshal" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="vm-unit-profile">
           <characteristics>
@@ -2015,7 +2015,7 @@ If used as a mount by a vampire of the Lahmian bloodline, Enemy units in base co
         <categoryLink name="Faction: Vampire Counts" hidden="false" id="vm-cat-faction" primary="false" targetId="7345-d692-6f6a-d6f6"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vampire Mistress (Lahmians)" hidden="false" id="vc-vampire-mistress-unit" collective="false">
+    <selectionEntry type="unit" import="true" name="Vampire Mistress" hidden="false" id="vc-vampire-mistress-unit" collective="false">
       <profiles>
         <profile name="Vampire Mistress" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="vmi-unit-profile">
           <characteristics>
@@ -2228,7 +2228,7 @@ If used as a mount by a vampire of the Lahmian bloodline, Enemy units in base co
         <categoryLink name="Faction: Vampire Counts" hidden="false" id="vmi-cat-faction" primary="false" targetId="7345-d692-6f6a-d6f6"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vampire Lich (Necrarchs)" hidden="false" id="vc-vampire-lich-unit" collective="false">
+    <selectionEntry type="unit" import="true" name="Vampire Lich" hidden="false" id="vc-vampire-lich-unit" collective="false">
       <profiles>
         <profile name="Vampire Lich" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="vl-unit-profile">
           <characteristics>
@@ -2418,7 +2418,7 @@ If used as a mount by a vampire of the Lahmian bloodline, Enemy units in base co
         <categoryLink name="Faction: Vampire Counts" hidden="false" id="vl-cat-faction" primary="false" targetId="7345-d692-6f6a-d6f6"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vampire Lord (Von Carsteins)" hidden="false" id="vc-vampire-lord-unit" collective="false">
+    <selectionEntry type="unit" import="true" name="Vampire Lord" hidden="false" id="vc-vampire-lord-unit" collective="false">
       <profiles>
         <profile name="Vampire Lord" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="vcl-unit-profile">
           <characteristics>
@@ -5808,25 +5808,25 @@ If used as a mount by a vampire of the Lahmian bloodline, Enemy units in base co
         <categoryLink targetId="cbbb-81fa-cee7-4ce3" id="3d99-d75e-afcb-9939" primary="false" name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Vampire Marshal (Blood Dragons)" hidden="false" id="vm-entrylink" type="selectionEntry" targetId="vc-vampire-marshal-unit">
+    <entryLink import="true" name="Vampire Marshal" hidden="false" id="vm-entrylink" type="selectionEntry" targetId="vc-vampire-marshal-unit">
       <categoryLinks>
         <categoryLink name="Characters" hidden="false" id="vm-char-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
         <categoryLink targetId="cbbb-81fa-cee7-4ce3" id="vm-limit-cat" primary="false" name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Vampire Mistress (Lahmians)" hidden="false" id="vmi-entrylink" type="selectionEntry" targetId="vc-vampire-mistress-unit">
+    <entryLink import="true" name="Vampire Mistress" hidden="false" id="vmi-entrylink" type="selectionEntry" targetId="vc-vampire-mistress-unit">
       <categoryLinks>
         <categoryLink name="Characters" hidden="false" id="vmi-char-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
         <categoryLink targetId="cbbb-81fa-cee7-4ce3" id="vmi-limit-cat" primary="false" name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Vampire Lich (Necrarchs)" hidden="false" id="vl-entrylink" type="selectionEntry" targetId="vc-vampire-lich-unit">
+    <entryLink import="true" name="Vampire Lich" hidden="false" id="vl-entrylink" type="selectionEntry" targetId="vc-vampire-lich-unit">
       <categoryLinks>
         <categoryLink name="Characters" hidden="false" id="vl-char-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
         <categoryLink targetId="cbbb-81fa-cee7-4ce3" id="vl-limit-cat" primary="false" name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Vampire Lord (Von Carsteins)" hidden="false" id="vcl-entrylink" type="selectionEntry" targetId="vc-vampire-lord-unit">
+    <entryLink import="true" name="Vampire Lord" hidden="false" id="vcl-entrylink" type="selectionEntry" targetId="vc-vampire-lord-unit">
       <categoryLinks>
         <categoryLink name="Characters" hidden="false" id="vcl-char-cat" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
         <categoryLink targetId="cbbb-81fa-cee7-4ce3" id="vcl-limit-cat" primary="false" name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
