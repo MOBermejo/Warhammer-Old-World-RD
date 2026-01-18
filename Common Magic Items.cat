@@ -639,7 +639,7 @@
                 <infoLink targetId="3cd3-8240-91ef-2035" id="f48d-dc8a-864f-d5d5" type="profile" name="Blood Drinker" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="45"/>
+                <cost name="pts" typeId="points" value="50"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcd8-5007-128f-69b6"/>
@@ -653,16 +653,16 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dreadlance" hidden="true" id="9d71-73b0-9580-9e56" sortIndex="43">
+            <selectionEntry type="upgrade" import="true" name="Timor Noctis" hidden="true" id="vc-timor-noctis-entry" sortIndex="43">
               <infoLinks>
-                <infoLink targetId="7c49-636d-d27-4c06" id="aa41-c8cc-e82-219" type="profile" name="Dreadlance" hidden="false"/>
+                <infoLink targetId="vc-timor-noctis-prof" id="vc-timor-noctis-link" type="profile" name="Timor Noctis" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edfb-58d-188c-a11"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c8a5-cb67-352c-8223"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-timor-noctis-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-timor-noctis-c2"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -672,16 +672,54 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Frostblade" hidden="true" id="23ca-3c6e-3c42-5a85" sortIndex="78">
+            <selectionEntry type="upgrade" import="true" name="Tomb Blade" hidden="true" id="vc-tomb-blade-entry" sortIndex="44">
               <infoLinks>
-                <infoLink targetId="412b-ca0b-2e5c-71f" id="7d86-f022-e019-c1b5" type="profile" name="Frostblade" hidden="false"/>
+                <infoLink targetId="vc-tomb-blade-prof" id="vc-tomb-blade-link" type="profile" name="Tomb Blade" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="60"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c9d-e85f-912e-a2ff"/>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="3363-dd24-9e7-2318"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-tomb-blade-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-tomb-blade-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skabscrath" hidden="true" id="vc-skabscrath-entry" sortIndex="45">
+              <infoLinks>
+                <infoLink targetId="vc-skabscrath-prof" id="vc-skabscrath-link" type="profile" name="Skabscrath" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-skabscrath-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-skabscrath-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Crimson Blade" hidden="true" id="vc-crimson-blade-entry" sortIndex="46">
+              <infoLinks>
+                <infoLink targetId="vc-crimson-blade-prof" id="vc-crimson-blade-link" type="profile" name="Crimson Blade" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-crimson-blade-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-crimson-blade-c2"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -721,7 +759,7 @@
                 <infoLink targetId="e9c9-d35f-b2-cdb7" id="902e-afdf-ba63-f819" type="profile" name="Sword of Kings" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="55"/>
+                <cost name="pts" typeId="points" value="35"/>
               </costs>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="695c-56a6-f7a3-3701"/>
@@ -2576,44 +2614,23 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="93a9-1def-4696-7615" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="The Accursed Armour" hidden="true" id="1a46-a30a-fef2-51c3" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Nightshroud" hidden="true" id="vc-nightshroud-entry" sortIndex="7">
               <infoLinks>
-                <infoLink targetId="3c9c-bf4c-328c-785" id="ece2-fcc1-e719-af5e" type="profile" name="The Accursed Armour" hidden="false"/>
+                <infoLink targetId="vc-nightshroud-prof" id="vc-nightshroud-link" type="profile" name="Nightshroud" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="30"/>
+                <cost name="pts" typeId="points" value="35"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="c257-2303-df4b-a31d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-nightshroud-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-nightshroud-c2"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2c85-5f2b-9288-1257" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="600c-7d08-5be1-fe0c" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5165-d052-cfc2-5887" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -2829,29 +2846,43 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="The Flayed Hauberk" hidden="true" id="bcf4-f095-38b4-657a" sortIndex="13">
+            <selectionEntry type="upgrade" import="true" name="Armour of Blood" hidden="true" id="vc-armour-blood-entry" sortIndex="13">
               <infoLinks>
-                <infoLink targetId="1441-8731-bf55-389d" id="520a-a7ba-abb5-8074" type="profile" name="The Flayed Hauberk" hidden="false"/>
+                <infoLink targetId="vc-armour-blood-prof" id="vc-armour-blood-link" type="profile" name="Armour of Blood" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="35"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="1585-d563-3040-b3e9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-armour-blood-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-armour-blood-c2"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
                   </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f954-b4c0-b835-a048" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour of the Barrows" hidden="true" id="vc-armour-barrows-entry" sortIndex="14">
+              <infoLinks>
+                <infoLink targetId="vc-armour-barrows-prof" id="vc-armour-barrows-link" type="profile" name="Armour of the Barrows" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-armour-barrows-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-armour-barrows-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="may-have-armour" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -3902,15 +3933,16 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Standard Of Hellish Vigour" hidden="true" id="ba3b-ceed-54e7-46af" sortIndex="61">
+        <selectionEntry type="upgrade" import="true" name="Blood Dragon Standard" hidden="true" id="vc-blood-dragon-std-entry" sortIndex="61">
           <infoLinks>
-            <infoLink targetId="7fc8-4ac1-5a59-a419" id="f70c-6097-dafd-555b" type="profile" name="Standard Of Hellish Vigour." hidden="false"/>
+            <infoLink targetId="vc-blood-dragon-std-prof" id="vc-blood-dragon-std-link" type="profile" name="Blood Dragon Standard" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="40"/>
+            <cost name="pts" typeId="points" value="35"/>
           </costs>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="d486-a586-b275-dbea"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-blood-dragon-std-c1"/>
+            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-blood-dragon-std-c2"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -3925,7 +3957,7 @@
             <infoLink targetId="f05c-5ba4-2539-5818" id="40e9-6988-3439-9813" type="profile" name="Banner Of The Barrows" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="65"/>
+            <cost name="pts" typeId="points" value="40"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="abe1-76ed-2df2-b495"/>
@@ -3956,15 +3988,35 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Screaming Banner" hidden="true" id="5bb7-550a-d92d-a204" sortIndex="71">
+        <selectionEntry type="upgrade" import="true" name="Screaming Banner" hidden="true" id="5bb7-550a-d92d-a204" sortIndex="71">
           <infoLinks>
             <infoLink targetId="31fa-2f6b-dfe0-f253" id="2d5d-be8d-cad-10d3" type="profile" name="The Screaming Banner" hidden="false"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="45"/>
+            <cost name="pts" typeId="points" value="20"/>
           </costs>
           <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-screaming-banner-c1"/>
             <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="89f-a0c4-7150-aea3"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Banner of Lost Strygos" hidden="true" id="vc-lost-strygos-entry" sortIndex="72">
+          <infoLinks>
+            <infoLink targetId="vc-lost-strygos-prof" id="vc-lost-strygos-link" type="profile" name="Banner of Lost Strygos" hidden="false"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-lost-strygos-c1"/>
+            <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-lost-strygos-c2"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -5420,48 +5472,61 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crown of the Damned" hidden="true" id="c6bf-c2d7-418d-a73b" sortIndex="19">
+            <selectionEntry type="upgrade" import="true" name="Carstein Ring" hidden="true" id="vc-carstein-ring-entry" sortIndex="19">
               <infoLinks>
-                <infoLink targetId="7dc1-49c7-8ec0-d734" id="585c-76ae-542e-1371" type="profile" name="Crown Of The Damned" hidden="false"/>
+                <infoLink targetId="vc-carstein-ring-prof" id="vc-carstein-ring-link" type="profile" name="Carstein Ring" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="35"/>
+                <cost name="pts" typeId="points" value="70"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="ccdd-91d2-dc6f-2f37"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-carstein-ring-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-carstein-ring-c2"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4813-a63e-57ed-dc4" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Von Carstein Ring" hidden="true" id="b826-84e7-8154-8823" sortIndex="34">
+            <selectionEntry type="upgrade" import="true" name="Circlet of Darkness" hidden="true" id="vc-circlet-darkness-entry" sortIndex="20">
               <infoLinks>
-                <infoLink targetId="86e5-6230-eda5-c9a" id="390b-fc0e-5aec-4d0c" type="profile" name="Von Carstein Ring" hidden="false"/>
+                <infoLink targetId="vc-circlet-darkness-prof" id="vc-circlet-darkness-link" type="profile" name="Circlet of Darkness" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="40"/>
+                <cost name="pts" typeId="points" value="50"/>
               </costs>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="d267-7c12-64aa-caf6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-circlet-darkness-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-circlet-darkness-c2"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4813-a63e-57ed-dc4" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blood Gem" hidden="true" id="vc-blood-gem-entry" sortIndex="21">
+              <infoLinks>
+                <infoLink targetId="vc-blood-gem-prof" id="vc-blood-gem-link" type="profile" name="Blood Gem" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-blood-gem-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" includeChildSelections="true" shared="true" id="vc-blood-gem-c2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -6463,9 +6528,28 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c8bc-5eee-a020-79b4" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Helm Of Commandment" hidden="true" id="65ed-b1e6-9498-7176" sortIndex="39">
+            <selectionEntry type="upgrade" import="true" name="Helm of Commandment" hidden="true" id="65ed-b1e6-9498-7176" sortIndex="39">
               <infoLinks>
                 <infoLink targetId="ccc7-ef04-219a-829b" id="8eac-e9c8-5422-2fd7" type="profile" name="Helm Of Commandment" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-helm-command-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="559a-c170-560-9d4b" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grave-Sands of Time" hidden="true" id="vc-grave-sands-entry" sortIndex="31">
+              <infoLinks>
+                <infoLink targetId="vc-grave-sands-prof" id="vc-grave-sands-link" type="profile" name="Grave-Sands of Time" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="40"/>
@@ -6478,12 +6562,13 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="559a-c170-560-9d4b" includeChildSelections="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-grave-sands-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-grave-sands-c2" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hand Of Dust" hidden="true" id="5bd5-903e-84d4-ed0c" sortIndex="31">
+            <selectionEntry type="upgrade" import="true" name="Midnight Amulet" hidden="true" id="vc-midnight-amulet-entry" sortIndex="32">
               <infoLinks>
-                <infoLink targetId="3b38-249b-ef4-9451" id="cd32-3bc4-f1b9-ff9" type="profile" name="Hand Of Dust" hidden="false"/>
+                <infoLink targetId="vc-midnight-amulet-prof" id="vc-midnight-amulet-link" type="profile" name="Midnight Amulet" hidden="false"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="35"/>
@@ -6492,20 +6577,39 @@
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bd9e-eec8-c99c-db01" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d557-50e9-5d01-2e2e" includeChildSelections="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-midnight-amulet-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-midnight-amulet-c2" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Cloak Of Mist &amp; Shadows" hidden="true" id="8523-b5b8-6562-9d61" sortIndex="19">
+            <selectionEntry type="upgrade" import="true" name="Blood Chalice" hidden="true" id="vc-blood-chalice-entry" sortIndex="33">
+              <infoLinks>
+                <infoLink targetId="vc-blood-chalice-prof" id="vc-blood-chalice-link" type="profile" name="Blood Chalice" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-blood-chalice-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-blood-chalice-c2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cloak of Mists and Shadow" hidden="true" id="8523-b5b8-6562-9d61" sortIndex="19">
               <infoLinks>
                 <infoLink targetId="dd9e-b86d-ee48-895f" id="5bf-d018-144d-8349" type="profile" name="Cloak Of Mist &amp; Shadows" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="30"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -6528,7 +6632,46 @@
                 </modifier>
               </modifiers>
               <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-cloak-mist-c1"/>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c619-2706-bdad-9d12" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grim Garlland" hidden="true" id="vc-grim-garlland-entry" sortIndex="20">
+              <infoLinks>
+                <infoLink targetId="vc-grim-garlland-prof" id="vc-grim-garlland-link" type="profile" name="Grim Garlland" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-grim-garlland-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-grim-garlland-c2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Finger of Arkhan" hidden="true" id="vc-finger-arkhan-entry" sortIndex="21">
+              <infoLinks>
+                <infoLink targetId="vc-finger-arkhan-prof" id="vc-finger-arkhan-link" type="profile" name="Finger of Arkhan" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-finger-arkhan-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-finger-arkhan-c2" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="The Seal Of Parravon" hidden="true" id="fb5d0d1b-ff680aa9" collective="true" sortIndex="35">
@@ -7388,7 +7531,6 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
                         <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="75a1-ee95-da32-b765" shared="true"/>
                       </conditions>
                     </conditionGroup>
@@ -8307,7 +8449,7 @@
                 <infoLink targetId="5d95-6acf-5818-7c61" id="c049-aea4-8407-3452" type="profile" name="Skull Staff" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="50"/>
+                <cost name="pts" typeId="points" value="15"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -8317,15 +8459,16 @@
                 </modifier>
               </modifiers>
               <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-skull-staff-c1"/>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e9c1-8c13-66b2-1e48" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sceptre Of De Noirot" hidden="true" id="d4b5-3abf-94b2-176a" sortIndex="28">
+            <selectionEntry type="upgrade" import="true" name="Book of Nagash" hidden="true" id="vc-book-nagash-entry" sortIndex="28">
               <infoLinks>
-                <infoLink targetId="b4ea-4418-2dd5-f18b" id="90f2-45ca-5e18-f2fa" type="profile" name="Sceptre Of De Noirot" hidden="false"/>
+                <infoLink targetId="vc-book-nagash-prof" id="vc-book-nagash-link" type="profile" name="Book of Nagash" hidden="false"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="35"/>
+                <cost name="pts" typeId="points" value="30"/>
               </costs>
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -8335,7 +8478,46 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4cc9-fa03-bc10-1094" includeChildSelections="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-book-nagash-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-book-nagash-c2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Black Periapt" hidden="true" id="vc-black-periapt-entry" sortIndex="29">
+              <infoLinks>
+                <infoLink targetId="vc-black-periapt-prof" id="vc-black-periapt-link" type="profile" name="Black Periapt" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-black-periapt-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-black-periapt-c2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Liber Noctis" hidden="true" id="vc-liber-noctis-entry" sortIndex="30">
+              <infoLinks>
+                <infoLink targetId="vc-liber-noctis-prof" id="vc-liber-noctis-link" type="profile" name="Liber Noctis" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7345-d692-6f6a-d6f6" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="vc-liber-noctis-c1"/>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="vc-liber-noctis-c2" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Heart Of The Wilds" hidden="true" id="d6319fb2-5ea6367c" collective="true" sortIndex="33">
@@ -9521,10 +9703,10 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     <profile name="Sword of Kings" hidden="false" id="e9c9-d35f-b2-cdb7" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The wielder of the Sword of Kings strikes a Killing Blow if they roll a natural 5 or 6 when making a roll To Wound, rather than the usual 6.</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Wight Kings only. This item makes the model's Killing Blow special rule take effect on a 5+. In addition, grants +1WS and A to the wielder.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dreadlance" hidden="false" id="7c49-636d-d27-4c06" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
@@ -9539,10 +9721,10 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     <profile name="Blood Drinker" hidden="false" id="3cd3-8240-91ef-2035" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
       <characteristics>
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
-        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
-        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Special Rules: [Magical Attacks]</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">If the wielder of Blood Drinker causes one or more unsaved wounds during the Combat phase, they recover a single lost Wound.</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Each wound dealt in close combat with Blood Drinker restores 1 wound to the wielder.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Flayed Hauberk" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="1441-8731-bf55-389d">
@@ -11296,6 +11478,123 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
       <characteristics>
         <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The owner of a Learned Feng Shi Bo knows one more spell (chosen in the usual way) than is normal for their level of Wizardry
 *Note that this does not increase the Wizard Level.*</characteristic>
+      </characteristics>
+    </profile>
+    <!-- ===== Vampire Counts Magic Items ===== -->
+    <profile name="Timor Noctis" hidden="false" id="vc-timor-noctis-prof" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Armour Bane (1), Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">For each unsaved Wound caused by the sword, wielder adds +1 to their casting and dispel dice for the next Magic Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tomb Blade" hidden="false" id="vc-tomb-blade-prof" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">If the wielder is in a unit of zombies, skeletons, crypt ghouls or grave guard, for each wound they cause in close combat, an extra model is added to his unit following the rules for Resurrecting Fallen Warriors. Newly created models have the same equipment as the rest of the unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skabscrath" hidden="false" id="vc-skabscrath-prof" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">The bearer has the Furious Charge and Frenzy special rules, and all close combat attacks made by the bearer have the Flaming Attacks special rule. In addition, the bearer gains the Death Shriek special rule: A Death Shriek is a special attack that can be used against a single unit in the Shooting phase, even if the model has marched, charged, or is engaged in close combat. This attack has a range of 8" and needs line of sight to its target. If the model is engaged in combat, its Death Shriek targets all units in base contact. To resolve a Death Shriek, roll 2D6+3. For each point by which the result exceeds the target unit's Leadership, the target unit suffers 1 Wound which Ignores Armour Saves. Death Shriek is a non-physical Magical Attack and Wounds suffered from it are distributed as if from shooting. Friendly undead are immune to its effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crimson Blade" hidden="false" id="vc-crimson-blade-prof" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
+      <characteristics>
+        <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
+        <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
+        <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Once the wielder has inflicted at least 1 unsaved Wound in close combat with this weapon, they gain +1 to hit and wound in combat for the remainder of the game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nightshroud" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="vc-nightshroud-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Nightshroud gives the wearer a 6+ armour save. Furthermore, enemy units in base contact with the wearer lose all Strength bonuses conferred from normal and magical weapons, and is subject to the Strikes Last special rule. Wizards can wear the Nightshroud.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Armour of Blood" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="vc-armour-blood-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Full plate armour. The Armour of Blood allows the Red Thirst to regain Wounds automatically, no roll is needed. In addition, ignore the following from the Red Thirst special rule: "enemies gain +1 to hit you until the start of your next turn."</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Armour of the Barrows" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="vc-armour-barrows-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Full plate. If an enemy with a magic weapon wounds the wielder in close combat and the wielder passes their armour save, that magic weapon's abilities are nullified; it is treated as a normal, non-magical weapon of the same type for the remainder of the game. If no type is listed, treated it as a hand weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Carstein Ring" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="vc-carstein-ring-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The Carstein Ring grants its wielder a 4+ ward save. Furthermore, the first time the wielder is removed from play, roll a D6 at the end of the phase. On a roll of 2+, they are immediately returned to 'life' with all their wounds (This does not include their mounts or any wounds included from their mounts). They must then be placed in the front rank of a friendly unit anywhere within 12" of the point where they fell (even one in close combat). If there is no such unit for the wearer to join, they are removed as a casualty. Does not revive mount.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Circlet of Darkness" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="vc-circlet-darkness-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Grants the wearer the magic resistance (3) special rule and any ranged attacks targeting them (or their unit) suffers -1 to hit. Successful hits against them (or their unit) with templates or artillery dice must be re-rolled.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blood Gem" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="vc-blood-gem-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">Vampires only. One use only. The Blood Gem activates when the bearer suffers their first Wound in close combat. The wound is ignored and is rebounded onto the model that caused it with no saves of any kind allowed. The wound rebounds with all special rules included, such as Killing Blow or Multiple Wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blood Dragon Standard" typeId="5dd7-ee41-dc1e-1527" typeName="Magic Standards" hidden="false" id="vc-blood-dragon-std-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="eb8-66ed-49fc-2e98">Blood Knight Vampires only. All Blood Dragon Vampires and Blood Knights within 12" gain the Furious Charge special rule and can re-roll failed charges.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Banner of Lost Strygos" typeId="5dd7-ee41-dc1e-1527" typeName="Magic Standards" hidden="false" id="vc-lost-strygos-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="eb8-66ed-49fc-2e98">Strigoi Vampires only. All Strigoi Vampires, Crypt Ghouls and Crypt Horrors within 12" gain the Eternal Hatred (Everything) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grave-Sands of Time" typeId="ed52-7ba3-b883-c153" typeName="Enchanted Items" hidden="false" id="vc-grave-sands-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="9e02-37c0-39a-857b">Once per player turn, wielder can re-roll a single dice of your choice concerning them or their mount (this can include attacks, saving throws, magic dice, etc...). If this re-roll is not used, at the end of her player's turn, wielder may recover a wound previously lost in the game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Midnight Amulet" typeId="ed52-7ba3-b883-c153" typeName="Enchanted Items" hidden="false" id="vc-midnight-amulet-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="9e02-37c0-39a-857b">One use only. This item can be used in any of your Magic phases. Pick one enemy unit within 12"; that unit suffers D6 Strength 4 Hits ignoring armour saves (magical attacks) multiplied by the number of the current game turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blood Chalice" typeId="ed52-7ba3-b883-c153" typeName="Enchanted Items" hidden="false" id="vc-blood-chalice-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="9e02-37c0-39a-857b">Vampires only. The wielder or another Vampiric character in the same unit, may drink from the Blood Chalice at the start of each friendly Magic phase. The chosen model regains a single Wound lost earlier in the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grim Garlland" typeId="ed52-7ba3-b883-c153" typeName="Enchanted Items" hidden="false" id="vc-grim-garlland-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="9e02-37c0-39a-857b">Enemy units in base contact with the bearer must re-roll successful Panic, Fear, Terror and Break tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Finger of Arkhan" typeId="ed52-7ba3-b883-c153" typeName="Enchanted Items" hidden="false" id="vc-finger-arkhan-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="9e02-37c0-39a-857b">All enemy models in base contact with the bearer must pass a Toughness test or suffer a Wound which Ignores Armour saves at the start of each round of combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Book of Nagash" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="vc-book-nagash-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">When casting the spell Invocation of Nehek, change the following: Level of Wizardry +D3 becomes Level of Wizardry +D6. Level of Wizardry +1 becomes Level of Wizardry +D3. Level of Wizardry becomes Level of Wizardry +1. Up to a Single Wound becomes Level of Wizardry.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Black Periapt" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="vc-black-periapt-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">The Black Periapt allows the bearer to save up to two of his army's unused power dice or dispel dice at the end of any Magic phase and then add them to his side's power or dispel dice pool at the start of the next Magic phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Liber Noctis" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="vc-liber-noctis-prof">
+      <characteristics>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Allows wielder to cast Invocation of Nehek as a Bound Spell of Power Level 2. Exceptionally, this can cast the spell above its base value.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
