@@ -77,9 +77,14 @@
         <characteristic name="Description" typeId="9f84-4221-785a-db50">If this model joins a unit of Empire Knights, Inner Circle Knights or Demigryph Knights, that unit will gain the Immune to Psychology special rule. Should this model leave a unit it has joined for any reason, that unit loses this special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Clouds of Shoot &amp; Smoke" hidden="false" id="1327-a23a-6082-a5d5" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+    <profile name="War Machine Crew" hidden="false" id="1327-a23a-6082-a5d5" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">This model is considered to be behind full cover whilst it is within 3&quot; of friendly unit whose troop type is &apos;war machine&apos;.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">This model is considered part of the crew of a war machine and follows the rules of a character in a unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blessed Weapons" hidden="false" id="emp-blessed-weapons" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Any unit this character joins counts as having the Magical Attacks special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Pegasus" hidden="false" id="20b8-5803-d215-db53" typeId="b070-143a-73f-2772" typeName="Model">
@@ -657,7 +662,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="R" typeId="2360-c777-5e07-ed58">36&quot;</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-3</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cumbersome, Ponderous</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cumbersome, Ponderous, Sniper</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">A model armed with a Hochland long rifle can target a specific model within its target unit, such as a champion or a character.</characteristic>
       </characteristics>
     </profile>
@@ -771,7 +776,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">6</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
@@ -1081,7 +1086,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     <profiles>
       <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Runefang" id="emp-prof-wpn-runefang-2db5">
         <characteristics>
-          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Hits automatically wound and ignore armour saves.</characteristic>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Hits automatically wound and ignore armour saves. Close Combat, S user, AP-3, Magical Attacks.</characteristic>
         </characteristics>
       </profile>
     </profiles>
@@ -1092,7 +1097,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     <profiles>
       <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Sword of Justice" id="emp-prof-wpn-swordjustice-9f2e">
         <characteristics>
-          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Bearer re-rolls failed To Wound rolls with this weapon.</characteristic>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Bearer re-rolls failed To Wound rolls with this weapon. Close Combat, S user, AP-2, Strikes First, Armour Bane (1), Magical Attacks, Multiple Wounds (2).</characteristic>
         </characteristics>
       </profile>
     </profiles>
@@ -1103,9 +1108,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     <profiles>
       <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Mace of Helstrum" id="emp-prof-wpn-helstrum-47c0">
         <characteristics>
-          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
-            Instead of normal attacks, make a single Special Attack (Strikes Last): S10, AP-5; also Flaming Attacks and Multiple Wounds (D3).
-          </characteristic>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Instead of attacking normally, the bearer can choose to forfeit all normal Attacks to make a single, special Attack (Strikes Last). If this Attack hits, it is resolved at S10, AP-5 with Flaming Attacks and Multiple Wounds (2D3). Base profile: Close Combat, S+2, AP-2, Armour Bane (1), Magical Attacks, Requires Two Hands, Strikes Last.</characteristic>
         </characteristics>
       </profile>
     </profiles>
@@ -1116,7 +1119,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     <profiles>
       <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Sanctified Blade" id="emp-prof-wpn-sanctified-61fa">
         <characteristics>
-          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Counts as Magical Attacks; combine with a mundane weapon; Close Combat, S user, AP-1, Armour Bane (1).</characteristic>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">No Ward or Regeneration saves may be taken against close combat Attacks made by the bearer. Can be combined with any mundane weapon (Hand weapon, great weapon, lance, etc.). Close Combat, S user, AP-1, Armour Bane (1), Magical Attacks (Hand weapon characteristics).</characteristic>
         </characteristics>
       </profile>
     </profiles>
@@ -1128,10 +1131,10 @@ Note that any special rules granted by these upgrades do not apply to the models
       <profile typeId="a378-c633-912d-11ce" typeName="Weapon" name="Dragon Bow" id="emp-prof-wpn-dragonbow-0db3">
         <characteristics>
           <characteristic name="R" typeId="2360-c777-5e07-ed58">36"</characteristic>
-          <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
+          <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">6</characteristic>
           <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-          <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks; if the shot targets a Monster or Behemoth, you may re-roll the To Wound roll and replace Multiple Wounds (2) with (D3+1).</characteristic>
-          <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71"/>
+          <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Multiple Wounds (2). If shot against a Monster or Behemoth, re-roll the To Wound roll and replace Multiple Wounds (2) with Multiple Wounds (D3+1).</characteristic>
+          <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
         </characteristics>
       </profile>
     </profiles>
@@ -1142,14 +1145,297 @@ Note that any special rules granted by these upgrades do not apply to the models
     <profiles>
       <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Hammer of Judgment" id="emp-prof-wpn-hammerjudge-9a77">
         <characteristics>
-          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
-            Priests &amp; Witch Hunters only. Each hit forces the target model to take a Ld test; if failed, it suffers a Wound with no saves. Still roll To Wound regardless of the test.
-          </characteristic>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Priest and Witch Hunter characters only. Models hit by the Hammer of Judgement must take a Ld test for every Hit suffered. If the test is failed, the model takes a wound with no saves of any kind allowed. Still roll to wound as normal whether the test was failed or not. Close Combat, S+1, AP-1, Armour Bane (1), Magical Attacks.</characteristic>
         </characteristics>
       </profile>
     </profiles>
   </selectionEntry>
   <!-- ===== end Magic Weapons ===== -->
+
+  <!-- ===== Empire Magical Items — Magic Armour ===== -->
+  <selectionEntry type="upgrade" name="Armour of Meteoric Iron" hidden="false" id="emp-mi-arm-meteoric-1a23">
+    <costs><cost name="pts" typeId="points" value="40"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Armour of Meteoric Iron" id="emp-prof-arm-meteoric-4b56">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">A suit of plate armour that grants the wearer both a 1+ armour save (bypassing the 2+ limitation, but cannot be improved by any means), and a 6+ ward save.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Armour of Tarnus" hidden="false" id="emp-mi-arm-tarnus-2b34">
+    <costs><cost name="pts" typeId="points" value="35"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Armour of Tarnus" id="emp-prof-arm-tarnus-5c67">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">A suit of light armour which may be purchased and worn by an Imperial Wizard, even if they do not have the option to be equipped with armour, a shield or barding, without penalty. In addition, its wearer has a 5+ Ward save against any wounds suffered.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Helm of the Skavenslayer" hidden="false" id="emp-mi-arm-skavenslayer-3c45">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Helm of the Skavenslayer" id="emp-prof-arm-skavenslayer-6d78">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">The wearer counts his armour save as being one point higher than normal. The wearer also causes Fear. Against models from a Skaven army, the wearer causes Terror instead.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+  <!-- ===== end Magic Armour ===== -->
+
+  <!-- ===== Empire Magical Items — Talismans ===== -->
+  <selectionEntry type="upgrade" name="The White Cloak" hidden="false" id="emp-mi-tal-whitecloak-4d56">
+    <costs><cost name="pts" typeId="points" value="50"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="The White Cloak" id="emp-prof-tal-whitecloak-7e89">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Enemies in base contact with the wearer are at -1 to all rolls To Hit. In addition, the wearer has a 5+ ward save, increasing to a 2+ ward save against Wounds caused by Flaming Attacks.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="The Silver Seal" hidden="false" id="emp-mi-tal-silverseal-5e67">
+    <costs><cost name="pts" typeId="points" value="30"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="The Silver Seal" id="emp-prof-tal-silverseal-8f9a">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Grants the wearer a 6+ ward save and Magic Resistance (1). If they already had Magic Resistance, improve it by 1. This is increased to Magic Resistance (2) (or +2) if there is an enemy Wizard on the battlefield, Magic Resistance (3) (or +3) if there are 2 enemy Wizards, etc., to a maximum of Magic Resistance (5).</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Icon of Sigmar" hidden="false" id="emp-mi-tal-iconsigmar-6f78">
+    <costs><cost name="pts" typeId="points" value="20"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Icon of Sigmar" id="emp-prof-tal-iconsigmar-9a0b">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Wearer has a 4+ ward save against magical attacks and spells.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+  <!-- ===== end Talismans ===== -->
+
+  <!-- ===== Empire Magical Items — Magic Standards ===== -->
+  <selectionEntry type="upgrade" name="Emperor's Standard" hidden="false" id="emp-mi-std-emperor-7a89">
+    <costs><cost name="pts" typeId="points" value="60"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Emperor's Standard" id="emp-prof-std-emperor-ab1c">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Follows all the rules for a battle standard, except that the range of its Hold Your Ground! special rule is 18". Also allows to re-roll all Ld tests, not just Panic and Break tests.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Griffon Standard" hidden="false" id="emp-mi-std-griffon-8b9a">
+    <costs><cost name="pts" typeId="points" value="50"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Griffon Standard" id="emp-prof-std-griffon-bc2d">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">When determining your combat result, a unit carrying the Griffon Standard can claim a Rank Bonus of +2 for each extra rank behind the first, rather than the usual +1 (to a maximum of double their usual rank bonus).</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Steel Standard" hidden="false" id="emp-mi-std-steel-9cab">
+    <costs><cost name="pts" typeId="points" value="30"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Steel Standard" id="emp-prof-std-steel-cd3e">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Improves the armour save of the unit by 1, to a maximum of 2+.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+  <!-- ===== end Magic Standards ===== -->
+
+  <!-- ===== Empire Magical Items — Enchanted Items ===== -->
+  <selectionEntry type="upgrade" name="Blessed Skull Sigil" hidden="false" id="emp-mi-enc-skullsigil-ad1c">
+    <costs><cost name="pts" typeId="points" value="40"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Blessed Skull Sigil" id="emp-prof-enc-skullsigil-de4f">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">The bearer and the unit they join have a 6+ Ward save against any non-magical wounds. In addition, they may roll 3D6 when taking break or panic tests, discarding the highest.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Laurels of Victory" hidden="false" id="emp-mi-enc-laurels-be2d">
+    <costs><cost name="pts" typeId="points" value="30"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Laurels of Victory" id="emp-prof-enc-laurels-ef50">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">When determining your combat result, each unsaved wound caused by an attack made by the bearer is worth 2 combat result points, rather than the usual 1.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Staff of Command" hidden="false" id="emp-mi-enc-staffcommand-cf3e">
+    <costs><cost name="pts" typeId="points" value="20"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Staff of Command" id="emp-prof-enc-staffcommand-f061">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Priests only. Whenever you successfully cast a prayer, you can attempt to cast another one in the same phase, for a maximum of two.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Ring of Volans" hidden="false" id="emp-mi-enc-ringvolans-d04f">
+    <costs><cost name="pts" typeId="points" value="15"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Ring of Volans" id="emp-prof-enc-ringvolans-0172">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Pick the signature spell from one of the following lores of Magic (Battle Magic, Daemonology, Dark Magic, Elementalism, Illusion, Necromancy). It is now a bound spell of Power Level 1.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Lichbone Powder" hidden="false" id="emp-mi-enc-lichbone-e150">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Lichbone Powder" id="emp-prof-enc-lichbone-1283">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Witch Hunter only. One use only. May be used immediately when an enemy Wizard miscasts. The Wizard must roll twice on the Miscast table, and you pick which result is used.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Sanctified Silver Bullets" hidden="false" id="emp-mi-enc-silverbullets-f261">
+    <costs><cost name="pts" typeId="points" value="5"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Sanctified Silver Bullets" id="emp-prof-enc-silverbullets-2394">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Witch Hunter with pistol(s) only. Any shots fired from the bearer's pistol(s) have the Multiple Wounds (D3) special rule against Daemons, Undead and Wizards.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+  <!-- ===== end Enchanted Items ===== -->
+
+  <!-- ===== Empire Magical Items — Arcane Items ===== -->
+  <selectionEntry type="upgrade" name="&quot;Original&quot; Book of Ashur" hidden="false" id="emp-mi-arc-bookashur-0372">
+    <costs><cost name="pts" typeId="points" value="30"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="&quot;Original&quot; Book of Ashur" id="emp-prof-arc-bookashur-34a5">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Increases the casting and dispel range of bearer by 6". Apply +1 to the bearer's casting and dispel attempts. However, should you ever roll a double, lose all the previous benefits for that cast (this page was riddled with errors!) and if you miscast, subtract 1 from the result rolled on the miscast table.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Multi-Wind Absorbing Speculum" hidden="false" id="emp-mi-arc-speculum-1483">
+    <costs><cost name="pts" typeId="points" value="25"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Multi-Wind Absorbing Speculum" id="emp-prof-arc-speculum-45b6">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Bearer may re-roll channelling dice and channels on a 5+ rather than a 6+. Each time you successfully channel, bearer adds +1 to the number of channelling dice they roll for next phase to a maximum of 3.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Van Horstmann's Explosive Staff" hidden="false" id="emp-mi-arc-vanhorstmann-2594">
+    <costs><cost name="pts" typeId="points" value="20"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Van Horstmann's Explosive Staff" id="emp-prof-arc-vanhorstmann-56c7">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">Bearer gains +1 to Casting rolls when attempting to cast an Assailment spell or Magic Missile, increases the AP of those spells by 1, and may re-roll the number of hits for those spells (individual dice). Furthermore, when you miscast, always count as having rolled a calamitous detonation!</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Wizard's Familiar" hidden="false" id="emp-mi-arc-familiar-36a5">
+    <costs><cost name="pts" typeId="points" value="15"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Wizard's Familiar" id="emp-prof-arc-familiar-67d8">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">The owner may apply +1 modifier to any of their Dispel rolls. The first time you miscast, you may re-roll the result, but then this item ceases to function for the remainder of the game.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Channelpath Potion" hidden="false" id="emp-mi-arc-channelpath-47b6">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Channelpath Potion" id="emp-prof-arc-channelpath-78e9">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">One use only. Can be used at the start of any phase and lasts until the end of that phase. Does not affect mounts. Drinker channels on a 2+ rather than a 6+ and gains +1 to cast and dispel spells until the start of their next turn.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Potion of Endurance" hidden="false" id="emp-mi-arc-endurance-58c7">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Potion of Endurance" id="emp-prof-arc-endurance-89fa">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">One use only. Can be used at the start of any phase and lasts until the end of that phase. Does not affect mounts. Drinker gains +2 to their T.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Potion of Focus" hidden="false" id="emp-mi-arc-focus-69d8">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Potion of Focus" id="emp-prof-arc-focus-9a0b">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">One use only. Can be used at the start of any phase and lasts until the end of that phase. Does not affect mounts. Drinker doubles their WS (to a maximum of 10).</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Potion of Fury" hidden="false" id="emp-mi-arc-fury-7ae9">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Potion of Fury" id="emp-prof-arc-fury-ab1c">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">One use only. Can be used at the start of any phase and lasts until the end of that phase. Does not affect mounts. Drinker gains +3 to their A.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Potion of Healing" hidden="false" id="emp-mi-arc-healing-8bfa">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Potion of Healing" id="emp-prof-arc-healing-bc2d">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">One use only. Can be used at the start of any phase and lasts until the end of that phase. Does not affect mounts. Drinker recovers D3 wounds.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+
+  <selectionEntry type="upgrade" name="Potion of Strength" hidden="false" id="emp-mi-arc-strength-9c0b">
+    <costs><cost name="pts" typeId="points" value="10"/></costs>
+    <profiles>
+      <profile typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" name="Potion of Strength" id="emp-prof-arc-strength-cd3e">
+        <characteristics>
+          <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">One use only. Can be used at the start of any phase and lasts until the end of that phase. Does not affect mounts. Drinker gains +3 to their S.</characteristic>
+        </characteristics>
+      </profile>
+    </profiles>
+  </selectionEntry>
+  <!-- ===== end Arcane Items ===== -->
 
     <selectionEntry type="model" import="true" name="Barded Warhorse" hidden="false" id="e0b3-b528-aa3e-dbbb" subType="mount" collective="true">
       <infoLinks>
@@ -1330,7 +1616,7 @@ Note that any special rules granted by these upgrades do not apply to the models
       <profiles>
         <profile name="Grand Master" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="6d92-f537-dc1-3f6f">
           <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Heavy Cavalry</characteristic>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
           </characteristics>
         </profile>
@@ -1375,7 +1661,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Lance" hidden="false" type="selectionEntry" id="e1cf-486-689-e011" targetId="906a-c09d-9f34-a31f" sortIndex="4">
                   <costs>
-                    <cost name="pts" typeId="points" value="4"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                   <constraints>
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ad6c-6205-df0f-31c1"/>
@@ -1439,12 +1725,12 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Pegasus" hidden="false" type="selectionEntry" id="31b8-78e1-45d7-fac6" targetId="5e69-6cef-6581-56a4" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="40"/>
+                    <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Demigryph" hidden="false" type="selectionEntry" id="9f3f-4b05-eb66-bb76" targetId="69e5-6361-86e7-a713" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="50"/>
+                    <cost name="pts" typeId="points" value="35"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Griffon" hidden="false" type="selectionEntry" id="b544-7a4c-80a2-1fc1" targetId="c138-e0dc-903c-64ce" sortIndex="4"/>
@@ -1780,12 +2066,12 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Pegasus" hidden="false" type="selectionEntry" id="4015-bbff-35d6-5621" targetId="5e69-6cef-6581-56a4" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="40"/>
+                    <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Demigryph" hidden="false" type="selectionEntry" id="d0cd-d27d-181d-83cf" targetId="69e5-6361-86e7-a713" sortIndex="4">
                   <costs>
-                    <cost name="pts" typeId="points" value="50"/>
+                    <cost name="pts" typeId="points" value="35"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Griffon" hidden="false" type="selectionEntry" id="b544-7a4c-80a2-1fc1" targetId="c138-e0dc-903c-64ce" sortIndex="5"/>
@@ -1932,7 +2218,7 @@ Note that any special rules granted by these upgrades do not apply to the models
               <entryLinks>
                 <entryLink import="true" name="Pistol" hidden="false" type="selectionEntry" id="7057-3908-b406-1aaa" targetId="d3c7-5222-61e8-9920" sortIndex="1">
                   <costs>
-                    <cost name="pts" typeId="points" value="5"/>
+                    <cost name="pts" typeId="points" value="3"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Brace of Pistols" hidden="false" type="selectionEntry" id="1368-c41b-39cf-dc60" targetId="d8bb-85b0-3575-6029" sortIndex="2">
@@ -1954,7 +2240,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Pegasus" hidden="false" type="selectionEntry" id="2efd-6670-5416-3c2a" targetId="5e69-6cef-6581-56a4" sortIndex="2">
                   <costs>
-                    <cost name="pts" typeId="points" value="40"/>
+                    <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -2165,6 +2451,7 @@ Note that any special rules granted by these upgrades do not apply to the models
               </modifiers>
             </infoLink>
             <infoLink name="Magical Attacks" hidden="false" type="profile" id="d338-827d-503d-475b" targetId="2125-6aa2-f782-42bf"/>
+            <infoLink name="Blessed Weapons" hidden="false" type="profile" id="lector-blessed-weapons" targetId="emp-blessed-weapons"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2301,6 +2588,7 @@ Note that any special rules granted by these upgrades do not apply to the models
               </modifiers>
             </infoLink>
             <infoLink name="Magical Attacks" hidden="false" type="profile" id="3229-5719-a73d-96bb" targetId="2125-6aa2-f782-42bf"/>
+            <infoLink name="Blessed Weapons" hidden="false" type="profile" id="priest-sigmar-blessed" targetId="emp-blessed-weapons"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2437,6 +2725,7 @@ Note that any special rules granted by these upgrades do not apply to the models
               </modifiers>
             </infoLink>
             <infoLink name="Magical Attacks" hidden="false" type="profile" id="54b5-3b1c-6f55-7695" targetId="2125-6aa2-f782-42bf"/>
+            <infoLink name="Blessed Weapons" hidden="false" type="profile" id="highpriest-ulric-blessed" targetId="emp-blessed-weapons"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2573,6 +2862,7 @@ Note that any special rules granted by these upgrades do not apply to the models
               </modifiers>
             </infoLink>
             <infoLink name="Magical Attacks" hidden="false" type="profile" id="5019-f535-7163-153b" targetId="2125-6aa2-f782-42bf"/>
+            <infoLink name="Blessed Weapons" hidden="false" type="profile" id="priest-ulric-blessed" targetId="emp-blessed-weapons"/>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2601,10 +2891,15 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="201a-bd78-57-76d8"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="4afc-8ae0-eb7d-58ab" targetId="62fb-f89d-afc-1cf1">
+            <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="4afc-8ae0-eb7d-58ab" targetId="7cab-40e6-f134-de78">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="201a-bd78-57-76d8"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="eng-heavy-armour" targetId="62fb-f89d-afc-1cf1">
+              <costs>
+                <cost name="pts" typeId="points" value="3"/>
+              </costs>
             </entryLink>
             <entryLink targetId="156a-8315-3003-3e8c" id="95f7-dc47-a536-194d" type="selectionEntry" name="Pigeon Bombs" hidden="false" sortIndex="3">
               <costs>
@@ -2710,7 +3005,7 @@ Note that any special rules granted by these upgrades do not apply to the models
       <infoGroups>
         <infoGroup name="Special Rules" hidden="false" id="c95e-5b92-f2d9-c3ca">
           <infoLinks>
-            <infoLink name="Clouds of Shoot &amp; Smoke" hidden="false" type="profile" id="5da6-1056-6677-ebf9" targetId="1327-a23a-6082-a5d5"/>
+            <infoLink name="War Machine Crew" hidden="false" type="profile" id="5da6-1056-6677-ebf9" targetId="1327-a23a-6082-a5d5"/>
             <infoLink name="Master of Ballistics" hidden="false" type="profile" id="8395-7911-d0ef-2e6d" targetId="6fe8-b5a4-2a44-af31"/>
             <infoLink name="Big Guns Know No Fear" id="8dbf-4145-02d1-8b35" hidden="true" type="profile" targetId="35d3-9f70-4a70-0524">
               <modifiers>
@@ -4163,11 +4458,6 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ce5-e4fb-4ec8-5da5-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Pistol" hidden="false" type="selectionEntry" id="9488-d717-189d-5982" targetId="d3c7-5222-61e8-9920" sortIndex="4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc33-ea0d-fa89-6bf6"/>
-              </constraints>
-            </entryLink>
           </entryLinks>
           <infoLinks>
             <infoLink name="Outriders" hidden="false" type="profile" id="e7cd-60a8-1b1c-2bea" targetId="553-d200-99c1-7027"/>
@@ -5227,9 +5517,9 @@ Note that any special rules granted by these upgrades do not apply to the models
               <characteristics>
                 <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
                   Declare Steam Points for the Steam Gun at the start of your Shooting or Combat phase. If you spend 0, it cannot fire this turn.
-                  With 1 Steam Point it is a Strength 2, AP-1 Breath Weapon that uses the Engineer Commander’s Initiative.
+                  With 1 Steam Point it is a Strength 2, AP-1 Breath Weapon that uses the Engineer Commander's Initiative.
                   For each additional Steam Point spent, increase both Strength and AP by 1 (e.g., 3 points → S4, AP-3).
-                  The Steam Gun has a 360° arc of fire and can be fired while in combat.
+                  The Steam Gun has a 360° arc of fire. It can be shot once per combat (instead of template, deals 2D6 hits).
                 </characteristic>
               </characteristics>
             </profile>
@@ -5272,7 +5562,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <characteristic name="Description" typeId="47f2-ecee-cae6-3c92">
                   Replaces Steam Cannon with a Helblaster Volley Gun.
                   24&quot; range, S5, AP-2, Armour Bane (2), Helblaster (1/2/3 artillery dice), Cumbersome.
-                  If the first artillery die is a Misfire, the Helblaster does not fire and the Steam Tank immediately loses D3 Wounds; subsequent misfires impose −1 to hit.
+                  If the first artillery die is a Misfire, the Helblaster suffers -1 to hit. On subsequent misfires, the Helblaster does not fire and the Steam Tank immediately loses D3 Wounds.
                 </characteristic>
               </characteristics>
             </profile>
@@ -5319,7 +5609,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                     <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5</characteristic>
                     <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
                     <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Helblaster (1/2/3 artillery dice), Cumbersome</characteristic>
-                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">On first Misfire, -1 to hit for next shot. On subsequent misfires, the Hellblaster does not fire and the Steam Tank loses D3 Wounds.</characteristic>
+                    <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">On first Misfire, the Helblaster suffers -1 to hit. On subsequent misfires, the Helblaster does not fire and the Steam Tank loses D3 Wounds.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5642,7 +5932,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Griffon" hidden="false" id="c138-e0dc-903c-64ce" subType="mount">
       <costs>
-        <cost name="pts" typeId="points" value="130"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <infoLinks>
         <infoLink name="Griffon" hidden="false" type="profile" id="bad9-a3b1-1921-65fe" targetId="b3d7-1839-37ca-4d25"/>
@@ -5688,7 +5978,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Imperial Griffon" hidden="false" id="719f-4ec7-a969-b508" subType="mount">
       <costs>
-        <cost name="pts" typeId="points" value="160"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <infoLinks>
         <infoLink name="Imperial Griffon" hidden="false" type="profile" id="c1ec-f818-f21b-da22" targetId="6987-8cc2-1295-6e06"/>
@@ -6084,7 +6374,7 @@ Note that any special rules granted by these upgrades do not apply to the models
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="fcef-1b3c-804f-8221" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="45"/>
+            <cost name="pts" typeId="points" value="50"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" hidden="false" id="5ecf-74b3-8f69-8878" sortIndex="5">
@@ -6155,12 +6445,12 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Pegasus" hidden="false" type="selectionEntry" id="872c-4bca-d16e-826a" targetId="5e69-6cef-6581-56a4" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="40"/>
+                    <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Demigryph" hidden="false" type="selectionEntry" id="8a3b-bd8b-54a0-b3ba" targetId="69e5-6361-86e7-a713" sortIndex="4">
                   <costs>
-                    <cost name="pts" typeId="points" value="50"/>
+                    <cost name="pts" typeId="points" value="35"/>
                   </costs>
                 </entryLink>
                 <entryLink import="true" name="Griffon" hidden="false" type="selectionEntry" id="8506-f152-2139-a896" targetId="c138-e0dc-903c-64ce" sortIndex="5"/>
@@ -6376,7 +6666,7 @@ Note that any special rules granted by these upgrades do not apply to the models
       <profiles>
         <profile name="Chapter Master" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="1685-eb4-c903-5f8b">
           <characteristics>
-            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Heavy Cavalry</characteristic>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
             <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
           </characteristics>
         </profile>
@@ -6490,7 +6780,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
                 <entryLink import="true" name="Demigryph" hidden="false" type="selectionEntry" id="1a5-c180-12c-dae1" targetId="69e5-6361-86e7-a713" sortIndex="3">
                   <costs>
-                    <cost name="pts" typeId="points" value="50"/>
+                    <cost name="pts" typeId="points" value="35"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -6914,7 +7204,7 @@ Note that any special rules granted by these upgrades do not apply to the models
         <infoLink name="Base (60x100)" id="d8ec-6e7c-8e8c-2e5b" hidden="false" type="profile" targetId="5125-89a4-916a-eabd"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="War Wagon Crew" hidden="false" id="64fe-1acb-3c2c-1176" sortIndex="1" collective="true" subType="crew">

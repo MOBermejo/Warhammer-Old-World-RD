@@ -13382,7 +13382,7 @@ An Ironfist cannot be used alongside a magic weapon to gain an extra attack, or 
     <profile name="Mortar" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="2115-8098-83e9-ead7">
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">12-48&quot;</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">2 (6)</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">3 (6)</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2 (-3)</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Bombardment, Cumbersome, Move or Shoot, Multiple Wounds (D3)</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
